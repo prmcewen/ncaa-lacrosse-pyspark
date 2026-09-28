@@ -1,0 +1,3723 @@
+{
+  "data": {
+    "playbyplay": {
+      "__typename": "PlayByPlay",
+      "contestId": 6599983,
+      "title": "MLA PLAY-BY-PLAY",
+      "description": "Penn St. vs Army West Point",
+      "divisionName": "d1",
+      "status": "final",
+      "period": 4,
+      "minutes": "",
+      "seconds": "",
+      "teams": [
+        {
+          "__typename": "ContestTeam",
+          "isHome": true,
+          "teamId": "43978",
+          "seoname": "penn-st",
+          "name6Char": "PENNST",
+          "nameShort": "Penn St.",
+          "nameFull": "Pennsylvania State University",
+          "teamName": "Nittany Lions",
+          "color": "#041E42"
+        },
+        {
+          "__typename": "ContestTeam",
+          "isHome": false,
+          "teamId": "43833",
+          "seoname": "army",
+          "name6Char": "ARMY",
+          "nameShort": "Army West Point",
+          "nameFull": "U.S. Military Academy",
+          "teamName": "Black Knights",
+          "color": "#010101"
+        }
+      ],
+      "periods": [
+        {
+          "__typename": "PlayByPlayDetails",
+          "periodNumber": 1,
+          "periodDisplay": "1st",
+          "playbyplayStats": [
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "15:00",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Preston Hawkins at goalie for PENN ST..",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "15:00"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "15:00",
+              "teamId": 43833,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Sean Byrne at goalie for ARMY WES.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "15:00"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "15:00",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Robert Simone vs Colby Baldwin won by PENN ST. (on faceoff violation).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "15:00"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "14:23",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by PENN ST. Chase Robertson, SAVE Sean Byrne",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "14:23"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "14:19",
+              "teamId": 43833,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by ARMY WES failed.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "14:19"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43833,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by ARMY WES Drew Miller (caused by Andrew Beard).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "14:07",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by PENN ST. Patrick Keenan.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "14:07"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "14:05",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by PENN ST. good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "14:05"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "13:39",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by PENN ST. John jude Considine, SAVE Sean Byrne",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "13:39"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "13:37",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by PENN ST. Hunter Aquino (FIRST GOAL), goal number 24 for season.",
+                  "homeScore": 1,
+                  "visitorScore": 0,
+                  "clock": "13:37"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "13:37",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Caleb Caldwell vs Colby Baldwin won by PENN ST., [13:37] Ground ball pickup by PENN ST. Colby Baldwin.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "13:37"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "13:36",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by PENN ST. John jude Considine.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "13:36"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by PENN ST. Chase Robertson (caused by Grant Masterson).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "13:06",
+              "teamId": 43833,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by ARMY WES Tommy Stines.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "13:06"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "13:02",
+              "teamId": 43833,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by ARMY WES good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "13:02"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "12:19",
+              "teamId": 43833,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by ARMY WES Evan Plunkett, goal number 24 for season.",
+                  "homeScore": 1,
+                  "visitorScore": 1,
+                  "clock": "12:19"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "12:19",
+              "teamId": 43833,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Robert Simone vs Colby Baldwin won by ARMY WES, [12:19] Ground ball pickup by ARMY WES Robert Simone.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "12:19"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43833,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by ARMY WES Robert Simone (caused by Colby Baldwin).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "12:09",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by PENN ST. Lucca Dibartolomeo.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "12:09"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "12:07",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by PENN ST. good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "12:07"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "10:57",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by PENN ST. Michael Faraone WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "10:57"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "10:54",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "30-second clock violation by PENN ST..",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "10:54"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by PENN ST..",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "10:45",
+              "teamId": 43833,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by ARMY WES good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "10:45"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43833,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by ARMY WES Mike Harney.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "09:55",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by PENN ST. Lucca Dibartolomeo.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "09:55"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "09:50",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by PENN ST. good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "09:50"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "08:56",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by PENN ST. Kyle Lehman HIT CROSSBAR",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "08:56"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "08:36",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by PENN ST. Alex Ross WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "08:36"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "08:25",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by PENN ST. Hunter Aquino, Assist by Andrew Beard, goal number 25 for season.",
+                  "homeScore": 2,
+                  "visitorScore": 1,
+                  "clock": "08:25"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "08:25",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Robert Simone vs Reid Gills won by PENN ST., [08:25] Ground ball pickup by PENN ST. Reid Gills.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "08:25"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:40",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by PENN ST. Hunter Aquino, SAVE Sean Byrne",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "07:40"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:35",
+              "teamId": 43833,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by ARMY WES good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "07:35"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43833,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by ARMY WES Evan Plunkett (caused by Alex Ross).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "06:38",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by PENN ST. failed.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "06:38"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by PENN ST. Jon King.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "06:03",
+              "teamId": 43833,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by ARMY WES Evan Plunkett, SAVE Preston Hawkins",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "06:03"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43833,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by ARMY WES Hill Plunkett.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:42",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by PENN ST. good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "05:42"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:18",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by PENN ST. Luke Walstrum WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "05:18"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "04:48",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by PENN ST. Luke Walstrum WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "04:48"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "04:42",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by PENN ST. Jack Iannantuono WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "04:42"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "04:38",
+              "teamId": 43833,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by ARMY WES good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "04:38"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:45",
+              "teamId": 43833,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Timeout by ARMY WES.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "03:45"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:36",
+              "teamId": 43833,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by ARMY WES Evan Plunkett WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "03:36"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:30",
+              "teamId": 43833,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by ARMY WES Gunnar Fellows, SAVE Preston Hawkins",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "03:30"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43833,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by ARMY WES Hill Plunkett.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:59",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by PENN ST. good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "02:59"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:21",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by PENN ST. Michael Faraone, Assist by Jack Iannantuono, goal number 19 for season.",
+                  "homeScore": 3,
+                  "visitorScore": 1,
+                  "clock": "02:21"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:21",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Robert Simone vs Reid Gills won by PENN ST., [02:21] Ground ball pickup by PENN ST. Ryan O'Connor.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "02:21"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:48",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by PENN ST. good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "01:48"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:37",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by PENN ST. Chase Robertson, SAVE Sean Byrne",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "01:37"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:17",
+              "teamId": 43833,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by ARMY WES failed.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "01:17"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:17",
+              "teamId": 43833,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by ARMY WES Drew Miller.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "01:17"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43833,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by ARMY WES Sean Byrne (caused by Chase Robertson).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:11",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by PENN ST. Chase Robertson.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "01:11"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by PENN ST. Michael Faraone (caused by Jimmy Manley).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:03",
+              "teamId": 43833,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by ARMY WES Jimmy Manley.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:03"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:00",
+              "teamId": 43833,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "End-of-period.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:00"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "__typename": "PlayByPlayDetails",
+          "periodNumber": 2,
+          "periodDisplay": "2nd",
+          "playbyplayStats": [
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "15:00",
+              "teamId": 43833,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "15:00"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "15:00",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Robert Simone vs Reid Gills won by PENN ST., [15:00] Ground ball pickup by PENN ST. Reid Gills.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "15:00"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "14:49",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by PENN ST. failed.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "14:49"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by PENN ST. Ryan O'Connor.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "14:27",
+              "teamId": 43833,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by ARMY WES Tommy Stines.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "14:27"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "14:25",
+              "teamId": 43833,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by ARMY WES good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "14:25"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43833,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by ARMY WES Evan Plunkett (caused by Brendan Leary).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "13:43",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by PENN ST. Brendan Leary.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "13:43"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "13:40",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by PENN ST. good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "13:40"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by PENN ST. Andrew Beard (caused by Sean Byrne).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "12:56",
+              "teamId": 43833,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by ARMY WES Sean Byrne.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "12:56"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "12:53",
+              "teamId": 43833,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by ARMY WES good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "12:53"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43833,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by ARMY WES Evan Plunkett (caused by Jon King).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "12:45",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by PENN ST. failed.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "12:45"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by PENN ST. Michael Faraone (caused by Brayden Fountain).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "12:29",
+              "teamId": 43833,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by ARMY WES Brayden Fountain.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "12:29"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43833,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by ARMY WES Brayden Fountain (caused by Andrew Beard).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "12:22",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by PENN ST. good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "12:22"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "11:08",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by PENN ST. John jude Considine, SAVE Sean Byrne",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "11:08"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "11:04",
+              "teamId": 43833,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by ARMY WES good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "11:04"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "09:55",
+              "teamId": 43833,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by ARMY WES Tyler Clark BLOCKED",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "09:55"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "09:50",
+              "teamId": 43833,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by ARMY WES Ben Calabrese.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "09:50"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "09:46",
+              "teamId": 43833,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "30-second clock violation by ARMY WES.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "09:46"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43833,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by ARMY WES.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "09:40",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by PENN ST. good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "09:40"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "09:07",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by PENN ST. Andrew Beard, goal number 12 for season.",
+                  "homeScore": 4,
+                  "visitorScore": 1,
+                  "clock": "09:07"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "09:07",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Robert Simone vs Colby Baldwin won by PENN ST., [09:07] Ground ball pickup by PENN ST. Brendan Leary.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "09:07"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "08:04",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by PENN ST. John jude Considine, SAVE Sean Byrne",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "08:04"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "08:00",
+              "teamId": 43833,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by ARMY WES John Sullivan.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "08:00"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:58",
+              "teamId": 43833,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by ARMY WES good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "07:58"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:25",
+              "teamId": 43833,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by ARMY WES Evan Plunkett WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "07:25"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:09",
+              "teamId": 43833,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by ARMY WES Brayden Fountain, Assist by Evan Plunkett, goal number 42 for season.",
+                  "homeScore": 4,
+                  "visitorScore": 2,
+                  "clock": "07:09"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43833,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Media Timeout",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:09",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Robert Simone vs Colby Baldwin won by PENN ST., [07:09] Ground ball pickup by PENN ST. Preston Hawkins.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "07:09"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "06:58",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by PENN ST. good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "06:58"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "06:34",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by PENN ST. Chase Robertson WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "06:34"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by PENN ST. Kyle Lehman (caused by Drew Miller).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:47",
+              "teamId": 43833,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by ARMY WES good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "05:47"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:16",
+              "teamId": 43833,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by ARMY WES Hill Plunkett, goal number 30 for season.",
+                  "homeScore": 4,
+                  "visitorScore": 3,
+                  "clock": "05:16"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:16",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Robert Simone vs Colby Baldwin won by PENN ST., [05:16] Ground ball pickup by PENN ST. Colby Baldwin.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "05:16"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "04:06",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by PENN ST. Michael Faraone WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "04:06"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:58",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by PENN ST. Hunter Aquino, SAVE Sean Byrne",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "03:58"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:54",
+              "teamId": 43833,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Timeout by ARMY WES.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "03:54"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:40",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by PENN ST. Andrew Beard, goal number 13 for season.",
+                  "homeScore": 5,
+                  "visitorScore": 3,
+                  "clock": "03:40"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:40",
+              "teamId": 43833,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Caleb Caldwell vs Reid Gills won by ARMY WES, [03:40] Ground ball pickup by ARMY WES CJ Monturio.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "03:40"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:15",
+              "teamId": 43833,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by ARMY WES CJ Monturio.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "03:15"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43833,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by ARMY WES CJ Monturio (caused by Hunter Aquino).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:07",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by PENN ST. Hunter Aquino.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "03:07"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:05",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by PENN ST. good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "03:05"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:02",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by PENN ST. Brendan Leary BLOCKED",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "03:02"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:38",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by PENN ST. Chase Robertson BLOCKED",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "02:38"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:32",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by PENN ST. Luke Walstrum, SAVE Sean Byrne",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "02:32"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:29",
+              "teamId": 43833,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by ARMY WES Jimmy Manley.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "02:29"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:26",
+              "teamId": 43833,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by ARMY WES failed.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "02:26"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43833,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by ARMY WES Evan Plunkett.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:02",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by PENN ST. Jon King, SAVE Sean Byrne",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "02:02"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:01",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by PENN ST. Jon King.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "02:01"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:00",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Timeout by PENN ST..",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "02:00"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:19",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by PENN ST. Luke Walstrum, goal number 14 for season.",
+                  "homeScore": 6,
+                  "visitorScore": 3,
+                  "clock": "01:19"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:19",
+              "teamId": 43833,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Caleb Caldwell vs Reid Gills won by ARMY WES, [01:19] Ground ball pickup by ARMY WES Caleb Caldwell.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "01:19"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43833,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by ARMY WES Caleb Caldwell (caused by Lucca Dibartolomeo).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:07",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by PENN ST. Lucca Dibartolomeo.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "01:07"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:05",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by PENN ST. failed.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "01:05"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by PENN ST. Lucca Dibartolomeo.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:12",
+              "teamId": 43833,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by ARMY WES Gunnar Fellows, SAVE Preston Hawkins",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:12"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:07",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by PENN ST. failed.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:07"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by PENN ST. Will Costin (caused by Aiden Weisenborn).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:01",
+              "teamId": 43833,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by ARMY WES Aiden Weisenborn.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:01"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:00",
+              "teamId": 43833,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "End-of-period.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:00"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "__typename": "PlayByPlayDetails",
+          "periodNumber": 3,
+          "periodDisplay": "3rd",
+          "playbyplayStats": [
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "15:00",
+              "teamId": 43833,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "15:00"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "15:00",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Caleb Caldwell vs Reid Gills won by PENN ST. (on faceoff violation).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "15:00"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "14:19",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by PENN ST. Jack Iannantuono.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "14:19"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by PENN ST. Jack Iannantuono (caused by Tommy Stines).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "14:03",
+              "teamId": 43833,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by ARMY WES Tommy Stines.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "14:03"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "14:00",
+              "teamId": 43833,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by ARMY WES good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "14:00"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "13:27",
+              "teamId": 43833,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by ARMY WES Gunnar Fellows.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "13:27"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "13:27",
+              "teamId": 43833,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by ARMY WES Gunnar Fellows, goal number 36 for season.",
+                  "homeScore": 6,
+                  "visitorScore": 4,
+                  "clock": "13:27"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "13:27",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Robert Simone vs Colby Baldwin won by PENN ST., [13:27] Ground ball pickup by PENN ST. Lucca Dibartolomeo.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "13:27"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "13:15",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by PENN ST. Lucca Dibartolomeo HIGH",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "13:15"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "12:26",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by PENN ST. Ryan Dirocco.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "12:26"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "12:24",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by PENN ST. Ryan Dirocco, SAVE Sean Byrne",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "12:24"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "12:15",
+              "teamId": 43833,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by ARMY WES good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "12:15"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43833,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by ARMY WES Evan Plunkett (caused by Preston Hawkins).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "11:55",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by PENN ST. Preston Hawkins.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "11:55"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "11:51",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by PENN ST. good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "11:51"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "11:20",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by PENN ST. Kyle Lehman BLOCKED",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "11:20"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "10:57",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by PENN ST. Kyle Lehman, SAVE Sean Byrne",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "10:57"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "10:56",
+              "teamId": 43833,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by ARMY WES Sean Byrne.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "10:56"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "10:55",
+              "teamId": 43833,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by ARMY WES failed.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "10:55"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43833,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by ARMY WES Sean Byrne (caused by Hunter Aquino).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "10:53",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by PENN ST. Hunter Aquino.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "10:53"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "10:51",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by PENN ST. Hunter Aquino, goal number 26 for season.",
+                  "homeScore": 7,
+                  "visitorScore": 4,
+                  "clock": "10:51"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "10:51",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Robert Simone vs Colby Baldwin won by PENN ST., [10:51] Ground ball pickup by PENN ST. Peri Dibartolomeo.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "10:51"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "10:07",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by PENN ST. Mark Watters HIT POST",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "10:07"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "09:30",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by PENN ST. Mark Watters HIGH",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "09:30"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "09:12",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by PENN ST. John jude Considine BLOCKED",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "09:12"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "09:09",
+              "teamId": 43833,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by ARMY WES Sean Byrne.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "09:09"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "09:06",
+              "teamId": 43833,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by ARMY WES good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "09:06"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:57",
+              "teamId": 43833,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by ARMY WES Brayden Fountain WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "07:57"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:54",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by PENN ST. good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "07:54"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "06:58",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by PENN ST. Liam Matthews, SAVE Sean Byrne",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "06:58"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "06:54",
+              "teamId": 43833,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by ARMY WES Drew Miller.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "06:54"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "06:52",
+              "teamId": 43833,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by ARMY WES good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "06:52"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "06:24",
+              "teamId": 43833,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by ARMY WES Mike Harney HIGH",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "06:24"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "06:09",
+              "teamId": 43833,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by ARMY WES Tyler Clark, SAVE Preston Hawkins",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "06:09"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "06:00",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by PENN ST. Preston Hawkins.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "06:00"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:57",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by PENN ST. good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "05:57"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:07",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by PENN ST. Hunter Aquino, SAVE Sean Byrne",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "05:07"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "04:54",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by PENN ST. Michael Faraone HIGH",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "04:54"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "04:41",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by PENN ST. Michael Faraone WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "04:41"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by PENN ST. Ryan Dirocco (caused by Keagan Treacy).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "04:26",
+              "teamId": 43833,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by ARMY WES Keagan Treacy.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "04:26"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "04:24",
+              "teamId": 43833,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by ARMY WES good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "04:24"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:44",
+              "teamId": 43833,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by ARMY WES Evan Plunkett BLOCKED",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "03:44"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:34",
+              "teamId": 43833,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by ARMY WES Ben Calabrese, SAVE Preston Hawkins",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "03:34"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:28",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by PENN ST. good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "03:28"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:33",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by PENN ST. Jack Iannantuono WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "02:33"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:55",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by PENN ST. Andrew Beard BLOCKED",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "01:55"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:49",
+              "teamId": 43833,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by ARMY WES Sean Byrne.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "01:49"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:44",
+              "teamId": 43833,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by ARMY WES good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "01:44"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43833,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by ARMY WES Evan Plunkett (caused by Will Costin).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:52",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by PENN ST. Will Costin.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:52"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:49",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by PENN ST. good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:49"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:10",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by PENN ST. Michael Faraone HIT POST",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:10"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:01",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by PENN ST. Liam Matthews WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:01"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:00",
+              "teamId": 43833,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "End-of-period.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:00"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "__typename": "PlayByPlayDetails",
+          "periodNumber": 4,
+          "periodDisplay": "4th",
+          "playbyplayStats": [
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "15:00",
+              "teamId": 43833,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "15:00"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "15:00",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Robert Simone vs Colby Baldwin won by PENN ST., [15:00] Ground ball pickup by PENN ST. Colby Baldwin.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "15:00"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "14:54",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by PENN ST. Colby Baldwin, SAVE Sean Byrne",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "14:54"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "14:42",
+              "teamId": 43833,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by ARMY WES Tommy Stines.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "14:42"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "14:40",
+              "teamId": 43833,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by ARMY WES good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "14:40"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43833,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by ARMY WES Hill Plunkett.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "14:30",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by PENN ST. Alex Ross.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "14:30"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "14:27",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by PENN ST. good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "14:27"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "13:40",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by PENN ST. Kyle Lehman, goal number 25 for season.",
+                  "homeScore": 8,
+                  "visitorScore": 4,
+                  "clock": "13:40"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "13:40",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Robert Simone vs Reid Gills won by PENN ST., [13:40] Ground ball pickup by PENN ST. Reid Gills.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "13:40"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "13:32",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by PENN ST. good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "13:32"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "12:15",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by PENN ST. Kyle Lehman, SAVE Sean Byrne",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "12:15"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "11:53",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by PENN ST. Jack Iannantuono.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "11:53"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "11:51",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by PENN ST. Jack Iannantuono, SAVE Sean Byrne",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "11:51"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "11:45",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by PENN ST. Andrew Beard.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "11:45"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "11:28",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by PENN ST. Jack Iannantuono WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "11:28"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "11:05",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by PENN ST. Kyle Lehman, SAVE Sean Byrne",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "11:05"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "11:00",
+              "teamId": 43833,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by ARMY WES good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "11:00"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "10:41",
+              "teamId": 43833,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by ARMY WES Tyler Mathews HIGH",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "10:41"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "10:20",
+              "teamId": 43833,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by ARMY WES Tyler Clark, SAVE Preston Hawkins",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "10:20"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "10:17",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by PENN ST. good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "10:17"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "10:10",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by PENN ST. Brendan Leary, Assist by Hunter Aquino, goal number 1 for season.",
+                  "homeScore": 9,
+                  "visitorScore": 4,
+                  "clock": "10:10"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "10:10",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Robert Simone vs Reid Gills won by PENN ST., [10:10] Ground ball pickup by PENN ST. Peri Dibartolomeo.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "10:10"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "08:57",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by PENN ST. Ryan Dirocco WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "08:57"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "08:50",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by PENN ST. Michael Faraone, Assist by Mark Watters, goal number 20 for season.",
+                  "homeScore": 10,
+                  "visitorScore": 4,
+                  "clock": "08:50"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43833,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Media Timeout",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "08:50",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Caleb Caldwell vs Reid Gills won by PENN ST., [08:50] Ground ball pickup by PENN ST. Reid Gills.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "08:50"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "08:18",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by PENN ST. Chase Robertson, SAVE Sean Byrne",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "08:18"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "08:14",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by PENN ST. Jack Iannantuono.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "08:14"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "08:03",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by PENN ST. Andrew Beard HIGH",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "08:03"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:56",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by PENN ST. Chase Robertson, SAVE Sean Byrne",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "07:56"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:47",
+              "teamId": 43833,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by ARMY WES good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "07:47"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:06",
+              "teamId": 43833,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by ARMY WES Mike Harney, SAVE Preston Hawkins",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "07:06"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "06:57",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by PENN ST. Patrick Keenan.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "06:57"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "06:56",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by PENN ST. good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "06:56"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by PENN ST. Jack Iannantuono (caused by John Sullivan).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "06:14",
+              "teamId": 43833,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by ARMY WES John Sullivan.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "06:14"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "06:12",
+              "teamId": 43833,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by ARMY WES good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "06:12"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "06:09",
+              "teamId": 43833,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by ARMY WES John Sullivan, SAVE Preston Hawkins",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "06:09"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "06:05",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by PENN ST. Patrick Keenan.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "06:05"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "06:01",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by PENN ST. good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "06:01"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:21",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by PENN ST. Chase Robertson.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "05:21"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:19",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by PENN ST. Luke Walstrum, SAVE Sean Byrne",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "05:19"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:16",
+              "teamId": 43833,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by ARMY WES good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "05:16"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:06",
+              "teamId": 43833,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by ARMY WES Gunnar Fellows, SAVE Preston Hawkins",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "05:06"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "04:52",
+              "teamId": 43833,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by ARMY WES Tyler Mathews HIT POST",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "04:52"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "04:42",
+              "teamId": 43833,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by ARMY WES Cal Lambert, SAVE Preston Hawkins",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "04:42"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "04:41",
+              "teamId": 43833,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by ARMY WES Brayden Fountain.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "04:41"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "04:39",
+              "teamId": 43833,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by ARMY WES Brayden Fountain, goal number 43 for season.",
+                  "homeScore": 10,
+                  "visitorScore": 5,
+                  "clock": "04:39"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43833,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Media Timeout",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "04:39",
+              "teamId": 43833,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Robert Simone vs Colby Baldwin won by ARMY WES, [04:39] Ground ball pickup by ARMY WES Robert Simone.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "04:39"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "04:13",
+              "teamId": 43833,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by ARMY WES Tyler Mathews, goal number 4 for season.",
+                  "homeScore": 10,
+                  "visitorScore": 6,
+                  "clock": "04:13"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "04:13",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Robert Simone vs Colby Baldwin won by PENN ST., [04:13] Ground ball pickup by PENN ST. Jon King.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "04:13"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:20",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by PENN ST. Andrew Beard HIT POST",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "03:20"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:17",
+              "teamId": 43833,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by ARMY WES Sean Byrne.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "03:17"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:14",
+              "teamId": 43833,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by ARMY WES good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "03:14"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:58",
+              "teamId": 43833,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by ARMY WES Gunnar Fellows WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "02:58"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:56",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by PENN ST. good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "02:56"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:43",
+              "teamId": 43833,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Timeout by ARMY WES.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "02:43"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:23",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Timeout by PENN ST..",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "02:23"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:37",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "30-second clock violation by PENN ST..",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "01:37"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by PENN ST..",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:31",
+              "teamId": 43833,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by ARMY WES good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "01:31"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:19",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Penalty on PENN ST. Brendan Leary (HOLDING/0:30) Extra-man opportunity.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "01:19"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:06",
+              "teamId": 43833,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by ARMY WES Aiden Weisenborn HIT POST",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "01:06"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:01",
+              "teamId": 43833,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by ARMY WES Aiden Weisenborn WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "01:01"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:56",
+              "teamId": 43833,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by ARMY WES Cal Lambert, SAVE Preston Hawkins",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:56"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:54",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by PENN ST. failed.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:54"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by PENN ST. Alex Ross.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:27",
+              "teamId": 43833,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by ARMY WES Hill Plunkett, SAVE Preston Hawkins",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:27"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:25",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by PENN ST. failed.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:25"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by PENN ST. Patrick Keenan (caused by Evan Plunkett).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43833,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by ARMY WES Evan Plunkett (caused by Peri Dibartolomeo).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:06",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by PENN ST. Peri Dibartolomeo.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:06"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:04",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by PENN ST. good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:04"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:00",
+              "teamId": 43833,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "End-of-period.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:00"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

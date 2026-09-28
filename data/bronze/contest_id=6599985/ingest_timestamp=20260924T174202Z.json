@@ -1,0 +1,3177 @@
+{
+  "data": {
+    "playbyplay": {
+      "__typename": "PlayByPlay",
+      "contestId": 6599985,
+      "title": "MLA PLAY-BY-PLAY",
+      "description": "Richmond vs Duke",
+      "divisionName": "d1",
+      "status": "final",
+      "period": 4,
+      "minutes": "",
+      "seconds": "",
+      "teams": [
+        {
+          "__typename": "ContestTeam",
+          "isHome": true,
+          "teamId": "51665",
+          "seoname": "richmond",
+          "name6Char": "RICH",
+          "nameShort": "Richmond",
+          "nameFull": "University of Richmond",
+          "teamName": "Spiders",
+          "color": "#BA0C2F"
+        },
+        {
+          "__typename": "ContestTeam",
+          "isHome": false,
+          "teamId": "43748",
+          "seoname": "duke",
+          "name6Char": "DUKE",
+          "nameShort": "Duke",
+          "nameFull": "Duke University",
+          "teamName": "Blue Devils",
+          "color": "#002D72"
+        }
+      ],
+      "periods": [
+        {
+          "__typename": "PlayByPlayDetails",
+          "periodNumber": 1,
+          "periodDisplay": "1st",
+          "playbyplayStats": [
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "15:00",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Buck Cunningham at goalie for DUKE.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "15:00"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "15:00",
+              "teamId": 51665,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Connor Knight at goalie for UR.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "15:00"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "15:00",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Cal Girard vs Vincent Gaylord won by DUKE, [15:00] Ground ball pickup by DUKE Aidan Maguire.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "15:00"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "13:49",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by DUKE Max Sloat WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "13:49"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "13:43",
+              "teamId": 51665,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by UR good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "13:43"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "13:02",
+              "teamId": 51665,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by UR Daniel Picart.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "13:02"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "12:55",
+              "teamId": 51665,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by UR Aidan O'Neil, SAVE Buck Cunningham",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "12:55"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "12:43",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by DUKE good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "12:43"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "12:05",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by DUKE Thomas Mencke WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "12:05"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "11:46",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by DUKE Benn Johnston, SAVE Connor Knight",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "11:46"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "11:43",
+              "teamId": 51665,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by UR Connor Knight.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "11:43"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "11:34",
+              "teamId": 51665,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by UR good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "11:34"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "11:12",
+              "teamId": 51665,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by UR Charlie Packard WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "11:12"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "10:53",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by DUKE good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "10:53"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "10:23",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by DUKE Max Sloat WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "10:23"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "10:20",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by DUKE Kyle Colsey.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "10:20"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "10:10",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by DUKE Liam Kershis, SAVE Connor Knight",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "10:10"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "10:07",
+              "teamId": 51665,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by UR Charlie Packard.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "10:07"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "10:00",
+              "teamId": 51665,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by UR good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "10:00"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "09:20",
+              "teamId": 51665,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by UR Joe Sheridan (FIRST GOAL).",
+                  "homeScore": 1,
+                  "visitorScore": 0,
+                  "clock": "09:20"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "09:20",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Cal Girard vs Vincent Gaylord won by DUKE, [09:20] Ground ball pickup by DUKE Cal Girard.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "09:20"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by DUKE Tomas Delgado (caused by Luke Spitzer).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "08:42",
+              "teamId": 51665,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by UR Connor Kelly.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "08:42"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "08:38",
+              "teamId": 51665,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by UR good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "08:38"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 51665,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by UR Gavin Creo (caused by Mac Christmas).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "08:08",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by DUKE Mac Christmas.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "08:08"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "08:05",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by DUKE good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "08:05"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "08:03",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by DUKE Connor Nolen, Assist by Kyle Colsey.",
+                  "homeScore": 1,
+                  "visitorScore": 1,
+                  "clock": "08:03"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "08:03",
+              "teamId": 51665,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Cal Girard vs Vincent Gaylord won by UR, [08:03] Ground ball pickup by UR Jack Pilling.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "08:03"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 51665,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by UR Jackson Carawan.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "06:45",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by DUKE good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "06:45"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "06:45",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by DUKE Max Sloat HIGH",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "06:45"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "06:42",
+              "teamId": 51665,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by UR good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "06:42"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "06:03",
+              "teamId": 51665,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by UR Gavin Creo.",
+                  "homeScore": 2,
+                  "visitorScore": 1,
+                  "clock": "06:03"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "06:03",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Cal Girard vs Vincent Gaylord won by DUKE, [06:03] Ground ball pickup by DUKE Aidan Maguire.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "06:03"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:30",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by DUKE Liam Kershis.",
+                  "homeScore": 2,
+                  "visitorScore": 2,
+                  "clock": "05:30"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:30",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Cal Girard vs Anthony DiCenso won by DUKE, [05:30] Ground ball pickup by DUKE Cal Girard.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "05:30"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:04",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by DUKE good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "05:04"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:01",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by DUKE Nikolas Menendez WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "05:01"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by DUKE Kyle Colsey.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "04:39",
+              "teamId": 51665,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by UR Ryan Thompson.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "04:39"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:38",
+              "teamId": 51665,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by UR Aidan O'Neil.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "03:38"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 51665,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by UR Aidan O'Neil (caused by Aidan Maguire).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:18",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by DUKE Aidan Maguire.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "03:18"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:16",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by DUKE failed.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "03:16"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by DUKE Aidan Maguire (caused by Aidan O'Neil).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:11",
+              "teamId": 51665,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by UR Aidan O'Neil.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "03:11"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:50",
+              "teamId": 51665,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by UR Lucas Littlejohn WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "02:50"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:40",
+              "teamId": 51665,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by UR Aidan O'Neil.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "02:40"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:19",
+              "teamId": 51665,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by UR Jack Ricciardi WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "02:19"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:08",
+              "teamId": 51665,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by UR Gavin Creo HIT POST",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "02:08"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:06",
+              "teamId": 51665,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by UR Joe Sheridan.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "02:06"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:40",
+              "teamId": 51665,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by UR Daniel Picart, SAVE Buck Cunningham",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "01:40"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:31",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by DUKE good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "01:31"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:48",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by DUKE Anthony Drago.",
+                  "homeScore": 2,
+                  "visitorScore": 3,
+                  "clock": "00:48"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:48",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Cal Girard vs Vincent Gaylord won by DUKE, [00:48] Ground ball pickup by DUKE Cal Girard.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:48"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:14",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by DUKE Max Sloat, SAVE Connor Knight",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:14"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:11",
+              "teamId": 51665,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by UR Chris Mazzaferri.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:11"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:07",
+              "teamId": 51665,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by UR good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:07"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:00",
+              "teamId": 51665,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by UR Nate Murphy, SAVE Buck Cunningham",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:00"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:00",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "End-of-period.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:00"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "__typename": "PlayByPlayDetails",
+          "periodNumber": 2,
+          "periodDisplay": "2nd",
+          "playbyplayStats": [
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "15:00",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "15:00"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "15:00",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Cal Girard vs Vincent Gaylord won by DUKE, [15:00] Ground ball pickup by DUKE Cal Girard.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "15:00"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by DUKE Cal Girard.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "14:28",
+              "teamId": 51665,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by UR good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "14:28"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "14:25",
+              "teamId": 51665,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by UR Hunter Smith, SAVE Buck Cunningham",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "14:25"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "14:22",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by DUKE good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "14:22"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "13:44",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by DUKE Michael Ortlieb.",
+                  "homeScore": 2,
+                  "visitorScore": 4,
+                  "clock": "13:44"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "13:44",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Cal Girard vs Anthony DiCenso won by DUKE, [13:44] Ground ball pickup by DUKE Cal Girard.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "13:44"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "12:52",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by DUKE Benn Johnston.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "12:52"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "12:45",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by DUKE Benn Johnston WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "12:45"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by DUKE Michael Ortlieb (caused by Hunter Smith).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "12:21",
+              "teamId": 51665,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by UR good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "12:21"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "11:55",
+              "teamId": 51665,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by UR Jack Ricciardi, SAVE Buck Cunningham",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "11:55"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "11:45",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by DUKE Aidan Maguire.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "11:45"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "11:41",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by DUKE good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "11:41"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by DUKE Kyle Colsey (caused by Jack Pilling).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "11:33",
+              "teamId": 51665,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by UR good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "11:33"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "10:55",
+              "teamId": 51665,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by UR Daniel Picart, SAVE Buck Cunningham",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "10:55"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "10:48",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by DUKE good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "10:48"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "09:56",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by DUKE Kyle Colsey, SAVE Connor Knight",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "09:56"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "09:56",
+              "teamId": 51665,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Penalty on UR Charlie Packard (OFFSIDE/0:30) Extra-man opportunity.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "09:56"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by DUKE Michael Ortlieb (caused by Brayden Penafeather-Stevenson).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "09:35",
+              "teamId": 51665,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by UR Brayden Penafeather-Stevenson.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "09:35"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "09:33",
+              "teamId": 51665,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by UR good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "09:33"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "09:20",
+              "teamId": 51665,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Timeout by UR.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "09:20"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "08:57",
+              "teamId": 51665,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by UR Lucas Littlejohn, Assist by Aidan O'Neil.",
+                  "homeScore": 3,
+                  "visitorScore": 4,
+                  "clock": "08:57"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "08:57",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Cal Girard vs Anthony DiCenso won by DUKE, [08:57] Ground ball pickup by DUKE Cal Girard.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "08:57"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:49",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by DUKE Brady Scioletti HIGH",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "07:49"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:40",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Timeout by DUKE.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "07:40"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:29",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by DUKE Kyle Colsey, Assist by Liam Kershis.",
+                  "homeScore": 3,
+                  "visitorScore": 5,
+                  "clock": "07:29"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:29",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Cal Girard vs Jackson Strickland won by DUKE, [07:29] Ground ball pickup by DUKE Cal Girard.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "07:29"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by DUKE Thomas Mencke (caused by Jack Pilling).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "06:14",
+              "teamId": 51665,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by UR Connor Kelly.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "06:14"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "06:10",
+              "teamId": 51665,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by UR good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "06:10"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:03",
+              "teamId": 51665,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by UR Aidan O'Neil, SAVE Buck Cunningham",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "05:03"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "04:55",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by DUKE Owen Mears.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "04:55"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "04:54",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by DUKE good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "04:54"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "04:20",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by DUKE Michael Ortlieb, SAVE Connor Knight",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "04:20"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "04:03",
+              "teamId": 51665,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by UR good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "04:03"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 51665,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by UR Charlie Packard (caused by Mac Christmas).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:28",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by DUKE Owen Mears.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "03:28"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:14",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by DUKE good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "03:14"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:37",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by DUKE Brady Scioletti, SAVE Connor Knight",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "02:37"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:34",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by DUKE Benn Johnston.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "02:34"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:16",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by DUKE Kyle Colsey WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "02:16"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:56",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by DUKE Michael Ortlieb HIGH",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "01:56"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:37",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by DUKE Benn Johnston, SAVE Connor Knight",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "01:37"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:34",
+              "teamId": 51665,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by UR Connor Kelly.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "01:34"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:31",
+              "teamId": 51665,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by UR good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "01:31"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:21",
+              "teamId": 51665,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by UR Brayden Penafeather-Stevenson, Assist by Lucas Littlejohn.",
+                  "homeScore": 4,
+                  "visitorScore": 5,
+                  "clock": "01:21"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:21",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Cal Girard vs Vincent Gaylord won by DUKE, [01:21] Ground ball pickup by DUKE Cal Girard.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "01:21"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:13",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by DUKE Benn Johnston.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:13"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:07",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by DUKE Benn Johnston WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:07"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:05",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by DUKE Michael Ortlieb.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:05"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:02",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by DUKE Tomas Delgado, Assist by Michael Ortlieb.",
+                  "homeScore": 4,
+                  "visitorScore": 6,
+                  "clock": "00:02"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:02",
+              "teamId": 51665,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Timeout by UR.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:02"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:00",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "End-of-period.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:00"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "__typename": "PlayByPlayDetails",
+          "periodNumber": 3,
+          "periodDisplay": "3rd",
+          "playbyplayStats": [
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "15:00",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "15:00"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "15:00",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Cal Girard vs Vincent Gaylord won by DUKE (on faceoff violation).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "15:00"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "14:39",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by DUKE Liam Kershis, SAVE Connor Knight",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "14:39"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "14:24",
+              "teamId": 51665,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by UR good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "14:24"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "13:58",
+              "teamId": 51665,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by UR Gavin Creo.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "13:58"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 51665,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by UR Jack Ricciardi (caused by Connor Nolen).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "13:22",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by DUKE Charlie Johnson.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "13:22"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "13:18",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by DUKE good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "13:18"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "12:46",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by DUKE Liam Kershis.",
+                  "homeScore": 4,
+                  "visitorScore": 7,
+                  "clock": "12:46"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "12:46",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Cal Girard vs Anthony DiCenso won by DUKE, [12:46] Ground ball pickup by DUKE Cal Girard.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "12:46"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "11:53",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by DUKE Kyle Colsey, SAVE Connor Knight",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "11:53"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "11:44",
+              "teamId": 51665,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by UR good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "11:44"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "11:13",
+              "teamId": 51665,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by UR Gavin Creo.",
+                  "homeScore": 5,
+                  "visitorScore": 7,
+                  "clock": "11:13"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "11:13",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Cal Girard vs Vincent Gaylord won by DUKE, [11:13] Ground ball pickup by DUKE Cal Girard.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "11:13"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "11:02",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by DUKE good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "11:02"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by DUKE Max Sloat (caused by Jack Pilling).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "10:12",
+              "teamId": 51665,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by UR Brayden Penafeather-Stevenson.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "10:12"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "10:09",
+              "teamId": 51665,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by UR good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "10:09"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "10:05",
+              "teamId": 51665,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Penalty on UR Charlie Packard (DELAY OF GAME/0:30) Extra-man opportunity.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "10:05"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 51665,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by UR.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by DUKE Brady Scioletti.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "09:35",
+              "teamId": 51665,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by UR Hunter Smith.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "09:35"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "09:25",
+              "teamId": 51665,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by UR good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "09:25"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 51665,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by UR Daniel Picart (caused by Henry Bard).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "08:26",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by DUKE good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "08:26"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:22",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by DUKE Thomas Mencke, SAVE Connor Knight",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "07:22"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:13",
+              "teamId": 51665,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by UR good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "07:13"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:06",
+              "teamId": 51665,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by UR Leo Caine, Assist by Charlie Packard.",
+                  "homeScore": 6,
+                  "visitorScore": 7,
+                  "clock": "07:06"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:06",
+              "teamId": 51665,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Cal Girard vs Jackson Strickland won by UR (on faceoff violation).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "07:06"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "06:36",
+              "teamId": 51665,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by UR Joe Sheridan.",
+                  "homeScore": 7,
+                  "visitorScore": 7,
+                  "clock": "06:36"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "06:36",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Cal Girard vs Vincent Gaylord won by DUKE, [06:36] Ground ball pickup by DUKE Cal Girard.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "06:36"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:50",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by DUKE Brady Scioletti WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "05:50"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:44",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by DUKE Liam Kershis, SAVE Connor Knight",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "05:44"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:40",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by DUKE Michael Ortlieb.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "05:40"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:17",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by DUKE Liam Kershis.",
+                  "homeScore": 7,
+                  "visitorScore": 8,
+                  "clock": "05:17"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:17",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Cal Girard vs Jackson Strickland won by DUKE, [05:17] Ground ball pickup by DUKE Cal Girard.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "05:17"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by DUKE Michael Ortlieb.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "04:09",
+              "teamId": 51665,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by UR good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "04:09"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:07",
+              "teamId": 51665,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by UR Daniel Picart.",
+                  "homeScore": 8,
+                  "visitorScore": 8,
+                  "clock": "03:07"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:07",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Cal Girard vs Vincent Gaylord won by DUKE, [03:07] Ground ball pickup by DUKE Cal Girard.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "03:07"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:53",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by DUKE good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "02:53"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:52",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by DUKE Aidan Maguire.",
+                  "homeScore": 8,
+                  "visitorScore": 9,
+                  "clock": "02:52"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:52",
+              "teamId": 51665,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Ben McCarthy vs Anthony DiCenso won by UR, [02:52] Ground ball pickup by UR Anthony DiCenso.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "02:52"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:38",
+              "teamId": 51665,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by UR good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "02:38"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:01",
+              "teamId": 51665,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by UR Daniel Picart, Assist by Aidan O'Neil.",
+                  "homeScore": 9,
+                  "visitorScore": 9,
+                  "clock": "02:01"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:01",
+              "teamId": 51665,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Cal Girard vs Anthony DiCenso won by UR, [02:01] Ground ball pickup by UR Jack Pilling.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "02:01"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:53",
+              "teamId": 51665,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by UR Anthony DiCenso.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "01:53"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:41",
+              "teamId": 51665,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by UR good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "01:41"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 51665,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by UR Joe Sheridan (caused by Aidan Maguire).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:28",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by DUKE Henry Bard.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:28"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:24",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by DUKE good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:24"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:06",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by DUKE Benn Johnston BLOCKED",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:06"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:01",
+              "teamId": 51665,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by UR Nate Murphy.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:01"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:01",
+              "teamId": 51665,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by UR Aidan O'Neil, Assist by Nate Murphy.",
+                  "homeScore": 10,
+                  "visitorScore": 9,
+                  "clock": "00:01"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:00",
+              "teamId": 51665,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by UR good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:00"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:00",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "End-of-period.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:00"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "__typename": "PlayByPlayDetails",
+          "periodNumber": 4,
+          "periodDisplay": "4th",
+          "playbyplayStats": [
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "15:00",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "15:00"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "15:00",
+              "teamId": 51665,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Cal Girard vs Anthony DiCenso won by UR, [15:00] Ground ball pickup by UR Anthony DiCenso.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "15:00"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "14:44",
+              "teamId": 51665,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by UR good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "14:44"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "14:10",
+              "teamId": 51665,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by UR Aidan O'Neil WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "14:10"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "14:07",
+              "teamId": 51665,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by UR Leo Caine.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "14:07"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "13:40",
+              "teamId": 51665,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by UR Gavin Creo.",
+                  "homeScore": 11,
+                  "visitorScore": 9,
+                  "clock": "13:40"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "13:40",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Cal Girard vs Anthony DiCenso won by DUKE, [13:40] Ground ball pickup by DUKE Cal Girard.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "13:40"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by DUKE.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "13:12",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by DUKE failed.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "13:12"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "12:18",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Penalty on DUKE Henry Bard (HOLDING/0:30) Extra-man opportunity.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "12:18"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "12:00",
+              "teamId": 51665,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by UR Gavin Creo HIGH",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "12:00"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "11:47",
+              "teamId": 51665,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by UR Gavin Creo HIGH",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "11:47"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "11:22",
+              "teamId": 51665,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by UR Gavin Creo.",
+                  "homeScore": 12,
+                  "visitorScore": 9,
+                  "clock": "11:22"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "11:22",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Cal Girard vs Anthony DiCenso won by DUKE, [11:22] Ground ball pickup by DUKE Cal Girard.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "11:22"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by DUKE Liam Kershis.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "10:26",
+              "teamId": 51665,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by UR good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "10:26"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 51665,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by UR Daniel Picart (caused by Henry Bard).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "08:36",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by DUKE Benn Johnston.",
+                  "homeScore": 12,
+                  "visitorScore": 10,
+                  "clock": "08:36"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "08:36",
+              "teamId": 51665,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Cal Girard vs Jackson Strickland won by UR, [08:36] Ground ball pickup by UR Jackson Strickland.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "08:36"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 51665,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by UR Jackson Strickland (caused by Will Pedicano).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "08:25",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by DUKE Will Pedicano.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "08:25"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:37",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by DUKE Benn Johnston.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "07:37"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:17",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by DUKE Kyle Colsey WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "07:17"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "06:58",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by DUKE Jack Pappendick, Assist by Michael Ortlieb.",
+                  "homeScore": 12,
+                  "visitorScore": 11,
+                  "clock": "06:58"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "06:58",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Cal Girard vs Anthony DiCenso won by DUKE, [06:58] Ground ball pickup by DUKE Cal Girard.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "06:58"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "06:09",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by DUKE Benn Johnston, Assist by Liam Kershis.",
+                  "homeScore": 12,
+                  "visitorScore": 12,
+                  "clock": "06:09"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "06:09",
+              "teamId": 51665,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Cal Girard vs Vincent Gaylord won by UR, [06:09] Ground ball pickup by UR Vincent Gaylord.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "06:09"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "04:59",
+              "teamId": 51665,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by UR Joe Sheridan WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "04:59"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 51665,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by UR.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:49",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by DUKE Benn Johnston, SAVE Connor Knight",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "03:49"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:46",
+              "teamId": 51665,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by UR Chris Mazzaferri.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "03:46"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:43",
+              "teamId": 51665,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by UR good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "03:43"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 51665,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by UR.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:17",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by DUKE good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "02:17"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:37",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by DUKE Kyle Colsey.",
+                  "homeScore": 12,
+                  "visitorScore": 13,
+                  "clock": "01:37"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:37",
+              "teamId": 51665,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Timeout by UR.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "01:37"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:37",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Cal Girard vs Vincent Gaylord won by DUKE, [01:37] Ground ball pickup by DUKE Aidan Maguire.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "01:37"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:05",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by DUKE Aidan Maguire, Assist by Mac Christmas.",
+                  "homeScore": 12,
+                  "visitorScore": 14,
+                  "clock": "01:05"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:05",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Timeout by DUKE.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "01:05"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:05",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Cal Girard vs Vincent Gaylord won by DUKE (on faceoff violation).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "01:05"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:55",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Timeout by DUKE.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:55"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by DUKE Liam Kershis (caused by Nate Murphy).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:55",
+              "teamId": 51665,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by UR Nate Murphy.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:55"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:55",
+              "teamId": 51665,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by UR failed.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:55"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 51665,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by UR Nate Murphy.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:38",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by DUKE Kyle Colsey.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:38"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:04",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by DUKE Mac Christmas WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:04"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:00",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "End-of-period.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:00"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

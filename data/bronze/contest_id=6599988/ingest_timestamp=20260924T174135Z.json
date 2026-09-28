@@ -1,0 +1,3555 @@
+{
+  "data": {
+    "playbyplay": {
+      "__typename": "PlayByPlay",
+      "contestId": 6599988,
+      "title": "MLA PLAY-BY-PLAY",
+      "description": "Syracuse vs Yale",
+      "divisionName": "d1",
+      "status": "final",
+      "period": 4,
+      "minutes": "",
+      "seconds": "",
+      "teams": [
+        {
+          "__typename": "ContestTeam",
+          "isHome": true,
+          "teamId": "43804",
+          "seoname": "syracuse",
+          "name6Char": "SYR",
+          "nameShort": "Syracuse",
+          "nameFull": "Syracuse University",
+          "teamName": "Orange",
+          "color": "#DC4405"
+        },
+        {
+          "__typename": "ContestTeam",
+          "isHome": false,
+          "teamId": "43789",
+          "seoname": "yale",
+          "name6Char": "YALE",
+          "nameShort": "Yale",
+          "nameFull": "Yale University",
+          "teamName": "Elis",
+          "color": "#111C2C"
+        }
+      ],
+      "periods": [
+        {
+          "__typename": "PlayByPlayDetails",
+          "periodNumber": 1,
+          "periodDisplay": "1st",
+          "playbyplayStats": [
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "15:00",
+              "teamId": 43789,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ben Friedman at goalie for YALE.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "15:00"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "15:00",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Jimmy McCool at goalie for SYRACUSE.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "15:00"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "15:00",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Nick Wehmeyer vs John Mullen won by SYRACUSE, [15:00] Ground ball pickup by SYRACUSE John Mullen.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "15:00"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "14:54",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by SYRACUSE John Mullen (FIRST GOAL), goal number 4 for season.",
+                  "homeScore": 1,
+                  "visitorScore": 0,
+                  "clock": "14:54"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "14:54",
+              "teamId": 43789,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Ben Cuomo vs John Mullen won by YALE, [14:54] Ground ball pickup by YALE Ben Cuomo.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "14:54"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "14:05",
+              "teamId": 43789,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by YALE Peter Moynihan.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "14:05"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43789,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by YALE Peter Moynihan (caused by Chuck Kuczynski).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "13:51",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by SYRACUSE Billy Dwan.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "13:51"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "13:47",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by SYRACUSE good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "13:47"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "12:56",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by SYRACUSE Wyatt Hottle, goal number 18 for season.",
+                  "homeScore": 2,
+                  "visitorScore": 0,
+                  "clock": "12:56"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "12:56",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Ben Cuomo vs John Mullen won by SYRACUSE, [12:56] Ground ball pickup by SYRACUSE John Mullen.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "12:56"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "12:53",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by SYRACUSE John Mullen WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "12:53"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "12:14",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by SYRACUSE Finn Thomson HIT POST",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "12:14"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "12:11",
+              "teamId": 43789,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by YALE Gaetano Cicotello.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "12:11"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "11:53",
+              "teamId": 43789,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by YALE failed.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "11:53"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43789,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by YALE Quinn Crotty.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "11:45",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by SYRACUSE Vincent Bolognino.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "11:45"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "11:16",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by SYRACUSE Michael Leo HIT POST",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "11:16"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "11:12",
+              "teamId": 43789,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Timeout by YALE.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "11:12"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "11:01",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by SYRACUSE Payton Anderson.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "11:01"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "10:46",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by SYRACUSE Luke Rhoa, SAVE Ben Friedman",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "10:46"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "10:20",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by SYRACUSE Finn Thomson HIT POST",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "10:20"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "10:17",
+              "teamId": 43789,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by YALE Patrick Pisano.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "10:17"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "10:09",
+              "teamId": 43789,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by YALE good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "10:09"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "10:07",
+              "teamId": 43789,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by YALE Connor Gately.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "10:07"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "09:23",
+              "teamId": 43789,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by YALE Luke Pascal, goal number 19 for season.",
+                  "homeScore": 2,
+                  "visitorScore": 1,
+                  "clock": "09:23"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "09:23",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Nick Wehmeyer vs John Mullen won by SYRACUSE, [09:23] Ground ball pickup by SYRACUSE John Mullen.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "09:23"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "08:55",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by SYRACUSE Tucker Kellogg WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "08:55"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by SYRACUSE Joey Spallina (caused by Patrick Pisano).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "08:45",
+              "teamId": 43789,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by YALE Flynn Leonard.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "08:45"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "08:41",
+              "teamId": 43789,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by YALE failed.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "08:41"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43789,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by YALE Flynn Leonard.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "08:35",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by SYRACUSE Vincent Bolognino.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "08:35"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:56",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by SYRACUSE Wyatt Hottle.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "07:56"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:41",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by SYRACUSE Payton Anderson.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "07:41"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:26",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by SYRACUSE Michael Leo WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "07:26"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:20",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by SYRACUSE Joey Spallina WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "07:20"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:19",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "30-second clock violation by SYRACUSE.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "07:19"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by SYRACUSE.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "06:55",
+              "teamId": 43789,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by YALE good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "06:55"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "06:11",
+              "teamId": 43789,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by YALE Cole Jackson, goal number 12 for season.",
+                  "homeScore": 2,
+                  "visitorScore": 2,
+                  "clock": "06:11"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "06:11",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Nick Wehmeyer vs John Mullen won by SYRACUSE, [06:11] Ground ball pickup by SYRACUSE Billy Dwan.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "06:11"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:43",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by SYRACUSE good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "05:43"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:41",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by SYRACUSE Chuck Kuczynski.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "05:41"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:26",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by SYRACUSE Bogue Hahn HIT POST",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "05:26"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:22",
+              "teamId": 43789,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by YALE Patrick Pisano.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "05:22"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:14",
+              "teamId": 43789,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by YALE good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "05:14"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:12",
+              "teamId": 43789,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by YALE Patrick Pisano WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "05:12"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:00",
+              "teamId": 43789,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by YALE Cole Cashion, SAVE Jimmy McCool",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "05:00"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "04:38",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Penalty on SYRACUSE Jordan Beck (HOLDING/0:30) Extra-man opportunity.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "04:38"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43789,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by YALE Connor Gately (caused by Billy Dwan).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "04:09",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by SYRACUSE Billy Dwan.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "04:09"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:56",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by SYRACUSE good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "03:56"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:22",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by SYRACUSE Payton Anderson, Assist by Finn Thomson, goal number 23 for season.",
+                  "homeScore": 3,
+                  "visitorScore": 2,
+                  "clock": "03:22"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:22",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Nick Wehmeyer vs John Mullen won by SYRACUSE, [03:22] Ground ball pickup by SYRACUSE John Mullen.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "03:22"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:29",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by SYRACUSE Payton Anderson, SAVE Ben Friedman",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "02:29"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:27",
+              "teamId": 43789,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by YALE Eric Platten.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "02:27"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:17",
+              "teamId": 43789,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by YALE good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "02:17"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:02",
+              "teamId": 43789,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by YALE Dylan Blekicki, SAVE Jimmy McCool",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "02:02"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:58",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by SYRACUSE Jordan Beck.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "01:58"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:51",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by SYRACUSE good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "01:51"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:18",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by SYRACUSE Michael Leo WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "01:18"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:00",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by SYRACUSE Finn Thomson HIT POST",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "01:00"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:24",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by SYRACUSE Matt McIntee WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:24"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:17",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by SYRACUSE Payton Anderson, SAVE Ben Friedman",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:17"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:00",
+              "teamId": 43789,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "End-of-period.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:00"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "__typename": "PlayByPlayDetails",
+          "periodNumber": 2,
+          "periodDisplay": "2nd",
+          "playbyplayStats": [
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "15:00",
+              "teamId": 43789,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "15:00"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "15:00",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Nick Wehmeyer vs John Mullen won by SYRACUSE, [15:00] Ground ball pickup by SYRACUSE John Mullen.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "15:00"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "14:59",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by SYRACUSE John Mullen HIT POST",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "14:59"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "14:11",
+              "teamId": 43789,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by YALE Peter Moynihan BLOCKED",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "14:11"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "13:50",
+              "teamId": 43789,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by YALE Connor Gately HIT POST",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "13:50"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "13:46",
+              "teamId": 43789,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by YALE Cole Cashion.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "13:46"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "13:41",
+              "teamId": 43789,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by YALE Cole Cashion, goal number 18 for season.",
+                  "homeScore": 3,
+                  "visitorScore": 3,
+                  "clock": "13:41"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "13:41",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Nick Wehmeyer vs John Mullen won by SYRACUSE, [13:41] Ground ball pickup by SYRACUSE John Mullen.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "13:41"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "13:13",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by SYRACUSE Luke Rhoa WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "13:13"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "13:03",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by SYRACUSE Michael Leo WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "13:03"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "12:47",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by SYRACUSE Luke Rhoa, goal number 27 for season.",
+                  "homeScore": 4,
+                  "visitorScore": 3,
+                  "clock": "12:47"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "12:47",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Ben Cuomo vs John Mullen won by SYRACUSE, [12:47] Ground ball pickup by SYRACUSE John Mullen.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "12:47"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by SYRACUSE John Mullen.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "12:28",
+              "teamId": 43789,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by YALE good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "12:28"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "11:45",
+              "teamId": 43789,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by YALE Sean Grogan WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "11:45"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "11:17",
+              "teamId": 43789,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "30-second clock violation by YALE.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "11:17"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43789,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by YALE.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "11:10",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by SYRACUSE Billy Dwan.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "11:10"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "11:07",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by SYRACUSE good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "11:07"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "11:01",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by SYRACUSE Jayden Kittelberger.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "11:01"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "10:33",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by SYRACUSE Joey Spallina, SAVE Ben Friedman",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "10:33"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "10:29",
+              "teamId": 43789,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Penalty on YALE Connor Gately (TRIPPING/1:00) Extra-man opportunity.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "10:29"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "10:29",
+              "teamId": 43789,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Penalty on YALE Team (OFFSIDE/0:30).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "10:29"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "10:09",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by SYRACUSE Michael Leo (MAN-UP), Assist by Luke Rhoa, goal number 32 for season.",
+                  "homeScore": 5,
+                  "visitorScore": 3,
+                  "clock": "10:09"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "10:09",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Nick Wehmeyer vs John Mullen won by SYRACUSE, [10:09] Ground ball pickup by SYRACUSE John Mullen.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "10:09"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "09:41",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by SYRACUSE Payton Anderson.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "09:41"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by SYRACUSE Luke Rhoa (caused by Gaetano Cicotello).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "09:31",
+              "teamId": 43789,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by YALE Gaetano Cicotello.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "09:31"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "09:13",
+              "teamId": 43789,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by YALE good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "09:13"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "08:49",
+              "teamId": 43789,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by YALE Peter Moynihan, SAVE Jimmy McCool",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "08:49"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "08:44",
+              "teamId": 43789,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by YALE Dylan Blekicki.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "08:44"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "08:31",
+              "teamId": 43789,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by YALE Cole Cashion, SAVE Jimmy McCool",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "08:31"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43789,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by YALE Sean Grogan.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "08:09",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by SYRACUSE Jimmy McCool.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "08:09"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "08:07",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by SYRACUSE failed.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "08:07"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by SYRACUSE Dante Bowen.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "08:02",
+              "teamId": 43789,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by YALE Sean Grogan.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "08:02"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:32",
+              "teamId": 43789,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by YALE Luke Pascal WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "07:32"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:00",
+              "teamId": 43789,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by YALE Cole Cashion, Assist by Connor Gately, goal number 19 for season.",
+                  "homeScore": 5,
+                  "visitorScore": 4,
+                  "clock": "07:00"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:00",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Ben Cuomo vs John Mullen won by SYRACUSE, [07:00] Ground ball pickup by SYRACUSE John Mullen.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "07:00"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "06:35",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by SYRACUSE Matt McIntee.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "06:35"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "06:17",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by SYRACUSE Matt McIntee WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "06:17"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:55",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by SYRACUSE Tucker Kellogg, Assist by Joey Spallina, goal number 5 for season.",
+                  "homeScore": 6,
+                  "visitorScore": 4,
+                  "clock": "05:55"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:55",
+              "teamId": 43789,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Nick Wehmeyer vs John Mullen won by YALE.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "05:55"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:38",
+              "teamId": 43789,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by YALE Sean Grogan WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "05:38"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:18",
+              "teamId": 43789,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by YALE Cole Jackson, Assist by Asher Ziv, goal number 13 for season.",
+                  "homeScore": 6,
+                  "visitorScore": 5,
+                  "clock": "05:18"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:18",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Nick Wehmeyer vs John Mullen won by SYRACUSE, [05:18] Ground ball pickup by SYRACUSE John Mullen.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "05:18"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "04:39",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by SYRACUSE Michael Leo WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "04:39"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "04:37",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by SYRACUSE Payton Anderson WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "04:37"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "04:13",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by SYRACUSE Michael Leo.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "04:13"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "04:07",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by SYRACUSE Finn Thomson BLOCKED",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "04:07"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "04:04",
+              "teamId": 43789,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by YALE Quinn Crotty.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "04:04"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:56",
+              "teamId": 43789,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by YALE good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "03:56"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:17",
+              "teamId": 43789,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by YALE Peter Moynihan, goal number 19 for season.",
+                  "homeScore": 6,
+                  "visitorScore": 6,
+                  "clock": "03:17"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:17",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Nick Wehmeyer vs John Mullen won by SYRACUSE, [03:17] Ground ball pickup by SYRACUSE John Mullen.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "03:17"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:14",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by SYRACUSE Matt McIntee, SAVE Ben Friedman",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "02:14"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:12",
+              "teamId": 43789,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by YALE Flynn Leonard.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "02:12"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:48",
+              "teamId": 43789,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by YALE good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "01:48"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:46",
+              "teamId": 43789,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by YALE Sean Grogan.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "01:46"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:15",
+              "teamId": 43789,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by YALE Peter Moynihan, goal number 20 for season.",
+                  "homeScore": 6,
+                  "visitorScore": 7,
+                  "clock": "01:15"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:15",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Nick Wehmeyer vs John Mullen won by SYRACUSE, [01:15] Ground ball pickup by SYRACUSE John Mullen.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "01:15"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by SYRACUSE John Mullen (caused by Nick Wehmeyer).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:10",
+              "teamId": 43789,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by YALE Patrick Pisano.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "01:10"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:01",
+              "teamId": 43789,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by YALE Patrick Pisano, Assist by Anthony Annunziata, goal number 2 for season.",
+                  "homeScore": 6,
+                  "visitorScore": 8,
+                  "clock": "01:01"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:01",
+              "teamId": 43789,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Nick Wehmeyer vs John Mullen won by YALE (on faceoff violation).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "01:01"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:20",
+              "teamId": 43789,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by YALE Peter Moynihan, SAVE Jimmy McCool",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:20"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:00",
+              "teamId": 43789,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "End-of-period.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:00"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "__typename": "PlayByPlayDetails",
+          "periodNumber": 3,
+          "periodDisplay": "3rd",
+          "playbyplayStats": [
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "15:00",
+              "teamId": 43789,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "15:00"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "15:00",
+              "teamId": 43789,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Nick Wehmeyer vs Drew Angelo won by YALE, [15:00] Ground ball pickup by YALE Luke Michalik.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "15:00"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "14:53",
+              "teamId": 43789,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by YALE Sean Grogan.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "14:53"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "14:23",
+              "teamId": 43789,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by YALE Luke Pascal, SAVE Jimmy McCool",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "14:23"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "14:10",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by SYRACUSE good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "14:10"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "13:47",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by SYRACUSE Michael Leo, Assist by Payton Anderson, goal number 33 for season.",
+                  "homeScore": 7,
+                  "visitorScore": 8,
+                  "clock": "13:47"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "13:47",
+              "teamId": 43789,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Nick Wehmeyer vs John Mullen won by YALE, [13:47] Ground ball pickup by YALE Nick Wehmeyer.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "13:47"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "12:54",
+              "teamId": 43789,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by YALE Cole Cashion WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "12:54"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "12:42",
+              "teamId": 43789,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by YALE Connor Gately, SAVE Jimmy McCool",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "12:42"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "12:38",
+              "teamId": 43789,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by YALE Luke Pascal.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "12:38"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "12:30",
+              "teamId": 43789,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by YALE Peter Moynihan, SAVE Jimmy McCool",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "12:30"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "12:28",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by SYRACUSE Billy Dwan.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "12:28"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "12:08",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by SYRACUSE good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "12:08"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "11:33",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by SYRACUSE Finn Thomson, Assist by Joey Spallina, goal number 36 for season.",
+                  "homeScore": 8,
+                  "visitorScore": 8,
+                  "clock": "11:33"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "11:33",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Ben Cuomo vs John Mullen won by SYRACUSE (on faceoff violation).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "11:33"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "10:44",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by SYRACUSE Payton Anderson.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "10:44"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "10:38",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by SYRACUSE Finn Thomson, Assist by Payton Anderson, goal number 37 for season.",
+                  "homeScore": 9,
+                  "visitorScore": 8,
+                  "clock": "10:38"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "10:38",
+              "teamId": 43789,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Nick Wehmeyer vs John Mullen won by YALE.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "10:38"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "10:03",
+              "teamId": 43789,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by YALE Dylan Blekicki HIT POST",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "10:03"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "09:20",
+              "teamId": 43789,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by YALE Sean Grogan.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "09:20"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43789,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by YALE Sean Grogan (caused by Dante Bowen).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "09:00",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by SYRACUSE Jimmy McCool.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "09:00"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "08:54",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by SYRACUSE good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "08:54"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by SYRACUSE Joey Spallina (caused by Patrick Pisano).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:55",
+              "teamId": 43789,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by YALE Ben Friedman.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "07:55"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:51",
+              "teamId": 43789,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by YALE good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "07:51"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:47",
+              "teamId": 43789,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by YALE Flynn Leonard.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "07:47"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:26",
+              "teamId": 43789,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by YALE Cole Cashion BLOCKED",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "07:26"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:15",
+              "teamId": 43789,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by YALE Sean Grogan BLOCKED",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "07:15"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:10",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by SYRACUSE Vincent Bolognino.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "07:10"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:03",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by SYRACUSE good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "07:03"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by SYRACUSE Michael Leo.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "06:18",
+              "teamId": 43789,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by YALE good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "06:18"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "06:16",
+              "teamId": 43789,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by YALE Patrick Pisano, SAVE Jimmy McCool",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "06:16"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "06:14",
+              "teamId": 43789,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by YALE Connor Gately.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "06:14"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43789,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by YALE Dylan Blekicki (caused by Chuck Kuczynski).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:32",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by SYRACUSE Dante Bowen.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "05:32"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:29",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by SYRACUSE failed.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "05:29"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by SYRACUSE Dante Bowen (caused by Dylan Blekicki).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "04:51",
+              "teamId": 43789,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by YALE Luke Pascal, goal number 20 for season.",
+                  "homeScore": 9,
+                  "visitorScore": 9,
+                  "clock": "04:51"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "04:51",
+              "teamId": 43789,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Nick Wehmeyer vs John Mullen won by YALE, [04:51] Ground ball pickup by YALE Nick Wehmeyer.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "04:51"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:45",
+              "teamId": 43789,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by YALE Dylan Blekicki, Assist by Connor Gately, goal number 17 for season.",
+                  "homeScore": 9,
+                  "visitorScore": 10,
+                  "clock": "03:45"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:45",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Ben Cuomo vs John Mullen won by SYRACUSE, [03:45] Ground ball pickup by SYRACUSE John Mullen.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "03:45"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:10",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by SYRACUSE Finn Thomson, Assist by Michael Leo, goal number 38 for season.",
+                  "homeScore": 10,
+                  "visitorScore": 10,
+                  "clock": "03:10"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:10",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Nick Wehmeyer vs John Mullen won by SYRACUSE (on faceoff violation).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "03:10"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:37",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by SYRACUSE Michael Leo, goal number 34 for season.",
+                  "homeScore": 11,
+                  "visitorScore": 10,
+                  "clock": "02:37"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:37",
+              "teamId": 43789,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Ben Cuomo vs John Mullen won by YALE, [02:37] Ground ball pickup by YALE Anthony Annunziata.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "02:37"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:19",
+              "teamId": 43789,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by YALE good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "02:19"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:03",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Penalty on SYRACUSE John Mullen (OFFSIDE/0:30) Extra-man opportunity.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "02:03"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:48",
+              "teamId": 43789,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by YALE William Sheehan (MAN-UP), Assist by Sean Grogan, goal number 17 for season.",
+                  "homeScore": 11,
+                  "visitorScore": 11,
+                  "clock": "01:48"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:48",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Nick Wehmeyer vs John Mullen won by SYRACUSE, [01:48] Ground ball pickup by SYRACUSE John Mullen.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "01:48"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:03",
+              "teamId": 43789,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Penalty on YALE Quinn Crotty (HOLDING/0:30) Extra-man opportunity.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "01:03"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:47",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by SYRACUSE Michael Leo.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:47"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:35",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by SYRACUSE Joey Spallina (MAN-UP), Assist by Finn Thomson, goal number 31 for season.",
+                  "homeScore": 12,
+                  "visitorScore": 11,
+                  "clock": "00:35"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:35",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Nick Wehmeyer vs John Mullen won by SYRACUSE, [00:35] Ground ball pickup by SYRACUSE John Mullen.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:35"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:22",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by SYRACUSE Tyler McCarthy, goal number 3 for season.",
+                  "homeScore": 13,
+                  "visitorScore": 11,
+                  "clock": "00:22"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:22",
+              "teamId": 43789,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Ben Cuomo vs John Mullen won by YALE, [00:22] Ground ball pickup by YALE Ben Cuomo.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:22"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:13",
+              "teamId": 43789,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by YALE Connor Gately WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:13"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:08",
+              "teamId": 43789,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by YALE Dylan Blekicki.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:08"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:01",
+              "teamId": 43789,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by YALE Connor Gately, SAVE Jimmy McCool",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:01"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:00",
+              "teamId": 43789,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "End-of-period.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:00"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "__typename": "PlayByPlayDetails",
+          "periodNumber": 4,
+          "periodDisplay": "4th",
+          "playbyplayStats": [
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "15:00",
+              "teamId": 43789,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "15:00"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "15:00",
+              "teamId": 43789,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Nick Wehmeyer vs John Mullen won by YALE, [15:00] Ground ball pickup by YALE Nick Wehmeyer.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "15:00"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "14:28",
+              "teamId": 43789,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by YALE Cole Cashion, goal number 20 for season.",
+                  "homeScore": 13,
+                  "visitorScore": 12,
+                  "clock": "14:28"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "14:28",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Ben Cuomo vs John Mullen won by SYRACUSE, [14:28] Ground ball pickup by SYRACUSE John Mullen.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "14:28"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by SYRACUSE Luke Rhoa (caused by Konrad Miklaszewski).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "13:36",
+              "teamId": 43789,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by YALE Patrick Pisano.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "13:36"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "13:34",
+              "teamId": 43789,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by YALE good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "13:34"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "12:41",
+              "teamId": 43789,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by YALE Cole Cashion, SAVE Jimmy McCool",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "12:41"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "12:20",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by SYRACUSE good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "12:20"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "11:46",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by SYRACUSE Luke Rhoa, goal number 28 for season.",
+                  "homeScore": 14,
+                  "visitorScore": 12,
+                  "clock": "11:46"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "11:46",
+              "teamId": 43789,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Nick Wehmeyer vs John Mullen won by YALE, [11:46] Ground ball pickup by YALE Anthony Annunziata.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "11:46"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "10:51",
+              "teamId": 43789,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by YALE William Sheehan, SAVE Jimmy McCool",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "10:51"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "10:29",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by SYRACUSE good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "10:29"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "10:12",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by SYRACUSE Riley Figueiras.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "10:12"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "10:02",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by SYRACUSE Wyatt Hottle, Assist by Luke Rhoa, goal number 19 for season.",
+                  "homeScore": 15,
+                  "visitorScore": 12,
+                  "clock": "10:02"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "10:02",
+              "teamId": 43789,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Timeout by YALE.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "10:02"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "10:02",
+              "teamId": 43789,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Nick Wehmeyer vs John Mullen won by YALE (on faceoff violation).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "10:02"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "09:16",
+              "teamId": 43789,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by YALE Cole Cashion WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "09:16"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "09:09",
+              "teamId": 43789,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by YALE Connor Gately HIT POST",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "09:09"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "08:54",
+              "teamId": 43789,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by YALE Dylan Blekicki, SAVE Jimmy McCool",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "08:54"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "08:30",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by SYRACUSE good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "08:30"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:42",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by SYRACUSE Luke Rhoa, SAVE Ben Friedman",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "07:42"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:22",
+              "teamId": 43789,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by YALE good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "07:22"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:00",
+              "teamId": 43789,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by YALE Connor Gately, SAVE Jimmy McCool",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "07:00"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "06:46",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by SYRACUSE good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "06:46"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "06:45",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by SYRACUSE Jayden Kittelberger WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "06:45"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "06:00",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by SYRACUSE Joey Spallina, Assist by Payton Anderson, goal number 32 for season.",
+                  "homeScore": 16,
+                  "visitorScore": 12,
+                  "clock": "06:00"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "06:00",
+              "teamId": 43789,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Nick Wehmeyer vs Drew Angelo won by YALE.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "06:00"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:39",
+              "teamId": 43789,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by YALE Sean Grogan, Assist by Connor Gately, goal number 29 for season.",
+                  "homeScore": 16,
+                  "visitorScore": 13,
+                  "clock": "05:39"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:39",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Nick Wehmeyer vs John Mullen won by SYRACUSE, [05:39] Ground ball pickup by SYRACUSE John Mullen.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "05:39"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "04:30",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by SYRACUSE Finn Thomson HIGH",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "04:30"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "04:27",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by SYRACUSE Wyatt Hottle.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "04:27"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "04:19",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "30-second clock violation by SYRACUSE.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "04:19"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by SYRACUSE.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "04:06",
+              "teamId": 43789,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by YALE good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "04:06"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:30",
+              "teamId": 43789,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by YALE Luke Pascal WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "03:30"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:15",
+              "teamId": 43789,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by YALE Luke Pascal, SAVE Jimmy McCool",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "03:15"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:06",
+              "teamId": 43789,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by YALE Connor Gately.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "03:06"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:03",
+              "teamId": 43789,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by YALE Connor Gately WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "03:03"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:48",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by SYRACUSE good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "02:48"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:48",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by SYRACUSE Billy Dwan WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "02:48"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:36",
+              "teamId": 43789,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by YALE good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "02:36"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:45",
+              "teamId": 43789,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by YALE Dylan Blekicki, Assist by Sean Grogan, goal number 18 for season.",
+                  "homeScore": 16,
+                  "visitorScore": 14,
+                  "clock": "01:45"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:45",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Nick Wehmeyer vs John Mullen won by SYRACUSE, [01:45] Ground ball pickup by SYRACUSE John Mullen.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "01:45"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by SYRACUSE John Mullen (caused by Nick Wehmeyer).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:17",
+              "teamId": 43789,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by YALE Sean Grogan, Assist by Peter Moynihan, goal number 30 for season.",
+                  "homeScore": 16,
+                  "visitorScore": 15,
+                  "clock": "01:17"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:17",
+              "teamId": 43789,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Nick Wehmeyer vs John Mullen won by YALE (on faceoff violation).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "01:17"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:49",
+              "teamId": 43789,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by YALE Connor Gately HIGH",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:49"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:47",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Timeout by SYRACUSE.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:47"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:29",
+              "teamId": 43789,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by YALE Luke Pascal, SAVE Jimmy McCool",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:29"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:28",
+              "teamId": 43789,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by YALE Cole Cashion.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:28"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:25",
+              "teamId": 43789,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by YALE Cole Cashion, SAVE Jimmy McCool",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:25"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:24",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by SYRACUSE Jordan Beck.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:24"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:11",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by SYRACUSE good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:11"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:00",
+              "teamId": 43789,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "End-of-period.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:00"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

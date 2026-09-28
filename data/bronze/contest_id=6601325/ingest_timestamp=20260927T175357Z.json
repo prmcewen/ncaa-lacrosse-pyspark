@@ -1,0 +1,3079 @@
+{
+  "data": {
+    "playbyplay": {
+      "__typename": "PlayByPlay",
+      "contestId": 6601325,
+      "title": "MLA PLAY-BY-PLAY",
+      "description": "Army West Point vs Loyola Maryland",
+      "divisionName": "d1",
+      "status": "final",
+      "period": 4,
+      "minutes": "",
+      "seconds": "",
+      "teams": [
+        {
+          "__typename": "ContestTeam",
+          "isHome": true,
+          "teamId": "43833",
+          "seoname": "army",
+          "name6Char": "ARMY",
+          "nameShort": "Army West Point",
+          "nameFull": "U.S. Military Academy",
+          "teamName": "Black Knights",
+          "color": "#010101"
+        },
+        {
+          "__typename": "ContestTeam",
+          "isHome": false,
+          "teamId": "43717",
+          "seoname": "loyola-maryland",
+          "name6Char": "LOY MD",
+          "nameShort": "Loyola Maryland",
+          "nameFull": "Loyola University Maryland",
+          "teamName": "Greyhounds",
+          "color": "#115740"
+        }
+      ],
+      "periods": [
+        {
+          "__typename": "PlayByPlayDetails",
+          "periodNumber": 1,
+          "periodDisplay": "1st",
+          "playbyplayStats": [
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "15:00",
+              "teamId": 43833,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Sean Byrne at goalie for ARMYWES.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "15:00"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "15:00",
+              "teamId": 43717,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Max Watkinson at goalie for LOYOLAM.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "15:00"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "15:00",
+              "teamId": 43833,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Carson Hall vs Robert Simone won by ARMYWES, [15:00] Ground ball pickup by ARMYWES Robert Simone.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "15:00"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "14:16",
+              "teamId": 43833,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by ARMYWES Gunnar Fellows WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "14:16"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "13:59",
+              "teamId": 43833,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by ARMYWES Brayden Fountain, SAVE Max Watkinson",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "13:59"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "13:53",
+              "teamId": 43717,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by LOYOLAM good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "13:53"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "12:36",
+              "teamId": 43717,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by LOYOLAM Will Musgrove WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "12:36"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "12:32",
+              "teamId": 43717,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "30-second clock violation by LOYOLAM.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "12:32"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43717,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by LOYOLAM.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "12:32",
+              "teamId": 43833,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by ARMYWES good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "12:32"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "11:51",
+              "teamId": 43833,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by ARMYWES Ben Calabrese WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "11:51"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "11:40",
+              "teamId": 43833,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by ARMYWES Tyler Clark.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "11:40"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "11:34",
+              "teamId": 43833,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by ARMYWES Gunnar Fellows (FIRST GOAL), Assist by Hill Plunkett.",
+                  "homeScore": 1,
+                  "visitorScore": 0,
+                  "clock": "11:34"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "11:34",
+              "teamId": 43833,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Carson Hall vs Robert Simone won by ARMYWES, [11:34] Ground ball pickup by ARMYWES CJ Monturio.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "11:34"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43833,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by ARMYWES CJ Monturio (caused by Miles Halter).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "11:15",
+              "teamId": 43717,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by LOYOLAM Joe Houlihan.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "11:15"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "11:12",
+              "teamId": 43717,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by LOYOLAM good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "11:12"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "11:08",
+              "teamId": 43717,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by LOYOLAM Chase Gregory BLOCKED",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "11:08"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "10:35",
+              "teamId": 43717,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by LOYOLAM Ryan McGorry.",
+                  "homeScore": 1,
+                  "visitorScore": 1,
+                  "clock": "10:35"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "10:35",
+              "teamId": 43717,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Carson Hall vs Robert Simone won by LOYOLAM, [10:35] Ground ball pickup by LOYOLAM Carson Hall.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "10:35"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43717,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by LOYOLAM Will Musgrove.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "09:52",
+              "teamId": 43833,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by ARMYWES John Sullivan.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "09:52"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "09:48",
+              "teamId": 43833,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by ARMYWES good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "09:48"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "09:18",
+              "teamId": 43833,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by ARMYWES Brayden Fountain WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "09:18"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "08:56",
+              "teamId": 43833,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by ARMYWES Brayden Fountain, Assist by Evan Plunkett.",
+                  "homeScore": 2,
+                  "visitorScore": 1,
+                  "clock": "08:56"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "08:56",
+              "teamId": 43833,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Carson Hall vs Robert Simone won by ARMYWES, [08:56] Ground ball pickup by ARMYWES Drew Miller.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "08:56"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43833,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by ARMYWES Gus Bell (caused by Matthew Everson).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "08:07",
+              "teamId": 43717,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by LOYOLAM Matthew Everson.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "08:07"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "08:04",
+              "teamId": 43717,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by LOYOLAM failed.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "08:04"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43717,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by LOYOLAM Marek Seaman.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:43",
+              "teamId": 43833,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by ARMYWES Brayden Fountain, Assist by Tyler Clark.",
+                  "homeScore": 3,
+                  "visitorScore": 1,
+                  "clock": "07:43"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:43",
+              "teamId": 43833,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Carson Hall vs Robert Simone won by ARMYWES, [07:43] Ground ball pickup by ARMYWES Robert Simone.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "07:43"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "06:58",
+              "teamId": 43833,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by ARMYWES Brayden Fountain WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "06:58"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43833,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by ARMYWES Evan Plunkett.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "06:28",
+              "teamId": 43717,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by LOYOLAM good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "06:28"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:38",
+              "teamId": 43717,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by LOYOLAM Mason Cook, Assist by Luke Murphy.",
+                  "homeScore": 3,
+                  "visitorScore": 2,
+                  "clock": "05:38"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:38",
+              "teamId": 43833,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Mason Graves vs Robert Simone won by ARMYWES, [05:38] Ground ball pickup by ARMYWES Sam Ralston.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "05:38"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43833,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by ARMYWES Sam Ralston (caused by Mason Graves).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:22",
+              "teamId": 43717,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by LOYOLAM Miles Halter.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "05:22"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:21",
+              "teamId": 43717,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by LOYOLAM Mason Cook, SAVE Sean Byrne",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "05:21"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:20",
+              "teamId": 43833,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by ARMYWES Jimmy Manley.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "05:20"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:16",
+              "teamId": 43833,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by ARMYWES good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "05:16"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "04:47",
+              "teamId": 43833,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by ARMYWES Ben Calabrese, Assist by Tyler Clark.",
+                  "homeScore": 4,
+                  "visitorScore": 2,
+                  "clock": "04:47"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "04:46",
+              "teamId": 43717,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Mason Graves vs Robert Simone won by LOYOLAM, [04:46] Ground ball pickup by LOYOLAM Mason Graves.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "04:46"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "04:39",
+              "teamId": 43717,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by LOYOLAM Matthew Minicus, SAVE Sean Byrne",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "04:39"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "04:33",
+              "teamId": 43717,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by LOYOLAM Tyler Olsen.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "04:33"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "04:02",
+              "teamId": 43717,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by LOYOLAM Kenan Everhart WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "04:02"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:56",
+              "teamId": 43833,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by ARMYWES good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "03:56"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:59",
+              "teamId": 43833,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by ARMYWES Brayden Fountain, Assist by Hill Plunkett.",
+                  "homeScore": 5,
+                  "visitorScore": 2,
+                  "clock": "02:59"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:59",
+              "teamId": 43833,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Mason Graves vs Caleb Caldwell won by ARMYWES, [02:59] Ground ball pickup by ARMYWES CJ Monturio.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "02:59"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:21",
+              "teamId": 43833,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by ARMYWES Brayden Fountain, Assist by Hill Plunkett.",
+                  "homeScore": 6,
+                  "visitorScore": 2,
+                  "clock": "02:21"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:21",
+              "teamId": 43717,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Timeout by LOYOLAM.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "02:21"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:21",
+              "teamId": 43717,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Carson Hall vs Robert Simone won by LOYOLAM, [02:21] Ground ball pickup by LOYOLAM Chase Gregory.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "02:21"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:06",
+              "teamId": 43717,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by LOYOLAM good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "02:06"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43717,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by LOYOLAM Will Musgrove (caused by Isaiah Rose).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:17",
+              "teamId": 43833,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by ARMYWES Sean Byrne.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "01:17"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:14",
+              "teamId": 43833,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by ARMYWES good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "01:14"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:10",
+              "teamId": 43833,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by ARMYWES Gunnar Fellows BLOCKED",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:10"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:06",
+              "teamId": 43717,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Penalty on LOYOLAM Tyler Olsen (CROSS-CHECK/1:00) Extra-man opportunity.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:06"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "__typename": "PlayByPlayDetails",
+          "periodNumber": 2,
+          "periodDisplay": "2nd",
+          "playbyplayStats": [
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "14:36",
+              "teamId": 43833,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by ARMYWES Aiden Weisenborn, SAVE Max Watkinson",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "14:36"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "14:33",
+              "teamId": 43717,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by LOYOLAM good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "14:33"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "13:36",
+              "teamId": 43717,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by LOYOLAM Kenan Everhart, Assist by Connor Wilbur.",
+                  "homeScore": 6,
+                  "visitorScore": 3,
+                  "clock": "13:36"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "13:36",
+              "teamId": 43833,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Carson Hall vs Robert Simone won by ARMYWES, [13:36] Ground ball pickup by ARMYWES Robert Simone.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "13:36"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43833,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by ARMYWES Robert Simone (caused by Carson Hall).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "13:17",
+              "teamId": 43717,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by LOYOLAM Matthew Minicus.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "13:17"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "12:22",
+              "teamId": 43717,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by LOYOLAM Matthew Minicus BLOCKED",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "12:22"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "12:14",
+              "teamId": 43717,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by LOYOLAM Kenan Everhart, SAVE Sean Byrne",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "12:14"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "12:11",
+              "teamId": 43833,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by ARMYWES good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "12:11"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "11:51",
+              "teamId": 43833,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by ARMYWES Gunnar Fellows, SAVE Max Watkinson",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "11:51"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "11:47",
+              "teamId": 43717,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by LOYOLAM failed.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "11:47"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43717,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by LOYOLAM Michael Callahan (caused by Hill Plunkett).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "11:16",
+              "teamId": 43833,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by ARMYWES Hill Plunkett HIGH",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "11:16"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "11:07",
+              "teamId": 43833,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by ARMYWES Hill Plunkett BLOCKED",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "11:07"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "11:03",
+              "teamId": 43717,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by LOYOLAM Michael Callahan.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "11:03"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "10:53",
+              "teamId": 43717,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by LOYOLAM Kenan Everhart BLOCKED",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "10:53"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "10:37",
+              "teamId": 43717,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by LOYOLAM Mike Brescia WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "10:37"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "10:34",
+              "teamId": 43833,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by ARMYWES good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "10:34"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43833,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by ARMYWES Mike Harney (caused by Matthew Everson).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "09:46",
+              "teamId": 43717,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by LOYOLAM good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "09:46"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "09:05",
+              "teamId": 43717,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by LOYOLAM Kenan Everhart, Assist by Mason Cook.",
+                  "homeScore": 6,
+                  "visitorScore": 4,
+                  "clock": "09:05"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "09:05",
+              "teamId": 43833,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Penalty on ARMYWES Jimmy Manley (CROSS-CHECK/1:00) Extra-man opportunity.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "09:05"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "09:05",
+              "teamId": 43717,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Carson Hall vs Robert Simone won by LOYOLAM, [09:05] Ground ball pickup by LOYOLAM Carson Hall.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "09:05"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "08:11",
+              "teamId": 43717,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by LOYOLAM Matthew Minicus WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "08:11"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "08:03",
+              "teamId": 43717,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by LOYOLAM Matthew Minicus, SAVE Sean Byrne",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "08:03"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:58",
+              "teamId": 43833,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by ARMYWES good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "07:58"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:24",
+              "teamId": 43833,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by ARMYWES Cal Lambert, SAVE Max Watkinson",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "07:24"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:22",
+              "teamId": 43717,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Penalty on LOYOLAM Brady West (OFFSIDE/0:30) Extra-man opportunity.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "07:22"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "06:57",
+              "teamId": 43833,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by ARMYWES Aiden Weisenborn WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "06:57"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "06:45",
+              "teamId": 43833,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by ARMYWES Brayden Fountain.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "06:45"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "06:24",
+              "teamId": 43833,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by ARMYWES Evan Plunkett.",
+                  "homeScore": 7,
+                  "visitorScore": 4,
+                  "clock": "06:24"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "06:24",
+              "teamId": 43717,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Carson Hall vs Robert Simone won by LOYOLAM (on faceoff violation).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "06:24"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:55",
+              "teamId": 43717,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by LOYOLAM Matthew Minicus HIT POST",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "05:55"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:51",
+              "teamId": 43717,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by LOYOLAM Matthew Minicus.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "05:51"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:39",
+              "teamId": 43717,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by LOYOLAM Mason Cook, SAVE Sean Byrne",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "05:39"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:33",
+              "teamId": 43833,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by ARMYWES good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "05:33"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:25",
+              "teamId": 43833,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by ARMYWES Grant Masterson WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "05:25"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "04:59",
+              "teamId": 43833,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by ARMYWES Cal Lambert, Assist by Hill Plunkett.",
+                  "homeScore": 8,
+                  "visitorScore": 4,
+                  "clock": "04:59"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "04:59",
+              "teamId": 43833,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Carson Hall vs Caleb Caldwell won by ARMYWES, [04:59] Ground ball pickup by ARMYWES Caleb Caldwell.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "04:59"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "04:05",
+              "teamId": 43833,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by ARMYWES Brayden Fountain WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "04:05"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:44",
+              "teamId": 43833,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by ARMYWES Gunnar Fellows, Assist by Hill Plunkett.",
+                  "homeScore": 9,
+                  "visitorScore": 4,
+                  "clock": "03:44"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:44",
+              "teamId": 43833,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Carson Hall vs Robert Simone won by ARMYWES (on faceoff violation).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "03:44"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43833,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by ARMYWES Evan Plunkett.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:18",
+              "teamId": 43717,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by LOYOLAM good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "03:18"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43717,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by LOYOLAM Austin Cote (caused by Jimmy Manley).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:26",
+              "teamId": 43833,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by ARMYWES John Sullivan.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "02:26"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:22",
+              "teamId": 43833,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by ARMYWES good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "02:22"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:19",
+              "teamId": 43833,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by ARMYWES Drew Miller WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "02:19"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:19",
+              "teamId": 43717,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Timeout by LOYOLAM.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "02:19"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:48",
+              "teamId": 43833,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by ARMYWES Cal Lambert.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "01:48"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:48",
+              "teamId": 43833,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by ARMYWES Cal Lambert.",
+                  "homeScore": 10,
+                  "visitorScore": 4,
+                  "clock": "01:48"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:48",
+              "teamId": 43833,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Carson Hall vs Robert Simone won by ARMYWES, [01:48] Ground ball pickup by ARMYWES Robert Simone.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "01:48"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:37",
+              "teamId": 43833,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Timeout by ARMYWES.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "01:37"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:36",
+              "teamId": 43833,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by ARMYWES Brayden Fountain WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:36"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:30",
+              "teamId": 43833,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by ARMYWES Gunnar Fellows, SAVE Max Watkinson",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:30"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:26",
+              "teamId": 43717,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by LOYOLAM good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:26"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "__typename": "PlayByPlayDetails",
+          "periodNumber": 3,
+          "periodDisplay": "3rd",
+          "playbyplayStats": [
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "14:41",
+              "teamId": 43717,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Carson Hall vs Robert Simone won by LOYOLAM, [14:41] Ground ball pickup by LOYOLAM Carson Hall.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "14:41"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "14:26",
+              "teamId": 43717,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by LOYOLAM good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "14:26"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "14:26",
+              "teamId": 43833,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Penalty on ARMYWES Isaiah Rose (ILLEGAL BODY CHECK/1:00) Extra-man opportunity.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "14:26"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "14:26",
+              "teamId": 43833,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Penalty on ARMYWES Team (UNSPORTSMANLIKE CONDUCT/1:00) Extra-man opportunity.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "14:26"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "13:49",
+              "teamId": 43717,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by LOYOLAM Matthew Minicus, SAVE Sean Byrne",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "13:49"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "13:38",
+              "teamId": 43833,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by ARMYWES good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "13:38"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43833,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by ARMYWES.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "12:14",
+              "teamId": 43717,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "30-second clock violation by LOYOLAM.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "12:14"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43717,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by LOYOLAM.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "12:14",
+              "teamId": 43833,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by ARMYWES good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "12:14"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43833,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by ARMYWES Gunnar Fellows (caused by Jake Wilson).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "11:10",
+              "teamId": 43717,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by LOYOLAM Chase Gregory.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "11:10"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "11:10",
+              "teamId": 43717,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by LOYOLAM failed.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "11:10"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43717,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by LOYOLAM Chase Gregory (caused by Hill Plunkett).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "10:21",
+              "teamId": 43833,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by ARMYWES Aiden Weisenborn WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "10:21"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "09:57",
+              "teamId": 43833,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by ARMYWES Aiden Weisenborn, SAVE Max Watkinson",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "09:57"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "09:51",
+              "teamId": 43833,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by ARMYWES Aiden Weisenborn.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "09:51"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "09:17",
+              "teamId": 43833,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by ARMYWES Hill Plunkett HIGH",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "09:17"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "09:10",
+              "teamId": 43833,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by ARMYWES Brayden Fountain WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "09:10"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "09:06",
+              "teamId": 43833,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by ARMYWES Gunnar Fellows.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "09:06"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "09:05",
+              "teamId": 43833,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by ARMYWES Cal Lambert, Assist by Evan Plunkett.",
+                  "homeScore": 11,
+                  "visitorScore": 4,
+                  "clock": "09:05"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "09:05",
+              "teamId": 43833,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Carson Hall vs Robert Simone won by ARMYWES (on faceoff violation).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "09:05"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:58",
+              "teamId": 43833,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by ARMYWES Gunnar Fellows, Assist by Mike Harney.",
+                  "homeScore": 12,
+                  "visitorScore": 4,
+                  "clock": "07:58"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:58",
+              "teamId": 43833,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Mason Graves vs Robert Simone won by ARMYWES, [07:58] Ground ball pickup by ARMYWES Grant Masterson.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "07:58"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:44",
+              "teamId": 43833,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by ARMYWES Brayden Fountain, SAVE Max Watkinson",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "07:44"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:37",
+              "teamId": 43717,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by LOYOLAM good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "07:37"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:07",
+              "teamId": 43717,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by LOYOLAM Kenan Everhart, Assist by Connor Wilbur.",
+                  "homeScore": 12,
+                  "visitorScore": 5,
+                  "clock": "07:07"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:07",
+              "teamId": 43833,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Mason Graves vs Robert Simone won by ARMYWES, [07:07] Ground ball pickup by ARMYWES Robert Simone.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "07:07"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "06:05",
+              "teamId": 43833,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by ARMYWES Aiden Weisenborn, SAVE Max Watkinson",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "06:05"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "06:02",
+              "teamId": 43717,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Penalty on LOYOLAM Mason Graves (PUSHING/1:00) Extra-man opportunity.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "06:02"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:47",
+              "teamId": 43833,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by ARMYWES Aiden Weisenborn HIT POST",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "05:47"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:33",
+              "teamId": 43833,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by ARMYWES Cal Lambert BLOCKED",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "05:33"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "04:56",
+              "teamId": 43833,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by ARMYWES Brayden Fountain, Assist by Evan Plunkett.",
+                  "homeScore": 13,
+                  "visitorScore": 5,
+                  "clock": "04:56"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "04:56",
+              "teamId": 43833,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Carson Hall vs Robert Simone won by ARMYWES (on faceoff violation).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "04:56"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:34",
+              "teamId": 43833,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by ARMYWES Tyler Clark WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "03:34"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:29",
+              "teamId": 43717,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by LOYOLAM good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "03:29"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:42",
+              "teamId": 43717,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by LOYOLAM Matthew Minicus, SAVE Sean Byrne",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "02:42"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:38",
+              "teamId": 43717,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by LOYOLAM Luke Murphy.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "02:38"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:27",
+              "teamId": 43717,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by LOYOLAM Mason Cook, SAVE Sean Byrne",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "02:27"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:24",
+              "teamId": 43717,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by LOYOLAM Kenan Everhart.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "02:24"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43717,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by LOYOLAM Brady Quinn (caused by Sam Ralston).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:03",
+              "teamId": 43833,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by ARMYWES Sean Byrne.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "02:03"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:00",
+              "teamId": 43833,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by ARMYWES good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "02:00"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:13",
+              "teamId": 43833,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by ARMYWES Brayden Fountain BLOCKED",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "01:13"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:08",
+              "teamId": 43833,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by ARMYWES Gunnar Fellows.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "01:08"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43833,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by ARMYWES Evan Plunkett (caused by Jacob Sullivan).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:37",
+              "teamId": 43717,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by LOYOLAM good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:37"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43717,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by LOYOLAM Austin Cote.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:08",
+              "teamId": 43833,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by ARMYWES Sean Byrne.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:08"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:06",
+              "teamId": 43833,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by ARMYWES good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:06"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "__typename": "PlayByPlayDetails",
+          "periodNumber": 4,
+          "periodDisplay": "4th",
+          "playbyplayStats": [
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "15:00",
+              "teamId": 43833,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Carson Hall vs Caleb Caldwell won by ARMYWES, [15:00] Ground ball pickup by ARMYWES Caleb Caldwell.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "15:00"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43833,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by ARMYWES Caleb Caldwell.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "14:26",
+              "teamId": 43717,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by LOYOLAM Will Musgrove WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "14:26"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "14:18",
+              "teamId": 43717,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by LOYOLAM Kenan Everhart WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "14:18"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "13:59",
+              "teamId": 43717,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by LOYOLAM Luke Murphy WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "13:59"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43717,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by LOYOLAM Brady Quinn.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "13:35",
+              "teamId": 43833,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by ARMYWES Tommy Stines.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "13:35"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "12:29",
+              "teamId": 43833,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by ARMYWES Brayden Fountain BLOCKED",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "12:29"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "12:23",
+              "teamId": 43717,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by LOYOLAM Joe Houlihan.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "12:23"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "12:15",
+              "teamId": 43717,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by LOYOLAM Max Watkinson.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "12:15"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "12:12",
+              "teamId": 43717,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by LOYOLAM good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "12:12"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "11:15",
+              "teamId": 43717,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by LOYOLAM Kenan Everhart WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "11:15"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "11:02",
+              "teamId": 43717,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by LOYOLAM Connor Wilbur, SAVE Sean Byrne",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "11:02"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "10:57",
+              "teamId": 43833,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by ARMYWES John Sullivan.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "10:57"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "10:54",
+              "teamId": 43833,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by ARMYWES good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "10:54"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "09:56",
+              "teamId": 43833,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by ARMYWES Ben Calabrese WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "09:56"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "09:49",
+              "teamId": 43717,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Penalty on LOYOLAM Joe Houlihan (TRIPPING/1:00) Extra-man opportunity.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "09:49"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "08:49",
+              "teamId": 43833,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by ARMYWES Cal Lambert (MAN-UP), Assist by Evan Plunkett.",
+                  "homeScore": 14,
+                  "visitorScore": 5,
+                  "clock": "08:49"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "08:49",
+              "teamId": 43833,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Aiden Kammerer vs Caleb Caldwell won by ARMYWES, [08:49] Ground ball pickup by ARMYWES Caleb Caldwell.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "08:49"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43833,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by ARMYWES Mike Harney (caused by Marek Seaman).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:04",
+              "teamId": 43717,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by LOYOLAM Marek Seaman.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "07:04"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:02",
+              "teamId": 43717,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by LOYOLAM good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "07:02"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "06:21",
+              "teamId": 43717,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by LOYOLAM Luke Murphy WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "06:21"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:56",
+              "teamId": 43717,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by LOYOLAM Luke Murphy, SAVE Sean Byrne",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "05:56"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:53",
+              "teamId": 43833,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by ARMYWES good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "05:53"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "04:42",
+              "teamId": 43833,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by ARMYWES Cal Lambert, SAVE Max Watkinson",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "04:42"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "04:38",
+              "teamId": 43717,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by LOYOLAM good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "04:38"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:56",
+              "teamId": 43717,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by LOYOLAM Luke Murphy, SAVE Sean Byrne",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "03:56"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:53",
+              "teamId": 43717,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by LOYOLAM Kenan Everhart.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "03:53"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:39",
+              "teamId": 43717,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by LOYOLAM Kenan Everhart WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "03:39"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:36",
+              "teamId": 43717,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Timeout by LOYOLAM.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "03:36"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:36",
+              "teamId": 43833,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Evan Richardson at goalie for ARMYWES.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "03:36"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:14",
+              "teamId": 43717,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by LOYOLAM Mason Cook, SAVE Evan Richardson",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "03:14"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:12",
+              "teamId": 43833,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Penalty on ARMYWES Will Gray (CROSS-CHECK/1:00) Extra-man opportunity.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "03:12"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:55",
+              "teamId": 43717,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by LOYOLAM Brady West WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "02:55"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:38",
+              "teamId": 43717,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by LOYOLAM Will McCulloch HIGH",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "02:38"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:30",
+              "teamId": 43717,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by LOYOLAM Henry Haberman HIT POST",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "02:30"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:25",
+              "teamId": 43717,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by LOYOLAM Joe Houlihan.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "02:25"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:12",
+              "teamId": 43717,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by LOYOLAM Matthew Minicus, SAVE Evan Richardson",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "02:12"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:09",
+              "teamId": 43717,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by LOYOLAM Henry Haberman.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "02:09"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:01",
+              "teamId": 43717,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by LOYOLAM Will McCulloch, Assist by Henry Haberman.",
+                  "homeScore": 14,
+                  "visitorScore": 6,
+                  "clock": "02:01"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:01",
+              "teamId": 43833,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Aiden Kammerer vs Caleb Caldwell won by ARMYWES, [02:01] Ground ball pickup by ARMYWES Caleb Caldwell.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "02:01"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43833,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by ARMYWES Gus Bell (caused by Matthew Everson).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:20",
+              "teamId": 43717,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by LOYOLAM Matthew Everson.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "01:20"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:18",
+              "teamId": 43717,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by LOYOLAM good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "01:18"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:56",
+              "teamId": 43717,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by LOYOLAM Henry Haberman, Assist by Mason Cook.",
+                  "homeScore": 14,
+                  "visitorScore": 7,
+                  "clock": "00:56"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:56",
+              "teamId": 43833,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Carson Hall vs Caleb Caldwell won by ARMYWES, [00:56] Ground ball pickup by ARMYWES Caleb Caldwell.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:56"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43833,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by ARMYWES Caleb Caldwell (caused by Aidan Hevia).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:13",
+              "teamId": 43717,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by LOYOLAM Aidan Hevia.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:13"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:03",
+              "teamId": 43717,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by LOYOLAM Mason Cook, SAVE Evan Richardson",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:03"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

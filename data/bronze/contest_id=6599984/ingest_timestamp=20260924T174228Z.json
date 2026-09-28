@@ -1,0 +1,4059 @@
+{
+  "data": {
+    "playbyplay": {
+      "__typename": "PlayByPlay",
+      "contestId": 6599984,
+      "title": "MLA PLAY-BY-PLAY",
+      "description": "Virginia vs Georgetown",
+      "divisionName": "d1",
+      "status": "final",
+      "period": 4,
+      "minutes": "",
+      "seconds": "",
+      "teams": [
+        {
+          "__typename": "ContestTeam",
+          "isHome": true,
+          "teamId": "43768",
+          "seoname": "virginia",
+          "name6Char": "UVA",
+          "nameShort": "Virginia",
+          "nameFull": "University of Virginia",
+          "teamName": "Cavaliers",
+          "color": "#232D4B"
+        },
+        {
+          "__typename": "ContestTeam",
+          "isHome": false,
+          "teamId": "43915",
+          "seoname": "georgetown",
+          "name6Char": "GTOWN",
+          "nameShort": "Georgetown",
+          "nameFull": "Georgetown University",
+          "teamName": "Hoyas",
+          "color": "#141F35"
+        }
+      ],
+      "periods": [
+        {
+          "__typename": "PlayByPlayDetails",
+          "periodNumber": 1,
+          "periodDisplay": "1st",
+          "playbyplayStats": [
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "15:00",
+              "teamId": 43915,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Anderson Moore at goalie for GEORGETO.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "15:00"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "15:00",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Jake Marek at goalie for VIRGINIA.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "15:00"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "15:00",
+              "teamId": 43915,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Ross Prince vs Griff Meyer won by GEORGETO, [15:00] Ground ball pickup by GEORGETO Ross Prince.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "15:00"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43915,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by GEORGETO Kevin Miller (caused by Jake Marek).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "14:06",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by VIRGINIA Jake Marek.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "14:06"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "14:04",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by VIRGINIA good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "14:04"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "14:04",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by VIRGINIA Lindan Verville (FIRST GOAL), Assist by Tommy Snyder, goal number 1 for season.",
+                  "homeScore": 1,
+                  "visitorScore": 0,
+                  "clock": "14:04"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "14:04",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Ross Prince vs Griff Meyer won by VIRGINIA, [14:04] Ground ball pickup by VIRGINIA Griff Meyer.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "14:04"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by VIRGINIA Truitt Sunderland (caused by Charlie McGurrin).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "13:31",
+              "teamId": 43915,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by GEORGETO Evan MacFarland.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "13:31"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "13:27",
+              "teamId": 43915,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by GEORGETO failed.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "13:27"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43915,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by GEORGETO Evan MacFarland (caused by Owen Crann).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "13:17",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by VIRGINIA Michael Meredith.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "13:17"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "13:13",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by VIRGINIA good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "13:13"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "12:38",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by VIRGINIA Ryan Colsey, Assist by Ryan Duenkel, goal number 35 for season.",
+                  "homeScore": 2,
+                  "visitorScore": 0,
+                  "clock": "12:38"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "12:38",
+              "teamId": 43915,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Ross Prince vs Griff Meyer won by GEORGETO, [12:38] Ground ball pickup by GEORGETO Johnny Price.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "12:38"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "11:58",
+              "teamId": 43915,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by GEORGETO Natty Mason, Assist by Lucas Dudemaine, goal number 11 for season.",
+                  "homeScore": 2,
+                  "visitorScore": 1,
+                  "clock": "11:58"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "11:58",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Ross Prince vs Griff Meyer won by VIRGINIA (on faceoff violation).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "11:58"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "11:30",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by VIRGINIA Will Inderlied, SAVE Anderson Moore",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "11:30"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "11:20",
+              "teamId": 43915,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by GEORGETO good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "11:20"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43915,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by GEORGETO Kevin Miller.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "10:32",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by VIRGINIA good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "10:32"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "09:39",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by VIRGINIA Brendan Millon BLOCKED",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "09:39"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "09:32",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by VIRGINIA Ryan Duenkel.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "09:32"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by VIRGINIA Ryan Duenkel.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "08:14",
+              "teamId": 43915,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by GEORGETO Jack Schubert BLOCKED",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "08:14"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "08:07",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by VIRGINIA good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "08:07"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:56",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by VIRGINIA Brendan Millon, SAVE Anderson Moore",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "07:56"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:29",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by VIRGINIA Brendan Millon HIT CROSSBAR",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "07:29"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:26",
+              "teamId": 43915,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by GEORGETO good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "07:26"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "06:46",
+              "teamId": 43915,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by GEORGETO Kevin Miller.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "06:46"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "06:46",
+              "teamId": 43915,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by GEORGETO Kevin Miller, SAVE Jake Marek",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "06:46"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "06:45",
+              "teamId": 43915,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by GEORGETO Jack Ransom.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "06:45"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "06:44",
+              "teamId": 43915,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by GEORGETO Jack Ransom, goal number 19 for season.",
+                  "homeScore": 2,
+                  "visitorScore": 2,
+                  "clock": "06:44"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43915,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Media Timeout",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "06:44",
+              "teamId": 43915,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Hayden Cody vs Griff Meyer won by GEORGETO, [06:44] Ground ball pickup by GEORGETO Joe Vranizan.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "06:44"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:38",
+              "teamId": 43915,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by GEORGETO Rory Connor, Assist by Natty Mason, goal number 51 for season.",
+                  "homeScore": 2,
+                  "visitorScore": 3,
+                  "clock": "05:38"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:38",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Ross Prince vs Andrew Greenspan won by VIRGINIA.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "05:38"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:00",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by VIRGINIA Andrew Greenspan.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "05:00"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "04:59",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by VIRGINIA McCabe Millon BLOCKED",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "04:59"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "04:31",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by VIRGINIA Ryan Duenkel BLOCKED",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "04:31"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "04:27",
+              "teamId": 43915,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by GEORGETO Ross Prince.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "04:27"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43915,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by GEORGETO Ross Prince.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:49",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by VIRGINIA Ryan Colsey, SAVE Anderson Moore",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "03:49"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:47",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by VIRGINIA Brendan Millon.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "03:47"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:46",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by VIRGINIA Brendan Millon, goal number 34 for season.",
+                  "homeScore": 3,
+                  "visitorScore": 3,
+                  "clock": "03:46"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:46",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Ross Prince vs Andrew Greenspan won by VIRGINIA, [03:46] Ground ball pickup by VIRGINIA Wills Burt.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "03:46"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:58",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by VIRGINIA Chase Band, Assist by McCabe Millon, goal number 16 for season.",
+                  "homeScore": 4,
+                  "visitorScore": 3,
+                  "clock": "02:58"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:58",
+              "teamId": 43915,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Ross Prince vs Andrew Greenspan won by GEORGETO, [02:58] Ground ball pickup by GEORGETO Ty Banks.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "02:58"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:48",
+              "teamId": 43915,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by GEORGETO good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "02:48"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:10",
+              "teamId": 43915,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by GEORGETO Kevin Miller, SAVE Jake Marek",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "02:10"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:05",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by VIRGINIA Aidan Murnane.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "02:05"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:03",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by VIRGINIA good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "02:03"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:51",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by VIRGINIA Truitt Sunderland, Assist by Brendan Millon, goal number 50 for season.",
+                  "homeScore": 5,
+                  "visitorScore": 3,
+                  "clock": "01:51"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:51",
+              "teamId": 43915,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Ross Prince vs Griff Meyer won by GEORGETO, [01:51] Ground ball pickup by GEORGETO Ross Prince.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "01:51"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:46",
+              "teamId": 43915,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by GEORGETO Ross Prince WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "01:46"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:59",
+              "teamId": 43915,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by GEORGETO Natty Mason WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:59"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43915,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by GEORGETO Natty Mason (caused by Robby Hopper).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:34",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by VIRGINIA Robby Hopper.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:34"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:32",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by VIRGINIA good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:32"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:14",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by VIRGINIA Brendan Millon, SAVE Anderson Moore",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:14"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:09",
+              "teamId": 43915,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by GEORGETO good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:09"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:02",
+              "teamId": 43915,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by GEORGETO Joe Vranizan WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:02"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:00",
+              "teamId": 43915,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "End-of-period.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:00"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "__typename": "PlayByPlayDetails",
+          "periodNumber": 2,
+          "periodDisplay": "2nd",
+          "playbyplayStats": [
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "15:00",
+              "teamId": 43915,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "15:00"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "15:00",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Ross Prince vs Andrew Greenspan won by VIRGINIA, [15:00] Ground ball pickup by VIRGINIA Michael Meredith.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "15:00"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "14:25",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by VIRGINIA failed.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "14:25"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "14:22",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by VIRGINIA Joey Terenzi.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "14:22"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by VIRGINIA Joey Terenzi.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "14:17",
+              "teamId": 43915,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by GEORGETO Liam Connor.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "14:17"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "13:02",
+              "teamId": 43915,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by GEORGETO Jake Bickel, SAVE Jake Marek",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "13:02"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "12:50",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by VIRGINIA Jake Marek.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "12:50"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "12:48",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by VIRGINIA good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "12:48"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by VIRGINIA Robby Hopper.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "12:32",
+              "teamId": 43915,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by GEORGETO good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "12:32"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "11:43",
+              "teamId": 43915,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by GEORGETO Lucas Dudemaine WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "11:43"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43915,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by GEORGETO Joe Cesare (caused by Wills Burt).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "11:22",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by VIRGINIA Michael Meredith.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "11:22"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "11:19",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by VIRGINIA Owen Crann, goal number 2 for season.",
+                  "homeScore": 6,
+                  "visitorScore": 3,
+                  "clock": "11:19"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "11:19",
+              "teamId": 43915,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Ross Prince vs Christian Grosso won by GEORGETO, [11:19] Ground ball pickup by GEORGETO Evan MacFarland.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "11:19"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "11:00",
+              "teamId": 43915,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by GEORGETO Rory Connor, goal number 7 for season.",
+                  "homeScore": 6,
+                  "visitorScore": 4,
+                  "clock": "11:00"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "11:00",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Ross Prince vs Andrew Greenspan won by VIRGINIA, [11:00] Ground ball pickup by VIRGINIA Andrew Greenspan.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "11:00"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "10:50",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by VIRGINIA good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "10:50"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "09:56",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by VIRGINIA Brendan Millon WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "09:56"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "09:42",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by VIRGINIA Ryan Colsey, SAVE Anderson Moore",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "09:42"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "09:40",
+              "teamId": 43915,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by GEORGETO Anderson Moore.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "09:40"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "09:37",
+              "teamId": 43915,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by GEORGETO good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "09:37"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "09:32",
+              "teamId": 43915,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by GEORGETO Joe Vranizan, Assist by Jack Ransom, goal number 2 for season.",
+                  "homeScore": 6,
+                  "visitorScore": 5,
+                  "clock": "09:32"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "09:32",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Ross Prince vs Andrew Greenspan won by VIRGINIA, [09:32] Ground ball pickup by VIRGINIA John Schroter.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "09:32"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "09:15",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by VIRGINIA good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "09:15"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by VIRGINIA McCabe Millon.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "08:32",
+              "teamId": 43915,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Penalty on GEORGETO Robert Plath (SLASHING/1:00) Extra-man opportunity.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "08:32"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "08:30",
+              "teamId": 43915,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by GEORGETO Anderson Moore.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "08:30"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "08:18",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by VIRGINIA Ryan Colsey (MAN-UP), Assist by Ryan Duenkel, goal number 36 for season.",
+                  "homeScore": 7,
+                  "visitorScore": 5,
+                  "clock": "08:18"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "08:18",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Ross Prince vs Griff Meyer won by VIRGINIA, [08:18] Ground ball pickup by VIRGINIA Griff Meyer.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "08:18"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "08:10",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by VIRGINIA Griff Meyer, SAVE Anderson Moore",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "08:10"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "08:06",
+              "teamId": 43915,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by GEORGETO Charlie McGurrin.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "08:06"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "08:00",
+              "teamId": 43915,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by GEORGETO Evan MacFarland.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "08:00"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:56",
+              "teamId": 43915,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by GEORGETO good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "07:56"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43915,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by GEORGETO Jake Bickel.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:16",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by VIRGINIA Jake Marek.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "07:16"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:15",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by VIRGINIA good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "07:15"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:09",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by VIRGINIA Hudson Hausmann BLOCKED",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "07:09"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:07",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by VIRGINIA Truitt Sunderland.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "07:07"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:05",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by VIRGINIA Truitt Sunderland, SAVE Anderson Moore",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "07:05"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:02",
+              "teamId": 43915,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by GEORGETO Kevin Miller.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "07:02"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "06:58",
+              "teamId": 43915,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by GEORGETO good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "06:58"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "06:06",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Penalty on VIRGINIA Brendan Millon (SLASHING/1:00) Extra-man opportunity.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "06:06"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:44",
+              "teamId": 43915,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by GEORGETO Jack Ransom.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "05:44"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:39",
+              "teamId": 43915,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by GEORGETO Jack Schubert (MAN-UP), Assist by Liam Connor, goal number 18 for season.",
+                  "homeScore": 7,
+                  "visitorScore": 6,
+                  "clock": "05:39"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43915,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Media Timeout",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:39",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Hayden Cody vs Andrew Greenspan won by VIRGINIA, [05:39] Ground ball pickup by VIRGINIA Andrew Greenspan.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "05:39"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by VIRGINIA Andrew Greenspan (caused by Ty Banks).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:26",
+              "teamId": 43915,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by GEORGETO Robert Plath.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "05:26"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:19",
+              "teamId": 43915,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by GEORGETO good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "05:19"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "04:18",
+              "teamId": 43915,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by GEORGETO Natty Mason.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "04:18"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "04:15",
+              "teamId": 43915,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by GEORGETO Natty Mason, SAVE Jake Marek",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "04:15"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "04:10",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Timeout by VIRGINIA.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "04:10"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:30",
+              "teamId": 43915,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by GEORGETO Rory Connor WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "03:30"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:13",
+              "teamId": 43915,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by GEORGETO Kevin Miller, SAVE Jake Marek",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "03:13"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:07",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by VIRGINIA Jake Marek.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "03:07"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:04",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by VIRGINIA good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "03:04"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:36",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by VIRGINIA Ryan Colsey WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "02:36"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:27",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by VIRGINIA Ryan Colsey HIGH",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "02:27"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by VIRGINIA McCabe Millon.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:21",
+              "teamId": 43915,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by GEORGETO good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "02:21"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:13",
+              "teamId": 43915,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by GEORGETO Anderson Moore HIGH",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "02:13"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:02",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by VIRGINIA good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "02:02"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:29",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by VIRGINIA Brendan Millon, SAVE Anderson Moore",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "01:29"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by VIRGINIA McCabe Millon.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:31",
+              "teamId": 43915,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Timeout by GEORGETO.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:31"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:21",
+              "teamId": 43915,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by GEORGETO Jack Schubert, Assist by Jake Bickel, goal number 19 for season.",
+                  "homeScore": 7,
+                  "visitorScore": 7,
+                  "clock": "00:21"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:21",
+              "teamId": 43915,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Ross Prince vs Andrew Greenspan won by GEORGETO, [00:21] Ground ball pickup by GEORGETO Ross Prince.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:21"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:18",
+              "teamId": 43915,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by GEORGETO Jack Ransom WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:18"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:17",
+              "teamId": 43915,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Timeout by GEORGETO.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:17"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:08",
+              "teamId": 43915,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by GEORGETO Jake Bickel, goal number 18 for season.",
+                  "homeScore": 7,
+                  "visitorScore": 8,
+                  "clock": "00:08"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:08",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Ross Prince vs Griff Meyer won by VIRGINIA, [00:08] Ground ball pickup by VIRGINIA Griff Meyer.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:08"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:00",
+              "teamId": 43915,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "End-of-period.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:00"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "__typename": "PlayByPlayDetails",
+          "periodNumber": 3,
+          "periodDisplay": "3rd",
+          "playbyplayStats": [
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "15:00",
+              "teamId": 43915,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "15:00"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "15:00",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Ross Prince vs Griff Meyer won by VIRGINIA, [15:00] Ground ball pickup by VIRGINIA John Schroter.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "15:00"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "14:38",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by VIRGINIA good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "14:38"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "14:09",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by VIRGINIA Ryan Colsey, SAVE Anderson Moore",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "14:09"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "14:06",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by VIRGINIA Ryan Colsey.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "14:06"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "13:53",
+              "teamId": 43915,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Penalty on GEORGETO Robert Plath (HOLDING/0:30) Extra-man opportunity.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "13:53"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "13:41",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by VIRGINIA Truitt Sunderland, SAVE Anderson Moore",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "13:41"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "13:30",
+              "teamId": 43915,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by GEORGETO Charlie McGurrin.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "13:30"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "13:22",
+              "teamId": 43915,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by GEORGETO good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "13:22"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43915,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by GEORGETO Jake Bickel.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "12:35",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by VIRGINIA good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "12:35"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by VIRGINIA.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "12:14",
+              "teamId": 43915,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by GEORGETO Jack Schubert, Assist by Evan MacFarland, goal number 20 for season.",
+                  "homeScore": 7,
+                  "visitorScore": 9,
+                  "clock": "12:14"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "12:14",
+              "teamId": 43915,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Ross Prince vs Griff Meyer won by GEORGETO (on faceoff violation).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "12:14"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "11:22",
+              "teamId": 43915,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by GEORGETO Lucas Dudemaine WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "11:22"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43915,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by GEORGETO Lucas Dudemaine.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by VIRGINIA Brendan Millon (caused by Ty Banks).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "10:09",
+              "teamId": 43915,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by GEORGETO Ty Banks.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "10:09"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "10:08",
+              "teamId": 43915,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by GEORGETO good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "10:08"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "09:35",
+              "teamId": 43915,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by GEORGETO Jake Bickel.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "09:35"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "09:29",
+              "teamId": 43915,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by GEORGETO Jack Schubert, SAVE Jake Marek",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "09:29"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43915,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by GEORGETO Jack Schubert (caused by Tommy Snyder).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "09:11",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by VIRGINIA Tommy Snyder.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "09:11"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "09:09",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by VIRGINIA good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "09:09"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "08:41",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by VIRGINIA Brendan Millon WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "08:41"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by VIRGINIA McCabe Millon (caused by Ty Banks).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "08:13",
+              "teamId": 43915,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by GEORGETO Johnny Price.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "08:13"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "08:07",
+              "teamId": 43915,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by GEORGETO good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "08:07"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:12",
+              "teamId": 43915,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by GEORGETO Rory Connor, SAVE Jake Marek",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "07:12"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:07",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by VIRGINIA Lindan Verville.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "07:07"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:05",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by VIRGINIA good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "07:05"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "06:57",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by VIRGINIA Ryan Colsey.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "06:57"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "06:55",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by VIRGINIA Ryan Colsey, SAVE Anderson Moore",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "06:55"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "06:52",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by VIRGINIA Brendan Millon.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "06:52"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "06:42",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by VIRGINIA Robby Hopper WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "06:42"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by VIRGINIA Ryan Colsey.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "06:32",
+              "teamId": 43915,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by GEORGETO George Acton.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "06:32"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:41",
+              "teamId": 43915,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by GEORGETO Jake Bickel.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "05:41"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:22",
+              "teamId": 43915,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by GEORGETO Jake Bickel WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "05:22"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:22",
+              "teamId": 43915,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by GEORGETO Jack Ransom, Assist by Liam Connor, goal number 21 for season.",
+                  "homeScore": 7,
+                  "visitorScore": 10,
+                  "clock": "05:22"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43915,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Media Timeout",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:22",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Ross Prince vs Andrew Greenspan won by VIRGINIA, [05:22] Ground ball pickup by VIRGINIA Robby Hopper.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "05:22"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "04:37",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by VIRGINIA Ryan Colsey.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "04:37"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by VIRGINIA Brendan Millon.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "04:15",
+              "teamId": 43915,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by GEORGETO failed.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "04:15"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43915,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by GEORGETO Charlie McGurrin.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:59",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by VIRGINIA Michael Meredith.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "03:59"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:55",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by VIRGINIA good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "03:55"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by VIRGINIA Brendan Millon (caused by Joe Vranizan).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:22",
+              "teamId": 43915,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by GEORGETO Ty Banks.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "03:22"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:18",
+              "teamId": 43915,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by GEORGETO failed.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "03:18"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43915,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by GEORGETO Ty Banks (caused by Aidan Murnane).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:16",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by VIRGINIA good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "03:16"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:12",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by VIRGINIA John Schroter.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "03:12"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:11",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by VIRGINIA Truitt Sunderland, Assist by Joey Terenzi, goal number 51 for season.",
+                  "homeScore": 8,
+                  "visitorScore": 10,
+                  "clock": "03:11"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:11",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Ross Prince vs Griff Meyer won by VIRGINIA, [03:11] Ground ball pickup by VIRGINIA Wills Burt.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "03:11"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:56",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by VIRGINIA Wills Burt WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "02:56"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:49",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by VIRGINIA McCabe Millon HIGH",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "02:49"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:20",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by VIRGINIA Chase Band, SAVE Anderson Moore",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "02:20"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:16",
+              "teamId": 43915,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by GEORGETO failed.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "02:16"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43915,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by GEORGETO Ty Banks.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:55",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by VIRGINIA good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "01:55"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by VIRGINIA Joey Terenzi.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:15",
+              "teamId": 43915,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by GEORGETO Charlie McGurrin.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "01:15"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:13",
+              "teamId": 43915,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by GEORGETO good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "01:13"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43915,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by GEORGETO.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:56",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by VIRGINIA good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:56"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:19",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by VIRGINIA McCabe Millon, Assist by Brendan Millon, goal number 45 for season.",
+                  "homeScore": 9,
+                  "visitorScore": 10,
+                  "clock": "00:19"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:19",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Ross Prince vs Griff Meyer won by VIRGINIA, [00:19] Ground ball pickup by VIRGINIA Aidan Murnane.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:19"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:05",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by VIRGINIA good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:05"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:03",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by VIRGINIA Brendan Millon, SAVE Anderson Moore",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:03"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:00",
+              "teamId": 43915,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "End-of-period.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:00"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "__typename": "PlayByPlayDetails",
+          "periodNumber": 4,
+          "periodDisplay": "4th",
+          "playbyplayStats": [
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "15:00",
+              "teamId": 43915,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "15:00"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "15:00",
+              "teamId": 43915,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Ross Prince vs Griff Meyer won by GEORGETO, [15:00] Ground ball pickup by GEORGETO Evan MacFarland.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "15:00"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "14:43",
+              "teamId": 43915,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by GEORGETO failed.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "14:43"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43915,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by GEORGETO Anderson Moore.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "14:38",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by VIRGINIA good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "14:38"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "14:38",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by VIRGINIA Joey Terenzi.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "14:38"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "14:25",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by VIRGINIA Truitt Sunderland WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "14:25"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by VIRGINIA Brendan Millon.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "13:57",
+              "teamId": 43915,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by GEORGETO good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "13:57"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "13:19",
+              "teamId": 43915,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by GEORGETO Jake Bickel WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "13:19"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43915,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by GEORGETO Liam Connor (caused by John Schroter).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "12:25",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by VIRGINIA Ryan Duenkel HIGH",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "12:25"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "11:56",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by VIRGINIA McCabe Millon.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "11:56"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by VIRGINIA McCabe Millon.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "11:43",
+              "teamId": 43915,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by GEORGETO Charlie McGurrin.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "11:43"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "11:38",
+              "teamId": 43915,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by GEORGETO Charlie McGurrin WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "11:38"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43915,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by GEORGETO Jack Schubert.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "11:22",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by VIRGINIA good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "11:22"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "10:33",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by VIRGINIA McCabe Millon HIGH",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "10:33"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "10:24",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by VIRGINIA Will Inderlied.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "10:24"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "10:18",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by VIRGINIA Joey Terenzi, SAVE Anderson Moore",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "10:18"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "10:15",
+              "teamId": 43915,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by GEORGETO Anderson Moore.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "10:15"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43915,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by GEORGETO.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "09:43",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by VIRGINIA McCabe Millon WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "09:43"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "09:40",
+              "teamId": 43915,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by GEORGETO failed.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "09:40"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43915,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by GEORGETO Joe Cesare (caused by John Schroter).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "09:19",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by VIRGINIA Michael Meredith.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "09:19"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by VIRGINIA.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "09:08",
+              "teamId": 43915,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by GEORGETO Joe Cesare, SAVE Jake Marek",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "09:08"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "08:50",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by VIRGINIA failed.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "08:50"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by VIRGINIA.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "08:47",
+              "teamId": 43915,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by GEORGETO Jack Schubert WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "08:47"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "08:02",
+              "teamId": 43915,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by GEORGETO Jack Ransom, goal number 22 for season.",
+                  "homeScore": 9,
+                  "visitorScore": 11,
+                  "clock": "08:02"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "08:02",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Ross Prince vs Andrew Greenspan won by VIRGINIA, [08:02] Ground ball pickup by VIRGINIA Andrew Greenspan.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "08:02"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:50",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by VIRGINIA good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "07:50"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "06:50",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by VIRGINIA Will Inderlied BLOCKED",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "06:50"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "06:47",
+              "teamId": 43915,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by GEORGETO Anderson Moore.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "06:47"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "06:45",
+              "teamId": 43915,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by GEORGETO good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "06:45"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "06:32",
+              "teamId": 43915,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by GEORGETO Liam Connor.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "06:32"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:43",
+              "teamId": 43915,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by GEORGETO Kevin Miller, SAVE Jake Marek",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "05:43"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:37",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by VIRGINIA good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "05:37"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:10",
+              "teamId": 43915,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Penalty on GEORGETO Rory Connor (OFFSIDE/0:30) Extra-man opportunity.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "05:10"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:10",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by VIRGINIA McCabe Millon BLOCKED",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "05:10"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "04:51",
+              "teamId": 43915,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by GEORGETO good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "04:51"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "04:09",
+              "teamId": 43915,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by GEORGETO Liam Connor, Assist by Rory Connor, goal number 22 for season.",
+                  "homeScore": 9,
+                  "visitorScore": 12,
+                  "clock": "04:09"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43915,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Media Timeout",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "04:09",
+              "teamId": 43915,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Ross Prince vs Andrew Greenspan won by GEORGETO, [04:09] Ground ball pickup by GEORGETO Ross Prince.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "04:09"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:53",
+              "teamId": 43915,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Timeout by GEORGETO.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "03:53"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:43",
+              "teamId": 43915,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by GEORGETO Liam Connor.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "03:43"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:20",
+              "teamId": 43915,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by GEORGETO Rory Connor, goal number 53 for season.",
+                  "homeScore": 9,
+                  "visitorScore": 13,
+                  "clock": "03:20"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:20",
+              "teamId": 43915,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Ross Prince vs Griff Meyer won by GEORGETO, [03:20] Ground ball pickup by GEORGETO Joe Vranizan.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "03:20"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:19",
+              "teamId": 43915,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by GEORGETO Joe Vranizan.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "03:19"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:02",
+              "teamId": 43915,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by GEORGETO good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "03:02"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:59",
+              "teamId": 43915,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by GEORGETO Charlie McGurrin, Assist by Joe Vranizan, goal number 2 for season.",
+                  "homeScore": 9,
+                  "visitorScore": 14,
+                  "clock": "02:59"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:59",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Ross Prince vs Andrew Greenspan won by VIRGINIA, [02:59] Ground ball pickup by VIRGINIA Andrew Greenspan.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "02:59"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:55",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by VIRGINIA Joey Terenzi WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "02:55"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:45",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by VIRGINIA Robby Hopper, Assist by McCabe Millon, goal number 3 for season.",
+                  "homeScore": 10,
+                  "visitorScore": 14,
+                  "clock": "02:45"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:45",
+              "teamId": 43915,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Ross Prince vs Andrew Greenspan won by GEORGETO, [02:45] Ground ball pickup by GEORGETO Ross Prince.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "02:45"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43915,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by GEORGETO Ross Prince.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:24",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by VIRGINIA failed.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "02:24"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by VIRGINIA.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:28",
+              "teamId": 43915,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Timeout by GEORGETO.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "01:28"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43915,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by GEORGETO Jake Bickel (caused by John Schroter).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:17",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by VIRGINIA Robby Hopper.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "01:17"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:15",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by VIRGINIA good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "01:15"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by VIRGINIA McCabe Millon.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:51",
+              "teamId": 43915,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by GEORGETO Anderson Moore.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:51"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:49",
+              "teamId": 43915,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by GEORGETO failed.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:49"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43915,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by GEORGETO Rory Connor (caused by Hudson Hausmann).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:41",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by VIRGINIA good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:41"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:32",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by VIRGINIA Joey Terenzi.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:32"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:27",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by VIRGINIA Owen Crann, SAVE Anderson Moore",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:27"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:22",
+              "teamId": 43915,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by GEORGETO Evan MacFarland.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:22"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:09",
+              "teamId": 43915,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by GEORGETO good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:09"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:00",
+              "teamId": 43915,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "End-of-period.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:00"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,17 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Testing and cache
+.pytest_cache/
+
+# Generated data directories (Delta Lake & Parquet layers)
+data/silver/
+data/gold/

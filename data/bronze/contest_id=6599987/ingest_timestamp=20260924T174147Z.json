@@ -1,0 +1,3730 @@
+{
+  "data": {
+    "playbyplay": {
+      "__typename": "PlayByPlay",
+      "contestId": 6599987,
+      "title": "MLA PLAY-BY-PLAY",
+      "description": "Cornell vs Johns Hopkins",
+      "divisionName": "d1",
+      "status": "final",
+      "period": 5,
+      "minutes": "",
+      "seconds": "",
+      "teams": [
+        {
+          "__typename": "ContestTeam",
+          "isHome": true,
+          "teamId": "43713",
+          "seoname": "cornell",
+          "name6Char": "CORN",
+          "nameShort": "Cornell",
+          "nameFull": "Cornell University",
+          "teamName": "Big Red",
+          "color": "#B32025"
+        },
+        {
+          "__typename": "ContestTeam",
+          "isHome": false,
+          "teamId": "43920",
+          "seoname": "johns-hopkins",
+          "name6Char": "HOPKNS",
+          "nameShort": "Johns Hopkins",
+          "nameFull": "Johns Hopkins University",
+          "teamName": "Blue Jays",
+          "color": "#6CACE4"
+        }
+      ],
+      "periods": [
+        {
+          "__typename": "PlayByPlayDetails",
+          "periodNumber": 1,
+          "periodDisplay": "1st",
+          "playbyplayStats": [
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "15:00",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Oran Gelinas at goalie for JHU.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "15:00"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "15:00",
+              "teamId": 43713,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Tully, Matthew at goalie for COR.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "15:00"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "15:00",
+              "teamId": 43713,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Joe Hobot vs Cascadden, Jack won by COR, [15:00] Ground ball pickup by COR Cascadden, Jack.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "15:00"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "14:21",
+              "teamId": 43713,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by COR Nikolic, AJ (FIRST GOAL), goal number 6 for season.",
+                  "homeScore": 1,
+                  "visitorScore": 0,
+                  "clock": "14:21"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "14:21",
+              "teamId": 43713,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Joe Hobot vs Cascadden, Jack won by COR, [14:21] Ground ball pickup by COR Cascadden, Jack.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "14:21"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "14:13",
+              "teamId": 43713,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by COR Goldstein, Ryan WIDE.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "14:13"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "14:07",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by JHU Oran Gelinas.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "14:07"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "14:04",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by JHU failed.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "14:04"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "14:01",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by JHU Oran Gelinas (caused by Firth, Willem).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "14:01"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "13:53",
+              "teamId": 43713,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by COR Nurry, Rowyn (caused by Luke Martin).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "13:53"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "13:36",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by JHU good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "13:36"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "13:13",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by JHU Charlie Iler, goal number 14 for season.",
+                  "homeScore": 1,
+                  "visitorScore": 1,
+                  "clock": "13:13"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "13:13",
+              "teamId": 43713,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Carter Kryszak vs Cascadden, Jack won by COR, [13:13] Ground ball pickup by COR Cascadden, Jack.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "13:13"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "12:31",
+              "teamId": 43713,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by COR Firth, Willem.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "12:31"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "12:13",
+              "teamId": 43713,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by COR Nurry, Rowyn.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "12:13"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "11:57",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by JHU good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "11:57"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "11:03",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by JHU David Disque.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "11:03"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "11:01",
+              "teamId": 43713,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by COR Marshall, Michael.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "11:01"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "10:57",
+              "teamId": 43713,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by COR good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "10:57"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "10:32",
+              "teamId": 43713,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by COR Waldman, Ryan, SAVE Oran Gelinas.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "10:32"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "10:16",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by JHU Carson Brown.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "10:16"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "10:10",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by JHU good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "10:10"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "09:29",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by JHU Hunter Chauvette, SAVE Tully, Matthew.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "09:29"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "09:16",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by JHU Brooks English.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "09:16"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "09:14",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by JHU Brooks English (caused by Lamb, TJ).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "09:14"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "09:11",
+              "teamId": 43713,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by COR Staub, Brendan.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "09:11"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "09:06",
+              "teamId": 43713,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by COR failed.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "09:06"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "09:05",
+              "teamId": 43713,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by COR Lamb, TJ.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "09:05"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "08:58",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by JHU Chuck Rawson.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "08:58"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "08:57",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by JHU good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "08:57"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "08:18",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by JHU.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "08:18"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "08:15",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by JHU Matt Collison (caused by Staub, Brendan).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "08:15"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "08:12",
+              "teamId": 43713,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by COR Gilmartin, Luke.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "08:12"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "08:10",
+              "teamId": 43713,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by COR good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "08:10"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "08:08",
+              "teamId": 43713,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by COR Nurry, Rowyn, Assist by Goldstein, Ryan, goal number 15 for season.",
+                  "homeScore": 2,
+                  "visitorScore": 1,
+                  "clock": "08:08"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "08:08",
+              "teamId": 43713,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Joe Hobot vs Cascadden, Jack won by COR, [08:08] Ground ball pickup by COR Cascadden, Jack.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "08:08"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:55",
+              "teamId": 43713,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by COR good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "07:55"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:11",
+              "teamId": 43713,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by COR Firth, Willem.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "07:11"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:05",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by JHU good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "07:05"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "06:49",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by JHU Hunter Chauvette HIGH.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "06:49"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "06:21",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by JHU David Disque.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "06:21"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "06:11",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by JHU Erik Chick HIGH.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "06:11"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "06:12",
+              "teamId": 43713,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Penalty on COR Lamb, TJ (PUSHING/0:30) Extra-man opportunity.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "06:12"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "06:12",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by JHU Jimmy Ayers, SAVE Tully, Matthew.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "06:12"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:40",
+              "teamId": 43713,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by COR good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "05:40"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:07",
+              "teamId": 43713,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by COR Nurry, Rowyn, SAVE Oran Gelinas.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "05:07"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "04:53",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by JHU Carmelo Pace.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "04:53"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "04:51",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by JHU good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "04:51"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "04:44",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by JHU Hunter Chauvette.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "04:44"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:46",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by JHU Chuck Rawson WIDE.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "03:46"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:35",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by JHU Matt Collison, SAVE Tully, Matthew.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "03:35"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:33",
+              "teamId": 43713,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by COR Staub, Brendan.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "03:33"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:28",
+              "teamId": 43713,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by COR good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "03:28"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:07",
+              "teamId": 43713,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by COR Goldstein, Ryan, goal number 34 for season.",
+                  "homeScore": 3,
+                  "visitorScore": 1,
+                  "clock": "03:07"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:07",
+              "teamId": 43713,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Media timeout.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "03:07"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:07",
+              "teamId": 43713,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Dan Sheppard vs Cascadden, Jack won by COR, [03:07] Ground ball pickup by COR Cascadden, Jack.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "03:07"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:57",
+              "teamId": 43713,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by COR Cascadden, Jack WIDE.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "02:57"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:41",
+              "teamId": 43713,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by COR Robinson, Luke (caused by Warry Colhoun).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "02:41"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:25",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by JHU failed.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "02:25"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:25",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by JHU Oran Gelinas (caused by Goldstein, Ryan).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "02:25"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:19",
+              "teamId": 43713,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by COR Goldstein, Ryan.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "02:19"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:16",
+              "teamId": 43713,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by COR Goldstein, Ryan (caused by Reece DiCicco).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "02:16"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:14",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by JHU Reece DiCicco.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "02:14"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:11",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by JHU good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "02:11"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:14",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by JHU Charlie Iler, SAVE Tully, Matthew.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "01:14"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:13",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by JHU Jameson Smith.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "01:13"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:13",
+              "teamId": 43713,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Penalty on COR Marshall, Michael (PUSHING/0:30) Extra-man opportunity.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "01:13"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:47",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by JHU Brooks English (MAN-UP), Assist by Charlie Iler, goal number 7 for season.",
+                  "homeScore": 3,
+                  "visitorScore": 2,
+                  "clock": "00:47"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:47",
+              "teamId": 43713,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Joe Hobot vs Cascadden, Jack won by COR, [00:47] Ground ball pickup by COR Cascadden, Jack.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:47"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:06",
+              "teamId": 43713,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by COR Waldman, Ryan WIDE.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:06"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:00",
+              "teamId": 43713,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by COR Goldstein, Ryan WIDE.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:00"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:00",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "End-of-period.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:00"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "__typename": "PlayByPlayDetails",
+          "periodNumber": 2,
+          "periodDisplay": "2nd",
+          "playbyplayStats": [
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "15:00",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Start of 2nd period.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "15:00"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "15:00",
+              "teamId": 43713,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Carter Kryszak vs Cascadden, Jack won by COR, [15:00] Ground ball pickup by COR Cascadden, Jack.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "15:00"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "14:45",
+              "teamId": 43713,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by COR good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "14:45"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "14:13",
+              "teamId": 43713,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by COR Cascadden, Jack HIGH.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "14:13"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "14:02",
+              "teamId": 43713,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by COR Nikolic, AJ.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "14:02"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "13:50",
+              "teamId": 43713,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by COR Luzzi, Brian HIGH.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "13:50"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "13:38",
+              "teamId": 43713,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by COR Nurry, Rowyn, goal number 16 for season.",
+                  "homeScore": 4,
+                  "visitorScore": 2,
+                  "clock": "13:38"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "13:38",
+              "teamId": 43713,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Carter Kryszak vs Cascadden, Jack won by COR, [13:38] Ground ball pickup by COR Cascadden, Jack.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "13:38"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "13:34",
+              "teamId": 43713,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by COR Cascadden, Jack HIGH.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "13:34"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "13:05",
+              "teamId": 43713,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by COR Goldstein, Ryan WIDE.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "13:05"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "12:47",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by JHU good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "12:47"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "12:30",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by JHU Brooks English, SAVE Tully, Matthew.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "12:30"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "12:22",
+              "teamId": 43713,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by COR good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "12:22"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "11:13",
+              "teamId": 43713,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by COR Nurry, Rowyn, goal number 17 for season.",
+                  "homeScore": 5,
+                  "visitorScore": 2,
+                  "clock": "11:13"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "11:13",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Joe Hobot vs Cascadden, Jack won by JHU, [11:13] Ground ball pickup by JHU Joe Hobot.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "11:13"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "10:28",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by JHU Charlie Iler HIGH.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "10:28"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "10:16",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by JHU Jimmy Ayers (caused by Marshall, Michael).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "10:16"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "10:14",
+              "teamId": 43713,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by COR Marshall, Michael.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "10:14"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "10:10",
+              "teamId": 43713,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by COR Marshall, Michael (caused by Jimmy Ayers).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "10:10"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "10:05",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by JHU Charlie Iler.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "10:05"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "09:10",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by JHU Matt Collison.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "09:10"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "09:02",
+              "teamId": 43713,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by COR Tully, Matthew.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "09:02"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "09:01",
+              "teamId": 43713,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by COR good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "09:01"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "08:58",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Penalty on JHU Chuck Rawson (UNNECESSARY ROUGHNESS/1:00) Extra-man opportunity.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "08:58"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "08:29",
+              "teamId": 43713,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by COR Goldstein, Ryan.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "08:29"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "08:22",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by JHU Reece DiCicco.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "08:22"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "08:20",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by JHU good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "08:20"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "08:11",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Timeout by JHU.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "08:11"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "08:11",
+              "teamId": 43713,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Media timeout.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "08:11"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:37",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by JHU Charlie Iler WIDE.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "07:37"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:22",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by JHU Chuck Rawson WIDE.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "07:22"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:15",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot clock violation by JHU.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "07:15"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:03",
+              "teamId": 43713,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by COR good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "07:03"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "06:34",
+              "teamId": 43713,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by COR Nikolic, AJ HIGH.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "06:34"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "06:24",
+              "teamId": 43713,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by COR Luzzi, Brian, SAVE Oran Gelinas.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "06:24"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "06:20",
+              "teamId": 43713,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by COR Firth, Willem.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "06:20"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:29",
+              "teamId": 43713,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by COR Luzzi, Brian (caused by Carson Brown).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "05:29"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:26",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by JHU Carson Brown.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "05:26"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:25",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by JHU good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "05:25"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "04:44",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by JHU David Disque, goal number 3 for season.",
+                  "homeScore": 5,
+                  "visitorScore": 3,
+                  "clock": "04:44"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "04:44",
+              "teamId": 43713,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Joe Hobot vs Cascadden, Jack won by COR, [04:44] Ground ball pickup by COR Schwartz, Walker.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "04:44"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:50",
+              "teamId": 43713,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by COR Riordan, Seamus.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "03:50"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:14",
+              "teamId": 43713,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by COR Waldman, Ryan WIDE.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "03:14"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:09",
+              "teamId": 43713,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot clock violation by COR.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "03:09"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:58",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by JHU good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "02:58"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:26",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by JHU Chuck Rawson, SAVE Tully, Matthew.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "02:26"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:13",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by JHU Charlie Iler, SAVE Tully, Matthew.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "02:13"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:01",
+              "teamId": 43713,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by COR good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "02:01"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:52",
+              "teamId": 43713,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by COR Luzzi, Brian.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "01:52"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:42",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by JHU good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "01:42"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:56",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by JHU Hunter Chauvette WIDE.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:56"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:55",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Timeout by JHU.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:55"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:37",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by JHU Chuck Rawson, SAVE Tully, Matthew.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:37"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:18",
+              "teamId": 43713,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by COR Gilmartin, Luke.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:18"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:17",
+              "teamId": 43713,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by COR good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:17"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:16",
+              "teamId": 43713,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by COR Firth, Willem.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:16"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:13",
+              "teamId": 43713,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Timeout by COR.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:13"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:13",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Penalty on JHU Jimmy Ayers (OFFSIDE/0:30) Extra-man opportunity.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:13"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:01",
+              "teamId": 43713,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by COR Firth, Willem (MAN-UP), Assist by Goldstein, Ryan, goal number 52 for season.",
+                  "homeScore": 6,
+                  "visitorScore": 3,
+                  "clock": "00:01"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:00",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "End-of-period.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:00"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "__typename": "PlayByPlayDetails",
+          "periodNumber": 3,
+          "periodDisplay": "3rd",
+          "playbyplayStats": [
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "15:00",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "15:00"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "15:00",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Joe Hobot vs Cascadden, Jack won by JHU (on faceoff violation).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "15:00"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "14:24",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by JHU Chuck Rawson WIDE.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "14:24"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "14:02",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by JHU Hunter Chauvette, Assist by Chuck Rawson, goal number 38 for season.",
+                  "homeScore": 6,
+                  "visitorScore": 4,
+                  "clock": "14:02"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "14:02",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Joe Hobot vs Melkonian, Michael won by JHU, [14:02] Ground ball pickup by JHU Joe Hobot.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "14:02"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "13:49",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by JHU good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "13:49"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "12:45",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by JHU Jimmy Ayers, SAVE Tully, Matthew.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "12:45"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "12:42",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by JHU Erik Chick.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "12:42"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "11:49",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by JHU Chuck Rawson, Assist by Matt Collison, goal number 22 for season.",
+                  "homeScore": 6,
+                  "visitorScore": 5,
+                  "clock": "11:49"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "11:49",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Joe Hobot vs Cascadden, Jack won by JHU, [11:49] Ground ball pickup by JHU Joe Hobot.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "11:49"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "11:40",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by JHU Jimmy Ayers, SAVE Tully, Matthew.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "11:40"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "11:39",
+              "teamId": 43713,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by COR Tully, Matthew.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "11:39"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "11:35",
+              "teamId": 43713,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by COR good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "11:35"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "10:32",
+              "teamId": 43713,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by COR Waldman, Ryan WIDE.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "10:32"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "10:18",
+              "teamId": 43713,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by COR Goldstein, Ryan (caused by Luke Martin).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "10:18"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "10:12",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by JHU Carson Brown.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "10:12"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "10:05",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by JHU Luke Martin.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "10:05"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "10:03",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by JHU good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "10:03"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "09:15",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by JHU Matt Collison, goal number 28 for season.",
+                  "homeScore": 6,
+                  "visitorScore": 6,
+                  "clock": "09:15"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "09:15",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Joe Hobot vs Cascadden, Jack won by JHU, [09:15] Ground ball pickup by JHU Charlie Hazard.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "09:15"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "08:56",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by JHU failed.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "08:56"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "08:55",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by JHU Luke Martin.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "08:55"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "08:45",
+              "teamId": 43713,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by COR good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "08:45"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:46",
+              "teamId": 43713,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by COR Herendeen, Jack.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "07:46"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:35",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by JHU failed.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "07:35"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:35",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by JHU.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "07:35"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:02",
+              "teamId": 43713,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by COR.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "07:02"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "06:52",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by JHU good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "06:52"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "06:45",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by JHU Erik Chick WIDE.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "06:45"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "06:43",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by JHU Jimmy Ayers.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "06:43"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "06:33",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by JHU Charlie Iler (caused by Staub, Brendan).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "06:33"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "06:31",
+              "teamId": 43713,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by COR Tully, Matthew.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "06:31"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "06:28",
+              "teamId": 43713,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by COR good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "06:28"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:44",
+              "teamId": 43713,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by COR Goldstein, Ryan WIDE.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "05:44"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:33",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by JHU good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "05:33"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "04:57",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by JHU Matt Collison (caused by Lamb, TJ).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "04:57"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "04:53",
+              "teamId": 43713,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by COR Lamb, TJ.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "04:53"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "04:39",
+              "teamId": 43713,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by COR good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "04:39"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "04:12",
+              "teamId": 43713,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by COR Firth, Willem (caused by Luke Martin).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "04:12"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "04:10",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by JHU Carson Brown.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "04:10"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:55",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by JHU failed.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "03:55"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:54",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by JHU Carson Brown.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "03:54"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:32",
+              "teamId": 43713,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by COR good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "03:32"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:17",
+              "teamId": 43713,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by COR Nikolic, AJ HIGH.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "03:17"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:16",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Penalty on JHU Tyler Eye (HOLDING/0:30) Extra-man opportunity.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "03:16"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:53",
+              "teamId": 43713,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by COR Robinson, Luke (caused by Luke Martin).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "02:53"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:50",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by JHU Luke Martin.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "02:50"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:45",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by JHU good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "02:45"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:48",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by JHU Matt Collison.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "01:48"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:46",
+              "teamId": 43713,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by COR Marshall, Michael.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "01:46"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:40",
+              "teamId": 43713,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by COR failed.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "01:40"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:40",
+              "teamId": 43713,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by COR Staub, Brendan (caused by Jimmy Ayers).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "01:40"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:05",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by JHU David Disque, SAVE Tully, Matthew.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "01:05"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:08",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by JHU Charlie Iler.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:08"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:03",
+              "teamId": 43713,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by COR Goldstein, Ryan (caused by Carson Brown).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:03"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:03",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by JHU Carson Brown.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:03"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:00",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "End-of-period.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:00"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "__typename": "PlayByPlayDetails",
+          "periodNumber": 4,
+          "periodDisplay": "4th",
+          "playbyplayStats": [
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "15:00",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "15:00"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "15:00",
+              "teamId": 43713,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Joe Hobot vs Cascadden, Jack won by COR, [15:00] Ground ball pickup by COR Cascadden, Jack.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "15:00"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "14:00",
+              "teamId": 43713,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by COR Luzzi, Brian BLOCKED.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "14:00"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "13:37",
+              "teamId": 43713,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by COR Goldstein, Ryan.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "13:37"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "13:35",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by JHU Luke Martin.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "13:35"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "13:30",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by JHU good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "13:30"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "12:37",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by JHU Charlie Iler (caused by Staub, Brendan).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "12:37"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "12:35",
+              "teamId": 43713,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by COR Staub, Brendan.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "12:35"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "12:27",
+              "teamId": 43713,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by COR good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "12:27"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "11:17",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Penalty on JHU Charlie Hazard (OFFSIDE/0:30) Extra-man opportunity.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "11:17"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "10:59",
+              "teamId": 43713,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by COR Firth, Willem (caused by Luke Martin).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "10:59"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "10:55",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by JHU Luke Martin.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "10:55"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "10:52",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by JHU good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "10:52"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "09:56",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by JHU Jimmy Ayers WIDE.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "09:56"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "09:41",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by JHU Charlie Iler (caused by Marshall, Michael).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "09:41"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "09:36",
+              "teamId": 43713,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by COR good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "09:36"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "09:01",
+              "teamId": 43713,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by COR Nikolic, AJ, goal number 7 for season.",
+                  "homeScore": 7,
+                  "visitorScore": 6,
+                  "clock": "09:01"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "09:01",
+              "teamId": 43713,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Media timeout.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "09:01"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "09:01",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Joe Hobot vs Cascadden, Jack won by JHU, [09:01] Ground ball pickup by JHU Joe Hobot.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "09:01"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "08:41",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by JHU good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "08:41"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "08:05",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by JHU Chuck Rawson, SAVE Tully, Matthew.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "08:05"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "08:04",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by JHU Charlie Iler.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "08:04"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:46",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by JHU Chuck Rawson, Assist by Charlie Iler, goal number 23 for season.",
+                  "homeScore": 7,
+                  "visitorScore": 7,
+                  "clock": "07:46"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:46",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Joe Hobot vs Cascadden, Jack won by JHU, [07:46] Ground ball pickup by JHU Carson Brown.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "07:46"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:24",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by JHU good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "07:24"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "06:38",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by JHU Chuck Rawson HIGH.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "06:38"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "06:31",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by JHU Jimmy Ayers, goal number 23 for season.",
+                  "homeScore": 7,
+                  "visitorScore": 8,
+                  "clock": "06:31"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "06:31",
+              "teamId": 43713,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Joe Hobot vs Cascadden, Jack won by COR, [06:31] Ground ball pickup by COR Cascadden, Jack.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "06:31"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:40",
+              "teamId": 43713,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by COR Firth, Willem BLOCKED.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "05:40"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:33",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by JHU Oran Gelinas.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "05:33"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:29",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by JHU good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "05:29"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:17",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Timeout by JHU.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "05:17"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:17",
+              "teamId": 43713,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Media timeout.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "05:17"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:00",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by JHU Jimmy Ayers, SAVE Tully, Matthew.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "05:00"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "04:57",
+              "teamId": 43713,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by COR Box, Charlie.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "04:57"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "04:52",
+              "teamId": 43713,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by COR good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "04:52"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "04:20",
+              "teamId": 43713,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by COR Nurry, Rowyn.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "04:20"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "04:15",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by JHU Tyler Eye.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "04:15"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "04:14",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by JHU failed.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "04:14"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "04:14",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by JHU Tyler Eye (caused by Nurry, Rowyn).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "04:14"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:27",
+              "teamId": 43713,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by COR Luzzi, Brian, goal number 20 for season.",
+                  "homeScore": 8,
+                  "visitorScore": 8,
+                  "clock": "03:27"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:27",
+              "teamId": 43713,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Joe Hobot vs Cascadden, Jack won by COR, [03:27] Ground ball pickup by COR Cascadden, Jack.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "03:27"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:20",
+              "teamId": 43713,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by COR Cascadden, Jack (caused by Joe Hobot).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "03:20"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:07",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by JHU good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "03:07"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:31",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by JHU Matt Collison, SAVE Tully, Matthew.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "02:31"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:26",
+              "teamId": 43713,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by COR good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "02:26"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:05",
+              "teamId": 43713,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by COR Goldstein, Ryan WIDE.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "02:05"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:04",
+              "teamId": 43713,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by COR Firth, Willem.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "02:04"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:02",
+              "teamId": 43713,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by COR Firth, Willem BLOCKED.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "02:02"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:58",
+              "teamId": 43713,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Timeout by COR.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "01:58"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:47",
+              "teamId": 43713,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by COR Robinson, Luke WIDE.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "01:47"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:25",
+              "teamId": 43713,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by COR Nikolic, AJ HIT POST.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "01:25"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:23",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by JHU Parker Sorenson.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "01:23"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:19",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by JHU good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "01:19"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:10",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by JHU Matt Collison, SAVE Tully, Matthew.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:10"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:00",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "End-of-period.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:00"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "__typename": "PlayByPlayDetails",
+          "periodNumber": 5,
+          "periodDisplay": "Overtime(1)",
+          "playbyplayStats": [
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "04:00",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "04:00"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:50",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Joe Hobot vs Cascadden, Jack won by JHU, [03:50] Ground ball pickup by JHU Reece DiCicco.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "03:50"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:38",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by JHU Matt Collison, SAVE Tully, Matthew.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "03:38"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:32",
+              "teamId": 43713,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by COR Staub, Brendan.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "03:32"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:31",
+              "teamId": 43713,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by COR failed.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "03:31"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:31",
+              "teamId": 43713,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by COR Staub, Brendan.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "03:31"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:26",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by JHU Jimmy Ayers.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "03:26"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:25",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by JHU Jimmy Ayers WIDE.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "03:25"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:50",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by JHU Hunter Chauvette HIT POST.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "02:50"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:46",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by JHU Luke Martin.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "02:46"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:46",
+              "teamId": 43713,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Penalty on COR Firth, Willem (PUSHING/0:30) Extra-man opportunity.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "02:46"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:14",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by JHU Jimmy Ayers, SAVE Tully, Matthew.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "02:14"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:08",
+              "teamId": 43713,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Timeout by COR.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "02:08"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:26",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by JHU Charlie Iler HIGH.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "01:26"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:15",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by JHU Jimmy Ayers, Assist by Matt Collison, goal number 24 for season.",
+                  "homeScore": 8,
+                  "visitorScore": 9,
+                  "clock": "01:15"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:15",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "End-of-period.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "01:15"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

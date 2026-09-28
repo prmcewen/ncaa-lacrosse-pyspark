@@ -1,0 +1,3289 @@
+{
+  "data": {
+    "playbyplay": {
+      "__typename": "PlayByPlay",
+      "contestId": 6599986,
+      "title": "MLA PLAY-BY-PLAY",
+      "description": "Notre Dame vs Jacksonville",
+      "divisionName": "d1",
+      "status": "final",
+      "period": 4,
+      "minutes": "",
+      "seconds": "",
+      "teams": [
+        {
+          "__typename": "ContestTeam",
+          "isHome": true,
+          "teamId": "43861",
+          "seoname": "notre-dame",
+          "name6Char": "N DAME",
+          "nameShort": "Notre Dame",
+          "nameFull": "University of Notre Dame",
+          "teamName": "Fighting Irish",
+          "color": "#0C2340"
+        },
+        {
+          "__typename": "ContestTeam",
+          "isHome": false,
+          "teamId": "43919",
+          "seoname": "jacksonville",
+          "name6Char": "JVILLE",
+          "nameShort": "Jacksonville",
+          "nameFull": "Jacksonville University",
+          "teamName": "Dolphins",
+          "color": "#004E42"
+        }
+      ],
+      "periods": [
+        {
+          "__typename": "PlayByPlayDetails",
+          "periodNumber": 1,
+          "periodDisplay": "1st",
+          "playbyplayStats": [
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "15:00",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ryan Della Rocco at goalie for JACKSONV.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "15:00"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "15:00",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Thomas Ricciardelli at goalie for NOTRE DA.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "15:00"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "15:00",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Drew Rippeon vs Tyler Spano won by JACKSONV, [15:00] Ground ball pickup by JACKSONV Lucas Fraser.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "15:00"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "14:51",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by JACKSONV good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "14:51"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "13:47",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by JACKSONV William Krupsky, SAVE Thomas Ricciardelli",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "13:47"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "13:44",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by JACKSONV Zane Czeschin.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "13:44"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "13:17",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by JACKSONV William Krupsky HIT POST",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "13:17"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "13:13",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by JACKSONV Jack Taylor.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "13:13"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "12:15",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by JACKSONV Jack Taylor, SAVE Thomas Ricciardelli",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "12:15"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "12:12",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by NOTRE DA Shawn Lyght.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "12:12"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "12:10",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by NOTRE DA failed.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "12:10"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by NOTRE DA Thomas Ricciardelli (caused by Charlie DiGennaro).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "11:50",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by JACKSONV Charlie DiGennaro.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "11:50"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "11:45",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by JACKSONV Lucas Fraser.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "11:45"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "11:05",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by JACKSONV Nicky Brown, SAVE Thomas Ricciardelli",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "11:05"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "11:03",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by NOTRE DA Will Gallagher.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "11:03"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "11:00",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by NOTRE DA good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "11:00"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "10:40",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by NOTRE DA Brock Behrman.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "10:40"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "10:08",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by NOTRE DA Luke Miller.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "10:08"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "09:53",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by NOTRE DA Will Maheras WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "09:53"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "09:38",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by NOTRE DA Luke Miller BLOCKED",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "09:38"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "09:34",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by JACKSONV Josh Hedderich.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "09:34"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "09:32",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by JACKSONV good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "09:32"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "09:27",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by JACKSONV Lucas Fraser WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "09:27"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "08:44",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by JACKSONV Jack Taylor WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "08:44"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "08:33",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by JACKSONV Tate Jones, SAVE Thomas Ricciardelli",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "08:33"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "08:29",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by NOTRE DA good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "08:29"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:57",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by NOTRE DA Jalen Seymour, SAVE Ryan Della Rocco",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "07:57"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:55",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by JACKSONV good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "07:55"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:25",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by JACKSONV Jack Taylor BLOCKED",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "07:25"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:23",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by JACKSONV Bryce Wojnovich.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "07:23"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:23",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by JACKSONV Bryce Wojnovich WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "07:23"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:22",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Timeout by NOTRE DA.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "07:22"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by JACKSONV Nicky Brown.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "06:54",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by NOTRE DA good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "06:54"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "06:41",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by NOTRE DA Teddy Lally (FIRST GOAL), Assist by Matt Jeffery.",
+                  "homeScore": 1,
+                  "visitorScore": 0,
+                  "clock": "06:41"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "06:41",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Drew Rippeon vs Tyler Spano won by JACKSONV, [06:41] Ground ball pickup by JACKSONV Drew Rippeon.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "06:41"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "06:05",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by JACKSONV Gavin Angell, SAVE Thomas Ricciardelli",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "06:05"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "06:04",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Penalty on NOTRE DA Nate Schwitzenberg (PUSHING/0:30) Extra-man opportunity.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "06:04"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:31",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by JACKSONV Connor Sydnor WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "05:31"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:02",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by JACKSONV Jack Taylor, SAVE Thomas Ricciardelli",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "05:02"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "04:58",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by NOTRE DA good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "04:58"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "04:45",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by NOTRE DA Thomas Porell, Assist by Will Maheras.",
+                  "homeScore": 2,
+                  "visitorScore": 0,
+                  "clock": "04:45"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "04:45",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Drew Rippeon vs Tyler Spano won by NOTRE DA, [04:45] Ground ball pickup by NOTRE DA Tyler Spano.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "04:45"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "04:10",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by NOTRE DA Will Maheras WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "04:10"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by NOTRE DA Teddy Lally (caused by Breyden Harrison).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:55",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by JACKSONV Breyden Harrison.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "03:55"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:52",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by JACKSONV good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "03:52"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:59",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by JACKSONV Kai Smith, SAVE Thomas Ricciardelli",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "02:59"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:56",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by NOTRE DA Will Gallagher.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "02:56"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:53",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by NOTRE DA good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "02:53"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:50",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by NOTRE DA Luke Miller, Assist by Josh Yago.",
+                  "homeScore": 3,
+                  "visitorScore": 0,
+                  "clock": "02:50"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:50",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Drew Rippeon vs Tyler Spano won by JACKSONV, [02:50] Ground ball pickup by JACKSONV Drew Rippeon.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "02:50"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:13",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by JACKSONV William Krupsky, Assist by Nicky Brown.",
+                  "homeScore": 3,
+                  "visitorScore": 1,
+                  "clock": "02:13"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:13",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Drew Rippeon vs Aidan Diaz-Matos won by NOTRE DA, [02:13] Ground ball pickup by NOTRE DA Aidan Diaz-Matos.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "02:13"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:40",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by NOTRE DA Dylan Faison BLOCKED",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "01:40"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:30",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by NOTRE DA Luke Miller, SAVE Ryan Della Rocco",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "01:30"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:27",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by NOTRE DA Max Busenkell.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "01:27"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:18",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by NOTRE DA Max Busenkell HIGH",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "01:18"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:06",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by NOTRE DA Luke Miller, Assist by Jalen Seymour.",
+                  "homeScore": 4,
+                  "visitorScore": 1,
+                  "clock": "01:06"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:06",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Drew Rippeon vs Aidan Diaz-Matos won by NOTRE DA, [01:06] Ground ball pickup by NOTRE DA Aidan Diaz-Matos.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "01:06"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:09",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by NOTRE DA Matt Jeffery, Assist by Will Angrick.",
+                  "homeScore": 5,
+                  "visitorScore": 1,
+                  "clock": "00:09"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:09",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Drew Rippeon vs Aidan Diaz-Matos won by NOTRE DA, [00:09] Ground ball pickup by NOTRE DA Aidan Diaz-Matos.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:09"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:01",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by NOTRE DA Aidan Diaz-Matos, SAVE Ryan Della Rocco",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:01"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:00",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "End-of-period.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:00"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "__typename": "PlayByPlayDetails",
+          "periodNumber": 2,
+          "periodDisplay": "2nd",
+          "playbyplayStats": [
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "15:00",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "15:00"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "15:00",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Drew Rippeon vs Aidan Diaz-Matos won by NOTRE DA, [15:00] Ground ball pickup by NOTRE DA Aidan Diaz-Matos.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "15:00"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "14:55",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by NOTRE DA good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "14:55"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "14:23",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by NOTRE DA Josh Yago WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "14:23"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "13:42",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by NOTRE DA Josh Yago.",
+                  "homeScore": 6,
+                  "visitorScore": 1,
+                  "clock": "13:42"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "13:42",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Drew Rippeon vs Aidan Diaz-Matos won by JACKSONV, [13:42] Ground ball pickup by JACKSONV Drew Rippeon.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "13:42"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "12:54",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by JACKSONV Jack Taylor, SAVE Thomas Ricciardelli",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "12:54"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "12:51",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by NOTRE DA Shawn Lyght.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "12:51"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "12:49",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by NOTRE DA good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "12:49"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "12:20",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by NOTRE DA Dylan Faison HIGH",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "12:20"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "12:05",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by NOTRE DA Dylan Faison, SAVE Ryan Della Rocco",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "12:05"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "12:02",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by JACKSONV George Bowdouris.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "12:02"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "12:00",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by JACKSONV good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "12:00"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "11:38",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by JACKSONV Charlie DiGennaro WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "11:38"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by JACKSONV.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "11:34",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by NOTRE DA good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "11:34"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "11:25",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by NOTRE DA Teddy Lally HIGH",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "11:25"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "11:10",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by NOTRE DA Matt Jeffery, Assist by Will Angrick.",
+                  "homeScore": 7,
+                  "visitorScore": 1,
+                  "clock": "11:10"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "11:10",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Timeout by JACKSONV.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "11:10"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "11:10",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Drew Rippeon vs Aidan Diaz-Matos won by JACKSONV, [11:10] Ground ball pickup by JACKSONV Breyden Harrison.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "11:10"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "10:27",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by JACKSONV Jack Taylor, SAVE Thomas Ricciardelli",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "10:27"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "10:24",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by NOTRE DA good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "10:24"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "09:47",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by NOTRE DA Teddy Lally, SAVE Ryan Della Rocco",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "09:47"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "09:37",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by NOTRE DA Teddy Lally.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "09:37"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "09:29",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by NOTRE DA Will Maheras.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "09:29"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "09:15",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by NOTRE DA Brady Pokorny WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "09:15"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "09:08",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by NOTRE DA Teddy Lally HIGH",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "09:08"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "08:46",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by NOTRE DA Teddy Lally, Assist by Brady Pokorny.",
+                  "homeScore": 8,
+                  "visitorScore": 1,
+                  "clock": "08:46"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "08:45",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Drew Rippeon vs Aidan Diaz-Matos won by JACKSONV, [08:07] Ground ball pickup by JACKSONV Drew Rippeon.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "08:45"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:50",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by JACKSONV Zane Czeschin HIGH",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "07:50"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:37",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Penalty on NOTRE DA Nate Schwitzenberg (CROSS-CHECK/2:00) Extra-man opportunity.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "07:37"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:10",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by JACKSONV Daylin John-Hill, SAVE Thomas Ricciardelli",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "07:10"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:03",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by NOTRE DA good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "07:03"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:50",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by NOTRE DA Will Maheras, SAVE Ryan Della Rocco",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "05:50"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:47",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by JACKSONV good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "05:47"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "04:58",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by JACKSONV William Krupsky HIGH",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "04:58"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by JACKSONV Tate Jones (caused by Will Donovan).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "04:49",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by NOTRE DA Christopher Iuliano.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "04:49"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "04:47",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by NOTRE DA good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "04:47"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "04:44",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by NOTRE DA Luke Miller, Assist by Christopher Iuliano.",
+                  "homeScore": 9,
+                  "visitorScore": 1,
+                  "clock": "04:44"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "04:44",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Drew Rippeon vs Aidan Diaz-Matos won by NOTRE DA, [04:44] Ground ball pickup by NOTRE DA Luke Crowe.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "04:44"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by NOTRE DA Teddy Lally (caused by George Bowdouris).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "04:03",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by JACKSONV Aaron Toguri.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "04:03"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "04:01",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by JACKSONV good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "04:01"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:05",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by JACKSONV Zane Czeschin, SAVE Thomas Ricciardelli",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "03:05"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:01",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by NOTRE DA good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "03:01"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:23",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by NOTRE DA Matt Jeffery, SAVE Ryan Della Rocco",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "02:23"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:20",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by JACKSONV good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "02:20"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by JACKSONV Jack Taylor (caused by Chris Reihnardt).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:38",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by NOTRE DA good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "01:38"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:09",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by NOTRE DA Dylan Faison HIT POST",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "01:09"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:15",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by NOTRE DA Max Busenkell HIGH",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:15"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:12",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by NOTRE DA Josh Yago WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:12"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:01",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "30-second clock violation by NOTRE DA.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:01"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:00",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "End-of-period.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:00"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "__typename": "PlayByPlayDetails",
+          "periodNumber": 3,
+          "periodDisplay": "3rd",
+          "playbyplayStats": [
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "15:00",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "15:00"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "15:00",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Drew Rippeon vs Aidan Diaz-Matos won by JACKSONV, [15:00] Ground ball pickup by JACKSONV Drew Rippeon.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "15:00"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "13:58",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by JACKSONV Jack Taylor.",
+                  "homeScore": 9,
+                  "visitorScore": 2,
+                  "clock": "13:58"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "13:58",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Drew Rippeon vs Aidan Diaz-Matos won by NOTRE DA, [13:58] Ground ball pickup by NOTRE DA Aidan Diaz-Matos.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "13:58"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "13:50",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by NOTRE DA good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "13:50"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "13:19",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by NOTRE DA Brock Behrman HIT POST",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "13:19"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "13:15",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by NOTRE DA Josh Yago.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "13:15"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "13:03",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by NOTRE DA Brock Behrman WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "13:03"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "12:22",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by NOTRE DA Will Maheras, Assist by Matt Jeffery.",
+                  "homeScore": 10,
+                  "visitorScore": 2,
+                  "clock": "12:22"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "12:22",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Drew Rippeon vs Aidan Diaz-Matos won by NOTRE DA, [12:22] Ground ball pickup by NOTRE DA Aidan Diaz-Matos.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "12:22"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "11:51",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by NOTRE DA Luke Miller, Assist by Max Busenkell.",
+                  "homeScore": 11,
+                  "visitorScore": 2,
+                  "clock": "11:51"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "11:51",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Drew Rippeon vs Aidan Diaz-Matos won by JACKSONV, [11:51] Ground ball pickup by JACKSONV Drew Rippeon.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "11:51"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "11:42",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by JACKSONV good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "11:42"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "10:46",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by JACKSONV Tate Jones WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "10:46"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "10:29",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by JACKSONV Jack Taylor, SAVE Thomas Ricciardelli",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "10:29"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "10:23",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by JACKSONV Daylin John-Hill.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "10:23"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "10:16",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Penalty on NOTRE DA Will Gallagher (INTERFERENCE/0:30) Extra-man opportunity.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "10:16"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "10:07",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by JACKSONV Jack Taylor, SAVE Thomas Ricciardelli",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "10:07"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "09:41",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by JACKSONV Daylin John-Hill WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "09:41"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "09:17",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by JACKSONV Zane Czeschin HIGH",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "09:17"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "09:13",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by NOTRE DA good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "09:13"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "08:31",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by NOTRE DA Max Busenkell HIGH",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "08:31"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "08:17",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by NOTRE DA Jalen Seymour, Assist by Luke Miller.",
+                  "homeScore": 12,
+                  "visitorScore": 2,
+                  "clock": "08:17"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "08:17",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Drew Rippeon vs Aidan Diaz-Matos won by NOTRE DA, [08:17] Ground ball pickup by NOTRE DA Aidan Diaz-Matos.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "08:17"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:34",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by NOTRE DA Will Angrick HIGH",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "07:34"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:23",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by NOTRE DA Luke Miller, SAVE Ryan Della Rocco",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "07:23"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:20",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by JACKSONV good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "07:20"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "06:43",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by JACKSONV Kai Smith, SAVE Thomas Ricciardelli",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "06:43"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "06:31",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by NOTRE DA good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "06:31"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "06:01",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by NOTRE DA Teddy Lally WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "06:01"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:59",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by NOTRE DA Max Busenkell.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "05:59"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:41",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by NOTRE DA Luke Miller, Assist by Max Busenkell.",
+                  "homeScore": 13,
+                  "visitorScore": 2,
+                  "clock": "05:41"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Media Timeout",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:41",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Drew Rippeon vs Tyler Spano won by NOTRE DA, [05:41] Ground ball pickup by NOTRE DA Tyler Spano.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "05:41"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:09",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by NOTRE DA Will Maheras HIT POST",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "05:09"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "04:49",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by NOTRE DA Brock Behrman, Assist by Matt Jeffery.",
+                  "homeScore": 14,
+                  "visitorScore": 2,
+                  "clock": "04:49"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "04:49",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Drew Rippeon vs Tyler Spano won by NOTRE DA (on faceoff violation).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "04:49"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "04:07",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by NOTRE DA Luke Miller, SAVE Ryan Della Rocco",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "04:07"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "04:04",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by NOTRE DA Brock Behrman.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "04:04"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by NOTRE DA Brock Behrman.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:16",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by JACKSONV Zane Czeschin WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "03:16"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by JACKSONV Zane Czeschin (caused by Chris Reihnardt).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:39",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by NOTRE DA Thomas Ricciardelli.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "02:39"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:37",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by NOTRE DA good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "02:37"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:55",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by NOTRE DA Brock Behrman, SAVE Ryan Della Rocco",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "01:55"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:52",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by JACKSONV good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "01:52"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:56",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by JACKSONV Kai Smith, SAVE Thomas Ricciardelli",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:56"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:52",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by NOTRE DA good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:52"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:45",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by NOTRE DA Brock Behrman, SAVE Ryan Della Rocco",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:45"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:42",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by JACKSONV good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:42"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:15",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by JACKSONV Tate Jones, SAVE Thomas Ricciardelli",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:15"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:12",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by NOTRE DA Christopher Iuliano.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:12"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:00",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by NOTRE DA failed.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:00"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by NOTRE DA Nate Schwitzenberg (caused by Keller Holmes).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:00",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by JACKSONV Keller Holmes.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:00"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:00",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by JACKSONV failed.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:00"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by JACKSONV Aaron Toguri (caused by Shawn Lyght).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:00",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by NOTRE DA Shawn Lyght.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:00"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:00",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Penalty on JACKSONV Aaron Toguri (SLASHING/1:00) Extra-man opportunity.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:00"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:00",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "End-of-period.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:00"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "__typename": "PlayByPlayDetails",
+          "periodNumber": 4,
+          "periodDisplay": "4th",
+          "playbyplayStats": [
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "15:00",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "15:00"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by NOTRE DA Will Angrick (caused by Lucas Fraser).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "14:34",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by JACKSONV Lucas Fraser.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "14:34"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "14:32",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by JACKSONV good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "14:32"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by JACKSONV Zane Czeschin (caused by Will Donovan).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "13:42",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by NOTRE DA Will Donovan.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "13:42"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "13:40",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by NOTRE DA good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "13:40"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "13:37",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by NOTRE DA Will Donovan HIGH",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "13:37"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "13:08",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by NOTRE DA Brock Behrman.",
+                  "homeScore": 15,
+                  "visitorScore": 2,
+                  "clock": "13:08"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "13:08",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Sean Hassis vs Tyler Spano won by NOTRE DA, [13:08] Ground ball pickup by NOTRE DA Tyler Spano.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "13:08"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "12:27",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by NOTRE DA Teddy Lally, Assist by Gavin Burlace.",
+                  "homeScore": 16,
+                  "visitorScore": 2,
+                  "clock": "12:27"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "12:27",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Drew Rippeon vs Tyler Spano won by JACKSONV, [12:27] Ground ball pickup by JACKSONV Drew Rippeon.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "12:27"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "11:28",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by JACKSONV Parker Addison, Assist by Nicky Brown.",
+                  "homeScore": 16,
+                  "visitorScore": 3,
+                  "clock": "11:28"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "11:28",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Drew Rippeon vs Tyler Spano won by JACKSONV, [11:28] Ground ball pickup by JACKSONV Drew Rippeon.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "11:28"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "10:17",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by JACKSONV Nicky Brown.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "10:17"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "10:06",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by JACKSONV Parker Addison WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "10:06"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "10:01",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by NOTRE DA good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "10:01"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "09:23",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Alex Zepf at goalie for NOTRE DA.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "09:23"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "09:14",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by NOTRE DA Fisher Finley WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "09:14"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "09:03",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by NOTRE DA Gavin Lynch.",
+                  "homeScore": 17,
+                  "visitorScore": 3,
+                  "clock": "09:03"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "09:03",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Drew Rippeon vs Christian Gallaher won by JACKSONV, [09:03] Ground ball pickup by JACKSONV Drew Rippeon.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "09:03"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "08:29",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by NOTRE DA Cam Kelley.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "08:29"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "08:28",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Timeout by JACKSONV.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "08:28"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by JACKSONV Jack Taylor (caused by Luke Stickler).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:46",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by NOTRE DA Thomas Porell.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "07:46"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:41",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by NOTRE DA Griffin Grant.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "07:41"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:24",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by NOTRE DA Gavin Lynch.",
+                  "homeScore": 18,
+                  "visitorScore": 3,
+                  "clock": "07:24"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:24",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Drew Rippeon vs Christian Gallaher won by NOTRE DA, [07:24] Ground ball pickup by NOTRE DA Christian Gallaher.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "07:24"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:15",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Penalty on JACKSONV Charlie DiGennaro (CROSS-CHECK/1:00) Extra-man opportunity.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "07:15"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "06:40",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by NOTRE DA Gavin Lynch BLOCKED",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "06:40"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "06:21",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by NOTRE DA Gavin Burlace, SAVE Ryan Della Rocco",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "06:21"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "06:12",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by JACKSONV good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "06:12"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:50",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Penalty on NOTRE DA Jimmy Kenney (HOLDING/0:30) Extra-man opportunity.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "05:50"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:23",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by JACKSONV William Krupsky (MAN-UP), Assist by Daylin John-Hill.",
+                  "homeScore": 18,
+                  "visitorScore": 4,
+                  "clock": "05:23"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:23",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Drew Rippeon vs Christian Gallaher won by JACKSONV, [05:23] Ground ball pickup by JACKSONV Ryan Della Rocco.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "05:23"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:08",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by JACKSONV good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "05:08"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "04:36",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by JACKSONV Jack Taylor.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "04:36"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by JACKSONV Jack Taylor.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:47",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by NOTRE DA Luke Stickler.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "03:47"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:44",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by NOTRE DA good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "03:44"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:11",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by NOTRE DA Gavin Burlace, SAVE Ryan Della Rocco",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "03:11"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:10",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Penalty on JACKSONV Daylin John-Hill (SLASHING/1:00) Extra-man opportunity.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "03:10"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:45",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by NOTRE DA Colin Kenney BLOCKED",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "02:45"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:41",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by JACKSONV good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "02:41"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:41",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by JACKSONV Jack Russo, SAVE Alex Zepf",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "01:41"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:37",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by NOTRE DA failed.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "01:37"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by NOTRE DA Bo Popham (caused by Nicky Brown).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:24",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by JACKSONV Daylin John-Hill, Assist by Nicky Brown.",
+                  "homeScore": 18,
+                  "visitorScore": 5,
+                  "clock": "01:24"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:24",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Drew Rippeon vs Christian Gallaher won by NOTRE DA, [01:24] Ground ball pickup by NOTRE DA Thomas Porell.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "01:24"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:00",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "End-of-period.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:00"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

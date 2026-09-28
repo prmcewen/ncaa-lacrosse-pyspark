@@ -1,0 +1,3177 @@
+{
+  "data": {
+    "playbyplay": {
+      "__typename": "PlayByPlay",
+      "contestId": 6601424,
+      "title": "MLA PLAY-BY-PLAY",
+      "description": "Jacksonville vs Air Force",
+      "divisionName": "d1",
+      "status": "final",
+      "period": 4,
+      "minutes": "",
+      "seconds": "",
+      "teams": [
+        {
+          "__typename": "ContestTeam",
+          "isHome": true,
+          "teamId": "43919",
+          "seoname": "jacksonville",
+          "name6Char": "JVILLE",
+          "nameShort": "Jacksonville",
+          "nameFull": "Jacksonville University",
+          "teamName": "Dolphins",
+          "color": "#004E42"
+        },
+        {
+          "__typename": "ContestTeam",
+          "isHome": false,
+          "teamId": "43831",
+          "seoname": "air-force",
+          "name6Char": "AIRFOR",
+          "nameShort": "Air Force",
+          "nameFull": "U.S. Air Force Academy",
+          "teamName": "Falcons",
+          "color": "#0032A0"
+        }
+      ],
+      "periods": [
+        {
+          "__typename": "PlayByPlayDetails",
+          "periodNumber": 1,
+          "periodDisplay": "1st",
+          "playbyplayStats": [
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "15:00",
+              "teamId": 43831,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Nolan Parlette at goalie for AIRFORC.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "15:00"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "15:00",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ryan Della Rocco at goalie for JACKSONV.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "15:00"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "15:00",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Seth Aliveto vs Drew Rippeon won by JACKSONV, [15:00] Ground ball pickup by JACKSONV Breyden Harrison.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "15:00"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "14:16",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by JACKSONV William Krupsky.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "14:16"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "13:57",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by JACKSONV Jack Taylor BLOCKED",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "13:57"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "13:53",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by JACKSONV Zane Czeschin.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "13:53"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "13:35",
+              "teamId": 43831,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by AIRFORC good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "13:35"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "12:38",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by JACKSONV good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "12:38"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "12:09",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by JACKSONV Parker Addison, SAVE Nolan Parlette",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "12:09"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by JACKSONV.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "11:44",
+              "teamId": 43831,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by AIRFORC good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "11:44"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "11:06",
+              "teamId": 43831,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by AIRFORC Henry Spencer WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "11:06"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "10:44",
+              "teamId": 43831,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by AIRFORC Jake Mason WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "10:44"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43831,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by AIRFORC Christian Schweiger (caused by Josh Hedderich).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "10:28",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by JACKSONV George Bowdouris.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "10:28"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "10:26",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by JACKSONV good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "10:26"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "10:11",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by JACKSONV Daylin John-Hill (FIRST GOAL), Assist by Charlie DiGennaro.",
+                  "homeScore": 1,
+                  "visitorScore": 0,
+                  "clock": "10:11"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "10:11",
+              "teamId": 43831,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Seth Aliveto vs Drew Rippeon won by AIRFORC, [10:11] Ground ball pickup by AIRFORC Cole Cunningham.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "10:11"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43831,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by AIRFORC Cole Cunningham (caused by Lucas Fraser).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "09:16",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by JACKSONV Zane Czeschin HIGH",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "09:16"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by JACKSONV Kai Smith.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "08:50",
+              "teamId": 43831,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by AIRFORC failed.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "08:50"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43831,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by AIRFORC Christian Schweiger.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "08:29",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by JACKSONV good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "08:29"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:34",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by JACKSONV William Krupsky, Assist by Nicky Brown.",
+                  "homeScore": 2,
+                  "visitorScore": 0,
+                  "clock": "07:34"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:34",
+              "teamId": 43831,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Seth Aliveto vs Drew Rippeon won by AIRFORC, [07:34] Ground ball pickup by AIRFORC Seth Aliveto.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "07:34"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:21",
+              "teamId": 43831,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by AIRFORC Cole Cunningham.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "07:21"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43831,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by AIRFORC Cole Cunningham (caused by Breyden Harrison).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:14",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by JACKSONV Lucas Fraser.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "07:14"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:12",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by JACKSONV good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "07:12"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "06:13",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by JACKSONV Jack Taylor WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "06:13"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "06:02",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by JACKSONV Daylin John-Hill, Assist by Zane Czeschin.",
+                  "homeScore": 3,
+                  "visitorScore": 0,
+                  "clock": "06:02"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "06:02",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Seth Aliveto vs Drew Rippeon won by JACKSONV, [06:02] Ground ball pickup by JACKSONV Charlie DiGennaro.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "06:02"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:13",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by JACKSONV Jack Taylor.",
+                  "homeScore": 4,
+                  "visitorScore": 0,
+                  "clock": "05:13"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:13",
+              "teamId": 43831,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Timeout by AIRFORC.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "05:13"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:13",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Seth Aliveto vs Drew Rippeon won by JACKSONV, [05:13] Ground ball pickup by JACKSONV Drew Rippeon.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "05:13"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:02",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by JACKSONV Nicky Brown, SAVE Nolan Parlette",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "05:02"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:00",
+              "teamId": 43831,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by AIRFORC Cole Cunningham.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "05:00"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "04:58",
+              "teamId": 43831,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by AIRFORC failed.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "04:58"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43831,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by AIRFORC Charlie Pyfer.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "04:37",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by JACKSONV good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "04:37"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:44",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by JACKSONV Jack Taylor.",
+                  "homeScore": 5,
+                  "visitorScore": 0,
+                  "clock": "03:44"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:44",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Seth Aliveto vs Drew Rippeon won by JACKSONV, [03:44] Ground ball pickup by JACKSONV Lucas Fraser.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "03:44"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:30",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by JACKSONV Lucas Fraser, Assist by Jack Taylor.",
+                  "homeScore": 6,
+                  "visitorScore": 0,
+                  "clock": "03:30"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:30",
+              "teamId": 43831,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Timeout by AIRFORC.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "03:30"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:30",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Seth Aliveto vs Drew Rippeon won by JACKSONV, [03:30] Ground ball pickup by JACKSONV Drew Rippeon.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "03:30"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:20",
+              "teamId": 43831,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Penalty on AIRFORC Charlie Pyfer (MINOR/0:30) Extra-man opportunity.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "03:20"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:59",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by JACKSONV Nicky Brown (MAN-UP), Assist by Jack Taylor.",
+                  "homeScore": 7,
+                  "visitorScore": 0,
+                  "clock": "02:59"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:59",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Charlie Pyfer vs Drew Rippeon won by JACKSONV (on faceoff violation).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "02:59"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:09",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by JACKSONV William Krupsky.",
+                  "homeScore": 8,
+                  "visitorScore": 0,
+                  "clock": "02:09"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:09",
+              "teamId": 43831,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Matt Deedy at goalie for AIRFORC.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "02:09"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:09",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Seth Aliveto vs Drew Rippeon won by JACKSONV, [02:09] Ground ball pickup by JACKSONV Drew Rippeon.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "02:09"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:10",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by JACKSONV Jack Taylor WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "01:10"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:49",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by JACKSONV Nicky Brown.",
+                  "homeScore": 9,
+                  "visitorScore": 0,
+                  "clock": "00:49"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:48",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Charlie Pyfer vs Drew Rippeon won by JACKSONV, [00:48] Ground ball pickup by JACKSONV Drew Rippeon.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:48"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by JACKSONV Parker Addison (caused by Cole Cunningham).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:00",
+              "teamId": 43831,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by AIRFORC Cole Cunningham.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:00"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "__typename": "PlayByPlayDetails",
+          "periodNumber": 2,
+          "periodDisplay": "2nd",
+          "playbyplayStats": [
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "15:00",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Charlie Pyfer vs Drew Rippeon won by JACKSONV, [15:00] Ground ball pickup by JACKSONV Drew Rippeon.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "15:00"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "13:56",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by JACKSONV Kai Smith, SAVE Matt Deedy",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "13:56"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "13:53",
+              "teamId": 43831,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by AIRFORC Blake Boyd.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "13:53"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "13:49",
+              "teamId": 43831,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by AIRFORC good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "13:49"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "12:34",
+              "teamId": 43831,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by AIRFORC Cole Rassas, Assist by Luke Vrsansky.",
+                  "homeScore": 9,
+                  "visitorScore": 1,
+                  "clock": "12:34"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "12:34",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Seth Aliveto vs Drew Rippeon won by JACKSONV, [12:34] Ground ball pickup by JACKSONV Drew Rippeon.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "12:34"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "11:40",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by JACKSONV Jack Taylor HIT POST",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "11:40"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "11:32",
+              "teamId": 43831,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by AIRFORC Matt Deedy.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "11:32"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "11:29",
+              "teamId": 43831,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by AIRFORC good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "11:29"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "10:28",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Penalty on JACKSONV Zane Czeschin (OFFSIDE/0:30) Extra-man opportunity.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "10:28"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43831,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by AIRFORC Caelan Driggs.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "10:10",
+              "teamId": 43831,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by AIRFORC good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "10:10"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by JACKSONV Jack Taylor (caused by Charlie Pyfer).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "09:14",
+              "teamId": 43831,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by AIRFORC Connor Albertson.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "09:14"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "09:12",
+              "teamId": 43831,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by AIRFORC good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "09:12"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "08:45",
+              "teamId": 43831,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by AIRFORC Caelan Driggs, Assist by Alex Rismani.",
+                  "homeScore": 9,
+                  "visitorScore": 2,
+                  "clock": "08:45"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "08:45",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Seth Aliveto vs Drew Rippeon won by JACKSONV (on faceoff violation).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "08:45"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "08:27",
+              "teamId": 43831,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Penalty on AIRFORC Hee-Cheol Shin (SLASHING/1:00) Extra-man opportunity.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "08:27"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "08:27",
+              "teamId": 43831,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Penalty on AIRFORC Charlie Pyfer (UNNECESSARY ROUGHNESS/1:00).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "08:27"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "08:10",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by JACKSONV Nicky Brown, SAVE Matt Deedy",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "08:10"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "08:08",
+              "teamId": 43831,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by AIRFORC good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "08:08"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43831,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by AIRFORC.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:45",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Timeout by JACKSONV.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "07:45"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:27",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by JACKSONV Nicky Brown WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "07:27"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by JACKSONV Nicky Brown (caused by Nathan Crouse).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "06:55",
+              "teamId": 43831,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by AIRFORC Nathan Crouse.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "06:55"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "06:53",
+              "teamId": 43831,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by AIRFORC good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "06:53"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "06:09",
+              "teamId": 43831,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by AIRFORC Henry Spencer WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "06:09"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "06:06",
+              "teamId": 43831,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by AIRFORC Alex Rismani.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "06:06"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "06:00",
+              "teamId": 43831,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by AIRFORC Jake Mason WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "06:00"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:55",
+              "teamId": 43831,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by AIRFORC Alex Rismani WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "05:55"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:50",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by JACKSONV Josh Hedderich.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "05:50"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:47",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by JACKSONV good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "05:47"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "04:41",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by JACKSONV Kai Smith BLOCKED",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "04:41"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "04:39",
+              "teamId": 43831,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Penalty on AIRFORC Charlie Pyfer (HOLDING/0:30) Extra-man opportunity.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "04:39"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by JACKSONV William Krupsky (caused by Matt Deedy).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "04:23",
+              "teamId": 43831,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by AIRFORC Matt Deedy.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "04:23"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "04:21",
+              "teamId": 43831,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by AIRFORC failed.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "04:21"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43831,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by AIRFORC Christian Schweiger (caused by Ryan Della Rocco).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "04:09",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by JACKSONV good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "04:09"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:04",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by JACKSONV Nicky Brown.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "03:04"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by JACKSONV Zane Czeschin.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:55",
+              "teamId": 43831,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by AIRFORC good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "02:55"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:04",
+              "teamId": 43831,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by AIRFORC Alex Rismani.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "02:04"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:50",
+              "teamId": 43831,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by AIRFORC Cole Rassas WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "01:50"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43831,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by AIRFORC Ben Heidt (caused by Charlie DiGennaro).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:35",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by JACKSONV Ryan Della Rocco.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "01:35"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:32",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by JACKSONV good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "01:32"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:19",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by JACKSONV Kai Smith, SAVE Matt Deedy",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "01:19"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:16",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by JACKSONV Nicky Brown.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "01:16"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:24",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by JACKSONV Zane Czeschin WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:24"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:17",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Timeout by JACKSONV.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:17"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by JACKSONV.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:08",
+              "teamId": 43831,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by AIRFORC failed.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:08"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:00",
+              "teamId": 43831,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by AIRFORC Charlie Pyfer, SAVE Ryan Della Rocco",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:00"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "__typename": "PlayByPlayDetails",
+          "periodNumber": 3,
+          "periodDisplay": "3rd",
+          "playbyplayStats": [
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "15:00",
+              "teamId": 43831,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Seth Aliveto vs Drew Rippeon won by AIRFORC, [15:00] Ground ball pickup by AIRFORC Seth Aliveto.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "15:00"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "14:17",
+              "teamId": 43831,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by AIRFORC Luke Vrsansky, SAVE Ryan Della Rocco",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "14:17"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "14:13",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by JACKSONV good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "14:13"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "13:58",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by JACKSONV Lucas Fraser, SAVE Matt Deedy",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "13:58"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "13:54",
+              "teamId": 43831,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by AIRFORC Matt Deedy.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "13:54"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "13:52",
+              "teamId": 43831,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by AIRFORC good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "13:52"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "13:03",
+              "teamId": 43831,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by AIRFORC Tyler Smart.",
+                  "homeScore": 9,
+                  "visitorScore": 3,
+                  "clock": "13:03"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "13:03",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Seth Aliveto vs Drew Rippeon won by JACKSONV (on faceoff violation).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "13:03"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "12:19",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by JACKSONV Jack Taylor, Assist by Zane Czeschin.",
+                  "homeScore": 10,
+                  "visitorScore": 3,
+                  "clock": "12:19"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "12:19",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Charlie Pyfer vs Drew Rippeon won by JACKSONV (on faceoff violation).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "12:19"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "11:51",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by JACKSONV Jack Taylor BLOCKED",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "11:51"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "11:08",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by JACKSONV Daylin John-Hill, Assist by Jack Taylor.",
+                  "homeScore": 11,
+                  "visitorScore": 3,
+                  "clock": "11:08"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "11:08",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Seth Aliveto vs Drew Rippeon won by JACKSONV, [11:08] Ground ball pickup by JACKSONV Drew Rippeon.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "11:08"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "09:47",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by JACKSONV Jack Taylor, SAVE Matt Deedy",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "09:47"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "09:45",
+              "teamId": 43831,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by AIRFORC failed.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "09:45"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43831,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by AIRFORC John Kleinbeck.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by JACKSONV Jack Taylor.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "09:20",
+              "teamId": 43831,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by AIRFORC Matt Deedy.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "09:20"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "09:18",
+              "teamId": 43831,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by AIRFORC good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "09:18"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43831,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by AIRFORC Ben Heidt (caused by Lucas Fraser).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "08:13",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by JACKSONV George Bowdouris.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "08:13"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "08:11",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by JACKSONV good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "08:11"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:05",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by JACKSONV Zane Czeschin.",
+                  "homeScore": 12,
+                  "visitorScore": 3,
+                  "clock": "07:05"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:05",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Seth Aliveto vs Drew Rippeon won by JACKSONV, [07:05] Ground ball pickup by JACKSONV Drew Rippeon.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "07:05"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "06:48",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by JACKSONV Jack Taylor HIGH",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "06:48"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "06:19",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by JACKSONV Henry Fleckner WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "06:19"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "06:03",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by JACKSONV Henry Fleckner BLOCKED",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "06:03"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:40",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by JACKSONV Henry Fleckner.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "05:40"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:40",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by JACKSONV Henry Fleckner.",
+                  "homeScore": 13,
+                  "visitorScore": 3,
+                  "clock": "05:40"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:40",
+              "teamId": 43831,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Penalty on AIRFORC Charlie Pyfer (CROSS-CHECK/1:00) Extra-man opportunity.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "05:40"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:40",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Blake Boyd vs Drew Rippeon won by JACKSONV, [05:40] Ground ball pickup by JACKSONV Lucas Fraser.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "05:40"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "04:49",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by JACKSONV Daylin John-Hill.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "04:49"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "04:45",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by JACKSONV Daylin John-Hill HIT POST",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "04:45"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "04:45",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by JACKSONV Daylin John-Hill (MAN-UP), Assist by Jack Taylor.",
+                  "homeScore": 14,
+                  "visitorScore": 3,
+                  "clock": "04:45"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "04:45",
+              "teamId": 43831,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Timeout by AIRFORC.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "04:45"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "04:45",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Blake Boyd vs Drew Rippeon won by JACKSONV, [04:45] Ground ball pickup by JACKSONV Breyden Harrison.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "04:45"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "04:44",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by JACKSONV Jack Taylor.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "04:44"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by JACKSONV William Krupsky (caused by Cole Cunningham).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "04:02",
+              "teamId": 43831,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by AIRFORC Cole Cunningham.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "04:02"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "04:00",
+              "teamId": 43831,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by AIRFORC good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "04:00"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:11",
+              "teamId": 43831,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by AIRFORC Ben Heidt.",
+                  "homeScore": 14,
+                  "visitorScore": 4,
+                  "clock": "03:11"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:11",
+              "teamId": 43831,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Blake Boyd vs Drew Rippeon won by AIRFORC, [03:11] Ground ball pickup by AIRFORC Charlie Pyfer.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "03:11"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:58",
+              "teamId": 43831,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by AIRFORC Blake Boyd WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "02:58"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:23",
+              "teamId": 43831,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by AIRFORC Tyler Smart WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "02:23"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43831,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by AIRFORC Caelan Driggs (caused by Aaron Toguri).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:05",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by JACKSONV Aaron Toguri.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "02:05"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:03",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by JACKSONV good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "02:03"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:36",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by JACKSONV Jack Taylor WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "01:36"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:12",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by JACKSONV Jack Taylor BLOCKED",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "01:12"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by JACKSONV Braden McCassie (caused by Charlie Pyfer).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:58",
+              "teamId": 43831,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by AIRFORC Charlie Pyfer.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:58"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:56",
+              "teamId": 43831,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by AIRFORC good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:56"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:44",
+              "teamId": 43831,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by AIRFORC Nathan Crouse WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:44"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:40",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by JACKSONV good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:40"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:22",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Timeout by JACKSONV.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:22"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:00",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by JACKSONV Nicky Brown, SAVE Matt Deedy",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:00"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "__typename": "PlayByPlayDetails",
+          "periodNumber": 4,
+          "periodDisplay": "4th",
+          "playbyplayStats": [
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "15:00",
+              "teamId": 43831,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Christian Schweiger vs Drew Rippeon won by AIRFORC, [15:00] Ground ball pickup by AIRFORC Christian Schweiger.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "15:00"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43831,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by AIRFORC Caelan Driggs (caused by Aaron Toguri).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "14:53",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by JACKSONV Aaron Toguri.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "14:53"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "14:51",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by JACKSONV failed.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "14:51"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by JACKSONV Ryan Della Rocco (caused by Cole Cunningham).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "14:41",
+              "teamId": 43831,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by AIRFORC Cole Cunningham.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "14:41"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "14:26",
+              "teamId": 43831,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by AIRFORC Caelan Driggs, Assist by Cole Cunningham.",
+                  "homeScore": 14,
+                  "visitorScore": 5,
+                  "clock": "14:26"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "14:26",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Blake Boyd vs Drew Rippeon won by JACKSONV, [14:26] Ground ball pickup by JACKSONV Quinn Fuller.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "14:26"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "13:59",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by JACKSONV Nicky Brown, Assist by Kai Smith.",
+                  "homeScore": 15,
+                  "visitorScore": 5,
+                  "clock": "13:59"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "13:59",
+              "teamId": 43831,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Blake Boyd vs Drew Rippeon won by AIRFORC, [13:59] Ground ball pickup by AIRFORC Charlie Pyfer.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "13:59"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "13:19",
+              "teamId": 43831,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by AIRFORC Cole Rassas HIGH",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "13:19"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43831,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by AIRFORC Ben Heidt (caused by George Bowdouris).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "13:05",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by JACKSONV Breyden Harrison.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "13:05"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "13:03",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by JACKSONV good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "13:03"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "11:46",
+              "teamId": 43831,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by AIRFORC failed.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "11:46"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "11:25",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by JACKSONV Aaron Toguri.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "11:25"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "10:47",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by JACKSONV Nicky Brown BLOCKED",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "10:47"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "10:45",
+              "teamId": 43831,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by AIRFORC Charlie Pyfer.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "10:45"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "10:38",
+              "teamId": 43831,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by AIRFORC Caelan Driggs.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "10:38"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "10:34",
+              "teamId": 43831,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by AIRFORC Christian Schweiger, SAVE Ryan Della Rocco",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "10:34"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43831,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by AIRFORC.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "10:32",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by JACKSONV good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "10:32"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "09:34",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by JACKSONV Zane Czeschin, Assist by Parker Addison.",
+                  "homeScore": 16,
+                  "visitorScore": 5,
+                  "clock": "09:34"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "09:34",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Blake Boyd vs Drew Rippeon won by JACKSONV, [09:34] Ground ball pickup by JACKSONV Drew Rippeon.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "09:34"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "08:55",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by JACKSONV Nicky Brown, SAVE Matt Deedy",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "08:55"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "08:53",
+              "teamId": 43831,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by AIRFORC good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "08:53"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "08:31",
+              "teamId": 43831,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by AIRFORC Caelan Driggs, SAVE Ryan Della Rocco",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "08:31"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "08:02",
+              "teamId": 43831,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by AIRFORC Cole Rassas.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "08:02"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:45",
+              "teamId": 43831,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by AIRFORC Luke Vrsansky WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "07:45"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:27",
+              "teamId": 43831,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by AIRFORC Caelan Driggs, Assist by Cole Rassas.",
+                  "homeScore": 16,
+                  "visitorScore": 6,
+                  "clock": "07:27"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:27",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Blake Boyd vs Drew Rippeon won by JACKSONV, [07:27] Ground ball pickup by JACKSONV Drew Rippeon.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "07:27"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by JACKSONV Daylin John-Hill.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:02",
+              "teamId": 43831,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by AIRFORC Charlie Pyfer.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "07:02"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:00",
+              "teamId": 43831,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by AIRFORC good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "07:00"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43831,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by AIRFORC Caelan Driggs (caused by William Krupsky).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "06:46",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by JACKSONV Josh Hedderich.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "06:46"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by JACKSONV Parker Addison.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:48",
+              "teamId": 43831,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by AIRFORC good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "05:48"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43831,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by AIRFORC Luke Vrsansky.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "04:51",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by JACKSONV Bryce Wojnovich.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "04:51"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "04:48",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by JACKSONV good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "04:48"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:54",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by JACKSONV Gavin Angell.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "03:54"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by JACKSONV.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:31",
+              "teamId": 43831,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by AIRFORC good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "03:31"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:17",
+              "teamId": 43831,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by AIRFORC Connor Albertson HIGH",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "03:17"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:58",
+              "teamId": 43831,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by AIRFORC Cole Rassas, Assist by Luke Vrsansky.",
+                  "homeScore": 16,
+                  "visitorScore": 7,
+                  "clock": "02:58"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:58",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Blake Boyd vs Drew Rippeon won by JACKSONV, [02:58] Ground ball pickup by JACKSONV Drew Rippeon.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "02:58"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:38",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by JACKSONV George Bowdouris.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "02:38"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:34",
+              "teamId": 43831,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Penalty on AIRFORC Connor Albertson (HOLDING/0:30) Extra-man opportunity.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "01:34"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:24",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by JACKSONV William Krupsky, SAVE Matt Deedy",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "01:24"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:21",
+              "teamId": 43831,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by AIRFORC Hee-Cheol Shin.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "01:21"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:13",
+              "teamId": 43831,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by AIRFORC failed.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "01:13"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43831,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by AIRFORC (caused by Daylin John-Hill).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:01",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by JACKSONV Daylin John-Hill.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "01:01"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

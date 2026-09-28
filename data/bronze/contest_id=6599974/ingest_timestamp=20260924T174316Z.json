@@ -1,0 +1,3331 @@
+{
+  "data": {
+    "playbyplay": {
+      "__typename": "PlayByPlay",
+      "contestId": 6599974,
+      "title": "MLA PLAY-BY-PLAY",
+      "description": "Robert Morris vs Jacksonville",
+      "divisionName": "d1",
+      "status": "final",
+      "period": 4,
+      "minutes": "",
+      "seconds": "",
+      "teams": [
+        {
+          "__typename": "ContestTeam",
+          "isHome": true,
+          "teamId": "43732",
+          "seoname": "robert-morris",
+          "name6Char": "ROBMOR",
+          "nameShort": "Robert Morris",
+          "nameFull": "Robert Morris University",
+          "teamName": "Colonials",
+          "color": "#041E42"
+        },
+        {
+          "__typename": "ContestTeam",
+          "isHome": false,
+          "teamId": "43919",
+          "seoname": "jacksonville",
+          "name6Char": "JVILLE",
+          "nameShort": "Jacksonville",
+          "nameFull": "Jacksonville University",
+          "teamName": "Dolphins",
+          "color": "#004E42"
+        }
+      ],
+      "periods": [
+        {
+          "__typename": "PlayByPlayDetails",
+          "periodNumber": 1,
+          "periodDisplay": "1st",
+          "playbyplayStats": [
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "15:00",
+              "teamId": 43732,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Nate Fechter at goalie for ROBERT M.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "15:00"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "15:00",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ryan Della Rocco at goalie for JACKSONV.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "15:00"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "15:00",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Drew Rippeon vs Cristian Davis won by JACKSONV, [15:00] Ground ball pickup by JACKSONV Drew Rippeon.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "15:00"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "14:32",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by JACKSONV William Krupsky (FIRST GOAL).",
+                  "homeScore": 0,
+                  "visitorScore": 1,
+                  "clock": "14:32"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "14:32",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Drew Rippeon vs Cristian Davis won by JACKSONV, [14:32] Ground ball pickup by JACKSONV Drew Rippeon.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "14:32"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "13:22",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by JACKSONV Kai Smith.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "13:22"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by JACKSONV.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "13:06",
+              "teamId": 43732,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by ROBERT M Nathan Ruff.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "13:06"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "12:43",
+              "teamId": 43732,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by ROBERT M good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "12:43"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "12:30",
+              "teamId": 43732,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by ROBERT M Ben Eck, Assist by Graeme Maclennan.",
+                  "homeScore": 1,
+                  "visitorScore": 1,
+                  "clock": "12:30"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "12:30",
+              "teamId": 43732,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Drew Rippeon vs Cristian Davis won by ROBERT M, [12:30] Ground ball pickup by ROBERT M Owen Tapper.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "12:30"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "12:20",
+              "teamId": 43732,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by ROBERT M Zach Tucker.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "12:20"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "12:11",
+              "teamId": 43732,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by ROBERT M good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "12:11"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "11:43",
+              "teamId": 43732,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by ROBERT M Joel McCormick HIT POST",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "11:43"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "11:37",
+              "teamId": 43732,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by ROBERT M Ben Eck.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "11:37"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43732,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by ROBERT M Joel McCormick.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "10:57",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by JACKSONV Josh Hedderich.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "10:57"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "10:52",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by JACKSONV good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "10:52"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "10:09",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by JACKSONV Nicky Brown, Assist by Jack Taylor.",
+                  "homeScore": 1,
+                  "visitorScore": 2,
+                  "clock": "10:09"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "10:09",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Drew Rippeon vs Cristian Davis won by JACKSONV, [10:09] Ground ball pickup by JACKSONV Drew Rippeon.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "10:09"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "09:04",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by JACKSONV Jack Taylor, SAVE Nate Fechter",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "09:04"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "08:55",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by JACKSONV Gavin Angell.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "08:55"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "08:45",
+              "teamId": 43732,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Penalty on ROBERT M Liam Blakely (SLASHING/1:00) Extra-man opportunity.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "08:45"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:54",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by JACKSONV Zane Czeschin WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "07:54"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:46",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by JACKSONV Nicky Brown (MAN-UP), Assist by Daylin John-Hill.",
+                  "homeScore": 1,
+                  "visitorScore": 3,
+                  "clock": "07:46"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "MEDIA TIMEOUT",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:46",
+              "teamId": 43732,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Drew Rippeon vs Brad Hill won by ROBERT M, [07:46] Ground ball pickup by ROBERT M Brad Hill.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "07:46"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:36",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Penalty on JACKSONV Lucas Fraser (TRIPPING/1:00) Extra-man opportunity.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "07:36"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:29",
+              "teamId": 43732,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by ROBERT M Ben Eck WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "07:29"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:11",
+              "teamId": 43732,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by ROBERT M Ben Eck, SAVE Ryan Della Rocco",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "07:11"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:01",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by JACKSONV good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "07:01"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by JACKSONV William Krupsky (caused by Nathan Ruff).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "06:13",
+              "teamId": 43732,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by ROBERT M Nathan Ruff.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "06:13"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "06:10",
+              "teamId": 43732,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by ROBERT M good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "06:10"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "06:06",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Penalty on JACKSONV Gavin Angell (PUSHING/0:30) Extra-man opportunity.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "06:06"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:50",
+              "teamId": 43732,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by ROBERT M Ben Eck (MAN-UP).",
+                  "homeScore": 2,
+                  "visitorScore": 3,
+                  "clock": "05:50"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:50",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Drew Rippeon vs Brad Hill won by JACKSONV, [05:50] Ground ball pickup by JACKSONV Drew Rippeon.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "05:50"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:39",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by JACKSONV good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "05:39"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "04:41",
+              "teamId": 43732,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Penalty on ROBERT M Luke Prezioso (SLASHING/1:00) Extra-man opportunity.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "04:41"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "04:17",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by JACKSONV Connor Sydnor (MAN-UP), Assist by Daylin John-Hill.",
+                  "homeScore": 2,
+                  "visitorScore": 4,
+                  "clock": "04:17"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "04:17",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Drew Rippeon vs Brad Hill won by JACKSONV, [04:17] Ground ball pickup by JACKSONV Daylin John-Hill.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "04:17"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "04:02",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by JACKSONV Daylin John-Hill, SAVE Nate Fechter",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "04:02"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:55",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by JACKSONV Jack Taylor.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "03:55"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:50",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by JACKSONV Lucas Fraser, SAVE Nate Fechter",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "03:50"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:41",
+              "teamId": 43732,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by ROBERT M good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "03:41"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43732,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by ROBERT M Koerner Marechek.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:03",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by JACKSONV good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "03:03"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by JACKSONV Tate Jones (caused by Liam Blakely).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:15",
+              "teamId": 43732,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by ROBERT M Nate Fechter.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "02:15"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:04",
+              "teamId": 43732,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by ROBERT M good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "02:04"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:40",
+              "teamId": 43732,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by ROBERT M Ben Eck, SAVE Ryan Della Rocco",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "01:40"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:36",
+              "teamId": 43732,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by ROBERT M Graeme Maclennan.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "01:36"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:32",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by JACKSONV Grant Maloney.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "01:32"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by JACKSONV Jack Taylor.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:59",
+              "teamId": 43732,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by ROBERT M Liam Blakely.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:59"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:55",
+              "teamId": 43732,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by ROBERT M failed.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:55"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43732,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by ROBERT M Liam Blakely.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:34",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by JACKSONV good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:34"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:12",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by JACKSONV Nicky Brown WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:12"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:04",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by JACKSONV Daylin John-Hill, Assist by Jack Taylor.",
+                  "homeScore": 2,
+                  "visitorScore": 5,
+                  "clock": "00:04"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:04",
+              "teamId": 43732,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Drew Rippeon vs Brad Hill won by ROBERT M, [00:04] Ground ball pickup by ROBERT M Brad Hill.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:04"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:00",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "End-of-period.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:00"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "__typename": "PlayByPlayDetails",
+          "periodNumber": 2,
+          "periodDisplay": "2nd",
+          "playbyplayStats": [
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "15:00",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "15:00"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "15:00",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Drew Rippeon vs Brad Hill won by JACKSONV, [15:00] Ground ball pickup by JACKSONV Drew Rippeon.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "15:00"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by JACKSONV Daylin John-Hill.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "14:02",
+              "teamId": 43732,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by ROBERT M good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "14:02"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "13:37",
+              "teamId": 43732,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by ROBERT M Joel McCormick HIGH",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "13:37"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "13:15",
+              "teamId": 43732,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by ROBERT M Ben Eck, SAVE Ryan Della Rocco",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "13:15"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "13:11",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by JACKSONV Josh Hedderich.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "13:11"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "13:07",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by JACKSONV good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "13:07"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "12:11",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by JACKSONV Nicky Brown HIGH",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "12:11"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "12:01",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by JACKSONV Tate Jones.",
+                  "homeScore": 2,
+                  "visitorScore": 6,
+                  "clock": "12:01"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "12:01",
+              "teamId": 43732,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Drew Rippeon vs Brad Hill won by ROBERT M, [12:01] Ground ball pickup by ROBERT M Brad Hill.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "12:01"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "11:53",
+              "teamId": 43732,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by ROBERT M Brad Hill, SAVE Ryan Della Rocco",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "11:53"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "11:39",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by JACKSONV good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "11:39"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "11:26",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by JACKSONV George Bowdouris.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "11:26"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by JACKSONV.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "10:07",
+              "teamId": 43732,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by ROBERT M Koerner Marechek HIGH",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "10:07"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43732,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by ROBERT M Luke Prezioso.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "08:46",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by JACKSONV Zane Czeschin, SAVE Nate Fechter",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "08:46"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "08:39",
+              "teamId": 43732,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by ROBERT M Gavin Pedone.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "08:39"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "08:36",
+              "teamId": 43732,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by ROBERT M failed.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "08:36"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43732,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by ROBERT M Gavin Pedone.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "08:29",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by JACKSONV Aaron Toguri.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "08:29"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:44",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by JACKSONV Jack Taylor, SAVE Nate Fechter",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "07:44"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:41",
+              "teamId": 43732,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by ROBERT M good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "07:41"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "06:53",
+              "teamId": 43732,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by ROBERT M Graeme Maclennan.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "06:53"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "06:49",
+              "teamId": 43732,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by ROBERT M Joel McCormick WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "06:49"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "06:29",
+              "teamId": 43732,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by ROBERT M Graeme Maclennan HIGH",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "06:29"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "06:14",
+              "teamId": 43732,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by ROBERT M Ben Eck HIGH",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "06:14"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "06:08",
+              "teamId": 43732,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by ROBERT M Luke Prezioso, SAVE Ryan Della Rocco",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "06:08"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "06:04",
+              "teamId": 43732,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by ROBERT M Dylan Anderson.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "06:04"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:57",
+              "teamId": 43732,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by ROBERT M Dylan Anderson WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "05:57"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:49",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by JACKSONV good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "05:49"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:34",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Timeout by JACKSONV.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "05:34"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "MEDIA TIMEOUT",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:10",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by JACKSONV Tate Jones, SAVE Nate Fechter",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "05:10"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "04:33",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by JACKSONV William Krupsky.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "04:33"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "04:22",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by JACKSONV William Krupsky.",
+                  "homeScore": 2,
+                  "visitorScore": 7,
+                  "clock": "04:22"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "04:22",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Drew Rippeon vs Brad Hill won by JACKSONV, [04:22] Ground ball pickup by JACKSONV Drew Rippeon.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "04:22"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by JACKSONV Breyden Harrison (caused by Ryan Stiefel).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:56",
+              "teamId": 43732,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by ROBERT M Liam Blakely.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "03:56"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:52",
+              "teamId": 43732,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by ROBERT M good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "03:52"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:57",
+              "teamId": 43732,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by ROBERT M Tommy Linehan.",
+                  "homeScore": 3,
+                  "visitorScore": 7,
+                  "clock": "02:57"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:57",
+              "teamId": 43732,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Drew Rippeon vs Brad Hill won by ROBERT M, [02:57] Ground ball pickup by ROBERT M Callum Witter.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "02:57"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:44",
+              "teamId": 43732,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by ROBERT M good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "02:44"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:36",
+              "teamId": 43732,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by ROBERT M Joel McCormick, SAVE Ryan Della Rocco",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "01:36"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:33",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by JACKSONV Ryan Della Rocco.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "01:33"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:28",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by JACKSONV good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "01:28"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:29",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by JACKSONV Jack Taylor.",
+                  "homeScore": 3,
+                  "visitorScore": 8,
+                  "clock": "00:29"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:29",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Drew Rippeon vs Brad Hill won by JACKSONV, [00:29] Ground ball pickup by JACKSONV Lucas Fraser.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:29"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:19",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Timeout by JACKSONV.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:19"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:06",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by JACKSONV Gavin Angell.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:06"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:01",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by JACKSONV Zane Czeschin WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:01"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:00",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "End-of-period.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:00"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "__typename": "PlayByPlayDetails",
+          "periodNumber": 3,
+          "periodDisplay": "3rd",
+          "playbyplayStats": [
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "15:00",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "15:00"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "15:00",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Drew Rippeon vs Brad Hill won by JACKSONV, [15:00] Ground ball pickup by JACKSONV Drew Rippeon.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "15:00"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "14:47",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by JACKSONV Jack Taylor, Assist by Lucas Fraser.",
+                  "homeScore": 3,
+                  "visitorScore": 9,
+                  "clock": "14:47"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "14:47",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Drew Rippeon vs Brad Hill won by JACKSONV, [14:47] Ground ball pickup by JACKSONV Drew Rippeon.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "14:47"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "14:39",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by JACKSONV Jack Taylor BLOCKED",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "14:39"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "14:34",
+              "teamId": 43732,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by ROBERT M Zach Tucker.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "14:34"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "14:30",
+              "teamId": 43732,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by ROBERT M good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "14:30"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "14:00",
+              "teamId": 43732,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by ROBERT M Owen Tapper.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "14:00"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "13:49",
+              "teamId": 43732,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by ROBERT M Joel McCormick WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "13:49"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "13:23",
+              "teamId": 43732,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by ROBERT M Calum Brennan.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "13:23"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "13:19",
+              "teamId": 43732,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by ROBERT M Dylan Anderson WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "13:19"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "13:13",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by JACKSONV good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "13:13"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by JACKSONV Zane Czeschin.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "12:25",
+              "teamId": 43732,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by ROBERT M Nathan Ruff.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "12:25"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "12:06",
+              "teamId": 43732,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by ROBERT M Ben Eck HIT POST",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "12:06"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "11:38",
+              "teamId": 43732,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by ROBERT M Luke Prezioso WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "11:38"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43732,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by ROBERT M Ben Eck.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "11:14",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by JACKSONV good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "11:14"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by JACKSONV Daylin John-Hill (caused by Elijah Edwards).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "10:13",
+              "teamId": 43732,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by ROBERT M Elijah Edwards.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "10:13"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "10:11",
+              "teamId": 43732,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by ROBERT M good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "10:11"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43732,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by ROBERT M Dylan Anderson.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "10:01",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by JACKSONV good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "10:01"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "09:11",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by JACKSONV Jack Taylor.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "09:11"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "09:03",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by JACKSONV William Krupsky, Assist by Daylin John-Hill.",
+                  "homeScore": 3,
+                  "visitorScore": 10,
+                  "clock": "09:03"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "09:03",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Drew Rippeon vs Cristian Davis won by JACKSONV, [09:03] Ground ball pickup by JACKSONV Lucas Fraser.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "09:03"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "08:50",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by JACKSONV good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "08:50"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by JACKSONV Jack Taylor.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:38",
+              "teamId": 43732,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by ROBERT M Connor Henry.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "07:38"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:32",
+              "teamId": 43732,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by ROBERT M good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "07:32"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:07",
+              "teamId": 43732,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by ROBERT M Tommy Linehan, SAVE Ryan Della Rocco",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "07:07"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "06:56",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by JACKSONV failed.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "06:56"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by JACKSONV Gavin Angell.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "06:35",
+              "teamId": 43732,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by ROBERT M Calum Brennan.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "06:35"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43732,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by ROBERT M Graeme Maclennan.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "06:13",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by JACKSONV failed.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "06:13"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by JACKSONV Breyden Harrison.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "06:03",
+              "teamId": 43732,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by ROBERT M Nathan Ruff.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "06:03"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43732,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by ROBERT M Owen Tapper.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:50",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by JACKSONV good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "05:50"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:18",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by JACKSONV Zane Czeschin, SAVE Nate Fechter",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "05:18"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "04:54",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by JACKSONV Jack Taylor WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "04:54"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "04:32",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by JACKSONV Jack Taylor HIT POST",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "04:32"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "04:30",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by JACKSONV Jack Taylor.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "04:30"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "04:27",
+              "teamId": 43732,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Penalty on ROBERT M Liam Blakely (PUSHING/0:30) Extra-man opportunity.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "04:27"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:57",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by JACKSONV Jack Taylor.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "03:57"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:45",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by JACKSONV Zane Czeschin, SAVE Nate Fechter",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "03:45"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:39",
+              "teamId": 43732,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by ROBERT M Nathan Ruff.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "03:39"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:35",
+              "teamId": 43732,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by ROBERT M good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "03:35"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:32",
+              "teamId": 43732,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by ROBERT M Gavin Pedone WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "03:32"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:10",
+              "teamId": 43732,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by ROBERT M Ben Eck BLOCKED",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "03:10"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:06",
+              "teamId": 43732,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by ROBERT M Joel McCormick.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "03:06"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43732,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by ROBERT M Joel McCormick (caused by Grant Maloney).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:55",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by JACKSONV Josh Hedderich.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "02:55"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:54",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by JACKSONV good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "02:54"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:54",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by JACKSONV Jack Taylor.",
+                  "homeScore": 3,
+                  "visitorScore": 11,
+                  "clock": "01:54"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "MEDIA TIMEOUT",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:54",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Drew Rippeon vs Cristian Davis won by JACKSONV, [01:54] Ground ball pickup by JACKSONV Drew Rippeon.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "01:54"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by JACKSONV Jack Taylor (caused by Zach Tucker).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:51",
+              "teamId": 43732,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by ROBERT M Zach Tucker.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:51"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:49",
+              "teamId": 43732,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by ROBERT M good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:49"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:04",
+              "teamId": 43732,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by ROBERT M Dylan Anderson, SAVE Ryan Della Rocco",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:04"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:02",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by JACKSONV good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:02"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:00",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "End-of-period.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:00"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "__typename": "PlayByPlayDetails",
+          "periodNumber": 4,
+          "periodDisplay": "4th",
+          "playbyplayStats": [
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "15:00",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "15:00"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "15:00",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Drew Rippeon vs Cristian Davis won by JACKSONV, [15:00] Ground ball pickup by JACKSONV Drew Rippeon.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "15:00"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "14:25",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by JACKSONV William Krupsky WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "14:25"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "13:37",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by JACKSONV Daylin John-Hill, SAVE Nate Fechter",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "13:37"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "13:33",
+              "teamId": 43732,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by ROBERT M good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "13:33"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "12:52",
+              "teamId": 43732,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by ROBERT M Calum Brennan, Assist by Ben Eck.",
+                  "homeScore": 4,
+                  "visitorScore": 11,
+                  "clock": "12:52"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "12:52",
+              "teamId": 43732,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Drew Rippeon vs Brad Hill won by ROBERT M, [12:52] Ground ball pickup by ROBERT M Brad Hill.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "12:52"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "12:32",
+              "teamId": 43732,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by ROBERT M good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "12:32"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "12:29",
+              "teamId": 43732,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by ROBERT M Ryan Stiefel, SAVE Ryan Della Rocco",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "12:29"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "11:30",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by JACKSONV Josh Hedderich.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "11:30"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "11:27",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by JACKSONV good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "11:27"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "10:32",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by JACKSONV Gavin Angell.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "10:32"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "10:19",
+              "teamId": 43732,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Penalty on ROBERT M Owen Tapper (UNSPORTSMANLIKE CONDUCT/2:00) Extra-man opportunity.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "10:19"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "09:49",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by JACKSONV Jack Taylor, SAVE Nate Fechter",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "09:49"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "09:21",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by JACKSONV Zane Czeschin (MAN-UP), Assist by Daylin John-Hill.",
+                  "homeScore": 4,
+                  "visitorScore": 12,
+                  "clock": "09:21"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "09:21",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Drew Rippeon vs Brad Hill won by JACKSONV, [09:21] Ground ball pickup by JACKSONV Lucas Fraser.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "09:21"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "08:38",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by JACKSONV Jack Taylor WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "08:38"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "08:19",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by JACKSONV Daylin John-Hill HIGH",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "08:19"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "08:00",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by JACKSONV William Krupsky, Assist by Nicky Brown.",
+                  "homeScore": 4,
+                  "visitorScore": 13,
+                  "clock": "08:00"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "08:00",
+              "teamId": 43732,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Drew Rippeon vs Brad Hill won by ROBERT M, [08:00] Ground ball pickup by ROBERT M Owen Tapper.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "08:00"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:48",
+              "teamId": 43732,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by ROBERT M good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "07:48"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:40",
+              "teamId": 43732,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by ROBERT M Luke Prezioso, Assist by Evan Diblasi.",
+                  "homeScore": 5,
+                  "visitorScore": 13,
+                  "clock": "07:40"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:40",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Drew Rippeon vs Brad Hill won by JACKSONV, [07:40] Ground ball pickup by JACKSONV Drew Rippeon.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "07:40"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by JACKSONV Drew Rippeon.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:17",
+              "teamId": 43732,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by ROBERT M Ben Eck.",
+                  "homeScore": 6,
+                  "visitorScore": 13,
+                  "clock": "07:17"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:17",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Drew Rippeon vs Brad Hill won by JACKSONV, [07:17] Ground ball pickup by JACKSONV Lucas Fraser.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "07:17"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "06:59",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by JACKSONV Braden McCassie, SAVE Nate Fechter",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "06:59"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "06:51",
+              "teamId": 43732,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by ROBERT M Liam Blakely.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "06:51"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "06:29",
+              "teamId": 43732,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by ROBERT M failed.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "06:29"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43732,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by ROBERT M Liam Blakely (caused by Jack Taylor).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "06:23",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by JACKSONV Jack Taylor.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "06:23"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:35",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by JACKSONV Gavin Angell, SAVE Nate Fechter",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "05:35"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:25",
+              "teamId": 43732,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by ROBERT M good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "05:25"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:13",
+              "teamId": 43732,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by ROBERT M Luke Prezioso HIT POST",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "05:13"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:11",
+              "teamId": 43732,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Timeout by ROBERT M.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "05:11"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43732,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by ROBERT M Ben Eck (caused by Ryan Della Rocco).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "04:17",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by JACKSONV Ryan Della Rocco.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "04:17"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "04:14",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by JACKSONV good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "04:14"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:14",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by JACKSONV Jack Taylor, SAVE Nate Fechter",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "03:14"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:10",
+              "teamId": 43732,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by ROBERT M Liam Blakely.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "03:10"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:07",
+              "teamId": 43732,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by ROBERT M good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "03:07"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:03",
+              "teamId": 43732,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by ROBERT M Liam Blakely WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "03:03"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:39",
+              "teamId": 43732,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by ROBERT M Ben Eck, Assist by Luis Gonzalez.",
+                  "homeScore": 7,
+                  "visitorScore": 13,
+                  "clock": "02:39"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:39",
+              "teamId": 43732,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Drew Rippeon vs Brad Hill won by ROBERT M, [02:39] Ground ball pickup by ROBERT M Brad Hill.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "02:39"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43732,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by ROBERT M Brad Hill (caused by Breyden Harrison).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:19",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by JACKSONV Nicky Brown.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "02:19"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:53",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by JACKSONV Tate Jones.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "01:53"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by JACKSONV Kai Smith (caused by Liam Blakely).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:25",
+              "teamId": 43732,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by ROBERT M Liam Blakely.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "01:25"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:22",
+              "teamId": 43732,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by ROBERT M good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "01:22"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:55",
+              "teamId": 43732,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by ROBERT M Graeme Maclennan WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:55"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:43",
+              "teamId": 43732,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by ROBERT M Luis Gonzalez, SAVE Ryan Della Rocco",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:43"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:34",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by JACKSONV good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:34"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:00",
+              "teamId": 43919,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "End-of-period.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:00"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

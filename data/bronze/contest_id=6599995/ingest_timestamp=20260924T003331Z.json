@@ -1,0 +1,3429 @@
+{
+  "data": {
+    "playbyplay": {
+      "__typename": "PlayByPlay",
+      "contestId": 6599995,
+      "title": "MLA PLAY-BY-PLAY",
+      "description": "Notre Dame vs Syracuse",
+      "divisionName": "d1",
+      "status": "final",
+      "period": 4,
+      "minutes": "",
+      "seconds": "",
+      "teams": [
+        {
+          "__typename": "ContestTeam",
+          "isHome": true,
+          "teamId": "43861",
+          "seoname": "notre-dame",
+          "name6Char": "N DAME",
+          "nameShort": "Notre Dame",
+          "nameFull": "University of Notre Dame",
+          "teamName": "Fighting Irish",
+          "color": "#0C2340"
+        },
+        {
+          "__typename": "ContestTeam",
+          "isHome": false,
+          "teamId": "43804",
+          "seoname": "syracuse",
+          "name6Char": "SYR",
+          "nameShort": "Syracuse",
+          "nameFull": "Syracuse University",
+          "teamName": "Orange",
+          "color": "#DC4405"
+        }
+      ],
+      "periods": [
+        {
+          "__typename": "PlayByPlayDetails",
+          "periodNumber": 1,
+          "periodDisplay": "1st",
+          "playbyplayStats": [
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "15:00",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Jimmy McCool at goalie for SU.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "15:00"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "15:00",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Thomas Ricciardelli at goalie for ND.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "15:00"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "15:00",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff John Mullen vs Tyler Spano won by SU (on faceoff violation).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "15:00"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by SU Payton Anderson (caused by Christian Alacqua).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "14:16",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by ND Will Donovan.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "14:16"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "14:13",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by ND good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "14:13"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "13:40",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by ND Matt Jeffery.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "13:40"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by ND Luke Miller.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "13:22",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by SU Jake Spallina.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "13:22"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "13:17",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by SU good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "13:17"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "12:51",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by SU Bogue Hahn, SAVE Thomas Ricciardelli",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "12:51"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "12:45",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by ND Christopher Iuliano.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "12:45"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "12:29",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by ND good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "12:29"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "12:26",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by ND Kyle Bergen.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "12:26"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "11:36",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Penalty on SU Joey Spallina (OFFSIDE/0:30) Extra-man opportunity.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "11:36"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "11:34",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by ND Jalen Seymour WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "11:34"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "11:04",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by ND Brock Behrman (MAN-UP) (FIRST GOAL), Assist by Jalen Seymour, goal number 19 for season.",
+                  "homeScore": 1,
+                  "visitorScore": 0,
+                  "clock": "11:04"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "11:04",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff John Mullen vs Aidan Diaz-Matos won by ND, [11:04] Ground ball pickup by ND Aidan Diaz-Matos.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "11:04"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "10:22",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by ND Will Angrick WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "10:22"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "10:05",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by ND Will Angrick, Assist by Will Maheras, goal number 14 for season.",
+                  "homeScore": 2,
+                  "visitorScore": 0,
+                  "clock": "10:05"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "10:05",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff John Mullen vs Aidan Diaz-Matos won by SU (on faceoff violation).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "10:05"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "09:28",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by SU Luke Rhoa, SAVE Thomas Ricciardelli",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "09:28"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "09:08",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by ND good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "09:08"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "08:31",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by ND Dylan Faison, SAVE Jimmy McCool",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "08:31"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "08:27",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by SU Jimmy McCool.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "08:27"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "08:15",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by SU good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "08:15"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:44",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by SU Matt McIntee, SAVE Thomas Ricciardelli",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "07:44"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:29",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by ND good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "07:29"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "06:59",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by ND Will Maheras BLOCKED",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "06:59"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "06:56",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by ND Luke Miller.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "06:56"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "06:35",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by ND Luke Miller WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "06:35"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "06:31",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by ND Matt Jeffery.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "06:31"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by ND Matt Jeffery.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "06:16",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by SU good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "06:16"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:44",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by SU Joey Spallina, SAVE Thomas Ricciardelli",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "05:44"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:21",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by ND good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "05:21"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:15",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by ND Max Busenkell, Assist by Will Gallagher, goal number 4 for season.",
+                  "homeScore": 3,
+                  "visitorScore": 0,
+                  "clock": "05:15"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:15",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff John Mullen vs Tyler Spano won by SU, [05:15] Ground ball pickup by SU John Mullen.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "05:15"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:01",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by SU Michael Leo WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "05:01"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "04:43",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by SU Payton Anderson HIGH",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "04:43"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "04:41",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Penalty on ND Will Donovan (PUSHING/0:30) Extra-man opportunity.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "04:41"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "04:19",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by SU Luke Rhoa, SAVE Thomas Ricciardelli",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "04:19"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "04:02",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by ND good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "04:02"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:36",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by ND Josh Yago, SAVE Jimmy McCool",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "03:36"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:24",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by ND Luke Miller WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "03:24"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:07",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by ND Matt Jeffery, Assist by Josh Yago, goal number 18 for season.",
+                  "homeScore": 4,
+                  "visitorScore": 0,
+                  "clock": "03:07"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:07",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff John Mullen vs Tyler Spano won by SU, [03:07] Ground ball pickup by SU John Mullen.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "03:07"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:41",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by SU Bogue Hahn.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "02:41"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:16",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by SU Joey Spallina WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "02:16"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:00",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by SU Finn Thomson, Assist by Joey Spallina, goal number 42 for season.",
+                  "homeScore": 4,
+                  "visitorScore": 1,
+                  "clock": "02:00"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:00",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff John Mullen vs Aidan Diaz-Matos won by SU, [02:00] Ground ball pickup by SU John Mullen.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "02:00"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:04",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by SU Finn Thomson, Assist by Luke Rhoa, goal number 43 for season.",
+                  "homeScore": 4,
+                  "visitorScore": 2,
+                  "clock": "01:04"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:04",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff John Mullen vs Aidan Diaz-Matos won by SU, [01:04] Ground ball pickup by SU John Mullen.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "01:04"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:57",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by SU Finn Thomson HIGH",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:57"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:41",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by SU Wyatt Hottle WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:41"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:07",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by SU Luke Rhoa, Assist by Payton Anderson, goal number 31 for season.",
+                  "homeScore": 4,
+                  "visitorScore": 3,
+                  "clock": "00:07"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:07",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff John Mullen vs Tyler Spano won by ND, [00:07] Ground ball pickup by ND Tyler Spano.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:07"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:00",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by ND Christopher Iuliano.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:00"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:00",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by ND Christopher Iuliano WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:00"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:00",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "End-of-period.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:00"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "__typename": "PlayByPlayDetails",
+          "periodNumber": 2,
+          "periodDisplay": "2nd",
+          "playbyplayStats": [
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "15:00",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "15:00"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "15:00",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff John Mullen vs Tyler Spano won by SU, [15:00] Ground ball pickup by SU John Mullen.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "15:00"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by SU John Mullen.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "14:47",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by ND Will Gallagher.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "14:47"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "14:35",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by ND good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "14:35"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "14:06",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by ND Josh Yago, SAVE Jimmy McCool",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "14:06"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "14:02",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by ND Matt Jeffery.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "14:02"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "13:26",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by ND Josh Yago, SAVE Jimmy McCool",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "13:26"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "13:16",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by SU Tyler McCarthy.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "13:16"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "13:11",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by SU good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "13:11"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "13:07",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by SU Chuck Kuczynski.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "13:07"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "12:51",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Penalty on ND Thomas Porell (ILLEGAL BODY CHECK/2:00) Extra-man opportunity.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "12:51"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "12:25",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by SU Greg Elijah-Brown, SAVE Thomas Ricciardelli",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "12:25"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "12:19",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by SU Joey Spallina.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "12:19"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "12:11",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by SU Luke Rhoa BLOCKED",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "12:11"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "12:07",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by SU Ted Rawson.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "12:07"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by SU Finn Thomson.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "11:39",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by ND Will Donovan.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "11:39"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "11:35",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by ND Christian Alacqua.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "11:35"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "11:30",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by ND good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "11:30"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "10:52",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by ND Teddy Lally (MAN-DOWN), Assist by Will Maheras, goal number 15 for season.",
+                  "homeScore": 5,
+                  "visitorScore": 3,
+                  "clock": "10:52"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "10:52",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff John Mullen vs Tyler Spano won by SU, [10:52] Ground ball pickup by SU John Mullen.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "10:52"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by SU John Mullen.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "10:35",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by ND good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "10:35"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "10:10",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by ND Matt Jeffery WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "10:10"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by ND Matt Jeffery.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "09:35",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by SU good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "09:35"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "08:54",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by SU Luke Rhoa HIGH",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "08:54"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "08:29",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by SU Luke Rhoa WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "08:29"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "08:16",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by ND good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "08:16"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "08:11",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Timeout by ND.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "08:11"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:54",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by ND Max Busenkell, goal number 5 for season.",
+                  "homeScore": 6,
+                  "visitorScore": 3,
+                  "clock": "07:54"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:54",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff John Mullen vs Tyler Spano won by SU, [07:54] Ground ball pickup by SU John Mullen.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "07:54"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by SU Michael Leo (caused by Nate Schwitzenberg).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:14",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by ND Chris Reihnardt.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "07:14"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:09",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by ND good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "07:09"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "06:32",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by ND Will Maheras HIGH",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "06:32"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by ND Matt Jeffery.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "06:15",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by SU good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "06:15"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:49",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by SU Finn Thomson, Assist by Payton Anderson, goal number 44 for season.",
+                  "homeScore": 6,
+                  "visitorScore": 4,
+                  "clock": "05:49"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:49",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Penalty on ND Thomas Porell (CROSS-CHECK/1:00) Extra-man opportunity.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "05:49"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:28",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by SU Greg Elijah-Brown, SAVE Thomas Ricciardelli",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "05:28"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:11",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by ND good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "05:11"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by ND.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "04:59",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by SU good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "04:59"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "04:52",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Timeout by SU.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "04:52"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "04:39",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by SU Michael Leo HIGH",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "04:39"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "04:22",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by SU Wyatt Hottle WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "04:22"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "04:15",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by ND Thomas Ricciardelli.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "04:15"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "04:09",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by ND good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "04:09"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:08",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by ND Josh Yago HIGH",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "03:08"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:00",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by ND Max Busenkell WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "03:00"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by ND.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:49",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by SU good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "02:49"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by SU Tucker Kellogg.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:25",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by ND Fisher Finley.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "02:25"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:20",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by ND good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "02:20"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:17",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by ND Luke Miller, SAVE Jimmy McCool",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "02:17"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:17",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Penalty on SU Matt McIntee (UNNECESSARY ROUGHNESS/1:00) Extra-man opportunity.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "02:17"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:34",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by ND Brock Behrman.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "01:34"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:25",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by ND Josh Yago (MAN-UP), Assist by Brock Behrman, goal number 30 for season.",
+                  "homeScore": 7,
+                  "visitorScore": 4,
+                  "clock": "01:25"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:25",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff John Mullen vs Tyler Spano won by ND, [01:25] Ground ball pickup by ND Tyler Spano.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "01:25"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:08",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by ND Josh Yago BLOCKED",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:08"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:05",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by ND Will Maheras.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:05"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:02",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by ND Brock Behrman, SAVE Jimmy McCool",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:02"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:00",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "End-of-period.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:00"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "__typename": "PlayByPlayDetails",
+          "periodNumber": 3,
+          "periodDisplay": "3rd",
+          "playbyplayStats": [
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "15:00",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "15:00"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "15:00",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff John Mullen vs Tyler Spano won by SU, [15:00] Ground ball pickup by SU John Mullen.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "15:00"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "13:45",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by SU Joey Spallina.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "13:45"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "13:43",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by SU Joey Spallina, SAVE Thomas Ricciardelli",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "13:43"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "13:22",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by ND good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "13:22"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "12:57",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by ND Brock Behrman, Assist by Will Maheras, goal number 20 for season.",
+                  "homeScore": 8,
+                  "visitorScore": 4,
+                  "clock": "12:57"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "12:57",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff John Mullen vs Aidan Diaz-Matos won by ND.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "12:57"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "12:08",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by ND Josh Yago, SAVE Jimmy McCool",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "12:08"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "11:58",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by SU Jimmy McCool.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "11:58"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "11:55",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by SU failed.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "11:55"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by SU Riley Figueiras.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "11:47",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by ND Josh Yago.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "11:47"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "11:19",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by ND Jalen Seymour HIGH",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "11:19"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "11:15",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Penalty on SU Jayden Kittelberger (PUSHING/0:30) Extra-man opportunity.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "11:15"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "11:15",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Penalty on SU Jayden Kittelberger (UNSPORTSMANLIKE CONDUCT/0:30).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "11:15"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "10:37",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by ND Will Angrick BLOCKED",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "10:37"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "10:33",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by SU Jimmy McCool.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "10:33"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "10:12",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by SU good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "10:12"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "09:39",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by SU Payton Anderson, SAVE Thomas Ricciardelli",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "09:39"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "09:22",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by ND good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "09:22"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "08:49",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by ND Josh Yago, SAVE Jimmy McCool",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "08:49"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "08:27",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by ND Will Angrick BLOCKED",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "08:27"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "08:23",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by ND Will Maheras.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "08:23"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by ND Will Maheras (caused by Billy Dwan).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "08:10",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by SU good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "08:10"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by SU Finn Thomson.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:11",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by ND good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "07:11"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "06:48",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by ND Dylan Faison, goal number 7 for season.",
+                  "homeScore": 9,
+                  "visitorScore": 4,
+                  "clock": "06:48"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "06:48",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff John Mullen vs Aidan Diaz-Matos won by SU, [06:48] Ground ball pickup by SU John Mullen.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "06:48"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:56",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by SU Wyatt Hottle HIGH",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "05:56"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:47",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by ND good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "05:47"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:10",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by ND Teddy Lally, SAVE Jimmy McCool",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "05:10"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "04:50",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by SU good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "04:50"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "04:35",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by SU Wyatt Hottle WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "04:35"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "04:04",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by SU Michael Leo WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "04:04"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "04:00",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by SU Joey Spallina.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "04:00"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "04:00",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by SU Finn Thomson, Assist by Joey Spallina, goal number 45 for season.",
+                  "homeScore": 9,
+                  "visitorScore": 5,
+                  "clock": "04:00"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "04:00",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff John Mullen vs Aidan Diaz-Matos won by ND, [04:00] Ground ball pickup by ND Aidan Diaz-Matos.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "04:00"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by ND Aidan Diaz-Matos (caused by John Mullen).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:50",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by SU Billy Dwan.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "03:50"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:46",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by SU good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "03:46"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:05",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by SU Luke Rhoa WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "03:05"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:59",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by SU Wyatt Hottle, SAVE Thomas Ricciardelli",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "02:59"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:46",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by SU Luke Rhoa, goal number 32 for season.",
+                  "homeScore": 9,
+                  "visitorScore": 6,
+                  "clock": "02:46"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:46",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff John Mullen vs Aidan Diaz-Matos won by ND, [02:46] Ground ball pickup by ND Aidan Diaz-Matos.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "02:46"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by ND Aidan Diaz-Matos (caused by John Mullen).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:30",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by SU Jake Spallina.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "02:30"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:58",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by SU Michael Leo WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "01:58"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:39",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by SU Payton Anderson, goal number 24 for season.",
+                  "homeScore": 9,
+                  "visitorScore": 7,
+                  "clock": "01:39"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:39",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff John Mullen vs Aidan Diaz-Matos won by ND, [01:39] Ground ball pickup by ND Will Donovan.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "01:39"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:27",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by ND Teddy Lally.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:27"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:16",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by ND Matt Jeffery HIGH",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:16"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:16",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Penalty on SU Louis D'Agostino (CROSS-CHECK/2:00).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:16"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:00",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "End-of-period.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:00"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "__typename": "PlayByPlayDetails",
+          "periodNumber": 4,
+          "periodDisplay": "4th",
+          "playbyplayStats": [
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "15:00",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "15:00"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "14:39",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by ND Brock Behrman, SAVE Jimmy McCool",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "14:39"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "14:24",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by ND Brady Pokorny (MAN-UP), Assist by Brock Behrman, goal number 5 for season.",
+                  "homeScore": 10,
+                  "visitorScore": 7,
+                  "clock": "14:24"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "14:24",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff John Mullen vs Aidan Diaz-Matos won by ND, [14:24] Ground ball pickup by ND Chris Reihnardt.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "14:24"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "13:54",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by ND Josh Yago (MAN-UP), Assist by Jalen Seymour, goal number 31 for season.",
+                  "homeScore": 11,
+                  "visitorScore": 7,
+                  "clock": "13:54"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "13:54",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff John Mullen vs Aidan Diaz-Matos won by ND, [13:54] Ground ball pickup by ND Aidan Diaz-Matos.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "13:54"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "13:23",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by ND Jalen Seymour WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "13:23"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "13:12",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by ND Luke Miller (MAN-UP), Assist by Josh Yago, goal number 32 for season.",
+                  "homeScore": 12,
+                  "visitorScore": 7,
+                  "clock": "13:12"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "13:12",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff John Mullen vs Aidan Diaz-Matos won by SU (on faceoff violation).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "13:12"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "12:28",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by SU Luke Rhoa WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "12:28"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "12:22",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by SU Payton Anderson, SAVE Thomas Ricciardelli",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "12:22"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "12:18",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Penalty on ND Will Gallagher (SLASHING/1:00) Extra-man opportunity.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "12:18"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "12:06",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by SU Joey Spallina HIGH",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "12:06"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "11:40",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by SU Joey Spallina, SAVE Thomas Ricciardelli",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "11:40"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "11:29",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by ND good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "11:29"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "10:22",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by ND Will Maheras, Assist by Josh Yago, goal number 18 for season.",
+                  "homeScore": 13,
+                  "visitorScore": 7,
+                  "clock": "10:22"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "10:22",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff John Mullen vs Tyler Spano won by SU (on faceoff violation).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "10:22"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "09:58",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by SU Luke Rhoa WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "09:58"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "09:34",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by SU Michael Leo HIGH",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "09:34"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by SU Payton Anderson (caused by Will Donovan).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "09:25",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by ND Will Donovan.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "09:25"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "09:10",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by ND good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "09:10"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "08:36",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by ND Josh Yago HIGH",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "08:36"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "08:29",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by ND Teddy Lally, SAVE Jimmy McCool",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "08:29"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by ND Dylan Faison.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:49",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Penalty on ND Teddy Lally (PUSHING/0:30) Extra-man opportunity.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "07:49"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:49",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by SU good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "07:49"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:38",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by SU Luke Rhoa HIGH",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "07:38"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:26",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by SU Michael Leo, SAVE Thomas Ricciardelli",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "07:26"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:14",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by ND good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "07:14"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:09",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by ND Nate Schwitzenberg.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "07:09"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "06:38",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by ND Luke Miller WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "06:38"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "06:12",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by ND Luke Miller, Assist by Josh Yago, goal number 33 for season.",
+                  "homeScore": 14,
+                  "visitorScore": 7,
+                  "clock": "06:12"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "06:12",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff John Mullen vs Aidan Diaz-Matos won by SU, [06:12] Ground ball pickup by SU Vincent Bolognino.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "06:12"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:31",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by SU Joey Spallina WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "05:31"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:25",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by SU Luke Rhoa, SAVE Thomas Ricciardelli",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "05:25"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:20",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by ND Christopher Iuliano.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "05:20"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:17",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by ND good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "05:17"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:14",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by ND Josh Yago, Assist by Chris Reihnardt, goal number 32 for season.",
+                  "homeScore": 15,
+                  "visitorScore": 7,
+                  "clock": "05:14"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:14",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff John Mullen vs Tyler Spano won by ND (on faceoff violation).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "05:14"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "04:01",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by ND Teddy Lally WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "04:01"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by ND Luke Miller (caused by Riley Figueiras).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:49",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by SU good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "03:49"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:33",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by SU Luke Rhoa BLOCKED",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "03:33"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:27",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by SU Tyler McCarthy.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "03:27"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by SU Finn Thomson (caused by Fisher Finley).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:14",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by ND Fisher Finley.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "03:14"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:04",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by ND good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "03:04"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:36",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by ND Gavin Lynch HIT POST",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "02:36"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:32",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by SU Jimmy McCool.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "02:32"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:25",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by SU good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "02:25"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:23",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by SU Billy Dwan WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "02:23"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:15",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by ND good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "02:15"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:26",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by ND Gavin Burlace.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "01:26"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:11",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by ND Jake Vasquez WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "01:11"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by ND.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:56",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by SU good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:56"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:29",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by SU Luke Rhoa WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:29"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by SU Finn Thomson.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:00",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "End-of-period.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:00"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

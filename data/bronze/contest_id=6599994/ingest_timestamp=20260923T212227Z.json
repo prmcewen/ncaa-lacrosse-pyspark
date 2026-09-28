@@ -1,0 +1,3625 @@
+{
+  "data": {
+    "playbyplay": {
+      "__typename": "PlayByPlay",
+      "contestId": 6599994,
+      "title": "MLA PLAY-BY-PLAY",
+      "description": "Princeton vs Duke",
+      "divisionName": "d1",
+      "status": "final",
+      "period": 4,
+      "minutes": "",
+      "seconds": "",
+      "teams": [
+        {
+          "__typename": "ContestTeam",
+          "isHome": true,
+          "teamId": "43731",
+          "seoname": "princeton",
+          "name6Char": "PRINCE",
+          "nameShort": "Princeton",
+          "nameFull": "Princeton University",
+          "teamName": "Tigers",
+          "color": "#E87722"
+        },
+        {
+          "__typename": "ContestTeam",
+          "isHome": false,
+          "teamId": "43748",
+          "seoname": "duke",
+          "name6Char": "DUKE",
+          "nameShort": "Duke",
+          "nameFull": "Duke University",
+          "teamName": "Blue Devils",
+          "color": "#002D72"
+        }
+      ],
+      "periods": [
+        {
+          "__typename": "PlayByPlayDetails",
+          "periodNumber": 1,
+          "periodDisplay": "1st",
+          "playbyplayStats": [
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "15:00",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Buck Cunningham at goalie for DUKE.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "15:00"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "15:00",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Croddick, Ryan at goalie for PU.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "15:00"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "15:00",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Cal Girard vs McMeekin, Andrew won by PU, [15:00] Ground ball pickup by PU McMeekin, Andrew.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "15:00"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "14:50",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by PU good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "14:50"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "14:31",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by PU Wade, Tucker WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "14:31"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by PU Dunphey, John (caused by Nikolas Menendez).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "14:07",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by DUKE good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "14:07"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "13:33",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by DUKE Brady Scioletti, SAVE Croddick, Ryan",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "13:33"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "13:27",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by PU Stahl, Jack.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "13:27"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "13:22",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by PU good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "13:22"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by PU Reynolds, Parker (caused by Connor Nolen).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "12:40",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by DUKE Connor Nolen.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "12:40"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by DUKE Connor Nolen (caused by Reynolds, Parker).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by PU Palumbo, Chad (caused by Charlie Johnson).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "12:16",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by DUKE good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "12:16"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by DUKE Benn Johnston.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "11:40",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by PU Stahl, Jack.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "11:40"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "11:34",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by PU good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "11:34"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "11:15",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by PU Vana, Jake (FIRST GOAL), Assist by Krammer, Quinn, goal number 18 for season.",
+                  "homeScore": 1,
+                  "visitorScore": 0,
+                  "clock": "11:15"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "11:15",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Cal Girard vs McMeekin, Andrew won by PU, [11:15] Ground ball pickup by PU McMeekin, Andrew.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "11:15"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "10:31",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by PU Kabiri, Nate, SAVE Buck Cunningham",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "10:31"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "10:26",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by DUKE Nikolas Menendez.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "10:26"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "10:24",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by DUKE good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "10:24"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "09:51",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by DUKE Max Sloat, SAVE Croddick, Ryan",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "09:51"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "09:48",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by PU good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "09:48"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "09:43",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by PU Kabiri, Nate, Assist by Green, Jackson.",
+                  "homeScore": 2,
+                  "visitorScore": 0,
+                  "clock": "09:43"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "09:43",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Cal Girard vs McMeekin, Andrew won by PU, [09:43] Ground ball pickup by PU Friedman, Zach.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "09:43"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "09:06",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by PU Vana, Jake HIT CROSSBAR",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "09:06"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by PU Vana, Jake.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "09:00",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by DUKE good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "09:00"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "08:09",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by DUKE Max Sloat HIGH",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "08:09"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:58",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by DUKE Brady Scioletti WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "07:58"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:45",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by PU good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "07:45"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:26",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by PU Wade, Tucker, SAVE Buck Cunningham",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "07:26"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:21",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by DUKE good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "07:21"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:12",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by DUKE Benn Johnston, Assist by Aidan Maguire, goal number 41 for season.",
+                  "homeScore": 2,
+                  "visitorScore": 1,
+                  "clock": "07:12"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:12",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Cal Girard vs McMeekin, Andrew won by DUKE, [07:12] Ground ball pickup by DUKE Cal Girard.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "07:12"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "06:16",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by DUKE Benn Johnston, SAVE Croddick, Ryan",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "06:16"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "06:12",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Penalty on PU Mueller, Cooper (SLASHING/1:00) Extra-man opportunity.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "06:12"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:48",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by DUKE Jack Pappendick, SAVE Croddick, Ryan",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "05:48"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:33",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by PU good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "05:33"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by PU Reynolds, Parker.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "04:50",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by DUKE good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "04:50"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "04:11",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by DUKE Michael Ortlieb HIT CROSSBAR",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "04:11"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "04:06",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by PU Spiess, Hunter.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "04:06"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:56",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by PU good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "03:56"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:16",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by PU Palumbo, Chad, SAVE Buck Cunningham",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "03:16"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:00",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by DUKE good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "03:00"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:29",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by DUKE Tomas Delgado.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "02:29"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:25",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by DUKE Thomas Mencke, SAVE Croddick, Ryan",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "02:25"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:05",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by DUKE Benn Johnston, goal number 42 for season.",
+                  "homeScore": 2,
+                  "visitorScore": 2,
+                  "clock": "02:05"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:05",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Cal Girard vs McMeekin, Andrew won by DUKE (on faceoff violation).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "02:05"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:24",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by DUKE Benn Johnston HIT POST",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "01:24"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:20",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by DUKE Jack Pappendick.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "01:20"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:15",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by DUKE Liam Kershis WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "01:15"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:07",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by PU good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "01:07"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:25",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by PU Burns, Colin, Assist by Reynolds, Parker, goal number 31 for season.",
+                  "homeScore": 3,
+                  "visitorScore": 2,
+                  "clock": "00:25"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:25",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Cal Girard vs Fitzgerald, Russ won by DUKE, [00:25] Ground ball pickup by DUKE Connor Nolen.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:25"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:08",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by DUKE Kyle Colsey BLOCKED",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:08"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:00",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "End-of-period.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:00"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "__typename": "PlayByPlayDetails",
+          "periodNumber": 2,
+          "periodDisplay": "2nd",
+          "playbyplayStats": [
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "15:00",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "15:00"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "15:00",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Cal Girard vs McMeekin, Andrew won by PU, [15:00] Ground ball pickup by PU McMeekin, Andrew.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "15:00"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "14:44",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by PU failed.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "14:44"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by PU Croddick, Ryan.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "14:38",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by DUKE Mac Christmas, Assist by Michael Ortlieb, goal number 4 for season.",
+                  "homeScore": 3,
+                  "visitorScore": 3,
+                  "clock": "14:38"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "14:38",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Cal Girard vs McMeekin, Andrew won by DUKE, [14:38] Ground ball pickup by DUKE Cal Girard.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "14:38"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "14:30",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by DUKE Cal Girard, goal number 4 for season.",
+                  "homeScore": 3,
+                  "visitorScore": 4,
+                  "clock": "14:30"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "14:30",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Ben McCarthy vs McMeekin, Andrew won by PU, [14:30] Ground ball pickup by PU McMeekin, Andrew.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "14:30"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "13:39",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by PU Burns, Colin, SAVE Buck Cunningham",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "13:39"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "13:35",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by PU Kabiri, Nate.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "13:35"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "13:26",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by PU Dunphey, John, SAVE Buck Cunningham",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "13:26"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "13:21",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by PU Palumbo, Chad.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "13:21"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "13:21",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Timeout by PU.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "13:21"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "12:59",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by PU Kabiri, Nate WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "12:59"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "12:45",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by PU Reynolds, Parker HIT POST",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "12:45"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "12:19",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by PU Kabiri, Nate, goal number 37 for season.",
+                  "homeScore": 4,
+                  "visitorScore": 4,
+                  "clock": "12:19"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "12:19",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Cal Girard vs McMeekin, Andrew won by DUKE, [12:19] Ground ball pickup by DUKE Cal Girard.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "12:19"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "12:11",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by DUKE Mac Christmas, SAVE Croddick, Ryan",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "12:11"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "11:59",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by PU good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "11:59"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by PU Kabiri, Nate (caused by Aidan Maguire).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "11:25",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by DUKE Buck Cunningham.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "11:25"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "11:21",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by DUKE good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "11:21"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "10:29",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by DUKE Liam Kershis, SAVE Croddick, Ryan",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "10:29"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "10:21",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by DUKE Kyle Colsey.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "10:21"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "10:08",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by DUKE Max Sloat HIT CROSSBAR",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "10:08"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "09:55",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by DUKE Michael Ortlieb WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "09:55"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "09:40",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by DUKE Max Sloat WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "09:40"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "09:19",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by DUKE Kyle Colsey, SAVE Croddick, Ryan",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "09:19"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "09:08",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by PU good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "09:08"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "08:33",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by PU Kabiri, Nate WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "08:33"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "08:17",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by PU Wade, Tucker WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "08:17"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by PU.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:46",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by DUKE failed.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "07:46"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by DUKE Henry Bard.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:42",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by PU good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "07:42"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by PU Palumbo, Chad (caused by Henry Bard).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "06:47",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by DUKE good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "06:47"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "06:34",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by DUKE Tomas Delgado, SAVE Croddick, Ryan",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "06:34"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "06:29",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by PU Croddick, Ryan.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "06:29"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "06:24",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by PU good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "06:24"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:55",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by PU Wade, Tucker WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "05:55"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:41",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by PU Wade, Tucker.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "05:41"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:25",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by PU Dunphey, John, SAVE Buck Cunningham",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "05:25"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:15",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by DUKE good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "05:15"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "04:35",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by DUKE Kyle Colsey, SAVE Croddick, Ryan",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "04:35"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "04:33",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by PU Spiess, Hunter.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "04:33"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "04:25",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by PU good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "04:25"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by PU Malkiel, Porter (caused by Will Pedicano).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:47",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by DUKE Will Pedicano.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "03:47"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:44",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by DUKE good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "03:44"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:09",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by DUKE Max Sloat HIT CROSSBAR",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "03:09"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:05",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by DUKE Liam Kershis.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "03:05"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:37",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by DUKE Benn Johnston, SAVE Croddick, Ryan",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "02:37"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:35",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by PU Fox, Finn.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "02:35"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:31",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by PU good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "02:31"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:03",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by PU Wade, Tucker WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "02:03"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:02",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Penalty on DUKE Benn Johnston (OFFSIDE/0:30) Extra-man opportunity.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "02:02"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:31",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by PU Wade, Tucker WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "01:31"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:10",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by PU Wade, Tucker, goal number 36 for season.",
+                  "homeScore": 5,
+                  "visitorScore": 4,
+                  "clock": "01:10"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:10",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Cal Girard vs McMeekin, Andrew won by DUKE, [01:10] Ground ball pickup by DUKE Cal Girard.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "01:10"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:54",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by DUKE Mac Christmas, SAVE Croddick, Ryan",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:54"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:49",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by PU good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:49"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:14",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by PU Wade, Tucker WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:14"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:05",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by PU Reynolds, Parker WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:05"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:02",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by PU Wade, Tucker, goal number 37 for season.",
+                  "homeScore": 6,
+                  "visitorScore": 4,
+                  "clock": "00:02"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:00",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "End-of-period.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:00"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "__typename": "PlayByPlayDetails",
+          "periodNumber": 3,
+          "periodDisplay": "3rd",
+          "playbyplayStats": [
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "15:00",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "15:00"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "15:00",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Cal Girard vs McMeekin, Andrew won by PU, [15:00] Ground ball pickup by PU McMeekin, Andrew.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "15:00"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "14:32",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by PU Reynolds, Parker, SAVE Buck Cunningham",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "14:32"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "14:29",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by PU Dunphey, John.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "14:29"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by PU Dunphey, John (caused by Nikolas Menendez).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "14:20",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by DUKE Nikolas Menendez.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "14:20"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "14:17",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by DUKE good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "14:17"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "13:51",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by DUKE Max Sloat, SAVE Croddick, Ryan",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "13:51"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "13:43",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by PU good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "13:43"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "13:08",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by PU Vana, Jake, goal number 19 for season.",
+                  "homeScore": 7,
+                  "visitorScore": 4,
+                  "clock": "13:08"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "13:08",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Cal Girard vs McMeekin, Andrew won by DUKE, [13:08] Ground ball pickup by DUKE Cal Girard.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "13:08"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "12:25",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by DUKE Michael Ortlieb, goal number 25 for season.",
+                  "homeScore": 7,
+                  "visitorScore": 5,
+                  "clock": "12:25"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "12:25",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Cal Girard vs McMeekin, Andrew won by DUKE, [12:25] Ground ball pickup by DUKE Cal Girard.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "12:25"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "11:42",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by DUKE Liam Kershis, SAVE Croddick, Ryan",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "11:42"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "11:26",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by PU good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "11:26"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "10:42",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by PU Reynolds, Parker, SAVE Buck Cunningham",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "10:42"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "10:32",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by DUKE good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "10:32"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by DUKE Brady Scioletti (caused by Fox, Finn).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "09:34",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by PU Spiess, Hunter.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "09:34"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "09:28",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by PU good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "09:28"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "08:28",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by PU Malkiel, Porter, goal number 13 for season.",
+                  "homeScore": 8,
+                  "visitorScore": 5,
+                  "clock": "08:28"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "08:28",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Cal Girard vs McMeekin, Andrew won by PU, [08:28] Ground ball pickup by PU McMeekin, Andrew.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "08:28"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "08:22",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by PU McMeekin, Andrew WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "08:22"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "08:10",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by PU Kabiri, Nate, Assist by Wade, Tucker, goal number 38 for season.",
+                  "homeScore": 9,
+                  "visitorScore": 5,
+                  "clock": "08:10"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "08:10",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Ben McCarthy vs McMeekin, Andrew won by PU, [08:10] Ground ball pickup by PU McMeekin, Andrew.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "08:10"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:59",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by PU good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "07:59"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:05",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by PU Palumbo, Chad WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "07:05"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "06:55",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by PU Burns, Colin, Assist by Kabiri, Nate, goal number 32 for season.",
+                  "homeScore": 10,
+                  "visitorScore": 5,
+                  "clock": "06:55"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "06:55",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Luke Engelke vs McMeekin, Andrew won by DUKE, [06:55] Ground ball pickup by DUKE Aidan Maguire.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "06:55"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:58",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by DUKE Benn Johnston, Assist by Max Sloat, goal number 43 for season.",
+                  "homeScore": 10,
+                  "visitorScore": 6,
+                  "clock": "05:58"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:58",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Luke Engelke vs McMeekin, Andrew won by DUKE (on faceoff violation).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "05:58"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by DUKE Tomas Delgado.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:09",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by PU good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "05:09"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "04:11",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by PU Vana, Jake HIT CROSSBAR",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "04:11"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:45",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by PU McDonald, Aidan WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "03:45"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:24",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by PU Palumbo, Chad, SAVE Buck Cunningham",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "03:24"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:20",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by DUKE Aidan Maguire.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "03:20"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:15",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by DUKE good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "03:15"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:50",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by DUKE Thomas Mencke, SAVE Croddick, Ryan",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "02:50"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:42",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by PU good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "02:42"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:23",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by PU Wade, Tucker WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "02:23"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:10",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by PU Wade, Tucker, SAVE Buck Cunningham",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "02:10"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:07",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by DUKE Buck Cunningham.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "02:07"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:00",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by DUKE good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "02:00"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:11",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by DUKE Max Sloat HIGH",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "01:11"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:11",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Penalty on PU Krammer, Quinn (UNNECESSARY ROUGHNESS/1:00) Extra-man opportunity.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "01:11"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:03",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by DUKE Kyle Colsey, SAVE Croddick, Ryan",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "01:03"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:01",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by DUKE Benn Johnston.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "01:01"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by DUKE Liam Kershis (caused by Croddick, Ryan).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:52",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by PU Croddick, Ryan.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:52"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:45",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by PU good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:45"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:34",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by PU Burns, Colin (MAN-DOWN), Assist by Palumbo, Chad, goal number 33 for season.",
+                  "homeScore": 11,
+                  "visitorScore": 6,
+                  "clock": "00:34"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:34",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Cal Girard vs Fitzgerald, Russ won by DUKE, [00:34] Ground ball pickup by DUKE Cal Girard.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:34"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:25",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by DUKE Aidan Maguire BLOCKED",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:25"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:19",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by PU Croddick, Ryan.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:19"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:09",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by PU good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:09"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:01",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by PU Burns, Colin, SAVE Buck Cunningham",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:01"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:00",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "End-of-period.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:00"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "__typename": "PlayByPlayDetails",
+          "periodNumber": 4,
+          "periodDisplay": "4th",
+          "playbyplayStats": [
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "15:00",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "15:00"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "15:00",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Cal Girard vs McMeekin, Andrew won by DUKE (on faceoff violation).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "15:00"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "14:49",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by DUKE Max Sloat.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "14:49"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "14:18",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by DUKE Max Sloat WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "14:18"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "14:07",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by DUKE Brady Scioletti, SAVE Croddick, Ryan",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "14:07"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "14:04",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by PU Green, Jackson.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "14:04"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "13:59",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by PU good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "13:59"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by PU Reynolds, Parker (caused by Connor Nolen).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "12:57",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by DUKE good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "12:57"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "11:59",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by DUKE Michael Ortlieb.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "11:59"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "11:44",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by DUKE Benn Johnston WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "11:44"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "11:34",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by PU good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "11:34"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "10:52",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by PU Malkiel, Porter, Assist by Palumbo, Chad, goal number 14 for season.",
+                  "homeScore": 12,
+                  "visitorScore": 6,
+                  "clock": "10:52"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "10:52",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Cal Girard vs Fitzgerald, Russ won by DUKE, [10:52] Ground ball pickup by DUKE Cal Girard.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "10:52"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "10:19",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by DUKE Brady Scioletti WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "10:19"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "10:07",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by DUKE Kyle Colsey, goal number 32 for season.",
+                  "homeScore": 12,
+                  "visitorScore": 7,
+                  "clock": "10:07"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "10:07",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Ben McCarthy vs McMeekin, Andrew won by PU, [10:07] Ground ball pickup by PU McMeekin, Andrew.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "10:07"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "10:05",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by PU Kistler, Cooper.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "10:05"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "09:20",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by PU Wade, Tucker HIGH",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "09:20"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "09:17",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by PU Kabiri, Nate.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "09:17"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by PU Kabiri, Nate (caused by Aidan Maguire).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "08:56",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by DUKE good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "08:56"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "08:40",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by DUKE Benn Johnston, SAVE Croddick, Ryan",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "08:40"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "08:35",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by PU Croddick, Ryan.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "08:35"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "08:33",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by PU good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "08:33"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "08:28",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by PU Wade, Tucker.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "08:28"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:37",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by PU Vana, Jake WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "07:37"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by PU Palumbo, Chad (caused by Charlie Johnson).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:23",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by DUKE Buck Cunningham.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "07:23"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:20",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by DUKE good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "07:20"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:00",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by DUKE Max Sloat WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "07:00"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "06:46",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by DUKE Brady Scioletti, SAVE Croddick, Ryan",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "06:46"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "06:36",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by PU good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "06:36"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by PU Kabiri, Nate (caused by Nikolas Menendez).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:59",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by DUKE Buck Cunningham.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "05:59"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:56",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by DUKE good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "05:56"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:47",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by DUKE Kyle Colsey, SAVE Croddick, Ryan",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "05:47"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:42",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by PU failed.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "05:42"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by PU Croddick, Ryan.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:35",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by DUKE Charlie Johnson.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "05:35"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:27",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by DUKE good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "05:27"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:06",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by DUKE Benn Johnston WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "05:06"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "04:40",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by DUKE Anthony Drago WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "04:40"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "04:33",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by DUKE Jack Pappendick.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "04:33"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by DUKE Jack Pappendick (caused by Mueller, Cooper).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "04:22",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by PU Mueller, Cooper.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "04:22"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "04:20",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by PU good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "04:20"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:22",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by PU Burns, Colin WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "03:22"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:16",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by PU Vana, Jake WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "03:16"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:10",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by PU Vana, Jake WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "03:10"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:06",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by PU Burns, Colin.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "03:06"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:06",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by PU Burns, Colin, goal number 34 for season.",
+                  "homeScore": 13,
+                  "visitorScore": 7,
+                  "clock": "03:06"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:06",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Patrick Jameison at goalie for DUKE.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "03:06"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:06",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Cal Girard vs McMeekin, Andrew won by DUKE (on faceoff violation).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "03:06"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by DUKE Benn Johnston (caused by Kistler, Cooper).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by PU Reynolds, Parker (caused by Nikolas Menendez).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:09",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by DUKE Owen Mears.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "02:09"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:07",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by DUKE good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "02:07"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:34",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by DUKE Liam Kershis WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "01:34"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:14",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by DUKE Brady Scioletti.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "01:14"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:10",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by DUKE Kyle Colsey.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "01:10"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:03",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by DUKE Kyle Colsey WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "01:03"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by DUKE.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:46",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by PU good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:46"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:24",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by PU Vana, Jake, Assist by Kabiri, Nate, goal number 20 for season.",
+                  "homeScore": 14,
+                  "visitorScore": 7,
+                  "clock": "00:24"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:22",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Luke Engelke vs Williams, Jim won by PU, [00:22] Ground ball pickup by PU Williams, Jim.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:22"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by PU Williams, Jim.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:14",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by DUKE Charlie Johnson.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:14"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:10",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by DUKE good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:10"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:00",
+              "teamId": 43748,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "End-of-period.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:00"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

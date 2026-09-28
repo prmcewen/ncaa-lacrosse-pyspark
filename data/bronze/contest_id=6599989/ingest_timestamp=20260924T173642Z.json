@@ -1,0 +1,3485 @@
+{
+  "data": {
+    "playbyplay": {
+      "__typename": "PlayByPlay",
+      "contestId": 6599989,
+      "title": "MLA PLAY-BY-PLAY",
+      "description": "North Carolina vs UAlbany",
+      "divisionName": "d1",
+      "status": "final",
+      "period": 4,
+      "minutes": "",
+      "seconds": "",
+      "teams": [
+        {
+          "__typename": "ContestTeam",
+          "isHome": true,
+          "teamId": "43759",
+          "seoname": "north-carolina",
+          "name6Char": "UNC",
+          "nameShort": "North Carolina",
+          "nameFull": "University of North Carolina, Chapel Hill",
+          "teamName": "Tar Heels",
+          "color": "#7BAFD4"
+        },
+        {
+          "__typename": "ContestTeam",
+          "isHome": false,
+          "teamId": "43784",
+          "seoname": "albany-ny",
+          "name6Char": "ALBANY",
+          "nameShort": "UAlbany",
+          "nameFull": "University at Albany",
+          "teamName": "Great Danes",
+          "color": "#46166B"
+        }
+      ],
+      "periods": [
+        {
+          "__typename": "PlayByPlayDetails",
+          "periodNumber": 1,
+          "periodDisplay": "1st",
+          "playbyplayStats": [
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "15:00",
+              "teamId": 43784,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Brady Smith at goalie for UALBANY.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "15:00"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "15:00",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Kent Goode at goalie for NORTH CA.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "15:00"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "15:00",
+              "teamId": 43784,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Austin Oppenheim vs Brady Wambach won by UALBANY, [15:00] Ground ball pickup by UALBANY Austin Oppenheim.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "15:00"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43784,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by UALBANY Ryan Doherty (caused by Ty English).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "13:40",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by NORTH CA Cole Aasheim.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "13:40"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "13:37",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by NORTH CA good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "13:37"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by NORTH CA Luke Macaluso.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "13:33",
+              "teamId": 43784,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by UALBANY Brady Smith.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "13:33"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "13:25",
+              "teamId": 43784,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by UALBANY failed.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "13:25"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43784,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by UALBANY Brady Smith (caused by Brevin Wilson).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "13:02",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by NORTH CA Caden Harshbarger, SAVE Brady Smith",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "13:02"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "12:59",
+              "teamId": 43784,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by UALBANY Brady Quill.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "12:59"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "12:54",
+              "teamId": 43784,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by UALBANY good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "12:54"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "12:41",
+              "teamId": 43784,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by UALBANY Silas Richmond, SAVE Kent Goode",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "12:41"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "12:35",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by NORTH CA Kent Goode.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "12:35"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "12:34",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by NORTH CA good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "12:34"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "11:51",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by NORTH CA Dominic Pietramala (FIRST GOAL), Assist by Brevin Wilson.",
+                  "homeScore": 1,
+                  "visitorScore": 0,
+                  "clock": "11:51"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "11:51",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Austin Oppenheim vs Brady Wambach won by NORTH CA, [11:51] Ground ball pickup by NORTH CA Brady Wambach.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "11:51"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "11:45",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by NORTH CA Luke Macaluso HIGH",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "11:45"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "11:07",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by NORTH CA Anthony Raio.",
+                  "homeScore": 2,
+                  "visitorScore": 0,
+                  "clock": "11:07"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "11:07",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Austin Oppenheim vs Brady Wambach won by NORTH CA, [11:07] Ground ball pickup by NORTH CA Peter Thomann.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "11:07"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "10:54",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by NORTH CA Peter Thomann.",
+                  "homeScore": 3,
+                  "visitorScore": 0,
+                  "clock": "10:54"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "10:54",
+              "teamId": 43784,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Austin Oppenheim vs Brady Wambach won by UALBANY (on faceoff violation).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "10:54"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "10:41",
+              "teamId": 43784,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by UALBANY Max Neeson, SAVE Kent Goode",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "10:41"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "10:05",
+              "teamId": 43784,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by UALBANY Ryan Doherty HIGH",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "10:05"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "09:36",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by NORTH CA failed.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "09:36"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by NORTH CA Chase Cellucci.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "09:07",
+              "teamId": 43784,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by UALBANY Brendan O'Keefe, SAVE Kent Goode",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "09:07"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "08:59",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by NORTH CA failed.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "08:59"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by NORTH CA Parker McDonald.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "08:42",
+              "teamId": 43784,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by UALBANY Ryan Doherty.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "08:42"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "08:05",
+              "teamId": 43784,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by UALBANY Ryan Doherty WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "08:05"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "08:03",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by NORTH CA Kent Goode.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "08:03"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:55",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by NORTH CA good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "07:55"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:14",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by NORTH CA Dominic Pietramala, Assist by Anthony Raio.",
+                  "homeScore": 4,
+                  "visitorScore": 0,
+                  "clock": "07:14"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43784,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Media timeout",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:14",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Austin Oppenheim vs Colin Hannigan won by NORTH CA, [07:14] Ground ball pickup by NORTH CA Brevin Wilson.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "07:14"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "06:41",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by NORTH CA Anthony Raio.",
+                  "homeScore": 5,
+                  "visitorScore": 0,
+                  "clock": "06:41"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "06:41",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Austin Oppenheim vs Brady Wambach won by NORTH CA, [06:41] Ground ball pickup by NORTH CA Brady Wambach.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "06:41"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by NORTH CA Brady Wambach.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "06:30",
+              "teamId": 43784,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by UALBANY Brady Quill.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "06:30"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "06:12",
+              "teamId": 43784,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by UALBANY good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "06:12"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:42",
+              "teamId": 43784,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by UALBANY Silas Richmond WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "05:42"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:37",
+              "teamId": 43784,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by UALBANY Alex Pfeiffer.",
+                  "homeScore": 5,
+                  "visitorScore": 1,
+                  "clock": "05:37"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:37",
+              "teamId": 43784,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Austin Oppenheim vs Brady Wambach won by UALBANY, [05:37] Ground ball pickup by UALBANY Austin Oppenheim.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "05:37"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43784,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by UALBANY Austin Oppenheim (caused by Parker McDonald).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:11",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by NORTH CA good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "05:11"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by NORTH CA Luke Bair (caused by Justin Lee).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "04:40",
+              "teamId": 43784,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by UALBANY Cade Galko.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "04:40"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "04:39",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Penalty on NORTH CA Dominic Pietramala (UNNECESSARY ROUGHNESS/2:00) Extra-man opportunity.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "04:39"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43784,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by UALBANY Silas Richmond (caused by Peter Thomann).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "04:08",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by NORTH CA Peter Thomann.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "04:08"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "04:06",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by NORTH CA good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "04:06"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:37",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by NORTH CA Brevin Wilson (MAN-DOWN).",
+                  "homeScore": 6,
+                  "visitorScore": 1,
+                  "clock": "03:37"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:37",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Austin Oppenheim vs Brady Wambach won by NORTH CA, [03:37] Ground ball pickup by NORTH CA Brady Wambach.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "03:37"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by NORTH CA Brady Wambach (caused by Max Neeson).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:25",
+              "teamId": 43784,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by UALBANY Max Neeson.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "03:25"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:01",
+              "teamId": 43784,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by UALBANY Silas Richmond WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "03:01"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:34",
+              "teamId": 43784,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by UALBANY Jackson Palumb WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "02:34"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:20",
+              "teamId": 43784,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by UALBANY Jackson Palumb, SAVE Kent Goode",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "02:20"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:14",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by NORTH CA good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "02:14"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:02",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by NORTH CA Brevin Wilson, SAVE Brady Smith",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "02:02"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:59",
+              "teamId": 43784,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by UALBANY Cade Galko.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "01:59"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:53",
+              "teamId": 43784,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by UALBANY good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "01:53"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:51",
+              "teamId": 43784,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by UALBANY Alex Pfeiffer, SAVE Kent Goode",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:51"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:39",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by NORTH CA good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:39"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:13",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by NORTH CA Mason Szewczyk HIGH",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:13"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:01",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by NORTH CA Dominic Pietramala, Assist by Caden Harshbarger.",
+                  "homeScore": 7,
+                  "visitorScore": 1,
+                  "clock": "00:01"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:00",
+              "teamId": 43784,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "End-of-period.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:00"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "__typename": "PlayByPlayDetails",
+          "periodNumber": 2,
+          "periodDisplay": "2nd",
+          "playbyplayStats": [
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "15:00",
+              "teamId": 43784,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "15:00"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "15:00",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Austin Oppenheim vs Brady Wambach won by NORTH CA, [15:00] Ground ball pickup by NORTH CA Brady Wambach.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "15:00"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "14:45",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by NORTH CA Brevin Wilson.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "14:45"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "14:04",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by NORTH CA Dominic Pietramala.",
+                  "homeScore": 8,
+                  "visitorScore": 1,
+                  "clock": "14:04"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "14:04",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff CJ Schwarz vs Brady Wambach won by NORTH CA (on faceoff violation).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "14:04"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "13:08",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by NORTH CA Mason Szewczyk.",
+                  "homeScore": 9,
+                  "visitorScore": 1,
+                  "clock": "13:08"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "13:08",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Austin Oppenheim vs Brady Wambach won by NORTH CA.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "13:08"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "12:30",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by NORTH CA Dominic Pietramala.",
+                  "homeScore": 10,
+                  "visitorScore": 1,
+                  "clock": "12:30"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "12:30",
+              "teamId": 43784,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Timeout by UALBANY.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "12:30"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "12:30",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Austin Oppenheim vs Brady Wambach won by NORTH CA, [12:30] Ground ball pickup by NORTH CA Brady Wambach.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "12:30"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "11:23",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by NORTH CA Luke Macaluso WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "11:23"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "11:12",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by NORTH CA Caden Harshbarger.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "11:12"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "11:11",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by NORTH CA Caden Harshbarger, SAVE Brady Smith",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "11:11"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "10:48",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by NORTH CA Luke Macaluso WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "10:48"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "10:18",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by NORTH CA Luke Bair WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "10:18"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "10:09",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by NORTH CA Brevin Wilson.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "10:09"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "09:52",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by NORTH CA Brevin Wilson BLOCKED",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "09:52"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "09:44",
+              "teamId": 43784,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by UALBANY Brady Quill.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "09:44"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "09:28",
+              "teamId": 43784,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by UALBANY good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "09:28"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "08:33",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Penalty on NORTH CA Leif Hagerup (HOLDING/0:30) Extra-man opportunity.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "08:33"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "08:01",
+              "teamId": 43784,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by UALBANY Ryan Doherty, SAVE Kent Goode",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "08:01"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "08:01",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by NORTH CA good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "08:01"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:55",
+              "teamId": 43784,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Penalty on UALBANY Trevor Corless (OFFSIDE/0:30) Extra-man opportunity.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "07:55"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:39",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by NORTH CA Dominic Pietramala WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "07:39"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:17",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by NORTH CA Brevin Wilson, SAVE Brady Smith",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "07:17"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:01",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by NORTH CA Gary Merrill WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "07:01"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "06:39",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by NORTH CA Dominic Pietramala.",
+                  "homeScore": 11,
+                  "visitorScore": 1,
+                  "clock": "06:39"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43784,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Media timeout",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "06:39",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff CJ Schwarz vs Brady Wambach won by NORTH CA, [06:39] Ground ball pickup by NORTH CA Brady Wambach.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "06:39"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "06:25",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Timeout by NORTH CA.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "06:25"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by NORTH CA Brock Geraci (caused by Peter Marietta).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:46",
+              "teamId": 43784,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by UALBANY Jacob Smith.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "05:46"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:44",
+              "teamId": 43784,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by UALBANY good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "05:44"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:41",
+              "teamId": 43784,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by UALBANY Silas Richmond.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "05:41"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "04:59",
+              "teamId": 43784,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by UALBANY Wally Swiney.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "04:59"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43784,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by UALBANY.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "04:38",
+              "teamId": 43784,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "30-second clock violation by UALBANY.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "04:38"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "04:14",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by NORTH CA good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "04:14"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:48",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by NORTH CA Luke Bair HIT POST",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "03:48"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:44",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by NORTH CA Gary Merrill.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "03:44"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:20",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by NORTH CA Matt Wrede, SAVE Brady Smith",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "03:20"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:10",
+              "teamId": 43784,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by UALBANY good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "03:10"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:40",
+              "teamId": 43784,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by UALBANY Jackson Palumb WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "02:40"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:35",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by NORTH CA Kent Goode.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "02:35"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:19",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by NORTH CA good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "02:19"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:51",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by NORTH CA Dominic Pietramala WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "01:51"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:42",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by NORTH CA Dominic Pietramala, Assist by Matt Wrede.",
+                  "homeScore": 12,
+                  "visitorScore": 1,
+                  "clock": "01:42"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:42",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Rocco Mareno vs Brady Wambach won by NORTH CA, [01:42] Ground ball pickup by NORTH CA Brady Wambach.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "01:42"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:35",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by NORTH CA Dominic Pietramala WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:35"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:18",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "30-second clock violation by NORTH CA.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:18"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by NORTH CA.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:07",
+              "teamId": 43784,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by UALBANY good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:07"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:01",
+              "teamId": 43784,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by UALBANY Kevin Carney, Assist by Ryan Doherty.",
+                  "homeScore": 12,
+                  "visitorScore": 2,
+                  "clock": "00:01"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:00",
+              "teamId": 43784,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "End-of-period.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:00"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "__typename": "PlayByPlayDetails",
+          "periodNumber": 3,
+          "periodDisplay": "3rd",
+          "playbyplayStats": [
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "15:00",
+              "teamId": 43784,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "15:00"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "14:59",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Austin Oppenheim vs Brady Wambach won by NORTH CA, [14:59] Ground ball pickup by NORTH CA Brady Wambach.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "14:59"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "14:43",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by NORTH CA good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "14:43"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "14:13",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by NORTH CA Luke Macaluso, SAVE Brady Smith",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "14:13"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "13:50",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by NORTH CA Brevin Wilson.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "13:50"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "13:40",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by NORTH CA Brevin Wilson, SAVE Brady Smith",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "13:40"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "13:37",
+              "teamId": 43784,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by UALBANY Brady Smith.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "13:37"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43784,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by UALBANY Max Neeson.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "13:22",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by NORTH CA Luke Macaluso.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "13:22"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "13:20",
+              "teamId": 43784,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by UALBANY failed.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "13:20"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "13:18",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by NORTH CA Brevin Wilson, Assist by Mason Szewczyk.",
+                  "homeScore": 13,
+                  "visitorScore": 2,
+                  "clock": "13:18"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "13:18",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Austin Oppenheim vs Brady Wambach won by NORTH CA (on faceoff violation).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "13:18"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by NORTH CA Parker McDonald.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "12:57",
+              "teamId": 43784,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by UALBANY Justin Lee.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "12:57"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "12:44",
+              "teamId": 43784,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by UALBANY good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "12:44"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43784,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by UALBANY Ryan Doherty (caused by Cole Aasheim).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "11:59",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by NORTH CA Ty English.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "11:59"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "11:57",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by NORTH CA good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "11:57"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "11:49",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by NORTH CA Dominic Pietramala WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "11:49"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "10:52",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by NORTH CA Dominic Pietramala.",
+                  "homeScore": 14,
+                  "visitorScore": 2,
+                  "clock": "10:52"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "10:52",
+              "teamId": 43784,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff CJ Schwarz vs Brady Wambach won by UALBANY, [10:52] Ground ball pickup by UALBANY Justin Lee.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "10:52"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "10:06",
+              "teamId": 43784,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by UALBANY Ryan Doherty, Assist by Ben Wimmer.",
+                  "homeScore": 14,
+                  "visitorScore": 3,
+                  "clock": "10:06"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "10:06",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff CJ Schwarz vs Brady Wambach won by NORTH CA (on faceoff violation).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "10:06"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "09:22",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by NORTH CA Luke Macaluso.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "09:22"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "09:18",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by NORTH CA Anthony Raio, Assist by Luke Macaluso.",
+                  "homeScore": 15,
+                  "visitorScore": 3,
+                  "clock": "09:18"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "09:18",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Rocco Mareno vs Brady Wambach won by NORTH CA, [09:18] Ground ball pickup by NORTH CA Brady Wambach.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "09:18"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by NORTH CA Luke Macaluso (caused by Jacob Smith).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "08:21",
+              "teamId": 43784,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by UALBANY Jacob Smith.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "08:21"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "08:20",
+              "teamId": 43784,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by UALBANY good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "08:20"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "08:13",
+              "teamId": 43784,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by UALBANY Kevin Carney, SAVE Kent Goode",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "08:13"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:43",
+              "teamId": 43784,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by UALBANY Alex Pfeiffer.",
+                  "homeScore": 15,
+                  "visitorScore": 4,
+                  "clock": "07:43"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43784,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Media timeout",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:43",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Rocco Mareno vs Brady Wambach won by NORTH CA, [07:43] Ground ball pickup by NORTH CA Brady Wambach.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "07:43"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:29",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by NORTH CA Parker Hoffman, Assist by Parker McDonald.",
+                  "homeScore": 16,
+                  "visitorScore": 4,
+                  "clock": "07:29"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:29",
+              "teamId": 43784,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Rocco Mareno vs Brady Wambach won by UALBANY, [07:29] Ground ball pickup by UALBANY Rocco Mareno.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "07:29"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "06:37",
+              "teamId": 43784,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by UALBANY Koleton Marquis.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "06:37"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43784,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by UALBANY Alex Pfeiffer.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:49",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by NORTH CA good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "05:49"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:31",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by NORTH CA Dominic Pietramala, SAVE Brady Smith",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "05:31"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:27",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by NORTH CA Matt Wrede.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "05:27"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "04:59",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by NORTH CA Dominic Pietramala, SAVE Brady Smith",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "04:59"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "04:38",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by NORTH CA Dominic Pietramala, Assist by Mason Szewczyk.",
+                  "homeScore": 17,
+                  "visitorScore": 4,
+                  "clock": "04:38"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "04:38",
+              "teamId": 43784,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Rocco Mareno vs Brady Wambach won by UALBANY, [04:38] Ground ball pickup by UALBANY Jacob Smith.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "04:38"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43784,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by UALBANY Jackson Palumb.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:47",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by NORTH CA Peter Thomann.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "03:47"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:41",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by NORTH CA good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "03:41"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:33",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by NORTH CA Brock Geraci, Assist by Matt Wrede.",
+                  "homeScore": 18,
+                  "visitorScore": 4,
+                  "clock": "03:33"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:33",
+              "teamId": 43784,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Rocco Mareno vs Brady Wambach won by UALBANY, [03:33] Ground ball pickup by UALBANY Cade Galko.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "03:33"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:56",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Penalty on NORTH CA Brady Wambach (HOLDING/0:30) Extra-man opportunity.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "02:56"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:31",
+              "teamId": 43784,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by UALBANY Silas Richmond WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "02:31"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:21",
+              "teamId": 43784,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by UALBANY Silas Richmond, SAVE Kent Goode",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "02:21"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:15",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by NORTH CA good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "02:15"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:09",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by NORTH CA Owen Dixon HIGH",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "02:09"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:33",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by NORTH CA Andrew Preis, SAVE Brady Smith",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "01:33"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:29",
+              "teamId": 43784,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by UALBANY good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "01:29"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:31",
+              "teamId": 43784,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by UALBANY Alex Pfeiffer.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:31"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:22",
+              "teamId": 43784,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by UALBANY Koleton Marquis BLOCKED",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:22"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:20",
+              "teamId": 43784,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by UALBANY Ben Wimmer.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:20"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:15",
+              "teamId": 43784,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "30-second clock violation by UALBANY.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:15"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43784,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by UALBANY.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:10",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by NORTH CA good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:10"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:04",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by NORTH CA Caswell Friedman, Assist by Brock Geraci.",
+                  "homeScore": 19,
+                  "visitorScore": 4,
+                  "clock": "00:04"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:00",
+              "teamId": 43784,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "End-of-period.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:00"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "__typename": "PlayByPlayDetails",
+          "periodNumber": 4,
+          "periodDisplay": "4th",
+          "playbyplayStats": [
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "15:00",
+              "teamId": 43784,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "15:00"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "15:00",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Josh Marcus at goalie for NORTH CA.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "15:00"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "15:00",
+              "teamId": 43784,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Timmy Vine at goalie for UALBANY.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "15:00"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "15:00",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Rocco Mareno vs Colin Hannigan won by NORTH CA, [15:00] Ground ball pickup by NORTH CA Parker Hoffman.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "15:00"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "14:55",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by NORTH CA Parker Hoffman, SAVE Timmy Vine",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "14:55"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "14:47",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by NORTH CA Chase Cellucci.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "14:47"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "14:37",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by NORTH CA Dominic Pietramala, Assist by Peter Thomann.",
+                  "homeScore": 20,
+                  "visitorScore": 4,
+                  "clock": "14:37"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "14:34",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Rocco Mareno vs Colin Hannigan won by NORTH CA (on faceoff violation).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "14:34"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "13:48",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by NORTH CA Andrew Preis WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "13:48"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "13:26",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by NORTH CA Andrew Preis, SAVE Timmy Vine",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "13:26"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by NORTH CA Andrew Preis (caused by Brady Quill).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "12:59",
+              "teamId": 43784,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by UALBANY Brady Quill.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "12:59"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "12:47",
+              "teamId": 43784,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by UALBANY Ryan Doherty, Assist by James Reid.",
+                  "homeScore": 20,
+                  "visitorScore": 5,
+                  "clock": "12:47"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "12:47",
+              "teamId": 43784,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Austin Oppenheim vs Colin Hannigan won by UALBANY, [12:47] Ground ball pickup by UALBANY Austin Oppenheim.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "12:47"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "12:43",
+              "teamId": 43784,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by UALBANY Austin Oppenheim, SAVE Josh Marcus",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "12:43"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "12:38",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Penalty on NORTH CA Colin Hannigan (HOLDING/0:30) Extra-man opportunity.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "12:38"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "12:24",
+              "teamId": 43784,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by UALBANY Koleton Marquis, SAVE Josh Marcus",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "12:24"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "12:19",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by NORTH CA Peter Thomann.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "12:19"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "12:04",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by NORTH CA good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "12:04"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "11:20",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by NORTH CA Tayden Bultman.",
+                  "homeScore": 21,
+                  "visitorScore": 5,
+                  "clock": "11:20"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "11:20",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Rocco Mareno vs Colin Hannigan won by NORTH CA.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "11:20"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "10:27",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by NORTH CA Andrew Preis.",
+                  "homeScore": 22,
+                  "visitorScore": 5,
+                  "clock": "10:27"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "10:27",
+              "teamId": 43784,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Austin Oppenheim vs Colin Hannigan won by UALBANY.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "10:27"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "09:33",
+              "teamId": 43784,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by UALBANY Alex Pfeiffer, SAVE Josh Marcus",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "09:33"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "09:26",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by NORTH CA good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "09:26"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "08:22",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by NORTH CA Charlie Pope WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "08:22"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "08:14",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "30-second clock violation by NORTH CA.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "08:14"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by NORTH CA.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "08:11",
+              "teamId": 43784,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by UALBANY good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "08:11"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:25",
+              "teamId": 43784,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by UALBANY Zachary Kerner HIGH",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "07:25"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43784,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by UALBANY Ben Wimmer (caused by Ben Fox).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "06:57",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by NORTH CA Ben Fox.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "06:57"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "06:50",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by NORTH CA good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "06:50"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "06:40",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Brayson Wilson at goalie for NORTH CA.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "06:40"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:52",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by NORTH CA Niko Karetsos.",
+                  "homeScore": 23,
+                  "visitorScore": 5,
+                  "clock": "05:52"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43784,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Media timeout",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:52",
+              "teamId": 43784,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Rocco Mareno vs Colin Hannigan won by UALBANY.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "05:52"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43784,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by UALBANY Ben Coghill.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:20",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by NORTH CA Brock Geraci.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "05:20"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:19",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by NORTH CA Brock Geraci.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "05:19"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "04:29",
+              "teamId": 43784,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "AJ Apel at goalie for UALBANY.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "04:29"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "04:29",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by NORTH CA Owen Dixon, Assist by Brock Geraci.",
+                  "homeScore": 24,
+                  "visitorScore": 5,
+                  "clock": "04:29"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "04:29",
+              "teamId": 43784,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Timeout by UALBANY.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "04:29"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "04:25",
+              "teamId": 43784,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Austin Oppenheim vs Colin Hannigan won by UALBANY, [04:29] Ground ball pickup by UALBANY Austin Oppenheim.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "04:25"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:39",
+              "teamId": 43784,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by UALBANY Zachary Kerner WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "03:39"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:04",
+              "teamId": 43784,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by UALBANY Wally Swiney.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "03:04"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:02",
+              "teamId": 43784,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "30-second clock violation by UALBANY.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "03:02"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43784,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by UALBANY.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:30",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by NORTH CA good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "02:30"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:37",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "30-second clock violation by NORTH CA.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "01:37"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by NORTH CA.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:32",
+              "teamId": 43784,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by UALBANY good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "01:32"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:51",
+              "teamId": 43784,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by UALBANY Zachary Kerner, SAVE Brayson Wilson",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:51"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:48",
+              "teamId": 43784,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by UALBANY Brendan O'Keefe.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:48"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:30",
+              "teamId": 43784,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by UALBANY Teharonhiorens McComber.",
+                  "homeScore": 24,
+                  "visitorScore": 6,
+                  "clock": "00:30"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:30",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Rocco Mareno vs Colin Hannigan won by NORTH CA, [00:30] Ground ball pickup by NORTH CA Colin Hannigan.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:30"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by NORTH CA Colin Hannigan.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:00",
+              "teamId": 43784,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "End-of-period.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:00"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

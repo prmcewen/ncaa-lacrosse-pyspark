@@ -1,0 +1,3625 @@
+{
+  "data": {
+    "playbyplay": {
+      "__typename": "PlayByPlay",
+      "contestId": 6601418,
+      "title": "MLA PLAY-BY-PLAY",
+      "description": "North Carolina vs Virginia",
+      "divisionName": "d1",
+      "status": "final",
+      "period": 4,
+      "minutes": "",
+      "seconds": "",
+      "teams": [
+        {
+          "__typename": "ContestTeam",
+          "isHome": true,
+          "teamId": "43759",
+          "seoname": "north-carolina",
+          "name6Char": "UNC",
+          "nameShort": "North Carolina",
+          "nameFull": "University of North Carolina, Chapel Hill",
+          "teamName": "Tar Heels",
+          "color": "#7BAFD4"
+        },
+        {
+          "__typename": "ContestTeam",
+          "isHome": false,
+          "teamId": "43768",
+          "seoname": "virginia",
+          "name6Char": "UVA",
+          "nameShort": "Virginia",
+          "nameFull": "University of Virginia",
+          "teamName": "Cavaliers",
+          "color": "#232D4B"
+        }
+      ],
+      "periods": [
+        {
+          "__typename": "PlayByPlayDetails",
+          "periodNumber": 1,
+          "periodDisplay": "1st",
+          "playbyplayStats": [
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "15:00",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Jake Marek at goalie for VIRGINIA.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "15:00"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "15:00",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Josh Marcus at goalie for NORTHCA.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "15:00"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "15:00",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Griff Meyer vs Brady Wambach won by VIRGINIA, [15:00] Ground ball pickup by VIRGINIA Hudson Hausmann.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "15:00"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "14:02",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by VIRGINIA Ryan Duenkel.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "14:02"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "13:48",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by VIRGINIA Ryan Colsey WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "13:48"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by VIRGINIA Ryan Duenkel.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "13:37",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by NORTHCA failed.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "13:37"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by NORTHCA Leif Hagerup.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "13:07",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by VIRGINIA Aidan Murnane.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "13:07"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "13:04",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by VIRGINIA good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "13:04"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "12:59",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by VIRGINIA Brendan Millon, SAVE Josh Marcus",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "12:59"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "12:56",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by NORTHCA good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "12:56"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "12:11",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by NORTHCA James Matan (FIRST GOAL).",
+                  "homeScore": 1,
+                  "visitorScore": 0,
+                  "clock": "12:11"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "12:11",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Griff Meyer vs Brady Wambach won by NORTHCA (on faceoff violation).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "12:11"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "12:02",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by NORTHCA Brady Wambach WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "12:02"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "11:44",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by NORTHCA Brevin Wilson.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "11:44"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "11:21",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by NORTHCA Brevin Wilson BLOCKED",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "11:21"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "11:04",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by NORTHCA Brevin Wilson WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "11:04"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "10:57",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by NORTHCA Luke Bair HIGH",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "10:57"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "10:47",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by NORTHCA Owen Duffy WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "10:47"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "10:47",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "30-second clock violation by NORTHCA.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "10:47"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by NORTHCA.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "10:46",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by VIRGINIA failed.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "10:46"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by VIRGINIA Michael Meredith (caused by Ty English).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "10:33",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by NORTHCA Ty English.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "10:33"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "10:08",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by NORTHCA Brevin Wilson, Assist by Dominic Pietramala.",
+                  "homeScore": 2,
+                  "visitorScore": 0,
+                  "clock": "10:08"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "10:08",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Henry Metz vs Brady Wambach won by NORTHCA.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "10:08"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "09:26",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by NORTHCA Luke Bair, SAVE Jake Marek",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "09:26"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "09:24",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by VIRGINIA good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "09:24"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "08:14",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by VIRGINIA McCabe Millon, Assist by Chase Band.",
+                  "homeScore": 2,
+                  "visitorScore": 1,
+                  "clock": "08:14"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "08:14",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Griff Meyer vs Brady Wambach won by VIRGINIA, [08:14] Ground ball pickup by VIRGINIA Griff Meyer.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "08:14"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by VIRGINIA Griff Meyer.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:37",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by NORTHCA Mason Szewczyk HIGH",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "07:37"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:30",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by NORTHCA Owen Duffy, SAVE Jake Marek",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "07:30"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:27",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by VIRGINIA Wills Burt.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "07:27"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:21",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by VIRGINIA good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "07:21"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "06:26",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by VIRGINIA Joey Terenzi.",
+                  "homeScore": 2,
+                  "visitorScore": 2,
+                  "clock": "06:26"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Media Timeout",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "06:26",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Penalty on NORTHCA Ty English (ILLEGAL CROSSE/1:00).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "06:26"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "06:26",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Griff Meyer vs Brady Wambach won by NORTHCA, [06:26] Ground ball pickup by NORTHCA Brady Wambach.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "06:26"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "06:17",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by NORTHCA good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "06:17"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:52",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by VIRGINIA Brendan Millon WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "05:52"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:43",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by VIRGINIA Truitt Sunderland (MAN-UP), Assist by Brendan Millon.",
+                  "homeScore": 2,
+                  "visitorScore": 3,
+                  "clock": "05:43"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by NORTHCA Mason Szewczyk (caused by Robby Hopper).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:22",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by VIRGINIA Aidan Murnane.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "05:22"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:04",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by VIRGINIA good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "05:04"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "04:23",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by VIRGINIA McCabe Millon, Assist by Truitt Sunderland.",
+                  "homeScore": 2,
+                  "visitorScore": 4,
+                  "clock": "04:23"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "04:23",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Griff Meyer vs Brady Wambach won by NORTHCA.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "04:23"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:34",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by NORTHCA Owen Duffy, SAVE Jake Marek",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "03:34"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:30",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by VIRGINIA Jake Marek.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "03:30"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:28",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by VIRGINIA good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "03:28"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:19",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by VIRGINIA McCabe Millon WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "03:19"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:30",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by VIRGINIA Truitt Sunderland, Assist by McCabe Millon.",
+                  "homeScore": 2,
+                  "visitorScore": 5,
+                  "clock": "02:30"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:30",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Henry Metz vs Brady Wambach won by VIRGINIA.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "02:30"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:18",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by VIRGINIA Truitt Sunderland WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "01:18"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:02",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "30-second clock violation by VIRGINIA.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "01:02"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by VIRGINIA.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:01",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by NORTHCA good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "01:01"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:11",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by NORTHCA Owen Duffy WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:11"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:04",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by NORTHCA Anthony Raio BLOCKED",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:04"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "__typename": "PlayByPlayDetails",
+          "periodNumber": 2,
+          "periodDisplay": "2nd",
+          "playbyplayStats": [
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "15:00",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Andrew Greenspan vs Brady Wambach won by VIRGINIA, [15:00] Ground ball pickup by VIRGINIA Robby Hopper.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "15:00"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "14:34",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by VIRGINIA Lindan Verville.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "14:34"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "13:52",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by VIRGINIA Ryan Duenkel, SAVE Josh Marcus",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "13:52"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by VIRGINIA Ryan Duenkel.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "13:45",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by NORTHCA good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "13:45"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "13:33",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by NORTHCA Peter Thomann, SAVE Jake Marek",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "13:33"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "13:15",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by NORTHCA Dominic Pietramala, SAVE Jake Marek",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "13:15"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "13:12",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by VIRGINIA failed.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "13:12"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by VIRGINIA Jake Marek.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "13:00",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by NORTHCA James Matan WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "13:00"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by NORTHCA Dominic Pietramala.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "12:29",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by VIRGINIA good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "12:29"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "12:28",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by VIRGINIA Jake Marek.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "12:28"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "12:22",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by VIRGINIA Will Inderlied.",
+                  "homeScore": 2,
+                  "visitorScore": 6,
+                  "clock": "12:22"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "12:22",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Henry Metz vs Brady Wambach won by NORTHCA, [12:22] Ground ball pickup by NORTHCA Brady Wambach.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "12:22"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "12:11",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by NORTHCA Owen Duffy, SAVE Jake Marek",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "12:11"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "12:09",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by NORTHCA Parker Hoffman, SAVE Jake Marek",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "12:09"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "12:03",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by VIRGINIA good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "12:03"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "11:28",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by VIRGINIA Ryan Duenkel, SAVE Josh Marcus",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "11:28"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "11:25",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by VIRGINIA Truitt Sunderland.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "11:25"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "11:24",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by VIRGINIA Truitt Sunderland HIGH",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "11:24"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "11:00",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by VIRGINIA Ryan Colsey WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "11:00"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "10:48",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by VIRGINIA Ryan Duenkel, Assist by Brendan Millon.",
+                  "homeScore": 2,
+                  "visitorScore": 7,
+                  "clock": "10:48"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "10:48",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Timeout by NORTHCA.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "10:48"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Media Timeout",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "10:48",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Griff Meyer vs Brady Wambach won by VIRGINIA, [10:48] Ground ball pickup by VIRGINIA Griff Meyer.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "10:48"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "09:54",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by VIRGINIA Sean Browne BLOCKED",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "09:54"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "09:50",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by NORTHCA Parker Hoffman.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "09:50"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "09:47",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by NORTHCA good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "09:47"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by NORTHCA Parker McDonald.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "09:42",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by VIRGINIA good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "09:42"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "09:32",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by VIRGINIA Joey Terenzi HIGH",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "09:32"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "09:31",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by NORTHCA good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "09:31"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "08:59",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by NORTHCA Dominic Pietramala WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "08:59"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "08:39",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by NORTHCA Luke Bair, SAVE Jake Marek",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "08:39"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "08:36",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by VIRGINIA Michael Meredith.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "08:36"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "08:32",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by VIRGINIA good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "08:32"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "08:21",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by VIRGINIA Hudson Hausmann, Assist by Mack Till.",
+                  "homeScore": 2,
+                  "visitorScore": 8,
+                  "clock": "08:21"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "08:21",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Griff Meyer vs Brady Wambach won by NORTHCA, [08:21] Ground ball pickup by NORTHCA Brady Wambach.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "08:21"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by NORTHCA Owen Duffy (caused by John Schroter).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:55",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by VIRGINIA Lindan Verville.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "07:55"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:55",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by VIRGINIA good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "07:55"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:52",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by VIRGINIA Owen Crann WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "07:52"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:03",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by VIRGINIA Joey Terenzi.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "07:03"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:01",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by VIRGINIA Joey Terenzi, SAVE Josh Marcus",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "07:01"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "06:57",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by NORTHCA good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "06:57"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by NORTHCA Dominic Pietramala (caused by Michael Meredith).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "06:03",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by VIRGINIA good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "06:03"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:35",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by VIRGINIA Brendan Millon.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "05:35"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "04:54",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by VIRGINIA McCabe Millon.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "04:54"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "04:51",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by VIRGINIA Truitt Sunderland, Assist by McCabe Millon.",
+                  "homeScore": 2,
+                  "visitorScore": 9,
+                  "clock": "04:51"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "04:51",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Griff Meyer vs Brady Wambach won by NORTHCA, [04:51] Ground ball pickup by NORTHCA Brady Wambach.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "04:51"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "04:44",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by NORTHCA Parker Hoffman, SAVE Jake Marek",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "04:44"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "04:41",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by VIRGINIA good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "04:41"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:53",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by VIRGINIA McCabe Millon.",
+                  "homeScore": 2,
+                  "visitorScore": 10,
+                  "clock": "03:53"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:53",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Timeout by NORTHCA.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "03:53"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:53",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Andrew Greenspan vs Brady Wambach won by NORTHCA (on faceoff violation).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "03:53"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:53",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Kent Goode at goalie for NORTHCA.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "03:53"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:46",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by NORTHCA Brady Wambach WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "03:46"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:15",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by NORTHCA James Matan, SAVE Jake Marek",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "03:15"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:11",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by VIRGINIA good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "03:11"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:01",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by VIRGINIA Robby Hopper WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "03:01"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by VIRGINIA Truitt Sunderland.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by NORTHCA Anthony Raio.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:51",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by VIRGINIA good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "01:51"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:40",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by VIRGINIA Chase Band.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "01:40"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:38",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by VIRGINIA Truitt Sunderland, Assist by Chase Band.",
+                  "homeScore": 2,
+                  "visitorScore": 11,
+                  "clock": "01:38"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:38",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Griff Meyer vs Brady Wambach won by NORTHCA (on faceoff violation).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "01:38"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:31",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by NORTHCA Brett Koopman BLOCKED",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "01:31"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:03",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by NORTHCA Owen Duffy WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "01:03"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:37",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by NORTHCA Dominic Pietramala WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:37"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:10",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by NORTHCA Luke Bair.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:10"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by NORTHCA Brevin Wilson (caused by Aidan Murnane).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:00",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by VIRGINIA Wills Burt.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:00"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "__typename": "PlayByPlayDetails",
+          "periodNumber": 3,
+          "periodDisplay": "3rd",
+          "playbyplayStats": [
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "15:00",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Henry Metz vs Brady Wambach won by VIRGINIA, [15:00] Ground ball pickup by VIRGINIA Henry Metz.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "15:00"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by VIRGINIA Tommy Snyder (caused by Owen Duffy).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "14:43",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by NORTHCA Brevin Wilson.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "14:43"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "14:20",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by NORTHCA Brevin Wilson, SAVE Jake Marek",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "14:20"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "14:17",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by VIRGINIA Tommy Snyder.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "14:17"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "14:15",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by VIRGINIA failed.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "14:15"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by VIRGINIA Hudson Hausmann (caused by Chase Cellucci).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by NORTHCA Luke Bair (caused by John Schroter).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "13:26",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by VIRGINIA John Schroter.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "13:26"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "13:24",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by VIRGINIA good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "13:24"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "12:50",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by VIRGINIA Ryan Colsey BLOCKED",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "12:50"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "12:37",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by NORTHCA Chase Cellucci.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "12:37"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by NORTHCA Ty English.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "12:23",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by VIRGINIA John Schroter.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "12:23"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "12:21",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by VIRGINIA good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "12:21"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by VIRGINIA Ryan Duenkel (caused by Cole Aasheim).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "11:21",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by NORTHCA good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "11:21"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "10:42",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by NORTHCA Owen Duffy.",
+                  "homeScore": 3,
+                  "visitorScore": 11,
+                  "clock": "10:42"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "10:42",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Griff Meyer vs Brady Wambach won by NORTHCA.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "10:42"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "10:25",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by NORTHCA Owen Duffy, SAVE Jake Marek",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "10:25"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by NORTHCA Owen Duffy (caused by Michael Meredith).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "09:58",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by VIRGINIA Michael Meredith.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "09:58"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "09:57",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by VIRGINIA good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "09:57"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by VIRGINIA Brayden Lahey (caused by Cole Aasheim).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "08:59",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by NORTHCA Peter Thomann.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "08:59"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "08:56",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by NORTHCA good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "08:56"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:46",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by NORTHCA Luke Bair BLOCKED",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "07:46"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:41",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by VIRGINIA Jake Marek.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "07:41"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:38",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by VIRGINIA good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "07:38"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:00",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by VIRGINIA McCabe Millon, Assist by Ryan Colsey.",
+                  "homeScore": 3,
+                  "visitorScore": 12,
+                  "clock": "07:00"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Media Timeout",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:00",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Andrew Greenspan vs Brady Wambach won by NORTHCA, [07:00] Ground ball pickup by NORTHCA Brady Wambach.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "07:00"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "06:21",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by NORTHCA Brock Geraci WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "06:21"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "06:09",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by NORTHCA Andrew Preis, SAVE Jake Marek",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "06:09"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "06:05",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by VIRGINIA Robby Hopper.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "06:05"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:57",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by VIRGINIA John Schroter.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "05:57"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:52",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by VIRGINIA good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "05:52"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:12",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by VIRGINIA Ryan Colsey, Assist by Joey Terenzi.",
+                  "homeScore": 3,
+                  "visitorScore": 13,
+                  "clock": "05:12"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:12",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Griff Meyer vs Brady Wambach won by VIRGINIA, [05:12] Ground ball pickup by VIRGINIA Griff Meyer.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "05:12"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "04:05",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by VIRGINIA Chase Band, SAVE Kent Goode",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "04:05"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "04:01",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by NORTHCA Peter Thomann.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "04:01"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:58",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by NORTHCA good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "03:58"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:36",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by NORTHCA Dominic Pietramala, Assist by Brevin Wilson.",
+                  "homeScore": 4,
+                  "visitorScore": 13,
+                  "clock": "03:36"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:36",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Griff Meyer vs Brady Wambach won by VIRGINIA, [03:36] Ground ball pickup by VIRGINIA Griff Meyer.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "03:36"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:04",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by VIRGINIA Owen Crann, SAVE Kent Goode",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "03:04"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:59",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by NORTHCA Chase Cellucci.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "02:59"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:51",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by NORTHCA Ty English.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "02:51"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:49",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by NORTHCA good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "02:49"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:38",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by NORTHCA Peter Thomann WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "02:38"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:34",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by NORTHCA Dominic Pietramala.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "02:34"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:34",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Timeout by NORTHCA.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "02:34"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:49",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by NORTHCA Dominic Pietramala WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "01:49"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:47",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "30-second clock violation by NORTHCA.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "01:47"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by NORTHCA.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:42",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by VIRGINIA good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "01:42"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:41",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by VIRGINIA Ryan Duenkel, SAVE Kent Goode",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:41"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:09",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by VIRGINIA McCabe Millon WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:09"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "__typename": "PlayByPlayDetails",
+          "periodNumber": 4,
+          "periodDisplay": "4th",
+          "playbyplayStats": [
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "15:00",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Griff Meyer vs Brady Wambach won by VIRGINIA, [15:00] Ground ball pickup by VIRGINIA Robby Hopper.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "15:00"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "14:18",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by VIRGINIA Brendan Millon, SAVE Kent Goode",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "14:18"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "14:15",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by NORTHCA good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "14:15"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "13:45",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by NORTHCA Ty English BLOCKED",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "13:45"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "13:33",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by NORTHCA Luke Bair HIT POST",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "13:33"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "13:27",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by VIRGINIA Michael Meredith.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "13:27"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "13:24",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by VIRGINIA good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "13:24"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "12:44",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by VIRGINIA Truitt Sunderland HIT POST",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "12:44"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "12:42",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by NORTHCA Leif Hagerup.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "12:42"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "11:41",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by NORTHCA Caden Harshbarger.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "11:41"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "11:25",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by NORTHCA James Matan.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "11:25"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "11:24",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by NORTHCA James Matan.",
+                  "homeScore": 5,
+                  "visitorScore": 13,
+                  "clock": "11:24"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "11:24",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Griff Meyer vs Colin Hannigan won by VIRGINIA.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "11:24"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "10:42",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by VIRGINIA Chase Band BLOCKED",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "10:42"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "10:39",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by NORTHCA Ty English.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "10:39"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "10:37",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by NORTHCA good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "10:37"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "10:31",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by NORTHCA Brevin Wilson, SAVE Jake Marek",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "10:31"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "10:28",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by VIRGINIA Jake Marek.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "10:28"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "10:24",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by VIRGINIA good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "10:24"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by VIRGINIA Burke McFarlane (caused by Caswell Friedman).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "09:23",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by NORTHCA Ty English.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "09:23"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "09:20",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by NORTHCA Caswell Friedman.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "09:20"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "09:16",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by NORTHCA good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "09:16"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "09:14",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by NORTHCA Parker McDonald, SAVE Jake Marek",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "09:14"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "09:09",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Penalty on VIRGINIA Ryan Duenkel (ILLEGAL BODY CHECK/1:00) Extra-man opportunity.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "09:09"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by NORTHCA Luke Bair.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "08:56",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by VIRGINIA Luke Jamin.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "08:56"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "08:53",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by VIRGINIA good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "08:53"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:44",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by VIRGINIA Brendan Millon, SAVE Kent Goode",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "07:44"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:41",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by VIRGINIA Ryan Duenkel.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "07:41"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:40",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by VIRGINIA Ryan Duenkel.",
+                  "homeScore": 5,
+                  "visitorScore": 14,
+                  "clock": "07:40"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Media Timeout",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:40",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Griff Meyer vs Colin Hannigan won by VIRGINIA, [07:40] Ground ball pickup by VIRGINIA Griff Meyer.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "07:40"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "06:33",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by VIRGINIA Brayden Lahey WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "06:33"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by VIRGINIA McCabe Millon (caused by Cole Aasheim).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "06:21",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by NORTHCA Parker McDonald.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "06:21"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "06:20",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by NORTHCA good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "06:20"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "06:17",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Penalty on VIRGINIA Chase Band (UNNECESSARY ROUGHNESS/1:00) Extra-man opportunity.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "06:17"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:55",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by NORTHCA Nate Sage HIGH",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "05:55"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:42",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by NORTHCA Nate Sage, SAVE Jake Marek",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "05:42"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:32",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by VIRGINIA Mack Till.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "05:32"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:25",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by VIRGINIA good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "05:25"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:23",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by VIRGINIA Hudson Hausmann (MAN-DOWN).",
+                  "homeScore": 5,
+                  "visitorScore": 15,
+                  "clock": "05:23"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:23",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by VIRGINIA Hudson Hausmann.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "05:23"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:23",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Kyle Morris at goalie for VIRGINIA.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "05:23"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:23",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Griff Meyer vs Colin Hannigan won by VIRGINIA, [05:23] Ground ball pickup by VIRGINIA Griff Meyer.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "05:23"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "04:07",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by VIRGINIA Brayden Lahey, SAVE Kent Goode",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "04:07"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "04:05",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by NORTHCA good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "04:05"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:45",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Brayson Wilson at goalie for NORTHCA.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "03:45"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:39",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by NORTHCA Luke Macaluso.",
+                  "homeScore": 6,
+                  "visitorScore": 15,
+                  "clock": "03:39"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:39",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Christian Grosso vs Colin Hannigan won by NORTHCA, [03:39] Ground ball pickup by NORTHCA Colin Hannigan.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "03:39"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:28",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by NORTHCA Ty English, SAVE Kyle Morris",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "03:28"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by NORTHCA Brock Geraci (caused by Kyle Morris).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:12",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by VIRGINIA Kyle Morris.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "03:12"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:01",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by VIRGINIA good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "03:01"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:00",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Timeout by VIRGINIA.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "03:00"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:00",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by VIRGINIA Tim Myers.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "03:00"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:13",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by VIRGINIA Burke McFarlane.",
+                  "homeScore": 6,
+                  "visitorScore": 16,
+                  "clock": "02:13"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:13",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Christian Grosso vs Colin Hannigan won by VIRGINIA, [02:13] Ground ball pickup by VIRGINIA Owen Crann.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "02:13"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:48",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Penalty on NORTHCA Luke Macaluso (OFFSIDE/0:30) Extra-man opportunity.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:48"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43768,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by VIRGINIA Tim Myers (caused by Chase Cellucci).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:23",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by NORTHCA good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:23"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:14",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by NORTHCA Andrew Preis, SAVE Kyle Morris",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:14"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,3429 @@
+{
+  "data": {
+    "playbyplay": {
+      "__typename": "PlayByPlay",
+      "contestId": 6599992,
+      "title": "MLA PLAY-BY-PLAY",
+      "description": "Notre Dame vs Johns Hopkins",
+      "divisionName": "d1",
+      "status": "final",
+      "period": 4,
+      "minutes": "",
+      "seconds": "",
+      "teams": [
+        {
+          "__typename": "ContestTeam",
+          "isHome": true,
+          "teamId": "43861",
+          "seoname": "notre-dame",
+          "name6Char": "N DAME",
+          "nameShort": "Notre Dame",
+          "nameFull": "University of Notre Dame",
+          "teamName": "Fighting Irish",
+          "color": "#0C2340"
+        },
+        {
+          "__typename": "ContestTeam",
+          "isHome": false,
+          "teamId": "43920",
+          "seoname": "johns-hopkins",
+          "name6Char": "HOPKNS",
+          "nameShort": "Johns Hopkins",
+          "nameFull": "Johns Hopkins University",
+          "teamName": "Blue Jays",
+          "color": "#6CACE4"
+        }
+      ],
+      "periods": [
+        {
+          "__typename": "PlayByPlayDetails",
+          "periodNumber": 1,
+          "periodDisplay": "1st",
+          "playbyplayStats": [
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "15:00",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "JHU Starters: Brown, Carson; Ayers, Jimmy; Martin, Luke; Collison, Matt; English, Brooks; Iler, Charlie; Sorenson, Parker; Rawson, Chuck; Gelinas, Oran; Chauvette, Hunter. ND Starters: Ricciardelli, Thomas; Jeffery, Matt; Angrick, Will; Yago, Josh; Maheras, Will; Behrman, Brock; Schwitzenberg, Nate; Gallagher, Will; Miller, Luke; Lyght, Shawn; JHU Keeper: Gelinas, Oran. ND Keeper: Ricciardelli, Thomas.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "15:00"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "15:00",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Start of Quarter 1",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "15:00"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "15:00",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Spano, Tyler vs Hobot, Joe won by ND, [15:00] Ground ball pickup by ND Spano, Tyler.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "15:00"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "14:42",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by ND good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "14:42"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "14:17",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by ND Maheras, Will, SAVE by Gelinas, Oran",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "14:17"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "13:55",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by JHU good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "13:55"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "13:10",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by JHU Rawson, Chuck HIT POST",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "13:10"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "12:48",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by ND failed.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "12:48"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "12:45",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by ND Ricciardelli, Thomas (caused by Hazard, Charlie).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "12:45"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "12:41",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by JHU Sorenson, Parker",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "12:41"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "12:09",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by JHU Smith, Jameson WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "12:09"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "11:27",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot clock violation by JHU",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "11:27"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "11:11",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by ND good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "11:11"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "10:27",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by ND Yago, Josh",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "10:27"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "10:16",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by ND Miller, Luke HIGH",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "10:16"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "10:07",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by ND Maheras, Will",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "10:07"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "10:02",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by JHU DiCicco, Reece",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "10:02"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "09:59",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by JHU good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "09:59"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "09:20",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by JHU Collison, Matt WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "09:20"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "08:46",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot clock violation by JHU",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "08:46"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "08:32",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by ND Gallagher, Will",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "08:32"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "08:28",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by ND good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "08:28"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "08:09",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by ND Faison, Dylan",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "08:09"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:50",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by ND Busenkell, Max HIGH",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "07:50"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:37",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by ND Busenkell, Max WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "07:37"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:31",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by ND Miller, Luke WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "07:31"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:27",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot clock violation by ND",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "07:27"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:12",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by JHU good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "07:12"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "06:43",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by JHU Iler, Charlie (FIRST GOAL), Assist by Disque, David, goal number 15 for season., assist number 2 for season.",
+                  "homeScore": 0,
+                  "visitorScore": 1,
+                  "clock": "06:43"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "06:43",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": " Timeout by  official",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "06:43"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "06:43",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Spano, Tyler vs Hobot, Joe won by JHU, [06:43] Ground ball pickup by JHU Hobot, Joe.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "06:43"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:52",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by JHU Ayers, Jimmy, SAVE by Ricciardelli, Thomas",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "05:52"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:45",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by ND Bergen, Kyle",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "05:45"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:39",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by ND good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "05:39"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:35",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by ND Alacqua, Christian, goal number 1 for season.",
+                  "homeScore": 1,
+                  "visitorScore": 1,
+                  "clock": "05:35"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:35",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Spano, Tyler vs Hobot, Joe won by JHU (on faceoff violation).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "05:35"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "04:27",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by JHU Chick, Erik, SAVE by Ricciardelli, Thomas",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "04:27"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "04:11",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by ND good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "04:11"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "04:07",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by ND Angrick, Will, Assist by Jeffery, Matt, goal number 13 for season., assist number 9 for season.",
+                  "homeScore": 2,
+                  "visitorScore": 1,
+                  "clock": "04:07"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "04:07",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Diaz-Matos, Aidan vs Hobot, Joe won by ND, [04:07] Ground ball pickup by ND Diaz-Matos, Aidan.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "04:07"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:59",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by ND Diaz-Matos, Aidan (caused by Hobot, Joe).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "03:59"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:54",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by JHU DiCicco, Reece",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "03:54"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:45",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by JHU good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "03:45"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:55",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by JHU Chauvette, Hunter, Assist by English, Brooks",
+                  "homeScore": 2,
+                  "visitorScore": 2,
+                  "clock": "02:55"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:55",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Diaz-Matos, Aidan vs Hobot, Joe won by JHU, [02:55] Ground ball pickup by JHU Burke, Liam.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "02:55"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:19",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by JHU Disque, David",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "02:19"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:12",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by ND good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "02:12"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:03",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by ND Bergen, Kyle (caused by Disque, David).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "02:03"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:00",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by JHU Disque, David",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "02:00"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:36",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by JHU Chauvette, Hunter BLOCKED",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "01:36"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:31",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by ND Reihnardt, Chris",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "01:31"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:28",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by ND good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "01:28"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:22",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by ND Donovan, Will",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "01:22"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:18",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by JHU Gelinas, Oran",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "01:18"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:16",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by JHU good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "01:16"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:12",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by JHU Rawson, Chuck, Assist by Collison, Matt, goal number 24 for season., assist number 16 for season.",
+                  "homeScore": 2,
+                  "visitorScore": 3,
+                  "clock": "00:12"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:12",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Spano, Tyler vs Kryszak, Carter won by ND, [00:12] Ground ball pickup by ND Spano, Tyler.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:12"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:00",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Penalty on JHU Eye, Tyler (Pushing/0:30); Extra-man opportunity (ends at 14:30 of QTR 2)",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:00"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:00",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "End of Quarter 1",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:00"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "__typename": "PlayByPlayDetails",
+          "periodNumber": 2,
+          "periodDisplay": "2nd",
+          "playbyplayStats": [
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "15:00",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Start of Quarter 2",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "15:00"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "14:39",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by ND Pokorny, Brady (MAN-UP), Assist by Yago, Josh, goal number 4 for season., assist number 16 for season.",
+                  "homeScore": 3,
+                  "visitorScore": 3,
+                  "clock": "14:39"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "14:39",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Spano, Tyler vs Hobot, Joe won by ND, [14:39] Ground ball pickup by ND Donovan, Will.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "14:39"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "13:49",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by ND Lally, Teddy",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "13:49"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "13:45",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by ND Miller, Luke BLOCKED",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "13:45"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "13:44",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Penalty on JHU Colhoun, Warry (Illegal Body Check/1:00); Extra-man opportunity (ends at 12:44 of QTR 2)",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "13:44"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "13:18",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by ND Seymour, Jalen, SAVE by Gelinas, Oran",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "13:18"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "13:07",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by JHU good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "13:07"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "12:30",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by JHU English, Brooks",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "12:30"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "12:18",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by ND good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "12:18"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "11:39",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by ND Faison, Dylan, SAVE by Gelinas, Oran",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "11:39"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "11:25",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by JHU good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "11:25"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "11:18",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by JHU McDonald, Eric (caused by Faison, Dylan).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "11:18"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "11:13",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by ND Schwitzenberg, Nate",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "11:13"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "11:11",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by ND good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "11:11"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "11:06",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by ND Miller, Luke, SAVE by Gelinas, Oran",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "11:06"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "11:01",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by JHU Pace, Carmelo",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "11:01"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "10:59",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by JHU good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "10:59"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "10:29",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by JHU Chauvette, Hunter WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "10:29"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "10:22",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by JHU Iler, Charlie, goal number 16 for season.",
+                  "homeScore": 3,
+                  "visitorScore": 4,
+                  "clock": "10:22"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "10:22",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Spano, Tyler vs Hobot, Joe won by ND, [10:22] Ground ball pickup by ND Spano, Tyler.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "10:22"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "09:49",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by ND Yago, Josh, Assist by Angrick, Will, goal number 26 for season., assist number 6 for season.",
+                  "homeScore": 4,
+                  "visitorScore": 4,
+                  "clock": "09:49"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "09:49",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Spano, Tyler vs Kryszak, Carter won by ND, [09:49] Ground ball pickup by ND Spano, Tyler.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "09:49"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "09:12",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by ND Yago, Josh, Assist by Jeffery, Matt, goal number 27 for season., assist number 10 for season.",
+                  "homeScore": 5,
+                  "visitorScore": 4,
+                  "clock": "09:12"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "09:12",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Diaz-Matos, Aidan vs Hobot, Joe won by JHU (on faceoff violation).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "09:12"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "08:26",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by JHU Smith, Jameson, goal number 7 for season.",
+                  "homeScore": 5,
+                  "visitorScore": 5,
+                  "clock": "08:26"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "08:26",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Spano, Tyler vs Hobot, Joe won by ND, [08:26] Ground ball pickup by ND Spano, Tyler.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "08:26"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:45",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by ND Miller, Luke (caused by Sorenson, Parker).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "07:45"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:30",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by JHU good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "07:30"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:26",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": " Timeout by JHU",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "07:26"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:26",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": " Timeout by  official",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "07:26"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "06:43",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by JHU Iler, Charlie (caused by Ricciardelli, Thomas).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "06:43"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "06:41",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by ND Ricciardelli, Thomas",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "06:41"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "06:34",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by ND good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "06:34"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "06:12",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by ND Jeffery, Matt, goal number 16 for season.",
+                  "homeScore": 6,
+                  "visitorScore": 5,
+                  "clock": "06:12"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "06:12",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Spano, Tyler vs Sheppard, Dan won by ND, [06:12] Ground ball pickup by ND Spano, Tyler.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "06:12"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:38",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by ND Angrick, Will HIT CROSSBAR",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "05:38"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:34",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by ND Maheras, Will",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "05:34"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:06",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by ND Angrick, Will",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "05:06"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "04:55",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by ND Angrick, Will WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "04:55"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "04:45",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by ND Miller, Luke WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "04:45"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "04:41",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by ND Lally, Teddy",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "04:41"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "04:39",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by ND Lally, Teddy, SAVE by Gelinas, Oran",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "04:39"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "04:24",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by JHU good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "04:24"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:28",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by JHU Iler, Charlie",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "03:28"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:27",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Penalty on ND Gallagher, Will (Holding/0:30); Extra-man opportunity (ends at 2:57 of QTR 2)",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "03:27"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:59",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by JHU Ayers, Jimmy WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "02:59"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:25",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot clock violation by JHU",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "02:25"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:08",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by ND good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "02:08"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:07",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": " Timeout by ND",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "02:07"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:53",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by ND Yago, Josh WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "01:53"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:46",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by ND Seymour, Jalen",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "01:46"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:09",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by ND Miller, Luke, SAVE by Gelinas, Oran",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "01:09"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:58",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by JHU good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:58"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:53",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": " Timeout by JHU",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:53"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:09",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by JHU Collison, Matt, Assist by Rawson, Chuck, goal number 29 for season., assist number 16 for season.",
+                  "homeScore": 6,
+                  "visitorScore": 6,
+                  "clock": "00:09"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:09",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Spano, Tyler vs Hobot, Joe won by JHU, [00:09] Ground ball pickup by JHU DiCicco, Reece.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:09"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:00",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "End of Quarter 2",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:00"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "__typename": "PlayByPlayDetails",
+          "periodNumber": 3,
+          "periodDisplay": "3rd",
+          "playbyplayStats": [
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "15:00",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Start of Quarter 3",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "15:00"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "15:00",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Spano, Tyler vs Hobot, Joe won by JHU (on faceoff violation).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "15:00"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "14:39",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by JHU good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "14:39"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "14:10",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by JHU Collison, Matt BLOCKED",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "14:10"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "14:04",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by JHU Ayers, Jimmy",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "14:04"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "13:30",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by JHU Collison, Matt",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "13:30"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "13:26",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by ND Donovan, Will",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "13:26"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "13:22",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by ND good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "13:22"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "12:33",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by ND Yago, Josh, goal number 28 for season.",
+                  "homeScore": 7,
+                  "visitorScore": 6,
+                  "clock": "12:33"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "12:33",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Spano, Tyler vs Hobot, Joe won by ND, [12:33] Ground ball pickup by ND Ricciardelli, Thomas.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "12:33"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "12:11",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by ND good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "12:11"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "11:21",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by ND Behrman, Brock, Assist by Yago, Josh, goal number 17 for season., assist number 17 for season.",
+                  "homeScore": 8,
+                  "visitorScore": 6,
+                  "clock": "11:21"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "11:21",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Spano, Tyler vs Hobot, Joe won by ND, [11:21] Ground ball pickup by ND Spano, Tyler.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "11:21"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "10:55",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by ND good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "10:55"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "10:25",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by ND Jeffery, Matt, Assist by Behrman, Brock, goal number 17 for season., assist number 14 for season.",
+                  "homeScore": 9,
+                  "visitorScore": 6,
+                  "clock": "10:25"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "10:25",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": " Timeout by JHU",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "10:25"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "10:25",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Diaz-Matos, Aidan vs Hobot, Joe won by JHU, [10:25] Ground ball pickup by JHU Burke, Liam.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "10:25"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "09:49",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by JHU Chauvette, Hunter, SAVE by Ricciardelli, Thomas",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "09:49"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "09:41",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by ND Gallagher, Will",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "09:41"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "09:34",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by ND good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "09:34"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "09:26",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by ND Alacqua, Christian (caused by Rawson, Chuck).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "09:26"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "09:21",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by JHU Colhoun, Warry",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "09:21"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "09:08",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by JHU good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "09:08"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "08:46",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by JHU Rawson, Chuck BLOCKED",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "08:46"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "08:40",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by ND Ricciardelli, Thomas",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "08:40"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "08:33",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by ND Iuliano, Christopher",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "08:33"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "08:31",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by ND good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "08:31"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "08:17",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by ND Angrick, Will, SAVE by Gelinas, Oran",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "08:17"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "08:06",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by JHU good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "08:06"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:50",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by JHU Chick, Erik, Assist by Chauvette, Hunter, goal number 3 for season., assist number 6 for season.",
+                  "homeScore": 9,
+                  "visitorScore": 7,
+                  "clock": "07:50"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:50",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": " Timeout by  official",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "07:50"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:50",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Spano, Tyler vs Hobot, Joe won by JHU (on faceoff violation).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "07:50"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "06:40",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by JHU Chauvette, Hunter WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "06:40"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "06:27",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot clock violation by JHU",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "06:27"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "06:21",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by ND good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "06:21"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "06:15",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by ND Angrick, Will HIT POST",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "06:15"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "06:11",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by JHU Gelinas, Oran",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "06:11"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "06:08",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by JHU good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "06:08"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:17",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by JHU Collison, Matt (caused by Reihnardt, Chris).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "05:17"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:05",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by ND good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "05:05"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "04:40",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by ND Behrman, Brock, Assist by Seymour, Jalen, goal number 18 for season., assist number 4 for season.",
+                  "homeScore": 10,
+                  "visitorScore": 7,
+                  "clock": "04:40"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "04:40",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Diaz-Matos, Aidan vs Hobot, Joe won by ND (on faceoff violation).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "04:40"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:37",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by ND Faison, Dylan",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "03:37"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:32",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by JHU good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "03:32"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:06",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by JHU Ayers, Jimmy",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "03:06"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:52",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by ND good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "02:52"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:58",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by ND Jeffery, Matt WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "01:58"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:52",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by ND Maheras, Will HIGH",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "01:52"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:44",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by ND Yago, Josh WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "01:44"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:44",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot clock violation by ND",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "01:44"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:32",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by JHU failed.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "01:32"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:32",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by JHU Brown, Carson (caused by Yago, Josh).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "01:32"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:31",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by ND Lally, Teddy",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "01:31"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:27",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by ND Yago, Josh WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "01:27"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:27",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Penalty on JHU Martin, Luke (Unnecessary Roughness/1:00); Extra-man opportunity (ends at 0:27 of QTR 3)",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "01:27"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:27",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Penalty on JHU Martin, Luke (Unsportsmanlike Conduct/1:00)",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "01:27"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:27",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Penalty on ND Yago, Josh (Unsportsmanlike Conduct/1:00)",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "01:27"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:05",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by ND Maheras, Will, Assist by Miller, Luke, goal number 16 for season., assist number 11 for season.",
+                  "homeScore": 11,
+                  "visitorScore": 7,
+                  "clock": "01:05"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:05",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Spano, Tyler vs Hobot, Joe won by ND, [01:05] Ground ball pickup by ND Donovan, Will.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "01:05"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:06",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by ND Miller, Luke, SAVE by Gelinas, Oran",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:06"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:04",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by JHU Sorenson, Parker",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:04"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:00",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "End of Quarter 3",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:00"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "__typename": "PlayByPlayDetails",
+          "periodNumber": 4,
+          "periodDisplay": "4th",
+          "playbyplayStats": [
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "15:00",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Start of Quarter 4",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "15:00"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "14:52",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by JHU good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "14:52"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "13:43",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot clock violation by JHU",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "13:43"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "13:28",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by ND good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "13:28"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "12:43",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by ND Jeffery, Matt (caused by Martin, Luke).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "12:43"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "12:38",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by JHU Eye, Tyler",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "12:38"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "12:37",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by JHU failed.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "12:37"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "12:34",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by JHU Eye, Tyler (caused by Behrman, Brock).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "12:34"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "12:31",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by ND Behrman, Brock",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "12:31"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "12:10",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by ND Angrick, Will HIT POST",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "12:10"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "12:07",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by ND Jeffery, Matt",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "12:07"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "12:07",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by ND Maheras, Will, Assist by Jeffery, Matt, goal number 17 for season., assist number 11 for season.",
+                  "homeScore": 12,
+                  "visitorScore": 7,
+                  "clock": "12:07"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "12:07",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Spano, Tyler vs Hobot, Joe won by JHU, [12:07] Ground ball pickup by JHU Burke, Liam.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "12:07"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "11:54",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by JHU Chauvette, Hunter HIT POST",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "11:54"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "11:13",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by JHU Rawson, Chuck (caused by Iglesias, Miguel).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "11:13"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "11:08",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by ND Ricciardelli, Thomas",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "11:08"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "10:59",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by ND good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "10:59"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "10:12",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by ND Busenkell, Max",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "10:12"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "10:00",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by JHU good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "10:00"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "09:31",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Penalty on ND Schwitzenberg, Nate (Pushing/0:30); Extra-man opportunity (ends at 9:01 of QTR 4)",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "09:31"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "09:13",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by JHU Collison, Matt, SAVE by Ricciardelli, Thomas",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "09:13"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "08:51",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by JHU Iler, Charlie, SAVE by Ricciardelli, Thomas",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "08:51"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "08:38",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by ND good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "08:38"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:59",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by ND Jeffery, Matt",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "07:59"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:55",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by JHU Martin, Luke",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "07:55"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:49",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by JHU good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "07:49"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:41",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by JHU Burke, Liam WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "07:41"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:40",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Penalty on ND Lally, Teddy (Slashing/1:00); Extra-man opportunity (ends at 6:40 of QTR 4)",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "07:40"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:21",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by JHU Iler, Charlie",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "07:21"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:06",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by ND good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "07:06"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "06:59",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by ND Bergen, Kyle, SAVE by Gelinas, Oran",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "06:59"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "06:52",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by JHU good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "06:52"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "06:18",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by JHU English, Brooks",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "06:18"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "06:09",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by JHU Chauvette, Hunter, Assist by English, Brooks, goal number 40 for season., assist number 25 for season.",
+                  "homeScore": 12,
+                  "visitorScore": 8,
+                  "clock": "06:09"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "06:09",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": " Timeout by  official",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "06:09"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "06:09",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Spano, Tyler vs Hobot, Joe won by JHU, [06:09] Ground ball pickup by JHU Burke, Liam.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "06:09"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:28",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by JHU Smith, Jameson (caused by Iglesias, Miguel).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "05:28"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:23",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by ND Iglesias, Miguel",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "05:23"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:19",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by ND good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "05:19"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:16",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by ND Schwitzenberg, Nate",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "05:16"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "04:13",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by ND Yago, Josh, goal number 29 for season.",
+                  "homeScore": 13,
+                  "visitorScore": 8,
+                  "clock": "04:13"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "04:13",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Spano, Tyler vs Hobot, Joe won by ND, [04:13] Ground ball pickup by ND Spano, Tyler.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "04:13"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:23",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by ND Miller, Luke, Assist by Yago, Josh, goal number 30 for season., assist number 18 for season.",
+                  "homeScore": 14,
+                  "visitorScore": 8,
+                  "clock": "03:23"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:23",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Spano, Tyler vs Hobot, Joe won by ND, [03:23] Ground ball pickup by ND Spano, Tyler.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "03:23"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:14",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by ND Spano, Tyler (caused by Martin, Luke).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "03:14"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:12",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by JHU Martin, Luke",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "03:12"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:09",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by JHU good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "03:09"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:49",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by JHU Collison, Matt, Assist by Chauvette, Hunter, goal number 30 for season., assist number 7 for season.",
+                  "homeScore": 14,
+                  "visitorScore": 9,
+                  "clock": "02:49"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:49",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Spano, Tyler vs Sheppard, Dan won by ND, [02:49] Ground ball pickup by ND Spano, Tyler.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "02:49"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:32",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by ND good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "02:32"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:04",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by ND Miller, Luke, goal number 31 for season.",
+                  "homeScore": 15,
+                  "visitorScore": 9,
+                  "clock": "02:04"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:04",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Spano, Tyler vs Hobot, Joe won by JHU, [02:04] Ground ball pickup by JHU Hobot, Joe.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "02:04"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:28",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by JHU Iler, Charlie, SAVE by Ricciardelli, Thomas",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "01:28"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:24",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by ND Reihnardt, Chris",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "01:24"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:11",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by ND Miller, Luke",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "01:11"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:10",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by ND good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "01:10"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:10",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": " Timeout by ND",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "01:10"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:02",
+              "teamId": 43861,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by ND Miller, Luke WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "01:02"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:54",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Penalty on JHU Sorenson, Parker (Slashing/1:00)",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:54"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:54",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Penalty on JHU Eye, Tyler (Unsportsmanlike Conduct/1:00); Extra-man opportunity (ends at 3:54 of OT 1)",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:54"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:00",
+              "teamId": 43920,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "End of Quarter 4",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:00"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

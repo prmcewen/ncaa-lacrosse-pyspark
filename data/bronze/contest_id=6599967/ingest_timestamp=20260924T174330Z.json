@@ -1,0 +1,3541 @@
+{
+  "data": {
+    "playbyplay": {
+      "__typename": "PlayByPlay",
+      "contestId": 6599967,
+      "title": "MLA PLAY-BY-PLAY",
+      "description": "Marist vs Stony Brook",
+      "divisionName": "d1",
+      "status": "final",
+      "period": 4,
+      "minutes": "",
+      "seconds": "",
+      "teams": [
+        {
+          "__typename": "ContestTeam",
+          "isHome": true,
+          "teamId": "43719",
+          "seoname": "marist",
+          "name6Char": "MARIST",
+          "nameShort": "Marist",
+          "nameFull": "Marist University",
+          "teamName": "Red Foxes",
+          "color": "#C8102E"
+        },
+        {
+          "__typename": "ContestTeam",
+          "isHome": false,
+          "teamId": "43828",
+          "seoname": "stony-brook",
+          "name6Char": "STONY",
+          "nameShort": "Stony Brook",
+          "nameFull": "Stony Brook University",
+          "teamName": "Seawolves",
+          "color": "#A6192E"
+        }
+      ],
+      "periods": [
+        {
+          "__typename": "PlayByPlayDetails",
+          "periodNumber": 1,
+          "periodDisplay": "1st",
+          "playbyplayStats": [
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "15:00",
+              "teamId": 43719,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Richie Metzger at goalie for MARIST.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "15:00"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "15:00",
+              "teamId": 43828,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Wilk, Tommy at goalie for STONY BR.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "15:00"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "15:00",
+              "teamId": 43719,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Smith, Robbie vs Josh Smith won by MARIST, [15:00] Ground ball pickup by MARIST Josh Smith.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "15:00"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "14:47",
+              "teamId": 43719,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by MARIST Aiden McCaffrey.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "14:47"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43719,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by MARIST Aiden McCaffrey (caused by Birney, Will).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "14:34",
+              "teamId": 43828,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by STONY BR EAST, KYAN.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "14:34"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "14:07",
+              "teamId": 43828,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by STONY BR Williamson, Collin HIGH",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "14:07"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "13:28",
+              "teamId": 43828,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by STONY BR McCoy, Kian, SAVE Richie Metzger",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "13:28"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "13:07",
+              "teamId": 43828,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Penalty on STONY BR McCoy, Kian (HOLDING/0:30) Extra-man opportunity.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "13:07"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "13:07",
+              "teamId": 43719,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by MARIST good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "13:07"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43719,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by MARIST Brady Dolan (caused by Forney, Carson).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "12:40",
+              "teamId": 43828,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by STONY BR EAST, KYAN.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "12:40"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "12:32",
+              "teamId": 43828,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by STONY BR good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "12:32"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "12:10",
+              "teamId": 43828,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by STONY BR DONNELLAN, Owen.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "12:10"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43828,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by STONY BR Carlo, Sean (caused by Gavin Marzgliano).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "11:34",
+              "teamId": 43719,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by MARIST Dylan Rocchio.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "11:34"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "11:29",
+              "teamId": 43719,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by MARIST good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "11:29"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "11:03",
+              "teamId": 43719,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by MARIST Peter Murray HIT CROSSBAR",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "11:03"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "11:00",
+              "teamId": 43828,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Penalty on STONY BR CAVALIERI, JACK (SLASHING/1:00) Extra-man opportunity.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "11:00"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "10:25",
+              "teamId": 43719,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by MARIST Brady Dolan WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "10:25"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "10:14",
+              "teamId": 43719,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by MARIST Sean Mullan (MAN-UP) (FIRST GOAL), Assist by Collin Patrick, goal number 37 for season.",
+                  "homeScore": 1,
+                  "visitorScore": 0,
+                  "clock": "10:14"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "10:14",
+              "teamId": 43719,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Smith, Robbie vs Josh Smith won by MARIST (on faceoff violation).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "10:14"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "09:42",
+              "teamId": 43719,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by MARIST Drew Anderson, SAVE Wilk, Tommy",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "09:42"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "09:25",
+              "teamId": 43828,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by STONY BR failed.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "09:25"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43828,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by STONY BR Wilk, Tommy.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "09:19",
+              "teamId": 43719,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by MARIST Matthew Chadwick.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "09:19"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "08:55",
+              "teamId": 43719,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by MARIST Drew Anderson WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "08:55"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43719,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by MARIST Brady Dolan.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "08:38",
+              "teamId": 43828,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by STONY BR good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "08:38"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43828,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by STONY BR Bonacci, Justin.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:51",
+              "teamId": 43719,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by MARIST Aiden McCaffrey.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "07:51"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:47",
+              "teamId": 43719,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by MARIST good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "07:47"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:20",
+              "teamId": 43719,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by MARIST Steven Cain WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "07:20"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:15",
+              "teamId": 43828,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by STONY BR Dodge, Ryan.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "07:15"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:10",
+              "teamId": 43828,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by STONY BR good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "07:10"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "06:53",
+              "teamId": 43828,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by STONY BR Lewis, Jake WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "06:53"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "06:50",
+              "teamId": 43719,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by MARIST Joshua Arneson.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "06:50"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "06:39",
+              "teamId": 43719,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by MARIST good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "06:39"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "06:21",
+              "teamId": 43719,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by MARIST Peter Murray, Assist by Drew Anderson, goal number 19 for season.",
+                  "homeScore": 2,
+                  "visitorScore": 0,
+                  "clock": "06:21"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "06:21",
+              "teamId": 43828,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Mitchell, Declan vs Josh Smith won by STONY BR (on faceoff violation).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "06:21"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:44",
+              "teamId": 43828,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by STONY BR Williamson, Collin, SAVE Richie Metzger",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "05:44"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:37",
+              "teamId": 43719,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by MARIST Joshua Arneson.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "05:37"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:27",
+              "teamId": 43719,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by MARIST good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "05:27"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "04:18",
+              "teamId": 43719,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by MARIST Jayce Konowitz, SAVE Wilk, Tommy",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "04:18"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "04:11",
+              "teamId": 43828,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by STONY BR good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "04:11"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:36",
+              "teamId": 43828,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by STONY BR Boyle, Carson BLOCKED",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "03:36"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:30",
+              "teamId": 43828,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by STONY BR DONNELLAN, Owen.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "03:30"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:14",
+              "teamId": 43828,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by STONY BR Boyle, Carson BLOCKED",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "03:14"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:10",
+              "teamId": 43719,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by MARIST Richie Metzger.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "03:10"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:03",
+              "teamId": 43719,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by MARIST good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "03:03"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:42",
+              "teamId": 43719,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by MARIST Sean Mullan HIGH",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "02:42"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:07",
+              "teamId": 43719,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by MARIST Collin Patrick WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "02:07"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:02",
+              "teamId": 43828,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by STONY BR Forney, Carson.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "02:02"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:56",
+              "teamId": 43828,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by STONY BR good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "01:56"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:16",
+              "teamId": 43828,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by STONY BR Bonacci, Justin WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "01:16"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43828,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by STONY BR Yeung, Caleb (caused by Aiden McCaffrey).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:52",
+              "teamId": 43719,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by MARIST good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:52"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43719,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by MARIST Sean Mullan (caused by EAST, KYAN).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:40",
+              "teamId": 43828,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by STONY BR Birney, Will.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:40"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:36",
+              "teamId": 43828,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by STONY BR good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:36"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:23",
+              "teamId": 43828,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Timeout by STONY BR.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:23"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:08",
+              "teamId": 43828,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by STONY BR Yeung, Caleb WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:08"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:01",
+              "teamId": 43828,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by STONY BR CAVALIERI, JACK HIT CROSSBAR",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:01"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:00",
+              "teamId": 43828,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "End-of-period.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:00"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "__typename": "PlayByPlayDetails",
+          "periodNumber": 2,
+          "periodDisplay": "2nd",
+          "playbyplayStats": [
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "15:00",
+              "teamId": 43828,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "15:00"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "15:00",
+              "teamId": 43828,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Smith, Robbie vs Kevin Radmann won by STONY BR (on faceoff violation).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "15:00"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "14:29",
+              "teamId": 43828,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by STONY BR Williamson, Collin WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "14:29"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "14:05",
+              "teamId": 43828,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by STONY BR Williams, Tanner WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "14:05"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "13:53",
+              "teamId": 43828,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by STONY BR Williamson, Collin WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "13:53"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "13:41",
+              "teamId": 43828,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by STONY BR Bonacci, Justin.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "13:41"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "13:39",
+              "teamId": 43828,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by STONY BR Williamson, Collin WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "13:39"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "13:33",
+              "teamId": 43828,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by STONY BR McCoy, Kian WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "13:33"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "13:33",
+              "teamId": 43828,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "30-second clock violation by STONY BR.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "13:33"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "13:22",
+              "teamId": 43719,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by MARIST good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "13:22"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "12:48",
+              "teamId": 43719,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by MARIST Joshua Arneson.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "12:48"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "12:44",
+              "teamId": 43719,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by MARIST Gavin Marzgliano.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "12:44"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "12:43",
+              "teamId": 43828,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Penalty on STONY BR CAVALIERI, JACK (ILLEGAL BODY CHECK/1:00) Extra-man opportunity.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "12:43"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "12:26",
+              "teamId": 43719,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by MARIST Michael Cassano WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "12:26"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "12:12",
+              "teamId": 43719,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by MARIST Steven Cain WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "12:12"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "11:59",
+              "teamId": 43719,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by MARIST Sean Mullan WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "11:59"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "11:53",
+              "teamId": 43719,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by MARIST Sean Mullan BLOCKED",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "11:53"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "11:49",
+              "teamId": 43828,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by STONY BR Wilk, Tommy.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "11:49"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "11:42",
+              "teamId": 43828,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by STONY BR good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "11:42"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "11:39",
+              "teamId": 43828,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by STONY BR BRADLEY, BRIAN.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "11:39"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "11:22",
+              "teamId": 43828,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by STONY BR McCoy, Kian.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "11:22"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "10:59",
+              "teamId": 43828,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by STONY BR Yeung, Caleb WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "10:59"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "10:54",
+              "teamId": 43719,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by MARIST Aiden McCaffrey.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "10:54"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "10:49",
+              "teamId": 43719,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by MARIST good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "10:49"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "10:04",
+              "teamId": 43719,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by MARIST Jayce Konowitz, SAVE Wilk, Tommy",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "10:04"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "09:52",
+              "teamId": 43828,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by STONY BR Baldwin, Jaden.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "09:52"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "09:50",
+              "teamId": 43828,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by STONY BR good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "09:50"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "09:49",
+              "teamId": 43719,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Penalty on MARIST Luke Walser (UNNECESSARY ROUGHNESS/1:00) Extra-man opportunity.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "09:49"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "09:49",
+              "teamId": 43828,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Timeout by STONY BR.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "09:49"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "09:25",
+              "teamId": 43828,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by STONY BR Williamson, Collin (MAN-UP), Assist by McCoy, Kian, goal number 36 for season.",
+                  "homeScore": 2,
+                  "visitorScore": 1,
+                  "clock": "09:25"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "09:25",
+              "teamId": 43828,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Smith, Robbie vs Josh Smith won by STONY BR, [09:25] Ground ball pickup by STONY BR Smith, Robbie.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "09:25"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "09:11",
+              "teamId": 43828,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by STONY BR Wilk, Tommy.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "09:11"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "08:31",
+              "teamId": 43828,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by STONY BR Bonacci, Justin, SAVE Richie Metzger",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "08:31"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "08:30",
+              "teamId": 43719,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Penalty on MARIST Matthew Chadwick (HOLDING/0:30) Extra-man opportunity.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "08:30"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "08:19",
+              "teamId": 43828,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by STONY BR Bonacci, Justin.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "08:19"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43828,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by STONY BR McCoy, Kian (caused by Kevin Radmann).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "08:04",
+              "teamId": 43719,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by MARIST Kevin Radmann.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "08:04"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "08:02",
+              "teamId": 43719,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by MARIST good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "08:02"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:25",
+              "teamId": 43719,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by MARIST Peter Murray WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "07:25"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:21",
+              "teamId": 43828,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by STONY BR Dodge, Ryan.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "07:21"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:15",
+              "teamId": 43828,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by STONY BR good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "07:15"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "06:23",
+              "teamId": 43828,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by STONY BR CAVALIERI, JACK WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "06:23"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "06:11",
+              "teamId": 43828,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by STONY BR Yeung, Caleb BLOCKED",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "06:11"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "06:05",
+              "teamId": 43719,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by MARIST Joshua Arneson.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "06:05"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:54",
+              "teamId": 43719,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by MARIST good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "05:54"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:14",
+              "teamId": 43719,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Timeout by MARIST.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "05:14"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "04:57",
+              "teamId": 43719,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by MARIST Sean Mullan WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "04:57"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "04:55",
+              "teamId": 43828,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Penalty on STONY BR EAST, KYAN (HOLDING/0:30) Extra-man opportunity.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "04:55"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "04:31",
+              "teamId": 43719,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by MARIST Peter Murray (MAN-UP), Assist by Sean Mullan, goal number 20 for season.",
+                  "homeScore": 3,
+                  "visitorScore": 1,
+                  "clock": "04:31"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "04:31",
+              "teamId": 43719,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Smith, Robbie vs Josh Smith won by MARIST, [04:31] Ground ball pickup by MARIST Steven Cain.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "04:31"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:51",
+              "teamId": 43719,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by MARIST Peter Murray, goal number 21 for season.",
+                  "homeScore": 4,
+                  "visitorScore": 1,
+                  "clock": "03:51"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:51",
+              "teamId": 43828,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Smith, Robbie vs Josh Smith won by STONY BR (on faceoff violation).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "03:51"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:01",
+              "teamId": 43828,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by STONY BR CAVALIERI, JACK WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "03:01"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:43",
+              "teamId": 43828,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by STONY BR Lewis, Jake, goal number 8 for season.",
+                  "homeScore": 4,
+                  "visitorScore": 2,
+                  "clock": "02:43"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:43",
+              "teamId": 43828,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Smith, Robbie vs Kevin Radmann won by STONY BR (on faceoff violation).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "02:43"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43828,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by STONY BR Williams, Tanner.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:09",
+              "teamId": 43719,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by MARIST good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "02:09"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:26",
+              "teamId": 43719,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by MARIST Jayce Konowitz, SAVE Wilk, Tommy",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "01:26"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:22",
+              "teamId": 43828,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by STONY BR Forney, Carson.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "01:22"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:13",
+              "teamId": 43828,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by STONY BR good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "01:13"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:29",
+              "teamId": 43828,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by STONY BR Bonacci, Justin HIGH",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:29"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43828,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by STONY BR DONNELLAN, Owen.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:01",
+              "teamId": 43719,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by MARIST Brady Dolan.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:01"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:01",
+              "teamId": 43719,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by MARIST Michael Cassano HIGH",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:01"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:00",
+              "teamId": 43828,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "End-of-period.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:00"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "__typename": "PlayByPlayDetails",
+          "periodNumber": 3,
+          "periodDisplay": "3rd",
+          "playbyplayStats": [
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "15:00",
+              "teamId": 43828,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "15:00"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "15:00",
+              "teamId": 43828,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Smith, Robbie vs Josh Smith won by STONY BR, [15:00] Ground ball pickup by STONY BR Smith, Robbie.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "15:00"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "14:04",
+              "teamId": 43828,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by STONY BR Williamson, Collin, goal number 37 for season.",
+                  "homeScore": 4,
+                  "visitorScore": 3,
+                  "clock": "14:04"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "14:04",
+              "teamId": 43719,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Smith, Robbie vs Josh Smith won by MARIST, [14:04] Ground ball pickup by MARIST Josh Smith.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "14:04"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "13:05",
+              "teamId": 43719,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by MARIST Steven Cain WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "13:05"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "12:44",
+              "teamId": 43719,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by MARIST Sean Mullan WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "12:44"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "12:36",
+              "teamId": 43719,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "30-second clock violation by MARIST.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "12:36"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "12:30",
+              "teamId": 43828,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by STONY BR good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "12:30"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43828,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by STONY BR Anderson, Will.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "11:53",
+              "teamId": 43719,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by MARIST good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "11:53"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "11:28",
+              "teamId": 43719,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by MARIST Steven Cain, Assist by Drew Anderson, goal number 24 for season.",
+                  "homeScore": 5,
+                  "visitorScore": 3,
+                  "clock": "11:28"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "11:28",
+              "teamId": 43719,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Smith, Robbie vs Josh Smith won by MARIST, [11:28] Ground ball pickup by MARIST Josh Smith.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "11:28"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "11:22",
+              "teamId": 43719,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by MARIST Collin Patrick, Assist by Josh Smith, goal number 34 for season.",
+                  "homeScore": 6,
+                  "visitorScore": 3,
+                  "clock": "11:22"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "11:22",
+              "teamId": 43719,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Smith, Robbie vs Josh Smith won by MARIST (on faceoff violation).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "11:22"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "11:15",
+              "teamId": 43719,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by MARIST Michael Cassano WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "11:15"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "10:48",
+              "teamId": 43719,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by MARIST Drew Anderson WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "10:48"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "10:34",
+              "teamId": 43719,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by MARIST Drew Anderson WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "10:34"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "10:21",
+              "teamId": 43719,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by MARIST Peter Murray, SAVE Wilk, Tommy",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "10:21"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "10:04",
+              "teamId": 43828,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by STONY BR good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "10:04"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43828,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by STONY BR Williamson, Collin (caused by Aiden McCaffrey).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "09:23",
+              "teamId": 43719,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by MARIST Drew Anderson.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "09:23"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "09:18",
+              "teamId": 43719,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by MARIST good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "09:18"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "09:16",
+              "teamId": 43719,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by MARIST Steven Cain WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "09:16"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "08:34",
+              "teamId": 43719,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by MARIST Jayce Konowitz WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "08:34"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "08:28",
+              "teamId": 43719,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by MARIST Jayce Konowitz BLOCKED",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "08:28"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "08:23",
+              "teamId": 43828,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by STONY BR Dodge, Ryan.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "08:23"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "08:10",
+              "teamId": 43828,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by STONY BR good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "08:10"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:43",
+              "teamId": 43828,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by STONY BR Williamson, Collin, goal number 38 for season.",
+                  "homeScore": 6,
+                  "visitorScore": 4,
+                  "clock": "07:43"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:43",
+              "teamId": 43719,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Mitchell, Declan vs Josh Smith won by MARIST, [07:43] Ground ball pickup by MARIST Josh Smith.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "07:43"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43719,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by MARIST Drew Anderson (caused by Birney, Will).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "06:49",
+              "teamId": 43828,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by STONY BR good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "06:49"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "06:28",
+              "teamId": 43828,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by STONY BR Williamson, Collin, goal number 39 for season.",
+                  "homeScore": 6,
+                  "visitorScore": 5,
+                  "clock": "06:28"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "06:28",
+              "teamId": 43719,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Smith, Robbie vs Josh Smith won by MARIST, [06:28] Ground ball pickup by MARIST Josh Smith.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "06:28"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43719,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by MARIST Joshua Arneson (caused by Williamson, Collin).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "06:09",
+              "teamId": 43828,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by STONY BR Williamson, Collin.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "06:09"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "06:06",
+              "teamId": 43828,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by STONY BR DONNELLAN, Owen.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "06:06"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:34",
+              "teamId": 43828,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by STONY BR Bonacci, Justin, SAVE Richie Metzger",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "05:34"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:20",
+              "teamId": 43719,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by MARIST good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "05:20"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "04:47",
+              "teamId": 43719,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by MARIST Drew Anderson WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "04:47"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "04:26",
+              "teamId": 43719,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by MARIST Sean Mullan, SAVE Wilk, Tommy",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "04:26"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "04:17",
+              "teamId": 43828,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by STONY BR good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "04:17"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "04:13",
+              "teamId": 43828,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by STONY BR Birney, Will.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "04:13"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43828,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by STONY BR McCoy, Kian (caused by Dylan Rocchio).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:30",
+              "teamId": 43719,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by MARIST Dylan Stadler.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "03:30"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:30",
+              "teamId": 43828,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Penalty on STONY BR Yeung, Caleb (HOLDING/0:30) Extra-man opportunity.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "03:30"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:27",
+              "teamId": 43719,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by MARIST good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "03:27"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:19",
+              "teamId": 43719,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by MARIST Sean Mullan WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "03:19"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:50",
+              "teamId": 43719,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by MARIST Sean Mullan, SAVE Wilk, Tommy",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "02:50"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:44",
+              "teamId": 43828,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by STONY BR good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "02:44"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:42",
+              "teamId": 43828,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by STONY BR BRADLEY, BRIAN.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "02:42"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43828,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by STONY BR BRADLEY, BRIAN.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:24",
+              "teamId": 43719,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by MARIST good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "02:24"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:53",
+              "teamId": 43828,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Penalty on STONY BR Forney, Carson (OFFSIDE/0:30) Extra-man opportunity.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "01:53"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:53",
+              "teamId": 43828,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Penalty on STONY BR Forney, Carson (ILLEGAL PROCEDURE/0:30).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "01:53"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:19",
+              "teamId": 43719,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by MARIST Sean Mullan WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "01:19"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:05",
+              "teamId": 43719,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by MARIST Steven Cain WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "01:05"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:01",
+              "teamId": 43828,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by STONY BR Parlette, Tanner.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "01:01"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:50",
+              "teamId": 43828,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by STONY BR good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:50"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:12",
+              "teamId": 43828,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by STONY BR Williamson, Collin WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:12"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43828,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by STONY BR Bonacci, Justin (caused by Richie Metzger).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:00",
+              "teamId": 43719,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by MARIST Richie Metzger.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:00"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:00",
+              "teamId": 43828,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "End-of-period.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:00"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "__typename": "PlayByPlayDetails",
+          "periodNumber": 4,
+          "periodDisplay": "4th",
+          "playbyplayStats": [
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "15:00",
+              "teamId": 43828,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "15:00"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "15:00",
+              "teamId": 43719,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Smith, Robbie vs Josh Smith won by MARIST, [14:26] Ground ball pickup by MARIST Michael Cassano.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "15:00"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "13:53",
+              "teamId": 43719,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by MARIST Collin Patrick, SAVE Wilk, Tommy",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "13:53"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "13:52",
+              "teamId": 43828,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Penalty on STONY BR Birney, Will (INTERFERENCE/0:30) Extra-man opportunity.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "13:52"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "13:28",
+              "teamId": 43719,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by MARIST Collin Patrick (MAN-UP), Assist by Peter Murray, goal number 35 for season.",
+                  "homeScore": 7,
+                  "visitorScore": 5,
+                  "clock": "13:28"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "13:28",
+              "teamId": 43828,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Timeout by STONY BR.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "13:28"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "13:28",
+              "teamId": 43828,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Smith, Robbie vs Josh Smith won by STONY BR (on faceoff violation).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "13:28"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "13:02",
+              "teamId": 43828,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by STONY BR Williamson, Collin WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "13:02"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "12:58",
+              "teamId": 43719,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by MARIST Richie Metzger.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "12:58"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "12:47",
+              "teamId": 43719,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by MARIST good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "12:47"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "12:01",
+              "teamId": 43719,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by MARIST Peter Murray, goal number 22 for season.",
+                  "homeScore": 8,
+                  "visitorScore": 5,
+                  "clock": "12:01"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "12:01",
+              "teamId": 43828,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Smith, Robbie vs Kevin Radmann won by STONY BR, [12:01] Ground ball pickup by STONY BR Smith, Robbie.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "12:01"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43828,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by STONY BR Carlo, Sean.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "11:11",
+              "teamId": 43719,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by MARIST Michael Cassano.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "11:11"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "11:08",
+              "teamId": 43719,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by MARIST good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "11:08"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43719,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by MARIST Dylan Stadler.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "10:51",
+              "teamId": 43828,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by STONY BR good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "10:51"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "10:18",
+              "teamId": 43828,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by STONY BR Williamson, Collin, SAVE Richie Metzger",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "10:18"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "10:10",
+              "teamId": 43719,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by MARIST good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "10:10"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43719,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by MARIST Sean Mullan.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "09:09",
+              "teamId": 43828,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by STONY BR good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "09:09"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "08:36",
+              "teamId": 43828,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by STONY BR Boyle, Carson WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "08:36"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "08:02",
+              "teamId": 43828,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by STONY BR CAVALIERI, JACK, SAVE Richie Metzger",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "08:02"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:52",
+              "teamId": 43719,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by MARIST good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "07:52"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43719,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by MARIST.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:02",
+              "teamId": 43828,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by STONY BR Birney, Will.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "07:02"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:00",
+              "teamId": 43828,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by STONY BR good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "07:00"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "06:50",
+              "teamId": 43828,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by STONY BR Williams, Tanner.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "06:50"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "06:30",
+              "teamId": 43828,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by STONY BR Williams, Tanner, SAVE Richie Metzger",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "06:30"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "06:30",
+              "teamId": 43719,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Penalty on MARIST Matthew Chadwick (INTERFERENCE/0:30) Extra-man opportunity.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "06:30"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "06:14",
+              "teamId": 43828,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by STONY BR Williamson, Collin (MAN-UP), Assist by McCoy, Kian, goal number 40 for season.",
+                  "homeScore": 8,
+                  "visitorScore": 6,
+                  "clock": "06:14"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "06:14",
+              "teamId": 43828,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Smith, Robbie vs Josh Smith won by STONY BR, [06:14] Ground ball pickup by STONY BR Smith, Robbie.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "06:14"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:17",
+              "teamId": 43828,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by STONY BR Williams, Tanner WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "05:17"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:10",
+              "teamId": 43719,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by MARIST Dylan Rocchio.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "05:10"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:06",
+              "teamId": 43719,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by MARIST good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "05:06"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "04:42",
+              "teamId": 43719,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by MARIST Peter Murray WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "04:42"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "04:27",
+              "teamId": 43719,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by MARIST Collin Patrick, SAVE Wilk, Tommy",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "04:27"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "04:22",
+              "teamId": 43828,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by STONY BR good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "04:22"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43828,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by STONY BR DONNELLAN, Owen (caused by Michael Cassano).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:53",
+              "teamId": 43719,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by MARIST Michael Cassano.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "03:53"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:49",
+              "teamId": 43719,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by MARIST good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "03:49"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:54",
+              "teamId": 43719,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by MARIST Drew Cornax.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "02:54"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:48",
+              "teamId": 43719,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by MARIST Collin Patrick, goal number 36 for season.",
+                  "homeScore": 9,
+                  "visitorScore": 6,
+                  "clock": "02:48"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:48",
+              "teamId": 43719,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Smith, Robbie vs Josh Smith won by MARIST (on faceoff violation).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "02:48"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:08",
+              "teamId": 43719,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Timeout by MARIST.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "02:08"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:24",
+              "teamId": 43719,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "30-second clock violation by MARIST.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "01:24"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:19",
+              "teamId": 43828,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by STONY BR good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "01:19"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:06",
+              "teamId": 43828,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by STONY BR Birney, Will, SAVE Richie Metzger",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "01:06"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:57",
+              "teamId": 43828,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by STONY BR BRADLEY, BRIAN, SAVE Richie Metzger",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:57"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:40",
+              "teamId": 43719,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by MARIST failed.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:40"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43719,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by MARIST Jayce Konowitz.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43828,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by STONY BR EAST, KYAN.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:28",
+              "teamId": 43719,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by MARIST Dylan Stadler.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:28"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:16",
+              "teamId": 43719,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by MARIST Collin Patrick, goal number 37 for season.",
+                  "homeScore": 10,
+                  "visitorScore": 6,
+                  "clock": "00:16"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:16",
+              "teamId": 43828,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Mitchell, Declan vs Kevin Radmann won by STONY BR, [00:16] Ground ball pickup by STONY BR Mitchell, Declan.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:16"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:05",
+              "teamId": 43828,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by STONY BR CAVALIERI, JACK WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:05"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:00",
+              "teamId": 43828,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "End-of-period.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:00"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

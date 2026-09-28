@@ -1,0 +1,3331 @@
+{
+  "data": {
+    "playbyplay": {
+      "__typename": "PlayByPlay",
+      "contestId": 6599990,
+      "title": "MLA PLAY-BY-PLAY",
+      "description": "Princeton vs Penn St.",
+      "divisionName": "d1",
+      "status": "final",
+      "period": 4,
+      "minutes": "",
+      "seconds": "",
+      "teams": [
+        {
+          "__typename": "ContestTeam",
+          "isHome": true,
+          "teamId": "43731",
+          "seoname": "princeton",
+          "name6Char": "PRINCE",
+          "nameShort": "Princeton",
+          "nameFull": "Princeton University",
+          "teamName": "Tigers",
+          "color": "#E87722"
+        },
+        {
+          "__typename": "ContestTeam",
+          "isHome": false,
+          "teamId": "43978",
+          "seoname": "penn-st",
+          "name6Char": "PENNST",
+          "nameShort": "Penn St.",
+          "nameFull": "Pennsylvania State University",
+          "teamName": "Nittany Lions",
+          "color": "#041E42"
+        }
+      ],
+      "periods": [
+        {
+          "__typename": "PlayByPlayDetails",
+          "periodNumber": 1,
+          "periodDisplay": "1st",
+          "playbyplayStats": [
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "15:00",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Preston Hawkins at goalie for PSU.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "15:00"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "15:00",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Croddick, Ryan at goalie for PRIN.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "15:00"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "15:00",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Colby Baldwin vs McMeekin, Andrew won by PRIN, [15:00] Ground ball pickup by PRIN McMeekin, Andrew.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "15:00"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "14:04",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by PRIN Palumbo, Chad WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "14:04"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "13:52",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by PRIN Burns, Colin, SAVE Preston Hawkins",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "13:52"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "13:45",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by PSU good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "13:45"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "13:37",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by PSU Alex Ross (FIRST GOAL), Assist by Kyle Lehman, goal number 2 for season.",
+                  "homeScore": 0,
+                  "visitorScore": 1,
+                  "clock": "13:37"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "13:37",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Colby Baldwin vs McMeekin, Andrew won by PRIN, [13:37] Ground ball pickup by PRIN Burns, Colin.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "13:37"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by PRIN Kabiri, Nate (caused by Will Costin).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "12:28",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by PSU Will Costin.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "12:28"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "12:23",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by PSU good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "12:23"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "11:25",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by PSU Kyle Lehman, Assist by Luke Walstrum, goal number 26 for season.",
+                  "homeScore": 0,
+                  "visitorScore": 2,
+                  "clock": "11:25"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "11:25",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Colby Baldwin vs McMeekin, Andrew won by PRIN, [11:25] Ground ball pickup by PRIN Krammer, Quinn.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "11:25"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "10:31",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by PRIN Dunphey, John HIT POST",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "10:31"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "10:18",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by PRIN Kabiri, Nate.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "10:18"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "10:14",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by PRIN Palumbo, Chad HIT POST",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "10:14"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "09:32",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by PRIN Kabiri, Nate, SAVE Preston Hawkins",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "09:32"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "09:27",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by PRIN Dunphey, John.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "09:27"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by PRIN Dunphey, John (caused by Will Costin).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "09:19",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by PSU Will Costin.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "09:19"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "09:16",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by PSU good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "09:16"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by PSU.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "08:02",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "30-second clock violation by PSU.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "08:02"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "08:02",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by PRIN good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "08:02"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:21",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by PRIN Vana, Jake, goal number 17 for season.",
+                  "homeScore": 1,
+                  "visitorScore": 2,
+                  "clock": "07:21"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:21",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Reid Gills vs McMeekin, Andrew won by PRIN, [07:21] Ground ball pickup by PRIN McMeekin, Andrew.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "07:21"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:15",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by PRIN Kabiri, Nate, SAVE Preston Hawkins",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "07:15"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "06:47",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by PRIN Kabiri, Nate WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "06:47"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "06:31",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by PRIN Palumbo, Chad, SAVE Preston Hawkins",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "06:31"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "06:16",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by PRIN Wade, Tucker WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "06:16"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by PRIN Palumbo, Chad (caused by Will Costin).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:56",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by PSU Will Costin.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "05:56"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:53",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by PSU good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "05:53"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:15",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by PSU Chase Robertson WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "05:15"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:15",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by PSU Jack Iannantuono.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "05:15"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by PSU Jack Iannantuono.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "04:19",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by PRIN Vana, Jake, SAVE Preston Hawkins",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "04:19"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "04:04",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by PSU good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "04:04"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:20",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by PSU Mac Hobbs HIGH",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "03:20"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:05",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by PSU Michael Faraone WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "03:05"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by PSU Jack Iannantuono (caused by Spiess, Hunter).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:54",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by PRIN Spiess, Hunter.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "02:54"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:42",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by PRIN good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "02:42"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:37",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by PRIN Reynolds, Parker, SAVE Preston Hawkins",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "01:37"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:33",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by PSU Alex Ross.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "01:33"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:22",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by PSU Will Costin.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "01:22"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:20",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by PSU good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "01:20"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:35",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by PSU Andrew Beard, SAVE Croddick, Ryan",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:35"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by PSU Hunter Aquino.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:00",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "End-of-period.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:00"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "__typename": "PlayByPlayDetails",
+          "periodNumber": 2,
+          "periodDisplay": "2nd",
+          "playbyplayStats": [
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "15:00",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "15:00"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "15:00",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Reid Gills vs McMeekin, Andrew won by PSU, [15:00] Ground ball pickup by PSU Reid Gills.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "15:00"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "14:00",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by PSU Kyle Lehman WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "14:00"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "13:59",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by PSU Kyle Lehman, SAVE Croddick, Ryan",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "13:59"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "13:59",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by PSU Jack Iannantuono.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "13:59"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "13:10",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by PSU Chase Robertson, goal number 19 for season.",
+                  "homeScore": 1,
+                  "visitorScore": 3,
+                  "clock": "13:10"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "13:10",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Reid Gills vs McMeekin, Andrew won by PSU, [13:10] Ground ball pickup by PSU Reid Gills.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "13:10"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "13:04",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by PSU Reid Gills BLOCKED",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "13:04"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "13:01",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by PRIN Stahl, Jack.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "13:01"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "12:53",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by PRIN good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "12:53"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "12:24",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by PRIN Kabiri, Nate WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "12:24"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "12:11",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by PRIN Wade, Tucker, goal number 32 for season.",
+                  "homeScore": 2,
+                  "visitorScore": 3,
+                  "clock": "12:11"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "12:11",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Colby Baldwin vs McMeekin, Andrew won by PSU, [12:11] Ground ball pickup by PSU Lucca Dibartolomeo.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "12:11"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "11:51",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by PSU good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "11:51"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "11:15",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by PSU Kyle Lehman.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "11:15"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "11:15",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Timeout by PSU.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "11:15"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by PSU Luke Walstrum (caused by Green, Jackson).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "10:53",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by PRIN Green, Jackson.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "10:53"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "10:49",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by PRIN Palumbo, Chad, Assist by Burns, Colin, goal number 43 for season.",
+                  "homeScore": 3,
+                  "visitorScore": 3,
+                  "clock": "10:49"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "10:49",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Colby Baldwin vs McMeekin, Andrew won by PSU, [10:49] Ground ball pickup by PSU Kyle Lehman.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "10:49"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "09:23",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by PSU John jude Considine, goal number 11 for season.",
+                  "homeScore": 3,
+                  "visitorScore": 4,
+                  "clock": "09:23"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "09:23",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Colby Baldwin vs McMeekin, Andrew won by PRIN (on faceoff violation).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "09:23"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "08:46",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by PRIN Palumbo, Chad WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "08:46"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "08:30",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by PRIN Palumbo, Chad, SAVE Preston Hawkins",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "08:30"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "08:14",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by PSU good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "08:14"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by PSU Chase Robertson (caused by Green, Jackson).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:45",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by PRIN Spiess, Hunter.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "07:45"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:41",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by PRIN good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "07:41"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:37",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by PRIN Mueller, Cooper WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "07:37"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:15",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by PRIN Reynolds, Parker BLOCKED",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "07:15"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "06:56",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by PRIN Burns, Colin, SAVE Preston Hawkins",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "06:56"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by PRIN Dunphey, John.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "06:32",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by PSU good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "06:32"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:45",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by PSU Michael Faraone HIGH",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "05:45"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by PSU Mac Hobbs.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:04",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by PRIN Wade, Tucker, Assist by Reynolds, Parker, goal number 33 for season.",
+                  "homeScore": 4,
+                  "visitorScore": 4,
+                  "clock": "05:04"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:04",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Reid Gills vs McMeekin, Andrew won by PRIN, [05:04] Ground ball pickup by PRIN Kistler, Cooper.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "05:04"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "04:35",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by PRIN Reynolds, Parker HIGH",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "04:35"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "04:25",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by PRIN Burns, Colin, Assist by Palumbo, Chad, goal number 30 for season.",
+                  "homeScore": 5,
+                  "visitorScore": 4,
+                  "clock": "04:25"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "04:25",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Reid Gills vs McMeekin, Andrew won by PRIN, [04:25] Ground ball pickup by PRIN McMeekin, Andrew.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "04:25"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "04:15",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by PRIN McMeekin, Andrew.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "04:15"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "04:14",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Timeout by PRIN.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "04:14"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "04:00",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by PRIN Wade, Tucker WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "04:00"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:49",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by PRIN Reynolds, Parker BLOCKED",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "03:49"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:11",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by PRIN Reynolds, Parker, goal number 16 for season.",
+                  "homeScore": 6,
+                  "visitorScore": 4,
+                  "clock": "03:11"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:11",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Reid Gills vs McMeekin, Andrew won by PRIN, [03:11] Ground ball pickup by PRIN McMeekin, Andrew.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "03:11"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by PRIN Palumbo, Chad (caused by Jon King).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:01",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by PSU Jon King.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "02:01"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:57",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by PSU good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "01:57"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:18",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by PSU Chase Robertson WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "01:18"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:13",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by PSU Chase Robertson, Assist by Liam Matthews, goal number 20 for season.",
+                  "homeScore": 6,
+                  "visitorScore": 5,
+                  "clock": "01:13"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:13",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Colby Baldwin vs McMeekin, Andrew won by PSU, [01:13] Ground ball pickup by PSU Colby Baldwin.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "01:13"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:51",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by PSU good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:51"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:20",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by PSU Andrew Beard, goal number 14 for season.",
+                  "homeScore": 6,
+                  "visitorScore": 6,
+                  "clock": "00:20"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:20",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Colby Baldwin vs McMeekin, Andrew won by PRIN, [00:20] Ground ball pickup by PRIN McMeekin, Andrew.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:20"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:11",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Timeout by PRIN.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:11"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:05",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by PRIN Palumbo, Chad.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:05"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:04",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by PRIN Palumbo, Chad WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:04"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:03",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by PSU Patrick Keenan.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:03"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by PSU Patrick Keenan (caused by Wade, Tucker).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:02",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by PRIN Palumbo, Chad.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:02"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:01",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by PRIN Palumbo, Chad, SAVE Preston Hawkins",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:01"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:00",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "End-of-period.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:00"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "__typename": "PlayByPlayDetails",
+          "periodNumber": 3,
+          "periodDisplay": "3rd",
+          "playbyplayStats": [
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "15:00",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "15:00"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "15:00",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Colby Baldwin vs McMeekin, Andrew won by PRIN, [15:00] Ground ball pickup by PRIN McMeekin, Andrew.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "15:00"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "14:57",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by PRIN Kabiri, Nate, SAVE Preston Hawkins",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "14:57"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "14:34",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by PSU good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "14:34"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "13:59",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by PSU Kyle Lehman, goal number 27 for season.",
+                  "homeScore": 6,
+                  "visitorScore": 7,
+                  "clock": "13:59"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "13:59",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Colby Baldwin vs McMeekin, Andrew won by PRIN, [13:59] Ground ball pickup by PRIN Kabiri, Nate.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "13:59"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "13:39",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by PRIN Kistler, Cooper.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "13:39"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by PRIN Kabiri, Nate.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "13:10",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by PSU Brendan Leary, SAVE Croddick, Ryan",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "13:10"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "12:48",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by PRIN good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "12:48"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by PRIN Wade, Tucker (caused by Brad Piffath).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "12:39",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by PSU Brad Piffath.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "12:39"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "12:38",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by PSU good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "12:38"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "11:55",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by PSU Michael Faraone, SAVE Croddick, Ryan",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "11:55"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "11:42",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by PSU Mark Watters, Assist by Jack Iannantuono, goal number 4 for season.",
+                  "homeScore": 6,
+                  "visitorScore": 8,
+                  "clock": "11:42"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "11:42",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Colby Baldwin vs McMeekin, Andrew won by PRIN, [11:42] Ground ball pickup by PRIN McMeekin, Andrew.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "11:42"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "11:04",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by PRIN Malkiel, Porter, Assist by Kabiri, Nate, goal number 12 for season.",
+                  "homeScore": 7,
+                  "visitorScore": 8,
+                  "clock": "11:04"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "11:04",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Reid Gills vs McMeekin, Andrew won by PSU, [11:04] Ground ball pickup by PSU Jack Iannantuono.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "11:04"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by PSU Jack Iannantuono (caused by Spiess, Hunter).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "10:25",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by PRIN Spiess, Hunter.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "10:25"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "10:20",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by PRIN good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "10:20"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "10:07",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by PRIN Wade, Tucker, SAVE Preston Hawkins",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "10:07"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "10:03",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by PSU good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "10:03"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by PSU Kyle Lehman.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "09:49",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by PRIN good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "09:49"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "09:13",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by PRIN Wade, Tucker, goal number 34 for season.",
+                  "homeScore": 8,
+                  "visitorScore": 8,
+                  "clock": "09:13"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "09:13",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Reid Gills vs McMeekin, Andrew won by PRIN, [09:13] Ground ball pickup by PRIN McMeekin, Andrew.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "09:13"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by PRIN Palumbo, Chad (caused by Alex Ross).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "08:04",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by PSU Alex Ross.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "08:04"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:58",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by PSU Alex Ross.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "07:58"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:56",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by PSU good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "07:56"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:07",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by PSU Kyle Lehman BLOCKED",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "07:07"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:03",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by PRIN Crowley, Nick.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "07:03"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by PRIN Crowley, Nick (caused by Kyle Lehman).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "06:48",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by PSU Jack Iannantuono.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "06:48"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "06:46",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by PRIN failed.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "06:46"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "06:18",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by PSU Mac Hobbs, SAVE Croddick, Ryan",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "06:18"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "06:02",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by PRIN good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "06:02"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:38",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by PRIN Dunphey, John, SAVE Preston Hawkins",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "05:38"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "04:58",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by PRIN Burns, Colin HIT POST",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "04:58"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "04:52",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by PSU Jon King.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "04:52"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "04:49",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by PSU good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "04:49"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:59",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by PSU Chase Robertson WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "03:59"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:40",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by PRIN good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "03:40"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:13",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by PRIN Vana, Jake WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "03:13"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:43",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by PRIN Palumbo, Chad, goal number 44 for season.",
+                  "homeScore": 9,
+                  "visitorScore": 8,
+                  "clock": "02:43"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:43",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Reid Gills vs McMeekin, Andrew won by PRIN.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "02:43"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by PRIN Kabiri, Nate (caused by Alex Ross).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:40",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by PSU Alex Ross.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "01:40"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:28",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by PSU good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "01:28"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:13",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by PSU Mark Watters.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "01:13"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:45",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by PSU Liam Matthews, goal number 19 for season.",
+                  "homeScore": 9,
+                  "visitorScore": 9,
+                  "clock": "00:45"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:45",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Penalty on PRIN Mueller, Cooper (SLASHING/1:00) Extra-man opportunity.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:45"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:45",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Colby Baldwin vs McMeekin, Andrew won by PRIN, [00:45] Ground ball pickup by PRIN Kistler, Cooper.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:45"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:25",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by PRIN McMeekin, Andrew.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:25"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:00",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "End-of-period.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:00"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "__typename": "PlayByPlayDetails",
+          "periodNumber": 4,
+          "periodDisplay": "4th",
+          "playbyplayStats": [
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "15:00",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "15:00"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "14:38",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by PRIN Reynolds, Parker, SAVE Preston Hawkins",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "14:38"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "14:33",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by PSU good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "14:33"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "14:02",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by PSU Chase Robertson, goal number 21 for season.",
+                  "homeScore": 9,
+                  "visitorScore": 10,
+                  "clock": "14:02"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "14:02",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Reid Gills vs McMeekin, Andrew won by PRIN, [14:02] Ground ball pickup by PRIN McMeekin, Andrew.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "14:02"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by PRIN Kabiri, Nate.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "13:40",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by PSU good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "13:40"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "12:34",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by PSU Chase Robertson.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "12:34"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "12:32",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by PSU Chase Robertson, SAVE Croddick, Ryan",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "12:32"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "12:28",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by PSU Luke Walstrum.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "12:28"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by PSU John jude Considine (caused by Kistler, Cooper).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "12:05",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by PRIN Kistler, Cooper.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "12:05"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "11:53",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by PRIN good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "11:53"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by PRIN Green, Jackson.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "11:37",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by PSU good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "11:37"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by PSU Mac Hobbs (caused by Green, Jackson).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "11:10",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by PRIN Green, Jackson.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "11:10"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "11:07",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by PRIN good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "11:07"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "11:06",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by PRIN Krammer, Quinn, Assist by Palumbo, Chad, goal number 4 for season.",
+                  "homeScore": 10,
+                  "visitorScore": 10,
+                  "clock": "11:06"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "11:06",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Colby Baldwin vs McMeekin, Andrew won by PRIN (on faceoff violation).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "11:06"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "10:49",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by PRIN Wade, Tucker, SAVE Preston Hawkins",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "10:49"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "10:28",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by PRIN Palumbo, Chad, SAVE Preston Hawkins",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "10:28"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "10:13",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by PSU failed.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "10:13"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by PSU Jon King.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "09:28",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by PRIN Palumbo, Chad BLOCKED",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "09:28"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "09:24",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by PSU Chase Robertson.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "09:24"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "09:17",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by PSU Jack Iannantuono.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "09:17"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "09:15",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by PSU good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "09:15"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by PSU Luke Walstrum (caused by Crowley, Nick).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:51",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by PRIN good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "07:51"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:00",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by PRIN Kabiri, Nate WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "07:00"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "06:48",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by PRIN Wade, Tucker HIGH",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "06:48"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "06:47",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by PRIN Palumbo, Chad.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "06:47"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "06:43",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by PRIN Dunphey, John, Assist by Palumbo, Chad, goal number 20 for season.",
+                  "homeScore": 11,
+                  "visitorScore": 10,
+                  "clock": "06:43"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "06:43",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Reid Gills vs McMeekin, Andrew won by PRIN, [06:43] Ground ball pickup by PRIN McMeekin, Andrew.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "06:43"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "06:38",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by PRIN McMeekin, Andrew, goal number 5 for season.",
+                  "homeScore": 12,
+                  "visitorScore": 10,
+                  "clock": "06:38"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "06:38",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Colby Baldwin vs Fitzgerald, Russ won by PSU, [06:38] Ground ball pickup by PSU Colby Baldwin.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "06:38"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:56",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by PSU Jack Iannantuono, SAVE Croddick, Ryan",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "05:56"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:51",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by PRIN Croddick, Ryan.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "05:51"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:38",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by PRIN good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "05:38"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:06",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by PRIN Wade, Tucker, Assist by Reynolds, Parker, goal number 35 for season.",
+                  "homeScore": 13,
+                  "visitorScore": 10,
+                  "clock": "05:06"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:06",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Timeout by PSU.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "05:06"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:06",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Colby Baldwin vs McMeekin, Andrew won by PRIN, [05:06] Ground ball pickup by PRIN Spiess, Hunter.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "05:06"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "04:49",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by PRIN good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "04:49"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by PRIN Wade, Tucker (caused by Peri Dibartolomeo).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:38",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by PSU Will Costin.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "03:38"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:35",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by PSU good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "03:35"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by PSU Chase Robertson (caused by Fischer, Owen).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:53",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by PRIN Friedman, Zach.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "02:53"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:50",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by PRIN good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "02:50"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:07",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by PRIN McDonald, Aidan, SAVE Preston Hawkins",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "02:07"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:01",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by PRIN Vana, Jake.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "02:01"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:48",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by PRIN Kabiri, Nate, SAVE Preston Hawkins",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "01:48"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:45",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by PSU Lucca Dibartolomeo.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "01:45"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:40",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by PSU good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "01:40"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:25",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by PSU Kyle Lehman, SAVE Croddick, Ryan",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "01:25"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:22",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Penalty on PRIN Palumbo, Chad (OFFSIDE/0:30) Extra-man opportunity.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "01:22"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by PSU Luke Walstrum.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:56",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by PRIN Mueller, Cooper (MAN-DOWN), Assist by Kabiri, Nate, goal number 4 for season.",
+                  "homeScore": 14,
+                  "visitorScore": 10,
+                  "clock": "00:56"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:56",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Colby Baldwin vs McMeekin, Andrew won by PSU, [00:56] Ground ball pickup by PSU Colby Baldwin.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:56"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by PSU Colby Baldwin (caused by Friedman, Zach).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:42",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by PRIN Friedman, Zach.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:42"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:37",
+              "teamId": 43731,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by PRIN good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:37"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:00",
+              "teamId": 43978,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "End-of-period.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:00"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

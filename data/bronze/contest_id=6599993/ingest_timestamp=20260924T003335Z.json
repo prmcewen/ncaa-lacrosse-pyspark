@@ -1,0 +1,3863 @@
+{
+  "data": {
+    "playbyplay": {
+      "__typename": "PlayByPlay",
+      "contestId": 6599993,
+      "title": "MLA PLAY-BY-PLAY",
+      "description": "North Carolina vs Syracuse",
+      "divisionName": "d1",
+      "status": "final",
+      "period": 4,
+      "minutes": "",
+      "seconds": "",
+      "teams": [
+        {
+          "__typename": "ContestTeam",
+          "isHome": true,
+          "teamId": "43759",
+          "seoname": "north-carolina",
+          "name6Char": "UNC",
+          "nameShort": "North Carolina",
+          "nameFull": "University of North Carolina, Chapel Hill",
+          "teamName": "Tar Heels",
+          "color": "#7BAFD4"
+        },
+        {
+          "__typename": "ContestTeam",
+          "isHome": false,
+          "teamId": "43804",
+          "seoname": "syracuse",
+          "name6Char": "SYR",
+          "nameShort": "Syracuse",
+          "nameFull": "Syracuse University",
+          "teamName": "Orange",
+          "color": "#DC4405"
+        }
+      ],
+      "periods": [
+        {
+          "__typename": "PlayByPlayDetails",
+          "periodNumber": 1,
+          "periodDisplay": "1st",
+          "playbyplayStats": [
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "15:00",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "SU Starters: Leo, Michael; Rhoa, Luke; Figueiras, Riley; Hottle, Wyatt; Spallina, Joey; Thomson, Finn; Dwan, Billy; McCool, Jimmy; Beck, Jordan; Anderson, Payton. UNC Starters: Szewczyk, Mason; Goode, Kent; Wilson, Brevin; Matan, James; Duffy, Owen; Harshbarger, Caden; Aasheim, Cole; Prohaszka, Kai; Pietramala, Dominic; Cellucci, Chase; SU Keeper: McCool, Jimmy. UNC Keeper: Goode, Kent.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "15:00"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "15:00",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Start of Quarter 1",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "15:00"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "15:00",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Wambach, Brady vs Mullen, John won by SU, [15:00] Ground ball pickup by SU Mullen, John.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "15:00"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "14:25",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by SU Anderson, Payton, SAVE by Goode, Kent",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "14:25"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "14:01",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by UNC Harshbarger, Caden",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "14:01"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "13:58",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by UNC good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "13:58"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "13:55",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by UNC Duffy, Owen",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "13:55"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "13:13",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by UNC Duffy, Owen WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "13:13"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "13:01",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by UNC Pietramala, Dominic, SAVE by McCool, Jimmy",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "13:01"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "12:57",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by SU Beck, Jordan",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "12:57"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "12:54",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by SU failed.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "12:54"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "12:54",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by SU Beck, Jordan (caused by Wilson, Brevin).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "12:54"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "12:23",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by UNC Merrill, Gary",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "12:23"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "12:01",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by SU good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "12:01"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "11:20",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by SU McIntee, Matt WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "11:20"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "11:05",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by SU Leo, Michael, SAVE by Goode, Kent",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "11:05"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "11:00",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by UNC Aasheim, Cole",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "11:00"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "10:52",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by UNC Hagerup, Leif",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "10:52"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "10:46",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by UNC good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "10:46"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "10:10",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by UNC Duffy, Owen, SAVE by McCool, Jimmy",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "10:10"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "10:05",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by SU Kuczynski, Chuck",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "10:05"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "10:00",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Penalty on UNC Matan, James (Pushing/0:30); Extra-man opportunity (ends at 9:30 of QTR 1)",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "10:00"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "09:39",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by SU Spallina, Joey, SAVE by Goode, Kent",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "09:39"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "09:27",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by UNC good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "09:27"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "08:43",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by UNC Pietramala, Dominic WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "08:43"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "08:40",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by SU McCool, Jimmy",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "08:40"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:53",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by SU Rhoa, Luke",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "07:53"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:35",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by SU Rhoa, Luke",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "07:35"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:20",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by SU Hottle, Wyatt",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "07:20"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:11",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by UNC good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "07:11"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "06:29",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by UNC Wilson, Brevin",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "06:29"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "06:25",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by SU McCool, Jimmy",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "06:25"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "06:16",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by SU good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "06:16"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:31",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by SU Hahn, Bogue",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "05:31"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:27",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by SU Thomson, Finn WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "05:27"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:12",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by UNC good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "05:12"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "04:36",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by UNC Wilson, Brevin (caused by McCarthy, Tyler).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "04:36"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "04:34",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by SU McCarthy, Tyler",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "04:34"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "04:30",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by SU good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "04:30"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "04:24",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by SU McCarthy, Tyler WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "04:24"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:31",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by SU Anderson, Payton (caused by Thomann, Peter).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "03:31"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:46",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by UNC Merrill, Gary WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "02:46"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:23",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by UNC Raio, Anthony WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "02:23"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:14",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by UNC Pietramala, Dominic, SAVE by McCool, Jimmy",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "02:14"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:04",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Syracuse challenge on whether the shot clock should have reset",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "02:04"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:04",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Call is upheld; Syracuse loses a timeout ",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "02:04"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:04",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": " Timeout by SU",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "02:04"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:52",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by UNC Pietramala, Dominic WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "01:52"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:27",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by UNC Matan, James WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "01:27"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:21",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by UNC Macaluso, Luke",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "01:21"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:10",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by SU failed.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "01:10"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:09",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by SU Dwan, Billy (caused by Thomann, Peter).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "01:09"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:03",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by UNC Thomann, Peter (FIRST GOAL), Assist by Hagerup, Leif, goal number 4 for season., assist number 1 for season.",
+                  "homeScore": 1,
+                  "visitorScore": 0,
+                  "clock": "01:03"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:03",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Wambach, Brady vs Mullen, John won by SU, [01:03] Ground ball pickup by SU Mullen, John.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "01:03"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:57",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by SU Mullen, John, goal number 5 for season.",
+                  "homeScore": 1,
+                  "visitorScore": 1,
+                  "clock": "00:57"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:57",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Wambach, Brady vs Mullen, John won by SU, [00:57] Ground ball pickup by SU Mullen, John.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:57"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:49",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by SU Mullen, John (caused by Koopman, Brett).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:49"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:45",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by UNC Prohaszka, Kai",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:45"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:43",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by UNC failed.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:43"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:41",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by UNC Hoffman, Parker (caused by Bolognino, Vincent).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:41"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:39",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by SU Anderson, Payton",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:39"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:30",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by SU Rhoa, Luke WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:30"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:12",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by SU Leo, Michael",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:12"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:05",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by UNC good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:05"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:01",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by UNC English, Ty, SAVE by McCool, Jimmy",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:01"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:01",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by UNC Macaluso, Luke",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:01"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:00",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "End of Quarter 1",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:00"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "__typename": "PlayByPlayDetails",
+          "periodNumber": 2,
+          "periodDisplay": "2nd",
+          "playbyplayStats": [
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "15:00",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Start of Quarter 2",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "15:00"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "15:00",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Wambach, Brady vs Mullen, John won by SU, [15:00] Ground ball pickup by SU Mullen, John.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "15:00"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "14:50",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by SU Mullen, John (caused by Thomann, Peter).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "14:50"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "14:46",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by UNC Wambach, Brady",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "14:46"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "14:07",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by UNC Szewczyk, Mason, SAVE by McCool, Jimmy",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "14:07"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "14:04",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by SU Spallina, Jake",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "14:04"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "13:55",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by SU good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "13:55"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "13:14",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by SU Anderson, Payton, SAVE by Goode, Kent",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "13:14"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "13:08",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by UNC good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "13:08"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "12:07",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by UNC Pietramala, Dominic, SAVE by McCool, Jimmy",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "12:07"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "11:52",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by UNC Merrill, Gary",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "11:52"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "11:37",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by UNC Raio, Anthony, goal number 17 for season.",
+                  "homeScore": 2,
+                  "visitorScore": 1,
+                  "clock": "11:37"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "11:37",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Wambach, Brady vs Mullen, John won by SU, [11:37] Ground ball pickup by SU Mullen, John.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "11:37"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "11:12",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by SU Anderson, Payton BLOCKED",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "11:12"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "10:57",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by UNC good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "10:57"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "10:09",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by UNC English, Ty, goal number 6 for season.",
+                  "homeScore": 3,
+                  "visitorScore": 1,
+                  "clock": "10:09"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "10:09",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Wambach, Brady vs Mullen, John won by SU, [10:09] Ground ball pickup by SU Mullen, John.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "10:09"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "08:55",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by SU Hahn, Bogue, Assist by Spallina, Joey, goal number 6 for season., assist number 48 for season.",
+                  "homeScore": 3,
+                  "visitorScore": 2,
+                  "clock": "08:55"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "08:55",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Wambach, Brady vs Mullen, John won by UNC, [08:55] Ground ball pickup by UNC Wambach, Brady.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "08:55"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "08:50",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by UNC Wrede, Matt HIT CROSSBAR",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "08:50"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "08:48",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by UNC Wambach, Brady",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "08:48"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "08:47",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by UNC Wambach, Brady, goal number 11 for season.",
+                  "homeScore": 4,
+                  "visitorScore": 2,
+                  "clock": "08:47"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "08:47",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Wambach, Brady vs Mullen, John won by UNC (on faceoff violation).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "08:47"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:48",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by UNC Raio, Anthony, Assist by Merrill, Gary, goal number 18 for season., assist number 11 for season.",
+                  "homeScore": 5,
+                  "visitorScore": 2,
+                  "clock": "07:48"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:48",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": " Timeout by  official",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "07:48"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:48",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Wambach, Brady vs Angelo, Drew won by UNC, [07:48] Ground ball pickup by UNC Wambach, Brady.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "07:48"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:38",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by UNC Wambach, Brady (caused by Kuczynski, Chuck).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "07:38"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:35",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by SU Angelo, Drew",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "07:35"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:31",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by SU Beck, Jordan",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "07:31"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:25",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by SU good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "07:25"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "06:47",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Penalty on UNC Hagerup, Leif (Holding/0:30); Extra-man opportunity (ends at 6:17 of QTR 2)",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "06:47"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "06:25",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by SU Leo, Michael WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "06:25"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "06:14",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by SU Rhoa, Luke WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "06:14"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:54",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by SU Anderson, Payton WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "05:54"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:46",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by SU Spallina, Joey WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "05:46"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:46",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot clock violation by SU",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "05:46"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:37",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by UNC good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "05:37"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:01",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by UNC Wilson, Brevin, goal number 26 for season.",
+                  "homeScore": 6,
+                  "visitorScore": 2,
+                  "clock": "05:01"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:01",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Wambach, Brady vs Mullen, John won by SU, [05:01] Ground ball pickup by SU Mullen, John.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "05:01"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "04:25",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by SU Rhoa, Luke, Assist by Spallina, Joey, goal number 29 for season., assist number 49 for season.",
+                  "homeScore": 6,
+                  "visitorScore": 3,
+                  "clock": "04:25"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "04:25",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Wambach, Brady vs Mullen, John won by SU, [04:25] Ground ball pickup by SU Mullen, John.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "04:25"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "04:19",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by SU Mullen, John, goal number 6 for season.",
+                  "homeScore": 6,
+                  "visitorScore": 4,
+                  "clock": "04:19"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "04:19",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Wambach, Brady vs Mullen, John won by SU, [04:19] Ground ball pickup by SU Kuczynski, Chuck.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "04:19"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "04:04",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by SU failed.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "04:04"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "04:02",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by SU Figueiras, Riley",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "04:02"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:59",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by UNC Prohaszka, Kai",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "03:59"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:56",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by UNC good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "03:56"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:47",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": " Timeout by UNC",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "03:47"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:54",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by UNC Raio, Anthony, SAVE by McCool, Jimmy",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "02:54"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:54",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by UNC Raio, Anthony",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "02:54"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:45",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by SU good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "02:45"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:23",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Penalty on UNC English, Ty (Pushing/0:30); Extra-man opportunity (ends at 1:53 of QTR 2)",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "02:23"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:04",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by SU Spallina, Joey WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "02:04"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:00",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by SU Rhoa, Luke WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "02:00"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:48",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by SU Leo, Michael",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "01:48"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:45",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by UNC Koopman, Brett",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "01:45"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:33",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by UNC failed.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "01:33"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:31",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by UNC Harshbarger, Caden",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "01:31"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:22",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by SU Thomson, Finn, Assist by Spallina, Joey, goal number 39 for season., assist number 50 for season.",
+                  "homeScore": 6,
+                  "visitorScore": 5,
+                  "clock": "01:22"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:22",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Wambach, Brady vs Mullen, John won by UNC, [01:22] Ground ball pickup by UNC Wambach, Brady.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "01:22"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:02",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by UNC good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "01:02"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:12",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by UNC Wilson, Brevin HIGH",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:12"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:12",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Penalty on SU Thomson, Finn (Slashing/1:00); Extra-man opportunity (ends at 14:12 of QTR 3)",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:12"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:12",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Penalty on SU Dwan, Billy (Pushing/0:30); Extra-man opportunity (ends at 14:42 of QTR 3)",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:12"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:00",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "End of Quarter 2",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:00"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "__typename": "PlayByPlayDetails",
+          "periodNumber": 3,
+          "periodDisplay": "3rd",
+          "playbyplayStats": [
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "15:00",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Start of Quarter 3",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "15:00"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "14:29",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by UNC Raio, Anthony HIGH",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "14:29"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "14:09",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by SU good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "14:09"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "14:05",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by SU Rhoa, Luke BLOCKED",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "14:05"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "14:04",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by SU Spallina, Joey",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "14:04"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "14:03",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by SU Spallina, Joey, goal number 33 for season.",
+                  "homeScore": 6,
+                  "visitorScore": 6,
+                  "clock": "14:03"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "14:03",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Wambach, Brady vs Mullen, John won by SU, [14:03] Ground ball pickup by SU Mullen, John.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "14:03"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "13:29",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by SU Leo, Michael",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "13:29"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "13:25",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by SU Anderson, Payton",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "13:25"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "12:57",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by SU Rhoa, Luke WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "12:57"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "12:46",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by SU Hottle, Wyatt, Assist by Anderson, Payton, goal number 20 for season., assist number 13 for season.",
+                  "homeScore": 6,
+                  "visitorScore": 7,
+                  "clock": "12:46"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "12:46",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Wambach, Brady vs Mullen, John won by UNC (on faceoff violation).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "12:46"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "11:52",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by UNC Pietramala, Dominic, SAVE by McCool, Jimmy",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "11:52"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "11:40",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by SU good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "11:40"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "11:30",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by SU Hottle, Wyatt",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "11:30"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "11:12",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by SU Leo, Michael, goal number 35 for season.",
+                  "homeScore": 6,
+                  "visitorScore": 8,
+                  "clock": "11:12"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "11:12",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Wambach, Brady vs Angelo, Drew won by UNC, [11:12] Ground ball pickup by UNC Wambach, Brady.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "11:12"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "11:03",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by UNC Hoffman, Parker",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "11:03"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "10:50",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by UNC Wrede, Matt HIT POST",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "10:50"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "10:31",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by UNC Raio, Anthony BLOCKED",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "10:31"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "10:19",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by UNC Raio, Anthony (caused by Bowen, Dante).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "10:19"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "10:16",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by SU McCarthy, Tyler",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "10:16"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "10:12",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by SU good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "10:12"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "09:58",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "North Carolina challenge of a reset of the shot clock",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "09:58"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "09:58",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot did hit the pipe after review.  Game clock reset to 10:48",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "09:58"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "09:04",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Penalty on UNC Wilson, Brevin (Slashing/1:00); Extra-man opportunity (ends at 8:04 of QTR 3)",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "09:04"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "08:52",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by SU Rhoa, Luke, SAVE by Goode, Kent",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "08:52"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "08:42",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by UNC Macaluso, Luke",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "08:42"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "08:31",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by UNC English, Ty",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "08:31"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "08:28",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by SU failed.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "08:28"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "08:28",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by SU McCool, Jimmy",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "08:28"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "08:26",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by UNC Koopman, Brett",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "08:26"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "08:26",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by SU Figueiras, Riley",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "08:26"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "08:20",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by UNC English, Ty, SAVE by McCool, Jimmy",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "08:20"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "08:19",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by SU Figueiras, Riley",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "08:19"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "08:15",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by UNC Koopman, Brett",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "08:15"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:37",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by UNC Harshbarger, Caden",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "07:37"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:16",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by SU failed.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "07:16"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:16",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by SU Kittelberger, Jayden",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "07:16"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:04",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by UNC good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "07:04"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "06:11",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by UNC Raio, Anthony WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "06:11"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "06:10",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Penalty on SU Spallina, Jake (Unsportsmanlike Conduct/1:00); Extra-man opportunity (ends at 5:10 of QTR 3)",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "06:10"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:53",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by UNC Wilson, Brevin (MAN-UP), Assist by Harshbarger, Caden, goal number 27 for season., assist number 7 for season.",
+                  "homeScore": 7,
+                  "visitorScore": 8,
+                  "clock": "05:53"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:53",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": " Timeout by  official",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "05:53"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:53",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Wambach, Brady vs Mullen, John won by UNC, [05:53] Ground ball pickup by UNC Wambach, Brady.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "05:53"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:45",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Penalty on SU Kuczynski, Chuck (Holding/0:30); Extra-man opportunity (ends at 5:15 of QTR 3)",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "05:45"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:16",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by UNC Wilson, Brevin HIT CROSSBAR",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "05:16"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "04:47",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by UNC Pietramala, Dominic, SAVE by McCool, Jimmy",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "04:47"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "04:34",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by SU good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "04:34"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "04:02",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by SU Thomson, Finn, Assist by Hottle, Wyatt, goal number 40 for season., assist number 11 for season.",
+                  "homeScore": 7,
+                  "visitorScore": 9,
+                  "clock": "04:02"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "04:02",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Penalty on UNC Raio, Anthony (Unnecessary Roughness/1:00); Extra-man opportunity (ends at 3:02 of QTR 3)",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "04:02"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "04:02",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Wambach, Brady vs Mullen, John won by UNC (on faceoff violation).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "04:02"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "03:46",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by UNC good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "03:46"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:48",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by UNC Matan, James, Assist by Pietramala, Dominic, goal number 10 for season., assist number 8 for season.",
+                  "homeScore": 8,
+                  "visitorScore": 9,
+                  "clock": "02:48"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:48",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Wambach, Brady vs Angelo, Drew won by SU, [02:48] Ground ball pickup by SU Dwan, Billy.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "02:48"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:23",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by SU good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "02:23"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:28",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by SU Leo, Michael (caused by Friedman, Caswell).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "01:28"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:24",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by UNC Friedman, Caswell",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "01:24"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:22",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by UNC good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "01:22"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:35",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by UNC Szewczyk, Mason WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:35"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:31",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by UNC Wilson, Brevin",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:31"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:11",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by UNC Harshbarger, Caden (caused by Bolognino, Vincent).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:11"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:09",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by SU Hottle, Wyatt",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:09"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:06",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by SU McCarthy, Tyler",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:06"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:00",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "End of Quarter 3",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:00"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "__typename": "PlayByPlayDetails",
+          "periodNumber": 4,
+          "periodDisplay": "4th",
+          "playbyplayStats": [
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "15:00",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Start of Quarter 4",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "15:00"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "15:00",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Wambach, Brady vs Mullen, John won by SU (on faceoff violation).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "15:00"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "14:28",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by SU Rhoa, Luke, Assist by Hottle, Wyatt, goal number 30 for season., assist number 12 for season.",
+                  "homeScore": 8,
+                  "visitorScore": 10,
+                  "clock": "14:28"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "14:28",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Wambach, Brady vs Mullen, John won by UNC, [14:28] Ground ball pickup by UNC Wambach, Brady.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "14:28"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "14:21",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by UNC Thomann, Peter WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "14:21"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "14:04",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by UNC Pietramala, Dominic BLOCKED",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "14:04"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "13:37",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by UNC Duffy, Owen, goal number 31 for season.",
+                  "homeScore": 9,
+                  "visitorScore": 10,
+                  "clock": "13:37"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "13:37",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Wambach, Brady vs Mullen, John won by UNC, [13:37] Ground ball pickup by UNC Wambach, Brady.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "13:37"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "13:25",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by UNC Duffy, Owen",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "13:25"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "13:22",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by SU Figueiras, Riley",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "13:22"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "13:15",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by SU good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "13:15"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "13:10",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by SU Spallina, Jake, SAVE by Goode, Kent",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "13:10"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "12:55",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by SU Rhoa, Luke WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "12:55"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "12:35",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by SU Leo, Michael, SAVE by Goode, Kent",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "12:35"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "12:29",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by SU Hottle, Wyatt",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "12:29"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "12:26",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by SU Hottle, Wyatt",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "12:26"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "12:14",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by UNC English, Ty WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "12:14"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "12:13",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Penalty on SU Spallina, Joey (Delay of Game/0:30); Extra-man opportunity (ends at 11:43 of QTR 4)",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "12:13"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "11:46",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by UNC Pietramala, Dominic WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "11:46"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "11:06",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by UNC Duffy, Owen (caused by Sageder, Dylan).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "11:06"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "11:03",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by SU Sageder, Dylan",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "11:03"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "10:58",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by SU good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "10:58"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "10:51",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by SU Hahn, Bogue (caused by Cellucci, Chase).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "10:51"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "10:42",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by UNC good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "10:42"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "10:21",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by UNC Pietramala, Dominic, Assist by Matan, James, goal number 54 for season., assist number 5 for season.",
+                  "homeScore": 10,
+                  "visitorScore": 10,
+                  "clock": "10:21"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "10:21",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Wambach, Brady vs Mullen, John won by SU, [10:21] Ground ball pickup by SU Mullen, John.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "10:21"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "09:29",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by SU Rhoa, Luke BLOCKED",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "09:29"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "08:59",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by SU Leo, Michael",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "08:59"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "08:44",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by UNC good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "08:44"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "08:11",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by UNC Matan, James, SAVE by McCool, Jimmy",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "08:11"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "08:07",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by SU Dwan, Billy",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "08:07"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "08:02",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by SU good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "08:02"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:57",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by SU Spallina, Joey, Assist by Bowen, Dante, goal number 34 for season., assist number 4 for season.",
+                  "homeScore": 10,
+                  "visitorScore": 11,
+                  "clock": "07:57"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:57",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": " Timeout by  official",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "07:57"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:57",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Wambach, Brady vs Mullen, John won by UNC, [07:57] Ground ball pickup by UNC Wambach, Brady.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "07:57"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:42",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by UNC good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "07:42"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:10",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by UNC Raio, Anthony (caused by D'Agostino, Louis).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "07:10"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:06",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by SU Kuczynski, Chuck",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "07:06"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "07:04",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by SU good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "07:04"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "06:15",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by SU Anderson, Payton WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "06:15"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:56",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by SU Spallina, Joey HIGH",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "05:56"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:51",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot clock violation by SU",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "05:51"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:38",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by UNC good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "05:38"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:07",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by UNC Matan, James",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "05:07"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:01",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by UNC Duffy, Owen HIGH",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "05:01"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "05:00",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by UNC Wilson, Brevin",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "05:00"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "04:58",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by UNC Wilson, Brevin BLOCKED",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "04:58"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "04:56",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by SU Bolognino, Vincent",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "04:56"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "04:51",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by SU good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "04:51"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "04:05",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by SU Rhoa, Luke",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "04:05"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "04:01",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by SU Thomson, Finn, Assist by Rhoa, Luke, goal number 43 for season., assist number 12 for season.",
+                  "homeScore": 10,
+                  "visitorScore": 12,
+                  "clock": "04:01"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "04:01",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Wambach, Brady vs Mullen, John won by SU, [04:01] Ground ball pickup by SU Mullen, John.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "04:01"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:40",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by SU Spallina, Joey (30-second count), goal number 35 for season.",
+                  "homeScore": 10,
+                  "visitorScore": 13,
+                  "clock": "02:40"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:40",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Wambach, Brady vs Mullen, John won by UNC, [02:40] Ground ball pickup by UNC Wambach, Brady.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "02:40"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:30",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by UNC Wilson, Brevin WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "02:30"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:30",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": " Timeout by UNC",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "02:30"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:10",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "GOAL by UNC Pietramala, Dominic, Assist by Duffy, Owen, goal number 55 for season., assist number 40 for season.",
+                  "homeScore": 11,
+                  "visitorScore": 13,
+                  "clock": "02:10"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "02:10",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Faceoff Wambach, Brady vs Mullen, John won by UNC, [02:10] Ground ball pickup by UNC English, Ty.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "02:10"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:55",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": " Timeout by UNC",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "01:55"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": ""
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:35",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by UNC Raio, Anthony WIDE",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "01:35"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:16",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Shot by UNC Matan, James, SAVE by McCool, Jimmy",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "01:16"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:07",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by SU failed.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "01:07"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:04",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by SU Bowen, Dante (caused by Matan, James).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "01:04"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "01:01",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Ground ball pickup by UNC Matan, James",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "01:01"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:45",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Turnover by UNC Matan, James (caused by Dwan, Billy).",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:45"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:45",
+              "teamId": 43759,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Penalty on UNC Matan, James (Illegal Body Check/1:00); Extra-man opportunity (ends at 3:45 of OT 1)",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:45"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:45",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "Clear attempt by SU good.",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:45"
+                }
+              ]
+            },
+            {
+              "__typename": "PlayByPlayGenericSport",
+              "clock": "00:00",
+              "teamId": 43804,
+              "plays": [
+                {
+                  "__typename": "GenericPlay",
+                  "playText": "End of Quarter 4",
+                  "homeScore": null,
+                  "visitorScore": null,
+                  "clock": "00:00"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
