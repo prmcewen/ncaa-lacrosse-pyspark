@@ -79,6 +79,12 @@ uv run pytest -v
 
 Regression coverage includes faceoff attribution, concurrent queries, deterministic pagination, dimension corrections, failed Gold writes, retry recovery, and request-level publication consistency.
 
+#### Testing Dependencies (`httpx` vs. `httpx2`)
+
+Both `httpx` and `httpx2` are intentionally declared in [pyproject.toml](pyproject.toml):
+- `httpx` is used for runtime HTTP data ingestion in [`src/ingestion/ingest.py`](src/ingestion/ingest.py).
+- `httpx2` is required by `starlette.testclient.TestClient` (re-exported and used through `fastapi.testclient`) in Starlette 1.6.0+. In these releases, Starlette's test client explicitly checks for and prefers `httpx2`, emitting `StarletteDeprecationWarning: Using 'httpx' with 'starlette.testclient' is deprecated; install 'httpx2' instead.` when only legacy `httpx` is present. Listing `httpx2>=2.13.1` directly satisfies the test client dependency.
+
 ## Storage and publication behavior
 
 Ingestion performs basic structural checks for `data.playbyplay`, `periods`, and `teams`. Snapshot timestamps use UTC seconds (`YYYYMMDDTHHMMSSZ`). Two changed payloads for the same contest in the same second can overwrite the same file; Bronze is not an immutable or tamper-proof audit store. Snapshot selection takes the last stored manifest entry with an existing file for each contest, in manifest order, without rechecking its hash. See [ADR-001](docs/adr/ADR-001-medallion-storage-and-audit-trail.md) for the exact guarantees and limitations.

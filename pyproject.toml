@@ -13,8 +13,11 @@ dependencies = [
     "pyarrow>=15.0.0",
     "pytest>=8.0.0",
     "delta-spark>=4.4.0",
-    "httpx2>=2.13.1",
+    # HTTP client for runtime data ingestion (src/ingestion/ingest.py)
     "httpx>=0.28.1",
+    # Required by starlette.testclient (used via fastapi.testclient in Starlette >=1.6.0)
+    # to avoid StarletteDeprecationWarning ("Using `httpx` with `starlette.testclient` is deprecated; install `httpx2` instead.")
+    "httpx2>=2.13.1",
 ]
 
 [build-system]
