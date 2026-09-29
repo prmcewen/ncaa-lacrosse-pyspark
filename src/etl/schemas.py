@@ -50,6 +50,19 @@ NCAA_PBP_SCHEMA = StructType([
     ]), True)
 ])
 
+
+# Narrow Bronze projection for contest and team metadata. Period plays are not parsed.
+NCAA_CONTEST_SCHEMA = StructType([
+    StructField("data", StructType([
+        StructField("playbyplay", StructType([
+            StructField("contestId", LongType(), True),
+            StructField("title", StringType(), True),
+            StructField("status", StringType(), True),
+            StructField("teams", ArrayType(TEAM_SCHEMA), True),
+        ]), True),
+    ]), True),
+])
+
 # 34-Column Approved Silver Table Schema
 SILVER_PLAY_SCHEMA = StructType([
     # Identification & Lineage

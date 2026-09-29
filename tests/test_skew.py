@@ -4,6 +4,7 @@ from typing import List, Tuple
 from unittest.mock import patch
 
 from pyspark.sql import DataFrame, SparkSession
+from pyspark.sql import functions as F
 from pyspark.sql.types import IntegerType, LongType, StringType, StructField, StructType
 
 from src.etl.optimizations import (
@@ -33,15 +34,24 @@ def _create_mock_df(
     return spark.createDataFrame(data, schema)
 
 
-def test_check_data_skew_balanced_passes(spark: SparkSession):
-    """Balanced data across partition columns should pass without raising."""
-    # 4 contests, each with 100 plays -> skew ratio is exactly 1.0
-    df = _create_mock_df(spark, [(101, 100), (102, 100), (103, 100), (104, 100)])
+def _physical_df(spark: SparkSession, counts: List[int]) -> DataFrame:
+    """Create an RDD-backed DataFrame with exact per-task row counts."""
+    rows = spark.sparkContext.parallelize(range(len(counts)), len(counts)).mapPartitionsWithIndex(
+        lambda partition_id, _: (
+            (partition_id * 1000 + seq, seq % 4)
+            for seq in range(counts[partition_id])
+        )
+    )
+    return spark.createDataFrame(rows, "id long, contest_id long")
 
-    report = check_data_skew(df, partition_cols=["contest_id"], max_skew_ratio=2.0)
+
+def test_check_data_skew_balanced_physical_partitions(spark: SparkSession):
+    df = spark.range(400, numPartitions=4)
+    report = check_data_skew(df, max_skew_ratio=2.0)
 
     assert report["is_skewed"] is False
     assert report["num_partitions"] == 4
+    assert report["num_empty_partitions"] == 0
     assert report["total_rows"] == 400
     assert report["min_rows"] == 100
     assert report["max_rows"] == 100
@@ -50,90 +60,105 @@ def test_check_data_skew_balanced_passes(spark: SparkSession):
     assert report["violations"] == []
 
 
-def test_check_data_skew_ratio_throws_error(spark: SparkSession):
-    """When a partition has disproportionate rows, DataSkewError must be raised."""
-    # 3 small contests (10 plays each) and 1 giant contest (200 plays)
-    # total = 230, avg = 57.5, max = 200, skew_ratio = 200 / 57.5 = 3.48
+def test_balanced_keys_can_still_have_skewed_tasks(spark: SparkSession):
+    # Each key has 59 rows, but one task gets 200 rows and the others get 12.
+    df = _physical_df(spark, [200, 12, 12, 12])
+    assert len({row["count"] for row in df.groupBy("contest_id").count().collect()}) == 1
+
+    with pytest.raises(DataSkewError) as exc_info:
+        check_data_skew(df, max_skew_ratio=2.0)
+
+    metrics = exc_info.value.metrics
+    assert metrics["num_partitions"] == 4
+    assert metrics["max_rows"] == 200
+    assert metrics["min_rows"] == 12
+    assert metrics["skew_ratio"] > 3.0
+    assert "partition_id=" in str(exc_info.value)
+
+
+def test_uneven_keys_do_not_imply_task_skew(spark: SparkSession):
+    df = spark.range(400, numPartitions=4).withColumn(
+        "contest_id", F.when(F.col("id") < 300, F.lit(1)).otherwise(F.col("id"))
+    )
+    report = check_data_skew(df, max_skew_ratio=2.0)
+    assert report["is_skewed"] is False
+    assert report["max_rows"] == 100
+
+
+def test_check_data_skew_keyed_shuffle(spark: SparkSession):
     df = _create_mock_df(spark, [(101, 10), (102, 10), (103, 10), (104, 200)])
+    shuffle_partitions = int(spark.conf.get("spark.sql.shuffle.partitions"))
+    expected = df.repartition(shuffle_partitions, "contest_id").rdd.mapPartitions(
+        lambda rows: [sum(1 for _ in rows)]
+    ).collect()
 
     with pytest.raises(DataSkewError) as exc_info:
         check_data_skew(df, partition_cols=["contest_id"], max_skew_ratio=2.0)
 
-    err = exc_info.value
-    assert "Data skew detected" in str(err)
-    assert "Skew ratio 3.48 exceeds maximum allowed ratio of 2.00" in str(err)
-    assert "contest_id" in str(err)
-    assert err.metrics["is_skewed"] is True
-    assert err.metrics["max_rows"] == 200
-    assert err.metrics["min_rows"] == 10
-    assert err.metrics["skew_ratio"] > 2.0
+    metrics = exc_info.value.metrics
+    assert metrics["num_partitions"] == shuffle_partitions
+    assert metrics["total_rows"] == 230
+    assert metrics["max_rows"] == max(expected)
+    active = [count for count in expected if count]
+    assert metrics["min_rows"] == min(active)
+    assert metrics["num_active_partitions"] == len(active)
+    assert metrics["skew_ratio"] == pytest.approx(max(active) / (sum(active) / len(active)))
+    assert "contest_id" in str(exc_info.value)
 
 
 def test_check_data_skew_raise_on_skew_false(spark: SparkSession):
-    """With raise_on_skew=False, DataSkewError is suppressed and is_skewed=True returned."""
-    df = _create_mock_df(spark, [(101, 10), (102, 10), (103, 10), (104, 200)])
-
-    report = check_data_skew(df, partition_cols="contest_id", max_skew_ratio=2.0, raise_on_skew=False)
-
+    df = _physical_df(spark, [100, 10])
+    report = check_data_skew(df, max_skew_ratio=1.5, raise_on_skew=False)
     assert report["is_skewed"] is True
     assert len(report["violations"]) == 1
     assert "Skew ratio" in report["violations"][0]
 
 
 def test_check_data_skew_max_absolute_rows(spark: SparkSession):
-    """Should throw DataSkewError if any partition exceeds max_absolute_rows."""
-    # Ratio is ~1.11 (balanced), but max rows (500) exceeds ceiling of 300
-    df = _create_mock_df(spark, [(101, 450), (102, 500)])
-
+    df = spark.range(900, numPartitions=2)
     with pytest.raises(DataSkewError) as exc_info:
-        check_data_skew(df, partition_cols=["contest_id"], max_skew_ratio=2.5, max_absolute_rows=300)
-
-    assert "Maximum partition row count 500 exceeds absolute limit of 300" in str(exc_info.value)
+        check_data_skew(df, max_skew_ratio=2.5, max_absolute_rows=300)
+    assert "Maximum partition row count 450 exceeds absolute limit of 300" in str(exc_info.value)
 
 
 def test_check_data_skew_single_partition(spark: SparkSession):
-    """A single partition key should pass cleanly without false positive ratio errors."""
-    df = _create_mock_df(spark, [(101, 250)])
-
-    report = check_data_skew(df, partition_cols=["contest_id"], max_skew_ratio=2.0)
-
+    report = check_data_skew(spark.range(250, numPartitions=1), max_skew_ratio=2.0)
     assert report["is_skewed"] is False
     assert report["num_partitions"] == 1
     assert report["skew_ratio"] == 1.0
 
 
 def test_check_data_skew_empty_dataframe(spark: SparkSession):
-    """Empty DataFrame handling: allow_empty=True passes; allow_empty=False raises."""
     schema = StructType([StructField("contest_id", LongType(), False)])
     empty_df = spark.createDataFrame([], schema)
 
-    # Allowed
     report = check_data_skew(empty_df, partition_cols=["contest_id"], allow_empty=True)
     assert report["is_skewed"] is False
-    assert report["num_partitions"] == 0
+    assert report["total_rows"] == 0
+    assert report["num_active_partitions"] == 0
+    assert report["num_empty_partitions"] == report["num_partitions"]
 
-    # Not allowed
-    with pytest.raises(DataSkewError) as exc_info:
+    with pytest.raises(DataSkewError, match="Empty DataFrame encountered"):
         check_data_skew(empty_df, partition_cols=["contest_id"], allow_empty=False)
-    assert "Empty DataFrame encountered" in str(exc_info.value)
 
 
-def test_check_data_skew_physical_partitions(spark: SparkSession):
-    """When partition_cols is None, evaluates physical Spark partitions."""
-    df = _create_mock_df(spark, [(101, 50), (102, 50)]).repartition(4)
+def test_empty_shuffle_partitions_reported_without_false_skew(spark: SparkSession):
+    df = _create_mock_df(spark, [(101, 250)])
+    report = check_data_skew(df, partition_cols=["contest_id"], max_skew_ratio=2.0)
+    assert report["is_skewed"] is False
+    assert report["num_active_partitions"] == 1
+    assert report["num_empty_partitions"] == report["num_partitions"] - 1
+    assert report["skew_ratio"] == 1.0
 
-    report = check_data_skew(df, partition_cols=None, max_skew_ratio=5.0)
-
-    assert "num_partitions" in report
-    assert report["num_partitions"] <= 4
-    assert report["total_rows"] == 100
+    with pytest.raises(DataSkewError) as exc_info:
+        check_data_skew(df, partition_cols=["contest_id"], max_absolute_rows=200)
+    assert exc_info.value.metrics["max_rows"] == 250
 
 
 def test_check_partition_skew_alias(spark: SparkSession):
-    """Verify check_partition_skew alias is functional."""
-    df = _create_mock_df(spark, [(101, 50), (102, 50)])
-    report = check_partition_skew(df, partition_cols=["contest_id"])
+    report = check_partition_skew(spark.range(100, numPartitions=4))
     assert report["is_skewed"] is False
+    assert report["num_partitions"] == 4
 
 
 def test_save_partitioned_parquet_pre_validates_skew(spark: SparkSession, tmp_path: Path):
@@ -160,6 +185,7 @@ def test_save_partitioned_parquet_pre_validates_skew(spark: SparkSession, tmp_pa
             output_path=skew_out_dir,
             partition_cols=["contest_id"],
             max_skew_ratio=2.0,
+            max_absolute_rows=250,
         )
     assert not skew_out_dir.exists()
 
@@ -177,6 +203,7 @@ def test_save_partitioned_parquet_cached_pre_validates_skew(spark: SparkSession,
                 output_path=skew_out_dir,
                 partition_cols=["contest_id"],
                 max_skew_ratio=2.0,
+                max_absolute_rows=250,
             )
         # Pre-write check failed, so output directory was never written to
         assert not skew_out_dir.exists()

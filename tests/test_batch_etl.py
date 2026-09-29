@@ -6,10 +6,12 @@ from pyspark.sql.types import LongType, StringType, StructField, StructType
 from src.etl.transform import (
     SILVER_DIR,
     extract_dimensions_from_pbp,
+    extract_dimensions_from_silver_contests,
     generate_gold_tables,
     get_latest_valid_snapshots,
     get_pending_snapshots,
     process_bronze_to_silver,
+    process_bronze_to_silver_contests,
 )
 
 
@@ -109,10 +111,11 @@ def test_process_bronze_to_silver_batch_and_single(spark: SparkSession):
 def test_generate_gold_tables_broadcast_join(spark: SparkSession):
     snapshots = get_latest_valid_snapshots()
     assert len(snapshots) >= 1
-    bronze_paths = [s[2] for s in snapshots[:2]]
     silver_df = process_bronze_to_silver(spark, snapshots[:2])
+    silver_contests = process_bronze_to_silver_contests(spark, snapshots[:2])
+    dim_teams, dim_contests = extract_dimensions_from_silver_contests(silver_contests)
 
-    gold_tables = generate_gold_tables(spark, silver_df, bronze_paths)
+    gold_tables = generate_gold_tables(spark, silver_df, dim_teams, dim_contests)
     assert "fact_plays" in gold_tables
     fact_df = gold_tables["fact_plays"]
 
@@ -150,13 +153,14 @@ def test_process_bronze_to_silver_with_dimensions(spark: SparkSession):
 def test_generate_gold_tables_with_pre_extracted_dimensions(spark: SparkSession):
     snapshots = get_latest_valid_snapshots()
     assert len(snapshots) >= 2
-    silver_df, dim_teams, dim_contests = process_bronze_to_silver(spark, snapshots[:2], return_dimensions=True)
+    silver_df = process_bronze_to_silver(spark, snapshots[:2])
+    silver_contests = process_bronze_to_silver_contests(spark, snapshots[:2])
+    dim_teams, dim_contests = extract_dimensions_from_silver_contests(silver_contests)
 
-    # Calling generate_gold_tables WITHOUT bronze_paths
+    # Supply Silver-derived dimensions explicitly to the Gold builder.
     gold_tables = generate_gold_tables(
         spark,
         silver_df,
-        bronze_paths=None,
         dim_teams=dim_teams,
         dim_contests=dim_contests,
     )
@@ -206,6 +210,12 @@ def test_run_pipeline_unpersists_cached_silver_in_finally(spark: SparkSession, m
 
     monkeypatch.setattr(rp_module, "cache_and_profile", mock_cache_and_profile)
     monkeypatch.setattr(rp_module, "generate_gold_tables", MagicMock(side_effect=RuntimeError("Forced downstream failure")))
+    monkeypatch.setattr(
+        rp_module, "build_gold_tables",
+        lambda session, silver, teams, contests, *args: rp_module.generate_gold_tables(
+            session, silver, dim_teams=teams, dim_contests=contests,
+        ),
+    )
 
     with pytest.raises(RuntimeError, match="Forced downstream failure"):
         rp_module.run_pipeline()

@@ -21,9 +21,8 @@ from src.etl.optimizations import (
     check_data_skew,
     check_partition_skew,
 )
-from src.db.gold_storage import resolve_gold_dir
 from src.etl.player_cleaning import clean_player_name_native
-from src.etl.schemas import NCAA_PBP_SCHEMA, SILVER_PLAY_SCHEMA
+from src.etl.schemas import NCAA_CONTEST_SCHEMA, NCAA_PBP_SCHEMA, SILVER_PLAY_SCHEMA
 
 logger = logging.getLogger(__name__)
 
@@ -608,22 +607,57 @@ def extract_dimensions_from_pbp(pbp_df: DataFrame) -> Tuple[DataFrame, DataFrame
     return _latest_dimension_rows(dim_teams, "team_id"), _latest_dimension_rows(dim_contests, "contest_id")
 
 
+def extract_silver_contests_from_pbp(
+    pbp_df: DataFrame, snapshots: List[Tuple[int, str, Path]]
+) -> DataFrame:
+    """Keep one contest row and its team metadata from each selected snapshot."""
+    stamped = _with_snapshot_timestamps(pbp_df, snapshots)
+    return stamped.select(
+        F.col("contestId").alias("contest_id"),
+        F.col("_snapshot_timestamp").alias("ingest_timestamp"),
+        "title", "status",
+        F.transform("teams", lambda team: F.struct(
+            team["teamId"].cast("long").alias("team_id"),
+            team["nameShort"].alias("name_short"),
+            team["nameFull"].alias("name_full"),
+            team["name6Char"].alias("name_6char"),
+            team["seoname"].alias("seoname"),
+            team["color"].alias("color"),
+            team["isHome"].alias("is_home"),
+        )).alias("teams"),
+    )
+
+
+def process_bronze_to_silver_contests(
+    spark: SparkSession, snapshots: List[Tuple[int, str, Path]]
+) -> DataFrame:
+    """Parse only contest and team metadata for the Silver contest table."""
+    if not snapshots:
+        raise ValueError("No snapshots provided to process_bronze_to_silver_contests")
+    raw = spark.read.option("multiline", "true").schema(NCAA_CONTEST_SCHEMA).json([str(s[2]) for s in snapshots])
+    return extract_silver_contests_from_pbp(raw.select("data.playbyplay.*"), snapshots)
+
+
+def extract_dimensions_from_silver_contests(silver_contests: DataFrame) -> Tuple[DataFrame, DataFrame]:
+    """Build both Gold dimensions from the materialized Silver contest rows."""
+    dim_teams = silver_contests.select(
+        F.col("ingest_timestamp").alias("_source_timestamp"),
+        F.col("contest_id").alias("_source_contest"),
+        F.explode("teams").alias("team"),
+    ).select("_source_timestamp", "_source_contest", "team.*").drop("is_home")
+    dim_contests = silver_contests.select(
+        F.col("ingest_timestamp").alias("_source_timestamp"),
+        F.col("contest_id").alias("_source_contest"),
+        "contest_id", "title", "status",
+    )
+    return _latest_dimension_rows(dim_teams, "team_id"), _latest_dimension_rows(dim_contests, "contest_id")
+
+
 def _with_snapshot_timestamps(pbp_df: DataFrame, snapshots: List[Tuple[int, str, Path]]) -> DataFrame:
     timestamps = pbp_df.sparkSession.createDataFrame(
         [(int(cid), ts) for cid, ts, _ in snapshots], "_snapshot_contest long, _snapshot_timestamp string"
     )
     return pbp_df.join(F.broadcast(timestamps), pbp_df.contestId == timestamps._snapshot_contest, "left").drop("_snapshot_contest")
-
-
-def extract_dimensions_from_snapshots(spark: SparkSession, snapshots: List[Tuple[int, str, Path]]) -> Tuple[DataFrame, DataFrame]:
-    """Rebuild small dimensions from all current inputs, also after failed runs.
-
-    Silver timestamps are not a Gold commit marker: a prior run may have written
-    Silver and failed before publication. Always derive dimensions from Bronze.
-    """
-    raw = spark.read.option("multiline", "true").schema(NCAA_PBP_SCHEMA).json([str(s[2]) for s in snapshots])
-    pbp = _with_snapshot_timestamps(raw.select("data.playbyplay.*"), snapshots)
-    return extract_dimensions_from_pbp(pbp)
 
 
 def validate_dimension_keys(df: DataFrame, key: str) -> None:
@@ -1035,49 +1069,20 @@ def process_bronze_to_silver(
 def generate_gold_tables(
     spark: SparkSession,
     silver_df: DataFrame,
-    bronze_paths: Optional[List[Path]] = None,
-    dim_teams: Optional[DataFrame] = None,
-    dim_contests: Optional[DataFrame] = None,
+    dim_teams: DataFrame,
+    dim_contests: DataFrame,
+    *,
+    baseline_silver_df: Optional[DataFrame] = None,
+    aggregate_silver_df: Optional[DataFrame] = None,
 ) -> Dict[str, DataFrame]:
-    """
-    Generate Gold analytical datasets (Star Schema dimensions, facts, and team aggregates).
-    Accepts pre-extracted or incrementally cached dim_teams and dim_contests to eliminate
-    redundant multi-line raw Bronze JSON re-reading and re-parsing.
-    """
-    # Explicit Bronze inputs take precedence over any previously published data.
-    if (dim_teams is None or dim_contests is None) and bronze_paths:
-        raw = spark.read.option("multiline", "true").schema(NCAA_PBP_SCHEMA).json([str(p) for p in bronze_paths])
-        pbp = raw.select(
-            "data.playbyplay.*",
-            F.regexp_extract(F.input_file_name(), r"ingest_timestamp=([^/]+)\.json$", 1).alias("_snapshot_timestamp"),
-        )
-        extracted_teams, extracted_contests = extract_dimensions_from_pbp(pbp)
-        if dim_teams is None:
-            dim_teams = extracted_teams
-        if dim_contests is None:
-            dim_contests = extracted_contests
-
-    if dim_teams is None or dim_contests is None:
-        published = resolve_gold_dir(GOLD_DIR)
-        for name in ("dim_teams", "dim_contests"):
-            table_path = published / f"{name}.parquet"
-            if (name == "dim_teams" and dim_teams is None) or (name == "dim_contests" and dim_contests is None):
-                if any(table_path.glob("*.parquet")):
-                    if (table_path / "_delta_log").exists():
-                        loaded = spark.read.format("delta").load(str(table_path))
-                    else:
-                        loaded = spark.read.parquet(str(table_path))
-                    if name == "dim_teams":
-                        dim_teams = loaded
-                    else:
-                        dim_contests = loaded
-    if dim_teams is None or dim_contests is None:
-        raise ValueError("Dimensions must be supplied, extractable from Bronze, or present in published Gold")
+    """Generate Gold rows; optional inputs scope facts and aggregates independently."""
     validate_dimension_keys(dim_teams, "team_id")
     validate_dimension_keys(dim_contests, "contest_id")
 
-    # Calculate baseline retention rates by shot result across all non-goal shots in silver_df
-    shot_plays = silver_df.filter(F.col("event_type") == "SHOT")
+    # Rates remain global even when only a few contest rows are rebuilt.
+    baseline_silver_df = baseline_silver_df if baseline_silver_df is not None else silver_df
+    aggregate_silver_df = aggregate_silver_df if aggregate_silver_df is not None else silver_df
+    shot_plays = baseline_silver_df.filter(F.col("event_type") == "SHOT")
     stats = shot_plays.agg(
         F.count(F.lit(1)).alias("total"),
         F.count(F.when(F.col("shot_possession_retained") == True, 1)).alias("retained"),
@@ -1091,7 +1096,7 @@ def generate_gold_tables(
     )
 
     silver_annotated = (
-        silver_df.join(F.broadcast(baseline_rates_df), on="shot_result", how="left")
+        aggregate_silver_df.join(F.broadcast(baseline_rates_df), on="shot_result", how="left")
         .withColumn(
             "expected_shot_loss_prob",
             F.when(F.col("event_type") != "SHOT", F.lit(0.0))

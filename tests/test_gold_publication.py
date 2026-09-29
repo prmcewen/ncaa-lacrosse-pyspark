@@ -121,3 +121,47 @@ def test_legacy_layout_and_invalid_pointer(tmp_path):
     (tmp_path / "current.json").write_text('{"version": "../outside"}')
     with pytest.raises(ValueError, match="Invalid"):
         storage.resolve_gold_dir(tmp_path)
+
+
+def test_incremental_publication_reuses_unchanged_partitions(spark, tmp_path):
+    from src.db.gold_storage import GoldTableWrite
+
+    initial = _tables(spark, 1)
+    initial["fact_plays"] = spark.createDataFrame(
+        [("old-1", 1, 10), ("old-2", 2, 10)],
+        "play_id string, contest_id long, team_id long",
+    )
+    initial["agg_team_game_stats"] = spark.createDataFrame(
+        [(1, 10, "T", 1), (2, 10, "T", 2)],
+        "contest_id long, team_id long, team_short string, goals long",
+    )
+    first = storage.publish_gold_tables({
+        **initial,
+        "fact_plays": GoldTableWrite(initial["fact_plays"], partition_by="contest_id"),
+        "agg_team_game_stats": GoldTableWrite(initial["agg_team_game_stats"], partition_by="contest_id"),
+    }, tmp_path)
+
+    fact_update = spark.createDataFrame([("new-1", 1, 10)], initial["fact_plays"].schema)
+    agg_update = spark.createDataFrame([(1, 10, "T", 3)], initial["agg_team_game_stats"].schema)
+    second = storage.publish_gold_tables({
+        "dim_teams": GoldTableWrite(initial["dim_teams"], previous=first / "dim_teams.parquet"),
+        "dim_contests": GoldTableWrite(initial["dim_contests"], previous=first / "dim_contests.parquet"),
+        "fact_plays": GoldTableWrite(
+            fact_update.unionByName(initial["fact_plays"].filter("contest_id = 2")),
+            previous=first / "fact_plays.parquet", updates=fact_update,
+            contests={1}, partition_by="contest_id",
+        ),
+        "agg_team_game_stats": GoldTableWrite(
+            agg_update.unionByName(initial["agg_team_game_stats"].filter("contest_id = 2")),
+            previous=first / "agg_team_game_stats.parquet", updates=agg_update,
+            contests={1}, partition_by="contest_id",
+        ),
+    }, tmp_path)
+
+    old_fact = spark.read.format("delta").load(str(first / "fact_plays.parquet"))
+    new_fact = spark.read.format("delta").load(str(second / "fact_plays.parquet"))
+    assert {r.play_id for r in old_fact.collect()} == {"old-1", "old-2"}
+    assert {r.play_id for r in new_fact.collect()} == {"new-1", "old-2"}
+    old_file = next((first / "fact_plays.parquet" / "contest_id=2").glob("*.parquet"))
+    new_file = next((second / "fact_plays.parquet" / "contest_id=2").glob("*.parquet"))
+    assert old_file.stat().st_ino == new_file.stat().st_ino

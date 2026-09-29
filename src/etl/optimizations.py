@@ -1,4 +1,5 @@
 import logging
+import math
 import shutil
 import time
 from pathlib import Path
@@ -13,10 +14,7 @@ logger = logging.getLogger(__name__)
 
 
 class DataSkewError(ValueError):
-    """
-    Raised when data distribution across partition keys or physical partitions
-    exceeds configured skew thresholds.
-    """
+    """Raised when work is unevenly distributed across Spark task partitions."""
 
     def __init__(self, message: str, metrics: Optional[Dict[str, Any]] = None):
         super().__init__(message)
@@ -32,33 +30,14 @@ def check_data_skew(
     raise_on_skew: bool = True,
     allow_empty: bool = True,
 ) -> Dict[str, Any]:
-    """
-    Test a DataFrame for potential partition data skew before partitioning or downstream stages.
+    """Check row-count skew across physical Spark task partitions.
 
-    Evaluates the record distribution across partition columns (or physical Spark partitions
-    if partition_cols is None). Computes summary statistics including min, max, average,
-    standard deviation, max-to-average skew ratio, and Fisher-Pearson skewness.
-
-    If skew exceeds any configured threshold (max_skew_ratio, max_absolute_rows, or max_skewness),
-    it logs actionable diagnostics including top skewed partition keys and raises DataSkewError
-    (or flags is_skewed=True when raise_on_skew is False).
-
-    Args:
-        df: The PySpark DataFrame to analyze.
-        partition_cols: Column name or list of column names used as partition keys.
-                        If None, evaluates distribution across physical partitions.
-        max_skew_ratio: Maximum acceptable ratio of max_partition_rows / avg_partition_rows.
-                        Defaults to 2.5 (lacrosse game plays typically have ~1.15 ratio).
-        max_absolute_rows: Optional upper bound on row count for any single partition.
-        max_skewness: Optional maximum allowable Fisher-Pearson standardized skewness coefficient.
-        raise_on_skew: Whether to raise DataSkewError if skew thresholds are violated.
-        allow_empty: Whether an empty DataFrame is acceptable without error.
-
-    Returns:
-        Dict containing partition distribution metrics and skew assessment.
-
-    Raises:
-        DataSkewError: If skew metrics violate the configured thresholds and raise_on_skew is True.
+    When partition_cols is supplied, hash repartition by those keys first to
+    model the distribution of a keyed shuffle. Otherwise inspect the current
+    DataFrame partitions. Empty partitions are reported separately; skew
+    statistics use tasks with rows, so tiny low-cardinality inputs do not
+    appear skewed solely because they cannot use every task. Only one
+    count per task is collected on the driver.
     """
     if isinstance(partition_cols, str):
         cols_list = [partition_cols]
@@ -67,57 +46,55 @@ def check_data_skew(
     else:
         cols_list = None
 
-    if cols_list:
-        counts_df = df.groupBy(*cols_list).agg(F.count(F.lit(1)).alias("row_count"))
-        partition_label = f"partition columns {cols_list}"
-    else:
-        counts_df = df.groupBy(F.spark_partition_id().alias("partition_id")).agg(
-            F.count(F.lit(1)).alias("row_count")
-        )
-        partition_label = "physical partitions"
-
-    summary_row = counts_df.select(
-        F.count(F.lit(1)).alias("num_partitions"),
-        F.coalesce(F.sum("row_count"), F.lit(0)).alias("total_rows"),
-        F.coalesce(F.min("row_count"), F.lit(0)).alias("min_rows"),
-        F.coalesce(F.max("row_count"), F.lit(0)).alias("max_rows"),
-        F.coalesce(F.avg("row_count"), F.lit(0.0)).alias("avg_rows"),
-        F.stddev("row_count").alias("stddev_rows"),
-        F.skewness("row_count").alias("skewness"),
-    ).collect()[0]
-
-    num_partitions = int(summary_row["num_partitions"]) if summary_row["num_partitions"] is not None else 0
-    total_rows = int(summary_row["total_rows"]) if summary_row["total_rows"] is not None else 0
-    min_rows = int(summary_row["min_rows"]) if summary_row["min_rows"] is not None else 0
-    max_rows = int(summary_row["max_rows"]) if summary_row["max_rows"] is not None else 0
-    avg_rows = float(summary_row["avg_rows"]) if summary_row["avg_rows"] is not None else 0.0
-    stddev_rows = float(summary_row["stddev_rows"]) if summary_row["stddev_rows"] is not None else 0.0
-    skewness = float(summary_row["skewness"]) if summary_row["skewness"] is not None else None
-
-    skew_ratio = (max_rows / avg_rows) if avg_rows > 0 else 1.0
-
-    if num_partitions == 0:
+    # An explicit partition count keeps AQE from coalescing the diagnostic
+    # shuffle to one task before its distribution can be measured.
+    shuffle_partitions = int(df.sparkSession.conf.get("spark.sql.shuffle.partitions")) if cols_list else None
+    checked_df = df.repartition(shuffle_partitions, *cols_list) if cols_list else df
+    label = (
+        f"physical partitions after hash repartition by {cols_list}"
+        if cols_list else "physical partitions"
+    )
+    # Keep all columns so Catalyst cannot prune transformations whose output
+    # does not affect a constant projection. Only counts reach the driver.
+    partition_counts = checked_df.rdd.mapPartitionsWithIndex(
+        lambda partition_id, rows: [(partition_id, sum(1 for _ in rows))]
+    ).collect()
+    counts = [count for _, count in partition_counts]
+    num_partitions = len(counts)
+    active_counts = [n for n in counts if n > 0]
+    num_active_partitions = len(active_counts)
+    total_rows = sum(counts)
+    min_rows = min(active_counts, default=0)
+    max_rows = max(active_counts, default=0)
+    avg_rows = total_rows / num_active_partitions if num_active_partitions else 0.0
+    variance = (
+        sum((n - avg_rows) ** 2 for n in active_counts) / num_active_partitions
+        if num_active_partitions else 0.0
+    )
+    stddev_rows = math.sqrt(variance)
+    skewness = (
+        sum((n - avg_rows) ** 3 for n in active_counts)
+        / num_active_partitions / stddev_rows ** 3
+        if num_active_partitions > 1 and stddev_rows > 0 else None
+    )
+    skew_ratio = max_rows / avg_rows if avg_rows else 1.0
+    if total_rows == 0:
         if not allow_empty:
-            msg = f"Empty DataFrame encountered during skew check for {partition_label}."
+            msg = f"Empty DataFrame encountered during skew check for {label}."
             if raise_on_skew:
-                raise DataSkewError(msg, metrics={"num_partitions": 0, "total_rows": 0})
+                raise DataSkewError(msg, metrics={"num_partitions": num_partitions, "total_rows": 0})
             logger.warning(msg)
         return {
-            "partition_cols": cols_list,
-            "num_partitions": 0,
-            "total_rows": 0,
-            "min_rows": 0,
-            "max_rows": 0,
-            "avg_rows": 0.0,
-            "stddev_rows": 0.0,
-            "skewness": None,
-            "skew_ratio": 1.0,
-            "is_skewed": False,
-            "violations": [],
+            "partition_cols": cols_list, "num_partitions": num_partitions,
+            "num_active_partitions": 0,
+            "num_empty_partitions": num_partitions, "total_rows": 0,
+            "min_rows": 0, "max_rows": 0, "avg_rows": 0.0,
+            "stddev_rows": 0.0, "skewness": None, "skew_ratio": 1.0,
+            "is_skewed": False, "violations": [],
         }
 
     violations: List[str] = []
-    if num_partitions > 1 and skew_ratio > max_skew_ratio:
+    if num_active_partitions > 1 and skew_ratio > max_skew_ratio:
         violations.append(
             f"Skew ratio {skew_ratio:.2f} exceeds maximum allowed ratio of {max_skew_ratio:.2f}"
         )
@@ -129,30 +106,25 @@ def check_data_skew(
         violations.append(
             f"Fisher-Pearson skewness {skewness:.2f} exceeds maximum allowed skewness of {max_skewness:.2f}"
         )
-
-    is_skewed = len(violations) > 0
     metrics: Dict[str, Any] = {
-        "partition_cols": cols_list,
-        "num_partitions": num_partitions,
-        "total_rows": total_rows,
-        "min_rows": min_rows,
-        "max_rows": max_rows,
-        "avg_rows": avg_rows,
-        "stddev_rows": stddev_rows,
-        "skewness": skewness,
-        "skew_ratio": skew_ratio,
-        "is_skewed": is_skewed,
-        "violations": violations,
+        "partition_cols": cols_list, "num_partitions": num_partitions,
+        "num_active_partitions": num_active_partitions,
+        "num_empty_partitions": num_partitions - num_active_partitions,
+        "total_rows": total_rows, "min_rows": min_rows, "max_rows": max_rows,
+        "avg_rows": avg_rows, "stddev_rows": stddev_rows,
+        "skewness": skewness, "skew_ratio": skew_ratio,
+        "is_skewed": bool(violations), "violations": violations,
     }
-
-    if is_skewed:
-        top_partitions = counts_df.orderBy(F.desc("row_count")).limit(5).collect()
-        top_partitions_str = "\n".join(f"  - {row.asDict()}" for row in top_partitions)
+    if violations:
+        top = sorted(partition_counts, key=lambda pair: pair[1], reverse=True)[:5]
+        top_text = "\n".join(f"  - partition_id={i}, row_count={n}" for i, n in top)
         msg = (
-            f"Data skew detected for {partition_label}!\n"
-            f"Violations:\n" + "\n".join(f"  * {v}" for v in violations) + "\n"
-            f"Partition Distribution Summary:\n"
+            f"Data skew detected for {label}!\n"
+            "Violations:\n" + "\n".join(f"  * {v}" for v in violations) + "\n"
+            "Partition Distribution Summary:\n"
             f"  - Total partitions: {num_partitions}\n"
+            f"  - Active partitions: {num_active_partitions}\n"
+            f"  - Empty partitions: {metrics['num_empty_partitions']}\n"
             f"  - Total rows: {total_rows}\n"
             f"  - Min rows: {min_rows}\n"
             f"  - Max rows: {max_rows}\n"
@@ -160,21 +132,19 @@ def check_data_skew(
             f"  - Stddev: {stddev_rows:.2f}\n"
             f"  - Skew ratio (max/avg): {skew_ratio:.2f}\n"
             f"  - Fisher-Pearson skewness: {f'{skewness:.2f}' if skewness is not None else 'N/A'}\n"
-            f"Top 5 largest partitions:\n{top_partitions_str}"
+            f"Top 5 largest physical partitions:\n{top_text}"
         )
         if raise_on_skew:
             logger.error(msg)
             raise DataSkewError(msg, metrics=metrics)
-        else:
-            logger.warning(msg)
+        logger.warning(msg)
     else:
         logger.info(
-            f"Data skew check PASSED for {partition_label}: "
-            f"skew_ratio={skew_ratio:.2f} <= {max_skew_ratio:.2f}, "
-            f"partitions={num_partitions}, total_rows={total_rows}, "
-            f"min={min_rows}, max={max_rows}, avg={avg_rows:.2f}"
+            "Data skew check PASSED for %s: skew_ratio=%.2f <= %.2f, "
+            "partitions=%s, empty=%s, total_rows=%s, min=%s, max=%s, avg=%.2f",
+            label, skew_ratio, max_skew_ratio, num_partitions,
+            metrics["num_empty_partitions"], total_rows, min_rows, max_rows, avg_rows,
         )
-
     return metrics
 
 
@@ -265,8 +235,8 @@ def save_partitioned_parquet(
     - If `post_write_skew` is explicitly set to True/False, forces post-write or pre-write
       skew validation respectively.
 
-    Uses Snappy compression for high throughput and reduced disk footprint, and explicitly
-    repartitions by partition columns to prevent fragmented small files.
+    Uses the configured shuffle partition count for the keyed write, matching
+    the distribution measured by the skew check.
 
     Args:
         df: Input PySpark DataFrame to persist.
@@ -274,8 +244,8 @@ def save_partitioned_parquet(
         partition_cols: Column name or list of column names used as partition keys.
         mode: Spark write mode (e.g. 'overwrite', 'append'). Defaults to 'overwrite'.
         check_skew: Whether to perform partition skew validation.
-        max_skew_ratio: Maximum allowed ratio of max_partition_rows / avg_partition_rows.
-        max_absolute_rows: Optional maximum row count allowed in any single partition.
+        max_skew_ratio: Maximum physical task rows divided by average task rows.
+        max_absolute_rows: Optional maximum row count in a physical task partition.
         max_skewness: Optional maximum allowed Fisher-Pearson standardized skewness.
         post_write_skew: If True, forces skew verification on persisted files post-write.
                          If False, only executes pre-write if cached.
@@ -342,12 +312,14 @@ def save_partitioned_parquet(
 
     output_path.parent.mkdir(parents=True, exist_ok=True)
     logger.info(f"Writing partitioned Parquet to {output_path} (mode={mode}, partitions: {cols_list})...")
-    write_df = df.repartition(*cols_list) if cols_list else df
+    write_df = (
+        df.repartition(int(df.sparkSession.conf.get("spark.sql.shuffle.partitions")), *cols_list)
+        if cols_list else df
+    )
     (
         write_df.write
         .mode(mode)
         .partitionBy(*cols_list)
-        .option("compression", "snappy")
         .parquet(str(output_path))
     )
     logger.info(f"Partitioned Parquet successfully written to {output_path}")

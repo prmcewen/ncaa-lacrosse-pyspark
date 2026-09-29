@@ -12,11 +12,13 @@ NCAA API / sdataprod
   v
 Bronze JSON snapshots + ingest_manifest.jsonl
   |
-  +--> changed snapshots --> PySpark --> Silver Delta Lake table, partitioned by contest_id
+  +--> changed snapshots --> PySpark --> Silver plays, partitioned by contest_id
   |
-  +--> current snapshots --> latest metadata per dimension key
+  +--> changed metadata snapshots --> Silver contests, partitioned by contest_id
                                       |
-Silver + dimensions ------------------+
+                  Silver contests --> Gold team and contest dimensions
+                  Silver plays ------> Gold facts and aggregates
+                                      |
                                       v
                      Gold Delta tables in a new version directory
                                       |
@@ -30,8 +32,9 @@ Silver + dimensions ------------------+
 | Layer | Location | Behavior |
 | --- | --- | --- |
 | Bronze | `data/bronze/contest_id=<id>/ingest_timestamp=<timestamp>.json` | Canonical SHA-256 comparison skips unchanged payloads; changed payloads append a manifest record. |
-| Silver | `data/silver/silver_plays.parquet/` | Delta Lake format (partitioned by `contest_id`); incremental processing updates changed contest partitions with transaction log tracking. Features 34 approved columns covering chronology, event classification, player attribution, and windowed game state. |
-| Gold | `data/gold/versions/<version>/<table>.parquet/` | All four tables are materialized as Delta Lake tables (Parquet data files + `_delta_log/` transaction logs) before publication. |
+| Silver plays | `data/silver/silver_plays.parquet/` | Delta Lake format (partitioned by `contest_id`); incremental processing updates changed contest partitions. Features 34 approved play columns. |
+| Silver contests | `data/silver/silver_contests.parquet/` | One row per selected contest snapshot, including contest metadata and a nested team array. Changed contest partitions are replaced independently of Silver plays. |
+| Gold | `data/gold/versions/<version>/<table>.parquet/` | Complete immutable generations; fact and aggregate Delta tables are partitioned by `contest_id` for incremental replacement. |
 | Publication pointer | `data/gold/current.json` | Names the complete Gold version used by new readers. |
 
 Gold contains `dim_teams`, `dim_contests`, `fact_plays`, and `agg_team_game_stats`. Dimensions have one row per team or contest key. `fact_plays` enriches the 34 Silver play columns with team color and full name. The aggregate table groups by `(contest_id, team_id, event_team_short)`, renaming the short-code column to `team_short`; multiple aliases within one contest can therefore produce separate aggregate rows. Alongside advanced shooting efficiency, it aggregates game-level totals for saves faced, ground balls, turnovers, successful and failed clears, and penalty minutes.
@@ -49,7 +52,7 @@ uv run python -m src.ingestion.ingest --contest-id 6599996
 # Skips storage only if the newly fetched payload has the same hash
 uv run python -m src.ingestion.ingest --contest-id 6599996
 
-# Update changed Silver partitions; rebuild dimensions and all Gold tables
+# Update changed Silver and Gold contest partitions
 uv run python -m src.etl.run_pipeline
 
 # Rebuild all Silver partitions as well
@@ -58,7 +61,7 @@ uv run python -m src.etl.run_pipeline --full-refresh
 uv run uvicorn src.api.main:app --port 8000 --reload
 ```
 
-Use `--full-refresh` after changing Silver transformation logic. Incremental detection compares `(contest_id, ingest_timestamp)` against existing Silver rows; it does not detect code changes. Dimensions are rebuilt from all selected Bronze snapshots on each run, including when Silver is already current.
+Use `--full-refresh` after changing Silver or Gold transformation logic. Each Silver table independently compares `(contest_id, ingest_timestamp)` with selected Bronze snapshots; this does not detect code changes. A missing Silver contests table is backfilled on the next run. Gold dimensions are compared with the published version. An unchanged run skips Gold publication; changed contests update only their Gold facts and aggregates. Team metadata corrections refresh facts for every affected team. Changes to the global shot-retention profile refresh all aggregate rows so normalized metrics stay consistent.
 
 - [REST documentation](http://localhost:8000/docs)
 - [GraphQL interface](http://localhost:8000/graphql)
@@ -80,7 +83,7 @@ Regression coverage includes faceoff attribution, concurrent queries, determinis
 
 Ingestion performs basic structural checks for `data.playbyplay`, `periods`, and `teams`. Snapshot timestamps use UTC seconds (`YYYYMMDDTHHMMSSZ`). Two changed payloads for the same contest in the same second can overwrite the same file; Bronze is not an immutable or tamper-proof audit store. Snapshot selection takes the last stored manifest entry with an existing file for each contest, in manifest order, without rechecking its hash. See [ADR-001](docs/adr/ADR-001-medallion-storage-and-audit-trail.md) for the exact guarantees and limitations.
 
-A successful pipeline run stages all four Gold tables, checks their written column names and reads a row where available, syncs files/directories, and atomically replaces `current.json`. Writes or validation failures before publication leave the previous version available. This publication boundary covers Gold; Silver remains an independently updated working dataset.
+A successful pipeline run stages all four Gold tables, reusing unchanged files and replacing affected Delta partitions where possible, checks their written column names and reads a row where available, syncs files/directories, and atomically replaces `current.json`. Writes or validation failures before publication leave the previous version available. This publication boundary covers Gold; Silver remains an independently updated working dataset.
 
 Each REST or GraphQL request creates a DuckDB client that resolves the pointer once and reads that Gold version for the entire request. Queries use separate cursors, closed after fetching, and the client closes when the request finishes. API clients do not read mutable Silver. A standalone `DuckDBClient` also pins Gold at construction, but exposes Silver by default; use `include_silver=False` for a Gold-only reader and create a new client to see a later publication.
 

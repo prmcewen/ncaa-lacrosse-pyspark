@@ -52,26 +52,39 @@ if _discovered_java_home:
 
 
 def get_spark_session(app_name: str = "NCAA-Lacrosse-ETL") -> SparkSession:
-    """Build and return an optimized local SparkSession with Delta Lake support and clean logging."""
+    """Build and return an optimized local SparkSession with Delta Lake support."""
     builder = (
         SparkSession.builder
         .master("local[*]")
         .appName(app_name)
-        .config("spark.sql.shuffle.partitions", "4")
-        .config("spark.default.parallelism", "4")
+        # --- Memory: Utilize half of your 32 GiB RAM ---
+        .config("spark.driver.memory", "16g")
+        .config("spark.driver.maxResultSize", "4g")
+        
+        # --- CPU & Partitions: Match your 16 CPU threads ---
+        .config("spark.default.parallelism", "16")
+        .config("spark.sql.shuffle.partitions", "32")  # 1x to 2x thread count
+        
+        # --- Adaptive Query Execution (AQE) ---
+        # Automatically coalesces tiny partitions on small runs,
+        # but dynamically splits or handles skew on large datasets
+        .config("spark.sql.adaptive.enabled", "true")
+        .config("spark.sql.adaptive.coalescePartitions.enabled", "true")
+        .config("spark.sql.adaptive.skewJoin.enabled", "true")
+        .config("spark.sql.adaptive.advisoryPartitionSizeInBytes", "134217728")  # 128 MB target
+        
+        # --- PyArrow & Clean Logs ---
         .config("spark.sql.execution.arrow.pyspark.enabled", "true")
         .config("spark.executorEnv.PYTHONWARNINGS", "ignore::UserWarning:pyspark.sql.udf")
-        .config("spark.driver.memory", "4g")
-        .config("spark.ui.enabled", "false")
-        .config("spark.ui.showConsoleProgress", "false")
-        .config("spark.sql.adaptive.enabled", "true")
-        .config("spark.sql.codegen.wholeStage", "true")
+        .config("spark.ui.enabled", "true")
+        .config("spark.ui.showConsoleProgress", "true")
         .config("spark.sql.debug.maxToStringFields", "200")
-        .config("spark.sql.parquet.compression.codec", "snappy")
+        
+        # --- Delta Lake ---
         .config("spark.sql.extensions", "io.delta.sql.DeltaSparkSessionExtension")
         .config("spark.sql.catalog.spark_catalog", "org.apache.spark.sql.delta.catalog.DeltaCatalog")
     )
     spark = configure_spark_with_delta_pip(builder).getOrCreate()
-
     spark.sparkContext.setLogLevel("ERROR")
     return spark
+
