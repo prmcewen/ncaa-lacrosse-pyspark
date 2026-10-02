@@ -15,3 +15,6 @@ wheels/
 # Generated data directories (Delta Lake & Parquet layers)
 data/silver/
 data/gold/
+
+# Local load-test outputs
+benchmarks/output/

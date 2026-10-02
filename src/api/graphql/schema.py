@@ -1,5 +1,6 @@
 from typing import List, Optional
 import strawberry
+from pydantic import ValidationError
 from strawberry.types import Info
 from src.api.schemas import (
     TeamStatsResponse,
@@ -8,6 +9,13 @@ from src.api.schemas import (
     PlayFilterSchema,
 )
 
+
+def _validation_message(exc: ValidationError) -> str:
+    parts = []
+    for err in exc.errors():
+        loc = ".".join(str(p) for p in err["loc"]) or "input"
+        parts.append(f"{loc}: {err['msg']}")
+    return "; ".join(parts)
 
 
 @strawberry.experimental.pydantic.type(model=TeamStatsResponse, all_fields=True)
@@ -81,8 +89,6 @@ class Query:
         limit: Optional[int] = None,
         offset: Optional[int] = None,
     ) -> List[Play]:
-        params = filter.to_pydantic() if filter else PlayFilterSchema()
-
         direct_args = {
             "contest_id": contest_id,
             "event_type": event_type,
@@ -111,8 +117,18 @@ class Query:
             "offset": offset,
         }
         overrides = {k: v for k, v in direct_args.items() if v is not None}
-        if overrides:
-            params = params.model_copy(update=overrides)
+        # model_copy(update=...) skips validation in Pydantic v2, so direct
+        # arguments must be re-validated after merging or they bypass the
+        # ge/le constraints that REST enforces on the same parameters.
+        try:
+            base_params = filter.to_pydantic() if filter else PlayFilterSchema()
+            params = PlayFilterSchema.model_validate(
+                {**base_params.model_dump(), **overrides}
+            )
+        except ValidationError as exc:
+            raise ValueError(
+                f"Invalid plays arguments: {_validation_message(exc)}"
+            ) from exc
 
         raw_plays = info.context["db"].get_plays(**params.model_dump())
         return [Play.from_pydantic(PlayResponse.model_validate(p)) for p in raw_plays]

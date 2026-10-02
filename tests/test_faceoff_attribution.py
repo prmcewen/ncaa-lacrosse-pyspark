@@ -1,10 +1,7 @@
 import json
 
-from pyspark.sql import functions as F
-
 from src.etl.transform import (
     get_latest_valid_snapshots,
-    parse_play_details_native,
     process_bronze_to_silver,
 )
 
@@ -80,20 +77,21 @@ def test_faceoff_can_resolve_from_one_participant_and_embedded_evidence(spark, t
     assert (rows[1].faceoff_winner_player, rows[1].faceoff_loser_player) == ("Alex Adams", "Unknown Two")
 
 
-def test_single_play_parser_does_not_assume_home_player_first(spark):
+def test_batch_parser_resolves_faceoff_participants_in_either_order(spark, tmp_path):
     texts = [
         "Faceoff Cal Girard vs McMeekin, Andrew won by PU, Ground ball pickup by PU McMeekin, Andrew.",
         "Faceoff McMeekin, Andrew vs Cal Girard won by PU, Ground ball pickup by PU McMeekin, Andrew.",
         "Faceoff Cal Girard vs McMeekin, Andrew won by PU (on faceoff violation).",
     ]
-    rows = (spark.createDataFrame([(t,) for t in texts], ["text"])
-            .select(parse_play_details_native(F.col("text"), F.lit(None).cast("long"),
-                    43731, 43861, "PU", "ND", "PU", "ND").alias("details"))
-            .select("details.faceoff_winner_player", "details.faceoff_loser_player").collect())
-    assert [(r[0], r[1]) for r in rows] == [
-        ("Andrew McMeekin", "Cal Girard"), ("Andrew McMeekin", "Cal Girard"), (None, None),
+    snapshots = [
+        _snapshot(tmp_path, 102, texts[:2]),
+        _snapshot(tmp_path, 103, texts[2:]),
     ]
-
+    rows = process_bronze_to_silver(spark, snapshots).filter("event_type = 'FACEOFF'").collect()
+    assert len(rows) == 3
+    for row in rows:
+        expected = ("Andrew McMeekin", "Cal Girard") if row.contest_id == 102 else (None, None)
+        assert (row.faceoff_winner_player, row.faceoff_loser_player) == expected
 
 def test_real_contest_faceoff_regression(spark):
     snapshot = next(s for s in get_latest_valid_snapshots() if s[0] == 6599994)

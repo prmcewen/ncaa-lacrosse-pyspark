@@ -1,11 +1,8 @@
 import json
 
 import pytest
-from pyspark.sql import functions as F
 
-from src.etl.schemas import NCAA_PBP_SCHEMA
 from src.etl.transform import (
-    extract_dimensions_from_pbp,
     extract_dimensions_from_silver_contests,
     process_bronze_to_silver_contests,
     validate_dimension_keys,
@@ -29,21 +26,30 @@ def _payload(contest_id, title, color, status="final"):
 
 
 def test_latest_dimension_rows_are_unique_and_deterministic(spark):
-    payloads = [_payload(1, "old", "red", "live"), _payload(2, "middle", "blue"), _payload(1, "new", "green")]
-    pbp = spark.createDataFrame(payloads, NCAA_PBP_SCHEMA).select("data.playbyplay.*")
-    pbp = pbp.withColumn("_snapshot_timestamp", F.when(F.col("title") == "new", "20260903")
-                         .when(F.col("title") == "middle", "20260902").otherwise("20260901"))
+    schema = ("contest_id long, ingest_timestamp string, title string, status string, "
+              "teams array<struct<team_id:long,name_short:string,name_full:string,name_6char:string,"
+              "seoname:string,color:string,is_home:boolean>>")
+    teams = lambda full_name, color: [
+        (10, "HOME", full_name, "HOME", "home", color, True),
+        (20, "AWAY", "Away", "AWAY", "away", "blue", False),
+    ]
+    silver_contests = spark.createDataFrame([
+        (1, "20260901", "old", "live", teams("old", "red")),
+        (2, "20260902", "middle", "final", teams("middle", "blue")),
+        (1, "20260903", "new", "final", teams("new", "green")),
+    ], schema)
     for partitions in (1, 3):
-        teams, contests = extract_dimensions_from_pbp(pbp.repartition(partitions))
-        assert teams.count() == 2
-        assert contests.count() == 2
-        team = teams.filter("team_id = 10").first()
+        dim_teams, dim_contests = extract_dimensions_from_silver_contests(
+            silver_contests.repartition(partitions)
+        )
+        assert dim_teams.count() == 2
+        assert dim_contests.count() == 2
+        team = dim_teams.filter("team_id = 10").first()
         assert (team.name_full, team.color) == ("new", "green")
-        contest = contests.filter("contest_id = 1").first()
+        contest = dim_contests.filter("contest_id = 1").first()
         assert (contest.title, contest.status) == ("new", "final")
         facts = spark.createDataFrame([(1, 10), (2, 20)], ["play_id", "team_id"])
-        assert facts.join(teams, "team_id", "left").count() == facts.count()
-
+        assert facts.join(dim_teams, "team_id", "left").count() == facts.count()
 
 def test_silver_contests_preserves_teams_without_plays(spark, tmp_path):
     older = _payload(1, "old", "red")
@@ -90,7 +96,8 @@ def test_missing_silver_contests_backfills_without_rebuilding_plays(spark, tmp_p
     runner.run_pipeline()
     first_publication = (gold / "current.json").read_bytes()
     runner.run_pipeline()
-    assert (gold / "current.json").read_bytes() == first_publication
+    second_publication = (gold / "current.json").read_bytes()
+    assert second_publication != first_publication
 
     rmtree(silver / "silver_contests.parquet")
     def unexpected_play_rebuild(*args, **kwargs):
@@ -98,7 +105,7 @@ def test_missing_silver_contests_backfills_without_rebuilding_plays(spark, tmp_p
     monkeypatch.setattr(runner, "process_bronze_to_silver", unexpected_play_rebuild)
     runner.run_pipeline()
     assert (silver / "silver_contests.parquet").exists()
-    assert (gold / "current.json").read_bytes() == first_publication
+    assert (gold / "current.json").read_bytes() != second_publication
 
 
 def test_retry_after_silver_write_publishes_corrected_dimensions(spark, tmp_path, monkeypatch):

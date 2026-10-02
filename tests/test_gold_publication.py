@@ -69,14 +69,14 @@ def test_failed_publication_preserves_previous_generation(spark, tmp_path, monke
                     raise RuntimeError("injected write failure")
             tables["fact_plays"] = FailingFrame()
         else:
-            def fail_replace(*args):
+            def fail_replace(*args, **kwargs):
                 raise RuntimeError("injected pointer failure")
             faults.setattr(storage.os, "replace", fail_replace)
         with pytest.raises(RuntimeError, match="injected"):
             storage.publish_gold_tables(tables, tmp_path)
     assert storage.resolve_gold_dir(tmp_path) == old
     assert (tmp_path / "current.json").read_bytes() == previous_pointer
-    assert all(any((old / f"{name}.parquet").glob("*.parquet")) for name in storage.GOLD_TABLES)
+    assert all(any((old / f"{name}.parquet").rglob("*.parquet")) for name in storage.GOLD_TABLES)
     assert not list((tmp_path / "versions").glob(".staging-*"))
     current = storage.publish_gold_tables(_tables(spark, 3), tmp_path)
     assert storage.resolve_gold_dir(tmp_path) == current
@@ -123,45 +123,15 @@ def test_legacy_layout_and_invalid_pointer(tmp_path):
         storage.resolve_gold_dir(tmp_path)
 
 
-def test_incremental_publication_reuses_unchanged_partitions(spark, tmp_path):
-    from src.db.gold_storage import GoldTableWrite
+def test_write_full_table_fails_without_parquet_fallback(spark, tmp_path):
+    from unittest.mock import MagicMock
+    from src.db.gold_storage import _write_full_table
 
-    initial = _tables(spark, 1)
-    initial["fact_plays"] = spark.createDataFrame(
-        [("old-1", 1, 10), ("old-2", 2, 10)],
-        "play_id string, contest_id long, team_id long",
-    )
-    initial["agg_team_game_stats"] = spark.createDataFrame(
-        [(1, 10, "T", 1), (2, 10, "T", 2)],
-        "contest_id long, team_id long, team_short string, goals long",
-    )
-    first = storage.publish_gold_tables({
-        **initial,
-        "fact_plays": GoldTableWrite(initial["fact_plays"], partition_by="contest_id"),
-        "agg_team_game_stats": GoldTableWrite(initial["agg_team_game_stats"], partition_by="contest_id"),
-    }, tmp_path)
+    gold_out = tmp_path / "gold_fail.parquet"
+    mock_df = MagicMock()
+    mock_df.write.format.return_value.save.side_effect = RuntimeError("Delta Gold write simulation failure")
 
-    fact_update = spark.createDataFrame([("new-1", 1, 10)], initial["fact_plays"].schema)
-    agg_update = spark.createDataFrame([(1, 10, "T", 3)], initial["agg_team_game_stats"].schema)
-    second = storage.publish_gold_tables({
-        "dim_teams": GoldTableWrite(initial["dim_teams"], previous=first / "dim_teams.parquet"),
-        "dim_contests": GoldTableWrite(initial["dim_contests"], previous=first / "dim_contests.parquet"),
-        "fact_plays": GoldTableWrite(
-            fact_update.unionByName(initial["fact_plays"].filter("contest_id = 2")),
-            previous=first / "fact_plays.parquet", updates=fact_update,
-            contests={1}, partition_by="contest_id",
-        ),
-        "agg_team_game_stats": GoldTableWrite(
-            agg_update.unionByName(initial["agg_team_game_stats"].filter("contest_id = 2")),
-            previous=first / "agg_team_game_stats.parquet", updates=agg_update,
-            contests={1}, partition_by="contest_id",
-        ),
-    }, tmp_path)
+    with pytest.raises(RuntimeError, match="Delta Gold write simulation failure"):
+        _write_full_table(mock_df, gold_out, partition_by=None)
 
-    old_fact = spark.read.format("delta").load(str(first / "fact_plays.parquet"))
-    new_fact = spark.read.format("delta").load(str(second / "fact_plays.parquet"))
-    assert {r.play_id for r in old_fact.collect()} == {"old-1", "old-2"}
-    assert {r.play_id for r in new_fact.collect()} == {"new-1", "old-2"}
-    old_file = next((first / "fact_plays.parquet" / "contest_id=2").glob("*.parquet"))
-    new_file = next((second / "fact_plays.parquet" / "contest_id=2").glob("*.parquet"))
-    assert old_file.stat().st_ino == new_file.stat().st_ino
+    assert not list(gold_out.glob("*.parquet"))

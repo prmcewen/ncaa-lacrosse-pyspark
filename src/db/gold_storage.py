@@ -3,7 +3,6 @@
 Old generations are deliberately retained: in-flight readers may still use them.
 The legacy flat layout remains readable until the first versioned publication.
 """
-from dataclasses import dataclass
 import json
 import os
 from pathlib import Path
@@ -13,17 +12,6 @@ from typing import Any, Mapping, Optional
 from uuid import uuid4
 
 GOLD_TABLES = ("dim_teams", "dim_contests", "fact_plays", "agg_team_game_stats")
-
-
-@dataclass
-class GoldTableWrite:
-    """A complete table plus optional rows to replace in a prior Gold version."""
-
-    full: Any
-    previous: Optional[Path] = None
-    updates: Optional[Any] = None
-    contests: Optional[set[int]] = None
-    partition_by: Optional[str] = None
 
 
 def resolve_gold_dir(root: Path) -> Path:
@@ -62,55 +50,11 @@ def _sync_tree(root: Path) -> None:
         _fsync_directory(Path(directory))
 
 
-def _copy_published_table(source: Path, destination: Path) -> None:
-    """Share immutable data files; copy transaction metadata before writing."""
-    def copy_file(src: str, dst: str) -> str:
-        if src.endswith(".parquet"):
-            os.link(src, dst)
-            return dst
-        return shutil.copy2(src, dst)
-
-    shutil.copytree(source, destination, copy_function=copy_file)
-
-
-def _write_table(value: Any, output: Path) -> Any:
-    plan = value if isinstance(value, GoldTableWrite) else GoldTableWrite(value)
-    df = plan.full
-    if plan.previous is not None and plan.updates is None:
-        _copy_published_table(plan.previous, output)
-    elif (plan.previous is not None and plan.updates is not None
-          and (plan.previous / "_delta_log").exists()
-          and any(plan.previous.glob("contest_id=*"))
-          and plan.updates.limit(1).count()):
-        _copy_published_table(plan.previous, output)
-        try:
-            predicate = ",".join(str(cid) for cid in sorted(plan.contests or set()))
-            plan.updates.write.format("delta").mode("overwrite").option(
-                "replaceWhere", f"contest_id in ({predicate})",
-            ).save(str(output))
-        except Exception:
-            shutil.rmtree(output)
-            _write_full_table(df, output, plan.partition_by)
-    else:
-        _write_full_table(df, output, plan.partition_by)
-    if (output / "_delta_log").exists():
-        return df.sparkSession.read.format("delta").load(str(output))
-    return df.sparkSession.read.parquet(str(output))
-
-
 def _write_full_table(df: Any, output: Path, partition_by: Optional[str]) -> None:
-    try:
-        writer = df.write.format("delta")
-        if partition_by:
-            writer = writer.partitionBy(partition_by)
-        writer.save(str(output))
-    except Exception:
-        if output.exists():
-            raise
-        writer = df.write
-        if partition_by:
-            writer = writer.partitionBy(partition_by)
-        writer.parquet(str(output))
+    writer = df.write.format("delta")
+    if partition_by:
+        writer = writer.partitionBy(partition_by)
+    writer.save(str(output))
 
 
 def publish_gold_tables(tables: Mapping[str, Any], root: Path) -> Path:
@@ -130,10 +74,13 @@ def publish_gold_tables(tables: Mapping[str, Any], root: Path) -> Path:
     staging.mkdir()
     try:
         for name in GOLD_TABLES:
-            value = tables[name]
-            df = value.full if isinstance(value, GoldTableWrite) else value
+            df = tables[name]
             output = staging / f"{name}.parquet"
-            persisted = _write_table(value, output)
+            partition_by = (
+                "contest_id" if name in {"fact_plays", "agg_team_game_stats"} else None
+            )
+            _write_full_table(df, output, partition_by)
+            persisted = df.sparkSession.read.format("delta").load(str(output))
             if set(persisted.columns) != set(df.columns):
                 raise ValueError(f"Gold schema mismatch after writing {name}")
             persisted.limit(1).collect()

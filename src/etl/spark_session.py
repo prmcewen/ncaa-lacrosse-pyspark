@@ -55,15 +55,15 @@ def get_spark_session(app_name: str = "NCAA-Lacrosse-ETL") -> SparkSession:
     """Build and return an optimized local SparkSession with Delta Lake support."""
     builder = (
         SparkSession.builder
-        .master("local[*]")
+        .master(os.environ.get("LAXPXP_SPARK_MASTER", "local[*]"))
         .appName(app_name)
         # --- Memory: Utilize half of your 32 GiB RAM ---
-        .config("spark.driver.memory", "16g")
+        .config("spark.driver.memory", os.environ.get("LAXPXP_SPARK_DRIVER_MEMORY", "16g"))
         .config("spark.driver.maxResultSize", "4g")
         
         # --- CPU & Partitions: Match your 16 CPU threads ---
-        .config("spark.default.parallelism", "16")
-        .config("spark.sql.shuffle.partitions", "32")  # 1x to 2x thread count
+        .config("spark.default.parallelism", os.environ.get("LAXPXP_SPARK_DEFAULT_PARALLELISM", "16"))
+        .config("spark.sql.shuffle.partitions", os.environ.get("LAXPXP_SPARK_SHUFFLE_PARTITIONS", "32"))
         
         # --- Adaptive Query Execution (AQE) ---
         # Automatically coalesces tiny partitions on small runs,
@@ -84,6 +84,12 @@ def get_spark_session(app_name: str = "NCAA-Lacrosse-ETL") -> SparkSession:
         .config("spark.sql.extensions", "io.delta.sql.DeltaSparkSessionExtension")
         .config("spark.sql.catalog.spark_catalog", "org.apache.spark.sql.delta.catalog.DeltaCatalog")
     )
+    event_log_dir = os.environ.get("LAXPXP_SPARK_EVENT_LOG_DIR")
+    if event_log_dir:
+        Path(event_log_dir).mkdir(parents=True, exist_ok=True)
+        builder = builder.config("spark.eventLog.enabled", "true").config(
+            "spark.eventLog.dir", Path(event_log_dir).resolve().as_uri()
+        )
     spark = configure_spark_with_delta_pip(builder).getOrCreate()
     spark.sparkContext.setLogLevel("ERROR")
     return spark

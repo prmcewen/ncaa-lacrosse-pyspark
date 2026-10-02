@@ -205,10 +205,9 @@ class PlayFilterSchema(PlayQueryParams):
     event_types: Optional[List[str]] = Field(None, description="List of event types to filter by")
     home_score_margin_min: Optional[int] = Field(None, description="Min margin for home team")
     home_score_margin_max: Optional[int] = Field(None, description="Max margin for home team")
-    order_by: Optional[str] = Field("play_seq", description="Column to sort by")
-    order_desc: Optional[bool] = Field(False, description="Sort descending if true")
-    limit: Optional[int] = Field(100, ge=1, le=500, description="Max rows to return")
-    offset: Optional[int] = Field(0, ge=0, description="Row offset for pagination")
+    # order_by/order_desc/limit/offset are inherited from PlayQueryParams on
+    # purpose: re-declaring them as Optional here would let an explicit null
+    # reach SQL as `LIMIT NULL` and disable pagination.
 
 
 PlayFilterQueryParams = PlayFilterSchema

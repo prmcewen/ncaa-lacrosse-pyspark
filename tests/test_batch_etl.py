@@ -5,7 +5,6 @@ from pyspark.sql.types import LongType, StringType, StructField, StructType
 
 from src.etl.transform import (
     SILVER_DIR,
-    extract_dimensions_from_pbp,
     extract_dimensions_from_silver_contests,
     generate_gold_tables,
     get_latest_valid_snapshots,
@@ -38,7 +37,8 @@ def test_get_pending_snapshots_incremental_detection(spark: SparkSession, tmp_pa
     silver_path = tmp_path / "silver_test.parquet"
     silver_path.mkdir(parents=True, exist_ok=True)
 
-    # Create mock silver parquet with contest 101 and 102
+    # Create a Delta-backed mock Silver with contests 101 and 102, matching
+    # the format _write_silver_partitions produces in production.
     schema = StructType([
         StructField("contest_id", LongType(), False),
         StructField("ingest_timestamp", StringType(), False),
@@ -48,7 +48,9 @@ def test_get_pending_snapshots_incremental_detection(spark: SparkSession, tmp_pa
         (101, "20260901T000000Z", "play1"),
         (102, "20260901T000000Z", "play2"),
     ], schema)
-    df.repartition("contest_id").write.mode("overwrite").partitionBy("contest_id").parquet(str(silver_path))
+    df.repartition("contest_id").write.format("delta").mode("overwrite").partitionBy(
+        "contest_id"
+    ).save(str(silver_path))
 
     # Case A: Same snapshots -> 0 pending
     snapshots_up_to_date = [
@@ -77,6 +79,34 @@ def test_get_pending_snapshots_incremental_detection(spark: SparkSession, tmp_pa
     assert len(pending) == 1
     assert pending[0][0] == 101
     assert pending[0][1] == "20260902T120000Z"
+
+
+def test_get_pending_snapshots_rejects_parquet_only_silver(spark: SparkSession, tmp_path: Path):
+    """Silver written without a Delta log must fail loudly, not be read as Parquet."""
+    silver_path = tmp_path / "silver_parquet_only.parquet"
+    df = spark.createDataFrame(
+        [(101, "20260901T000000Z", "play1")],
+        "contest_id long, ingest_timestamp string, val string",
+    )
+    df.repartition("contest_id").write.mode("overwrite").partitionBy("contest_id").parquet(str(silver_path))
+
+    snapshots = [(101, "20260901T000000Z", tmp_path / "101.json")]
+    with pytest.raises(ValueError, match="Delta"):
+        get_pending_snapshots(spark, snapshots, silver_output_path=silver_path)
+
+    # --full-refresh is the documented recovery path: it rebuilds every snapshot,
+    # and _write_silver_partitions then replaces the Parquet with a Delta table.
+    assert get_pending_snapshots(
+        spark, snapshots, silver_output_path=silver_path, full_refresh=True
+    ) == snapshots
+
+
+def test_get_pending_snapshots_treats_empty_dir_as_unmaterialized(spark: SparkSession, tmp_path: Path):
+    silver_path = tmp_path / "silver_empty.parquet"
+    silver_path.mkdir(parents=True, exist_ok=True)
+
+    snapshots = [(101, "20260901T000000Z", tmp_path / "101.json")]
+    assert get_pending_snapshots(spark, snapshots, silver_output_path=silver_path) == snapshots
 
 
 def test_process_bronze_to_silver_batch_and_single(spark: SparkSession):
@@ -132,24 +162,6 @@ def test_generate_gold_tables_broadcast_join(spark: SparkSession):
     assert agg_df.count() > 0
 
 
-def test_process_bronze_to_silver_with_dimensions(spark: SparkSession):
-    snapshots = get_latest_valid_snapshots()
-    assert len(snapshots) >= 2
-    silver_df, dim_teams, dim_contests = process_bronze_to_silver(spark, snapshots[:2], return_dimensions=True)
-
-    assert silver_df.count() > 0
-    assert dim_teams.count() > 0
-    assert dim_contests.count() == 2
-
-    # Check dim_teams columns
-    expected_team_cols = {"team_id", "name_short", "name_full", "name_6char", "seoname", "color"}
-    assert expected_team_cols.issubset(set(dim_teams.columns))
-
-    # Check dim_contests columns
-    expected_contest_cols = {"contest_id", "title", "status"}
-    assert expected_contest_cols.issubset(set(dim_contests.columns))
-
-
 def test_generate_gold_tables_with_pre_extracted_dimensions(spark: SparkSession):
     snapshots = get_latest_valid_snapshots()
     assert len(snapshots) >= 2
@@ -178,10 +190,31 @@ def test_generate_gold_tables_with_pre_extracted_dimensions(spark: SparkSession)
     assert gold_tables["dim_contests"].count() == dim_contests.count()
 
 
-def test_run_pipeline_unpersists_cached_silver_in_finally(spark: SparkSession, monkeypatch):
-    """Verify run_pipeline safely unpersists cached_silver in finally: block even on errors."""
+def test_gold_aggregate_uses_current_silver_for_global_shot_rates(spark: SparkSession):
+    silver = spark.createDataFrame([
+        ("1_1", 1, "new", 10, "A", "SHOT", "WIDE", True, None, None),
+        ("2_1", 2, "old", 20, "B", "SHOT", "WIDE", False, None, None),
+    ], "play_id string, contest_id long, ingest_timestamp string, team_id long, "
+       "event_team_short string, event_type string, shot_result string, "
+       "shot_possession_retained boolean, clear_result string, penalty_duration_seconds long")
+    teams = spark.createDataFrame(
+        [(10, "red", "A"), (20, "blue", "B")],
+        "team_id long, color string, name_full string",
+    )
+    contests = spark.createDataFrame(
+        [(1, "one", "final"), (2, "two", "final")],
+        "contest_id long, title string, status string",
+    )
+
+    gold = generate_gold_tables(spark, silver, teams, contests)
+    contest_two = gold["agg_team_game_stats"].filter("contest_id = 2").first()
+    assert contest_two.normalized_shots_lost == 0.5
+
+
+def test_run_pipeline_unpersists_cached_silver_in_finally(spark: SparkSession, tmp_path: Path, monkeypatch):
+    """Verify the current Silver cache is released after a downstream Gold failure."""
     from unittest.mock import MagicMock
-    from src.etl import run_pipeline as rp_module
+    from src.etl import run_pipeline as runner
 
     class SparkWrapper:
         def __init__(self, spark_session):
@@ -192,40 +225,54 @@ def test_run_pipeline_unpersists_cached_silver_in_finally(spark: SparkSession, m
             return getattr(self._spark, name)
 
     mock_spark = SparkWrapper(spark)
-    monkeypatch.setattr(rp_module, "get_spark_session", lambda *args, **kwargs: mock_spark)
+    monkeypatch.setattr(runner, "get_spark_session", lambda *args, **kwargs: mock_spark)
+    monkeypatch.setattr(runner, "SILVER_DIR", tmp_path / "silver")
+    monkeypatch.setattr(runner, "GOLD_DIR", tmp_path / "gold")
+    snapshots = [(1, "20260901T000000Z", tmp_path / "1.json")]
+    monkeypatch.setattr(runner, "get_latest_valid_snapshots", lambda: snapshots)
+    monkeypatch.setattr(runner, "get_pending_snapshots", lambda *args, **kwargs: [])
 
-    unpersist_called = []
-    real_cache_and_profile = rp_module.cache_and_profile
-
-    def mock_cache_and_profile(df, label, **kwargs):
-        cached = real_cache_and_profile(df, label, **kwargs)
-        orig_unpersist = cached.unpersist
-
-        def tracking_unpersist(*u_args, **u_kwargs):
-            unpersist_called.append((u_args, u_kwargs))
-            return orig_unpersist(*u_args, **u_kwargs)
-
-        cached.unpersist = tracking_unpersist
-        return cached
-
-    monkeypatch.setattr(rp_module, "cache_and_profile", mock_cache_and_profile)
-    monkeypatch.setattr(rp_module, "generate_gold_tables", MagicMock(side_effect=RuntimeError("Forced downstream failure")))
+    silver_plays = spark.createDataFrame(
+        [("1_1", 1, "20260901T000000Z", 10)],
+        "play_id string, contest_id long, ingest_timestamp string, team_id long",
+    )
+    silver_contests = spark.createDataFrame(
+        [(1, "20260901T000000Z", "one", "final", [
+            (10, "HOME", "Home", "HOME", "home", "red", True),
+            (20, "AWAY", "Away", "AWAY", "away", "blue", False),
+        ])],
+        "contest_id long, ingest_timestamp string, title string, status string, "
+        "teams array<struct<team_id:long,name_short:string,name_full:string,name_6char:string,"
+        "seoname:string,color:string,is_home:boolean>>",
+    )
     monkeypatch.setattr(
-        rp_module, "build_gold_tables",
-        lambda session, silver, teams, contests, *args: rp_module.generate_gold_tables(
-            session, silver, dim_teams=teams, dim_contests=contests,
-        ),
+        runner, "_read_silver",
+        lambda session, path: silver_contests if "contests" in path.name else silver_plays,
+    )
+
+    unpersisted_play_cache = []
+    original_unpersist = runner.unpersist_dataframe
+
+    def track_unpersist(df, *args, **kwargs):
+        if df is not None and "play_id" in df.columns:
+            assert df.is_cached
+            unpersisted_play_cache.append((df, args, kwargs))
+        return original_unpersist(df, *args, **kwargs)
+
+    monkeypatch.setattr(runner, "unpersist_dataframe", track_unpersist)
+    monkeypatch.setattr(
+        runner, "generate_gold_tables",
+        MagicMock(side_effect=RuntimeError("Forced downstream failure")),
     )
 
     with pytest.raises(RuntimeError, match="Forced downstream failure"):
-        rp_module.run_pipeline()
+        runner.run_pipeline()
 
-    assert len(unpersist_called) == 1
-    # Check that blocking=False was passed
-    args, kwargs = unpersist_called[0]
+    assert len(unpersisted_play_cache) == 1
+    cached, args, kwargs = unpersisted_play_cache[0]
+    assert not cached.is_cached
     assert kwargs.get("blocking") is False or args == (False,)
     assert mock_spark.stop.called
-
 
 def test_turnover_missing_clock_backward_fill(spark: SparkSession, tmp_path: Path):
     """Verify that plays missing clock (such as turnovers) backward-fill to the next available
@@ -317,4 +364,31 @@ def test_turnover_missing_clock_backward_fill(spark: SparkSession, tmp_path: Pat
     assert plays[5]["clock_display"] == "0:00"
     assert plays[5]["period_seconds_remaining"] == 0
 
+
+def test_write_silver_partitions_fails_without_parquet_fallback(spark: SparkSession, tmp_path: Path):
+    from unittest.mock import MagicMock
+    from src.etl.run_pipeline import _write_silver_partitions
+
+    silver_out = tmp_path / "silver_fail.parquet"
+    mock_df = MagicMock()
+    mock_writer = MagicMock()
+    mock_df.repartition.return_value.write.format.return_value.mode.return_value.partitionBy.return_value = mock_writer
+    mock_writer.option.return_value.save.side_effect = RuntimeError("Delta Lake write simulation failure")
+
+    with pytest.raises(RuntimeError, match="Delta Lake write simulation failure"):
+        _write_silver_partitions(mock_df, silver_out, [(1, "20260901T000000Z", tmp_path / "1.json")], full_refresh=True)
+
+    assert not list(silver_out.glob("contest_id=*/*.parquet"))
+
+
+def test_read_silver_fails_if_not_delta(spark: SparkSession, tmp_path: Path):
+    from src.etl.run_pipeline import _read_silver
+
+    parquet_dir = tmp_path / "plain_parquet.parquet"
+    df = spark.createDataFrame([(1, "20260901T000000Z")], "contest_id long, ingest_timestamp string")
+    df.write.parquet(str(parquet_dir))
+
+    with pytest.raises(Exception) as exc_info:
+        _read_silver(spark, parquet_dir)
+    assert "DELTA" in type(exc_info.value).__name__ or "delta" in str(exc_info.value).lower()
 

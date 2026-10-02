@@ -1,6 +1,5 @@
-import pytest
 from pyspark.sql import functions as F
-from src.etl.player_cleaning import clean_player_name, clean_player_name_native
+from src.etl.player_cleaning import clean_player_name_native
 
 TEST_NAME_CASES = [
     ("Vana, Jake", "Jake Vana"),
@@ -18,14 +17,11 @@ TEST_NAME_CASES = [
     ("TEAM", "TEAM"),
     ("TM", "TM"),
     ("", None),
+    ("   ", None),
+    ("  Vana   , Jake  ", "Jake Vana"),
+    (" bench ", "BENCH"),
     (None, None),
 ]
-
-
-
-@pytest.mark.parametrize("raw_name, expected", TEST_NAME_CASES)
-def test_clean_player_name(raw_name, expected):
-    assert clean_player_name(raw_name) == expected
 
 
 

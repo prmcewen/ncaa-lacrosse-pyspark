@@ -1,7 +1,8 @@
 import json
 import logging
+import os
 from pathlib import Path
-from typing import Any, Dict, List, Optional, Set, Tuple, Union
+from typing import Dict, List, Set, Tuple, Union
 
 from pyspark.sql import DataFrame, SparkSession
 from pyspark.sql import functions as F
@@ -10,27 +11,19 @@ from pyspark.sql.types import (
     IntegerType,
     LongType,
     StringType,
-    StructField,
-    StructType,
 )
 from pyspark.sql.window import Window
 
-from src.etl.optimizations import (
-    DataSkewError,
-    apply_broadcast_join,
-    check_data_skew,
-    check_partition_skew,
-)
 from src.etl.player_cleaning import clean_player_name_native
-from src.etl.schemas import NCAA_CONTEST_SCHEMA, NCAA_PBP_SCHEMA, SILVER_PLAY_SCHEMA
+from src.etl.schemas import NCAA_CONTEST_SCHEMA, NCAA_PBP_SCHEMA
 
 logger = logging.getLogger(__name__)
 
 
-DATA_DIR = Path(__file__).resolve().parents[2] / "data"
+DATA_DIR = Path(os.environ.get("LAXPXP_DATA_DIR", Path(__file__).resolve().parents[2] / "data")).resolve()
 BRONZE_DIR = DATA_DIR / "bronze"
 SILVER_DIR = DATA_DIR / "silver"
-GOLD_DIR = DATA_DIR / "gold"
+GOLD_DIR = Path(os.environ.get("LAXPXP_GOLD_DIR", DATA_DIR / "gold")).resolve()
 
 TEAM_ALIASES: Dict[int, Set[str]] = {
     43759: {"NORTH CA", "NORTH CA.", "NORTH", "UNC", "NORTH CAROLINA", "NORTHCA"},
@@ -177,28 +170,6 @@ def _attribute_faceoff_players(df: DataFrame) -> DataFrame:
             .withColumn("faceoff_loser_player", loser)
             .drop(*[name for name in df.columns if name.startswith("_fo_")]))
 
-PLAY_DETAILS_SCHEMA = StructType([
-    StructField("event_type", StringType(), False),
-    StructField("team_id", LongType(), True),
-    StructField("event_team_short", StringType(), True),
-    StructField("event_team_is_home", BooleanType(), True),
-    StructField("opponent_team_id", LongType(), True),
-    StructField("possession_team_id", LongType(), True),
-    StructField("primary_player_name", StringType(), True),
-    StructField("secondary_player_name", StringType(), True),
-    StructField("caused_by_player_name", StringType(), True),
-    StructField("caused_by_team_id", LongType(), True),
-    StructField("shot_result", StringType(), True),
-    StructField("faceoff_winner_player", StringType(), True),
-    StructField("faceoff_loser_player", StringType(), True),
-    StructField("is_faceoff_violation", BooleanType(), True),
-    StructField("penalty_type", StringType(), True),
-    StructField("penalty_duration_seconds", IntegerType(), True),
-    StructField("is_extra_man_opportunity", BooleanType(), True),
-    StructField("clear_result", StringType(), True),
-])
-
-
 def get_latest_valid_snapshots(manifest_path: Path = BRONZE_DIR / "ingest_manifest.jsonl") -> List[Tuple[int, str, Path]]:
     """Scan manifest to find the newest stored snapshot for each contest."""
     if not manifest_path.exists():
@@ -244,288 +215,6 @@ def classify_event_type_native(play_text_col: F.Column) -> F.Column:
     )
 
 
-def parse_play_details_native(
-    text_col: F.Column,
-    stat_team_id_col: F.Column,
-    home_tid_col: Any = None,
-    away_tid_col: Any = None,
-    home_short_col: Any = None,
-    away_short_col: Any = None,
-    home_6char_col: Any = None,
-    away_6char_col: Any = None,
-    teams_collected: Optional[List[Any]] = None,
-) -> F.Column:
-    """
-    Parse lacrosse play-by-play events into structured fields using 100% native PySpark SQL expressions.
-    Eliminates Python UDF IPC socket overhead (BatchEvalPython) and enables Project Tungsten code generation.
-    Supports single-game or multi-game column inputs for high-performance vectorized batch processing.
-    Returns a Column of StructType conforming to PLAY_DETAILS_SCHEMA.
-    """
-    if isinstance(home_short_col, list):
-        teams_collected = home_short_col
-        home_short_col = None
-
-    if teams_collected:
-        for t in teams_collected:
-            tid = int(t["team_id"] if isinstance(t, dict) else t.team_id)
-            is_h = bool(t["is_home"] if isinstance(t, dict) else t.is_home)
-            name_6 = t["name_6char"] if isinstance(t, dict) else t.name_6char
-            name_s = t["name_short"] if isinstance(t, dict) else t.name_short
-            if is_h:
-                if name_s and home_short_col is None:
-                    home_short_col = F.lit(name_s)
-                if name_6 and home_6char_col is None:
-                    home_6char_col = F.lit(name_6)
-            else:
-                if name_s and away_short_col is None:
-                    away_short_col = F.lit(name_s)
-                if name_6 and away_6char_col is None:
-                    away_6char_col = F.lit(name_6)
-
-    if home_short_col is None or not isinstance(home_short_col, F.Column):
-        home_short_col = F.lit(home_short_col).cast(StringType())
-    if away_short_col is None or not isinstance(away_short_col, F.Column):
-        away_short_col = F.lit(away_short_col).cast(StringType())
-    if home_6char_col is None or not isinstance(home_6char_col, F.Column):
-        home_6char_col = F.lit(home_6char_col).cast(StringType())
-    if away_6char_col is None or not isinstance(away_6char_col, F.Column):
-        away_6char_col = F.lit(away_6char_col).cast(StringType())
-    if home_tid_col is None or not isinstance(home_tid_col, F.Column):
-        home_tid_col = F.lit(home_tid_col).cast(LongType())
-    if away_tid_col is None or not isinstance(away_tid_col, F.Column):
-        away_tid_col = F.lit(away_tid_col).cast(LongType())
-
-    map_args = []
-    for tid, aliases in TEAM_ALIASES.items():
-        for alias in aliases:
-            map_args.extend([F.lit(alias.upper()), F.lit(tid).cast(LongType())])
-    alias_map = F.create_map(*map_args)
-    team_prefix_pat = TEAM_PREFIX_PAT
-    norm_text = F.trim(F.coalesce(text_col, F.lit("")))
-
-    ev_type = (
-        F.when(norm_text.startswith("GOAL by"), F.lit("GOAL"))
-        .when(norm_text.startswith("Shot by"), F.lit("SHOT"))
-        .when(norm_text.startswith("Turnover by"), F.lit("TURNOVER"))
-        .when(norm_text.startswith("Faceoff"), F.lit("FACEOFF"))
-        .when(norm_text.startswith("Ground ball"), F.lit("GROUND_BALL"))
-        .when(norm_text.startswith("Penalty on"), F.lit("PENALTY"))
-        .when(norm_text.startswith("Clear attempt by"), F.lit("CLEAR"))
-        .when(norm_text.startswith("Timeout by"), F.lit("TIMEOUT"))
-        .when(norm_text.contains("at goalie for"), F.lit("GOALIE_CHANGE"))
-        .when(norm_text.contains("End-of-period"), F.lit("PERIOD_END"))
-        .otherwise(F.lit("UNKNOWN"))
-    )
-
-    by_team = F.regexp_extract(
-        norm_text,
-        rf"^(?:GOAL|Shot|Turnover|Clear attempt|Timeout|Ground ball pickup) by ({team_prefix_pat})",
-        1,
-    )
-    ev_team_short_raw = (
-        F.when(by_team != "", by_team)
-        .when(norm_text.startswith("Faceoff"), F.regexp_extract(norm_text, rf"^Faceoff\s+.+?\s+vs\s+.+?\s+won by\s+({team_prefix_pat})", 1))
-        .when(norm_text.startswith("Penalty on"), F.regexp_extract(norm_text, rf"^Penalty on ({team_prefix_pat})", 1))
-        .when(norm_text.contains("at goalie for"), F.regexp_extract(norm_text, rf"at goalie for ({team_prefix_pat})", 1))
-        .otherwise(F.lit(None).cast(StringType()))
-    )
-    ev_team_short_clean = F.regexp_replace(F.trim(ev_team_short_raw), r"\.+$", "")
-    ev_team_short = F.when(
-        ev_team_short_clean.isNotNull() & (ev_team_short_clean != ""),
-        ev_team_short_clean
-    ).otherwise(F.lit(None).cast(StringType()))
-
-    # Team ID mapping
-    alias_tid = alias_map[F.upper(ev_team_short)]
-    ev_team_id = (
-        F.when(ev_team_short.isNull(), stat_team_id_col.cast(LongType()))
-        .when(alias_tid.isNotNull(), alias_tid)
-        .when(
-            (home_short_col.isNotNull() & (F.upper(ev_team_short) == F.upper(home_short_col)))
-            | (home_6char_col.isNotNull() & (F.upper(ev_team_short) == F.upper(home_6char_col))),
-            home_tid_col.cast(LongType())
-        )
-        .when(
-            (away_short_col.isNotNull() & (F.upper(ev_team_short) == F.upper(away_short_col)))
-            | (away_6char_col.isNotNull() & (F.upper(ev_team_short) == F.upper(away_6char_col))),
-            away_tid_col.cast(LongType())
-        )
-        .otherwise(stat_team_id_col.cast(LongType()))
-    )
-
-    is_home = (
-        F.when(ev_team_id.isNull(), F.lit(None).cast(BooleanType()))
-        .when(ev_team_id == home_tid_col, F.lit(True))
-        .when(ev_team_id == away_tid_col, F.lit(False))
-        .otherwise(F.lit(None).cast(BooleanType()))
-    )
-
-    opp_team_id = (
-        F.when(
-            ev_team_id.isNotNull() & home_tid_col.isNotNull() & away_tid_col.isNotNull(),
-            F.when(ev_team_id == home_tid_col, away_tid_col.cast(LongType()))
-            .when(ev_team_id == away_tid_col, home_tid_col.cast(LongType()))
-            .otherwise(F.lit(None).cast(LongType()))
-        ).otherwise(F.lit(None).cast(LongType()))
-    )
-
-
-    is_possession = (
-        norm_text.startswith("GOAL by")
-        | norm_text.startswith("Shot by")
-        | norm_text.startswith("Turnover by")
-        | norm_text.startswith("Faceoff")
-        | norm_text.startswith("Ground ball")
-        | norm_text.startswith("Clear attempt by")
-    )
-    possession_team_id = (
-        F.when(is_possession, ev_team_id)
-        .otherwise(F.lit(None).cast(LongType()))
-    )
-
-    # Shot Result
-    norm_text_no_dot = F.regexp_replace(norm_text, r"\.+$", "")
-    shot_res = (
-        F.when(norm_text.startswith("GOAL by"), F.lit("GOAL"))
-        .when(
-            norm_text.startswith("Shot by"),
-            F.when(norm_text.contains(", SAVE ") | norm_text.contains(", SAVE,") | norm_text.contains("SAVE by"), F.lit("SAVE"))
-            .when(norm_text_no_dot.endswith(" WIDE"), F.lit("WIDE"))
-            .when(norm_text_no_dot.endswith(" HIGH"), F.lit("HIGH"))
-            .when(norm_text_no_dot.endswith(" HIT POST"), F.lit("POST"))
-            .when(norm_text_no_dot.endswith(" HIT CROSSBAR"), F.lit("CROSSBAR"))
-            .when(norm_text_no_dot.endswith(" BLOCKED"), F.lit("BLOCKED"))
-            .otherwise(F.lit(None).cast(StringType()))
-        ).otherwise(F.lit(None).cast(StringType()))
-    )
-
-    # Fast, native player canonicalization for play-by-play text (prevents AST explosion)
-    def clean_pbp_player(raw_col: F.Column) -> F.Column:
-        stripped = F.regexp_replace(F.trim(raw_col), r"\.+$", "")
-        return clean_player_name_native(stripped)
-
-    # Primary Player Raw
-    goal_primary = F.regexp_extract(
-
-        norm_text,
-        rf"^GOAL by {team_prefix_pat}\s+(.+?)(?:,\s*Assist by|\s*\([^)]+\)|,\s*goal number|\.?$)",
-        1,
-    )
-    shot_primary = F.regexp_extract(
-        norm_text,
-        rf"^Shot by {team_prefix_pat}\s+(.+?)(?:,\s*SAVE|,\s*TEAM SAVE|\s+HIGH|\s+WIDE|\s+HIT POST|\s+HIT CROSSBAR|\s+BLOCKED|\.?$)",
-        1,
-    )
-    turnover_committer = F.regexp_extract(
-        norm_text,
-        rf"^Turnover by {team_prefix_pat}(?:\s+(.+?)(?:\s*\([^)]+\)|\.?$))?",
-        1,
-    )
-
-    primary_raw = (
-        F.when(norm_text.startswith("GOAL by"), goal_primary)
-        .when(norm_text.startswith("Shot by"), shot_primary)
-        .when(
-            norm_text.startswith("Turnover by"),
-            F.when(F.trim(turnover_committer) != "", turnover_committer).otherwise(F.lit("TEAM"))
-        )
-        .when(norm_text.startswith("Ground ball"), F.regexp_extract(norm_text, rf"^Ground ball pickup by {team_prefix_pat}\s+(.+?)\.?$", 1))
-        .when(norm_text.startswith("Penalty on"), F.regexp_extract(norm_text, rf"^Penalty on {team_prefix_pat}\s+([^(]+)", 1))
-        .when(norm_text.contains("at goalie for"), F.regexp_extract(norm_text, rf"^(.+?)\s+at goalie for (?:{team_prefix_pat})", 1))
-        .otherwise(F.lit(None).cast(StringType()))
-    )
-    primary_player = clean_pbp_player(primary_raw)
-
-    # Secondary Player Raw - guarded by fast contains()
-    secondary_raw = (
-        F.when(norm_text.contains(", Assist by "), F.regexp_extract(norm_text, r",\s*Assist by (.+?)(?:,\s*goal number|$)", 1))
-        .when(norm_text.contains(", SAVE "), F.regexp_extract(norm_text, r",\s*SAVE\s+(?:by\s+)?(.+?)\.?$", 1))
-        .otherwise(F.lit(None).cast(StringType()))
-    )
-    secondary_player = clean_pbp_player(secondary_raw)
-
-
-    # Turnover Caused By - guarded by fast contains()
-    caused_by_player = F.when(
-        norm_text.contains("(caused by "),
-        clean_pbp_player(F.regexp_extract(norm_text, r"\(caused by ([^)]+)\)", 1))
-    ).otherwise(F.lit(None).cast(StringType()))
-
-    caused_by_team_id = F.when(
-        caused_by_player.isNotNull(),
-        opp_team_id
-    ).otherwise(F.lit(None).cast(LongType()))
-
-    # A single-row parser can use explicit embedded evidence only. The batch
-    # path additionally resolves participants using other plays in the contest.
-    is_fo = norm_text.startswith("Faceoff")
-    first, second = _faceoff_participants(norm_text)
-    gb_player, gb_code = _faceoff_ground_ball(norm_text)
-    gb_team = _lookup_faceoff_team(
-        gb_code, home_tid_col, away_tid_col, home_short_col, away_short_col,
-        home_6char_col, away_6char_col,
-    )
-    first_team = F.when(first == gb_player, gb_team)
-    second_team = F.when(second == gb_player, gb_team)
-    fo_winner, fo_loser = _resolve_faceoff_players(
-        first, second, first_team, second_team,
-        first_team.isNotNull().cast("int"), second_team.isNotNull().cast("int"),
-        ev_team_id, opp_team_id,
-    )
-
-    is_fo_violation = F.when(
-        is_fo,
-        norm_text.contains("on faceoff violation")
-    ).otherwise(F.lit(None).cast(BooleanType()))
-
-    # Penalty - guarded by startswith()
-    is_pen = norm_text.startswith("Penalty on")
-    pen_type_raw = F.when(is_pen, F.regexp_extract(norm_text, r"\(([^/]+)/\d+:\d+\)", 1)).otherwise(F.lit(""))
-    penalty_type = F.when(
-        is_pen & (pen_type_raw != ""),
-        F.trim(pen_type_raw)
-    ).otherwise(F.lit(None).cast(StringType()))
-
-    pen_mins_str = F.when(is_pen, F.regexp_extract(norm_text, r"\([^/]+/(\d+):(\d+)\)", 1)).otherwise(F.lit(""))
-    pen_secs_str = F.when(is_pen, F.regexp_extract(norm_text, r"\([^/]+/(\d+):(\d+)\)", 2)).otherwise(F.lit(""))
-    pen_dur = F.when(
-        is_pen & (pen_mins_str != "") & (pen_secs_str != ""),
-        pen_mins_str.cast(IntegerType()) * 60 + pen_secs_str.cast(IntegerType())
-    ).otherwise(F.lit(None).cast(IntegerType()))
-
-    is_extra_man = F.when(
-        is_pen,
-        norm_text.contains("Extra-man opportunity")
-    ).otherwise(F.lit(None).cast(BooleanType()))
-
-    # Clear - 100% fast string matching (0 regexes)
-    clear_result = F.when(
-        norm_text.startswith("Clear attempt by"),
-        F.when(norm_text.contains(" good"), F.lit("GOOD")).otherwise(F.lit("FAILED"))
-    ).otherwise(F.lit(None).cast(StringType()))
-
-    return F.struct(
-        ev_type.alias("event_type"),
-        ev_team_id.alias("team_id"),
-        ev_team_short.alias("event_team_short"),
-        is_home.alias("event_team_is_home"),
-        opp_team_id.alias("opponent_team_id"),
-        possession_team_id.alias("possession_team_id"),
-        primary_player.alias("primary_player_name"),
-        secondary_player.alias("secondary_player_name"),
-        caused_by_player.alias("caused_by_player_name"),
-        caused_by_team_id.alias("caused_by_team_id"),
-        shot_res.alias("shot_result"),
-        fo_winner.alias("faceoff_winner_player"),
-        fo_loser.alias("faceoff_loser_player"),
-        is_fo_violation.alias("is_faceoff_violation"),
-        penalty_type.alias("penalty_type"),
-        pen_dur.alias("penalty_duration_seconds"),
-        is_extra_man.alias("is_extra_man_opportunity"),
-        clear_result.alias("clear_result"),
-    )
-
-
 def parse_clock_native(clock_col: F.Column) -> F.Column:
     """Convert mm:ss clock string to total seconds using native Spark SQL expressions."""
     parts = F.split(clock_col, ":")
@@ -546,20 +235,22 @@ def get_pending_snapshots(
     If full_refresh is True or the Silver dataset does not exist, returns all snapshots.
     Otherwise, inspects existing partitions and only returns snapshots whose
     (contest_id, ingest_timestamp) is not already materialized in Silver.
+    Silver is read through Delta Lake only; a Parquet-only Silver (left by the
+    removed write fallback) raises ValueError instead of being read as Parquet.
     """
     if full_refresh or not silver_output_path.exists():
         return snapshots
 
-    has_delta = (silver_output_path / "_delta_log").exists()
-    has_parquet = any(silver_output_path.glob("contest_id=*/*.parquet"))
-    if not has_delta and not has_parquet:
+    if not (silver_output_path / "_delta_log").exists():
+        if any(silver_output_path.rglob("*.parquet")):
+            raise ValueError(
+                f"Silver at {silver_output_path} holds Parquet data with no Delta "
+                "transaction log; re-run with --full-refresh to rebuild it as Delta."
+            )
         return snapshots
 
     try:
-        if has_delta:
-            existing_df = spark.read.format("delta").load(str(silver_output_path))
-        else:
-            existing_df = spark.read.parquet(str(silver_output_path))
+        existing_df = spark.read.format("delta").load(str(silver_output_path))
         existing_records = {
             (int(row["contest_id"]), str(row["ingest_timestamp"]))
             for row in existing_df.select("contest_id", "ingest_timestamp").distinct().collect()
@@ -580,31 +271,6 @@ def _latest_dimension_rows(df: DataFrame, key: str) -> DataFrame:
     return (df.withColumn("_dimension_rank", F.row_number().over(Window.partitionBy(key).orderBy(*order)))
             .filter(F.col("_dimension_rank") == 1)
             .drop("_dimension_rank", "_source_timestamp", "_source_contest"))
-
-
-def extract_dimensions_from_pbp(pbp_df: DataFrame) -> Tuple[DataFrame, DataFrame]:
-    """Choose one deterministic row per dimension key, preferring newest snapshots."""
-    if "_snapshot_timestamp" not in pbp_df.columns:
-        pbp_df = pbp_df.withColumn("_snapshot_timestamp", F.lit(""))
-    dim_teams = pbp_df.select(
-        F.col("_snapshot_timestamp").alias("_source_timestamp"),
-        F.col("contestId").alias("_source_contest"),
-        F.explode("teams").alias("team"),
-    ).select(
-        "_source_timestamp", "_source_contest",
-        F.col("team.teamId").cast("long").alias("team_id"),
-        F.col("team.nameShort").alias("name_short"),
-        F.col("team.nameFull").alias("name_full"),
-        F.col("team.name6Char").alias("name_6char"),
-        F.col("team.seoname").alias("seoname"),
-        F.col("team.color").alias("color"),
-    )
-    dim_contests = pbp_df.select(
-        F.col("_snapshot_timestamp").alias("_source_timestamp"),
-        F.col("contestId").alias("_source_contest"),
-        F.col("contestId").alias("contest_id"), F.col("title"), F.col("status"),
-    )
-    return _latest_dimension_rows(dim_teams, "team_id"), _latest_dimension_rows(dim_contests, "contest_id")
 
 
 def extract_silver_contests_from_pbp(
@@ -670,15 +336,11 @@ def validate_dimension_keys(df: DataFrame, key: str) -> None:
 def process_bronze_to_silver(
     spark: SparkSession,
     snapshots: Union[Tuple[int, str, Path], List[Tuple[int, str, Path]]],
-    return_dimensions: bool = False,
-) -> Union[DataFrame, Tuple[DataFrame, DataFrame, DataFrame]]:
+) -> DataFrame:
     """
     Transform raw Bronze JSON snapshot(s) into approved 34-column Silver DataFrame.
     Supports either a single snapshot tuple (cid, ingest_ts, path) or a list of snapshot tuples
     for multi-game batch execution in a single PySpark DAG.
-
-    If return_dimensions is True, simultaneously extracts (silver_df, dim_teams, dim_contests)
-    from the parsed Bronze DataFrame without re-reading multi-line JSON downstream.
     """
     if isinstance(snapshots, tuple):
         snapshot_list = [snapshots]
@@ -693,10 +355,6 @@ def process_bronze_to_silver(
 
     raw_df = spark.read.option("multiline", "true").schema(NCAA_PBP_SCHEMA).json(paths)
     pbp_df = raw_df.select(F.col("data.playbyplay.*"))
-
-    dim_teams, dim_contests = (None, None)
-    if return_dimensions:
-        dim_teams, dim_contests = extract_dimensions_from_pbp(_with_snapshot_timestamps(pbp_df, snapshot_list))
 
     # Extract teams metadata per contest using native PySpark array expressions (no driver collect)
     home_team = F.filter(F.col("teams"), lambda t: t["isHome"] == True).getItem(0)
@@ -1059,9 +717,6 @@ def process_bronze_to_silver(
         F.col("event_team_margin"),
     )
 
-    if return_dimensions:
-        return projected_silver_df, dim_teams, dim_contests
-
     return projected_silver_df
 
 
@@ -1071,18 +726,12 @@ def generate_gold_tables(
     silver_df: DataFrame,
     dim_teams: DataFrame,
     dim_contests: DataFrame,
-    *,
-    baseline_silver_df: Optional[DataFrame] = None,
-    aggregate_silver_df: Optional[DataFrame] = None,
 ) -> Dict[str, DataFrame]:
-    """Generate Gold rows; optional inputs scope facts and aggregates independently."""
+    """Build Gold facts and aggregates from the current Silver data."""
     validate_dimension_keys(dim_teams, "team_id")
     validate_dimension_keys(dim_contests, "contest_id")
 
-    # Rates remain global even when only a few contest rows are rebuilt.
-    baseline_silver_df = baseline_silver_df if baseline_silver_df is not None else silver_df
-    aggregate_silver_df = aggregate_silver_df if aggregate_silver_df is not None else silver_df
-    shot_plays = baseline_silver_df.filter(F.col("event_type") == "SHOT")
+    shot_plays = silver_df.filter(F.col("event_type") == "SHOT")
     stats = shot_plays.agg(
         F.count(F.lit(1)).alias("total"),
         F.count(F.when(F.col("shot_possession_retained") == True, 1)).alias("retained"),
@@ -1096,7 +745,7 @@ def generate_gold_tables(
     )
 
     silver_annotated = (
-        aggregate_silver_df.join(F.broadcast(baseline_rates_df), on="shot_result", how="left")
+        silver_df.join(F.broadcast(baseline_rates_df), on="shot_result", how="left")
         .withColumn(
             "expected_shot_loss_prob",
             F.when(F.col("event_type") != "SHOT", F.lit(0.0))
@@ -1148,12 +797,10 @@ def generate_gold_tables(
         )
     ).withColumnRenamed("event_team_short", "team_short")
 
-    # Optimization: Broadcast Join on dim_teams lookup (Star Schema Fact Table)
-    fact_plays = apply_broadcast_join(
-        silver_df,
-        dim_teams.select("team_id", "color", "name_full"),
-        left_on="team_id",
-        right_on="team_id",
+    # The validated team dimension is small enough for a broadcast lookup join.
+    fact_plays = silver_df.join(
+        F.broadcast(dim_teams.select("team_id", "color", "name_full")),
+        on="team_id",
         how="left",
     )
 

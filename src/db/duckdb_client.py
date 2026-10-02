@@ -1,11 +1,12 @@
 from pathlib import Path
+import os
 from typing import Any, Dict, List, Optional
 import duckdb
 from src.db.gold_storage import resolve_gold_dir
 
-DATA_DIR = Path(__file__).resolve().parents[2] / "data"
+DATA_DIR = Path(os.environ.get("LAXPXP_DATA_DIR", Path(__file__).resolve().parents[2] / "data")).resolve()
 SILVER_PARQUET = DATA_DIR / "silver" / "silver_plays.parquet"
-GOLD_DIR = DATA_DIR / "gold"
+GOLD_DIR = Path(os.environ.get("LAXPXP_GOLD_DIR", DATA_DIR / "gold")).resolve()
 
 
 def _scan_expression(path: Path, glob_pattern: Optional[str] = None) -> str:

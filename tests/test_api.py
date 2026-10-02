@@ -163,6 +163,72 @@ def test_graphql_general_play_selector_filter_object(client):
         assert p["gameSecondsRemainingReg"] <= 1800
 
 
+def _graphql_plays(client, query):
+    r = client.post("/graphql", json={"query": query})
+    assert r.status_code == 200
+    return r.json()
+
+
+def _plays_of(body):
+    """Plays list, or None when the query failed before producing data."""
+    data = body.get("data")
+    if data is None:
+        return None
+    return data.get("plays")
+
+
+def test_graphql_plays_rejects_unbounded_limit(client):
+    # A huge limit previously bypassed validation and returned every row.
+    body = _graphql_plays(client, "{ plays(limit: 100000000) { playId } }")
+    assert _plays_of(body) is None
+    errors = body.get("errors") or []
+    assert errors, "expected a validation error"
+    assert "limit" in errors[0]["message"]
+    assert "BinderException" not in errors[0]["message"]
+    assert "duckdb" not in errors[0]["message"].lower()
+
+
+def test_graphql_plays_rejects_negative_limit_and_offset(client):
+    body = _graphql_plays(client, "{ plays(limit: -1) { playId } }")
+    errors = body.get("errors") or []
+    assert errors and "limit" in errors[0]["message"]
+    assert "BinderException" not in errors[0]["message"]
+
+    body = _graphql_plays(client, "{ plays(offset: -5) { playId } }")
+    errors = body.get("errors") or []
+    assert errors and "offset" in errors[0]["message"]
+
+
+def test_graphql_plays_filter_rejects_null_limit(client):
+    # An explicit null used to reach SQL as `LIMIT NULL`, disabling pagination.
+    body = _graphql_plays(
+        client,
+        '{ plays(filter: {contestId: 6599996, limit: null}) { playId } }',
+    )
+    assert _plays_of(body) is None
+    assert body.get("errors"), "expected a rejection of an explicit null limit"
+
+
+def test_graphql_plays_filter_rejects_out_of_range_values(client):
+    body = _graphql_plays(client, '{ plays(filter: {minPeriod: 99}) { playId } }')
+    errors = body.get("errors") or []
+    assert errors and "min_period" in errors[0]["message"]
+
+
+def test_graphql_plays_valid_inputs_still_respected(client):
+    body = _graphql_plays(
+        client,
+        '{ plays(contestId: 6599996, eventType: "GOAL", limit: 5) { playId } }',
+    )
+    assert not body.get("errors")
+    plays = body["data"]["plays"]
+    assert len(plays) == 5
+
+    body = _graphql_plays(client, "{ plays(limit: 500) { playId } }")
+    assert not body.get("errors")
+    assert len(body["data"]["plays"]) <= 500
+
+
 def test_possession_team_id_rest_and_graphql(client):
     # Test REST possession_team_id filtering
     r = client.get("/api/contests/6599996/plays?possession_team_id=43861")
