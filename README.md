@@ -224,3 +224,9 @@ The endpoint (also accessible via `/api/shooting-efficiency/summary` and `/api/a
 - [ADR-003: Local Spark Execution and Persistence Strategy](docs/adr/ADR-003-pyspark-compute-and-caching-strategy.md)
 
 The pipeline writes a generated plan for the enriched-facts DataFrame to [docs/spark_execution_plan.md](docs/spark_execution_plan.md). It is a plan artifact, not a benchmark or a record of every pipeline stage.
+
+### Profiling pipeline actions
+
+Pipeline jobs have explicit Spark job groups and descriptions for Silver freshness checks, Bronze → Silver writes, metadata validation, and each Gold table's write and validation. In the Spark UI or History Server, use the Jobs descriptions and group IDs (for example, `silver-plays`, `gold-write-fact_plays`, and `gold-validate-agg_team_game_stats`) to locate the corresponding pipeline action. The same labels appear in the Python logs, including phases that launch no Spark jobs, such as filesystem publication.
+
+Labels follow execution: lazy transformations and cache materialization belong to the downstream action that executes them. Labeling adds no extra counts or cache warm-ups. Nested labels restore the caller's job properties on both success and failure. Enable persistent event logs with `LAXPXP_SPARK_EVENT_LOG_DIR`; the benchmark runner sets this automatically. Existing event logs retain their original descriptions; rerun the pipeline to capture labels.

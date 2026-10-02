@@ -11,6 +11,8 @@ import shutil
 from typing import Any, Mapping, Optional
 from uuid import uuid4
 
+from src.etl.job_labels import pipeline_action
+
 GOLD_TABLES = ("dim_teams", "dim_contests", "fact_plays", "agg_team_game_stats")
 
 
@@ -73,27 +75,34 @@ def publish_gold_tables(tables: Mapping[str, Any], root: Path) -> Path:
     pointer_tmp = root / f".current-{version}.json"
     staging.mkdir()
     try:
+        spark_context = tables["dim_teams"].sparkSession.sparkContext
         for name in GOLD_TABLES:
             df = tables[name]
             output = staging / f"{name}.parquet"
             partition_by = (
                 "contest_id" if name in {"fact_plays", "agg_team_game_stats"} else None
             )
-            _write_full_table(df, output, partition_by)
-            persisted = df.sparkSession.read.format("delta").load(str(output))
-            if set(persisted.columns) != set(df.columns):
-                raise ValueError(f"Gold schema mismatch after writing {name}")
-            persisted.limit(1).collect()
-        _sync_tree(staging)
-        staging.rename(committed)
-        _fsync_directory(versions)
-        with pointer_tmp.open("x", encoding="utf-8") as stream:
-            json.dump({"version": version}, stream)
-            stream.write("\n")
-            stream.flush()
-            os.fsync(stream.fileno())
-        os.replace(pointer_tmp, root / "current.json")
-        _fsync_directory(root)
+            with pipeline_action(spark_context, f"gold-write-{name}",
+                                 f"Gold {name}: compute dependencies and write Delta table"):
+                _write_full_table(df, output, partition_by)
+            with pipeline_action(spark_context, f"gold-validate-{name}",
+                                 f"Gold {name}: validate persisted schema and read sample"):
+                persisted = df.sparkSession.read.format("delta").load(str(output))
+                if set(persisted.columns) != set(df.columns):
+                    raise ValueError(f"Gold schema mismatch after writing {name}")
+                persisted.limit(1).collect()
+        with pipeline_action(spark_context, "gold-commit",
+                             "Gold: sync generation and atomically replace publication pointer"):
+            _sync_tree(staging)
+            staging.rename(committed)
+            _fsync_directory(versions)
+            with pointer_tmp.open("x", encoding="utf-8") as stream:
+                json.dump({"version": version}, stream)
+                stream.write("\n")
+                stream.flush()
+                os.fsync(stream.fileno())
+            os.replace(pointer_tmp, root / "current.json")
+            _fsync_directory(root)
         return committed
     finally:
         # Never remove a finalized generation: the pointer may already name it.
