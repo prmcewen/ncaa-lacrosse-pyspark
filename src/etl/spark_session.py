@@ -83,6 +83,9 @@ def get_spark_session(app_name: str = "NCAA-Lacrosse-ETL") -> SparkSession:
         # --- Delta Lake ---
         .config("spark.sql.extensions", "io.delta.sql.DeltaSparkSessionExtension")
         .config("spark.sql.catalog.spark_catalog", "org.apache.spark.sql.delta.catalog.DeltaCatalog")
+        # Incremental Silver replacements target contest_id data, not disk partitions.
+        .config("spark.databricks.delta.replaceWhere.dataColumns.enabled", "true")
+        .config("spark.databricks.delta.replaceWhere.constraintCheck.enabled", "true")
     )
     event_log_dir = os.environ.get("LAXPXP_SPARK_EVENT_LOG_DIR")
     if event_log_dir:
@@ -93,4 +96,3 @@ def get_spark_session(app_name: str = "NCAA-Lacrosse-ETL") -> SparkSession:
     spark = configure_spark_with_delta_pip(builder).getOrCreate()
     spark.sparkContext.setLogLevel("ERROR")
     return spark
-

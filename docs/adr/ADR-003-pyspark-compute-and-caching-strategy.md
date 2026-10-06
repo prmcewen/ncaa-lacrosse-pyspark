@@ -18,7 +18,7 @@ Java is external to the Python environment. When `JAVA_HOME` is unset, the Spark
 
 ### Native parsing and Silver updates
 
-[transform.py](../../src/etl/transform.py) reads Bronze snapshots with Spark's native JSON reader and explicit schemas. It does not route parsing through Python UDFs or a separate parser. The runner compares manifest-selected `(contest_id, ingest_timestamp)` pairs with each Silver table and processes only pending snapshots. Both Silver Delta tables are partitioned by `contest_id`; a full refresh overwrites them, while regular updates replace the pending contest partitions.
+[transform.py](../../src/etl/transform.py) reads Bronze snapshots with Spark's native JSON reader and explicit schemas. It does not route parsing through Python UDFs or a separate parser. The runner compares manifest-selected `(contest_id, ingest_timestamp)` pairs with each Silver table and processes only pending snapshots. Both Silver Delta tables use unpartitioned files range-distributed and sorted by `contest_id`; a full refresh overwrites them and migrates legacy partitioning, while regular updates replace the pending contests through a Delta data-column predicate.
 
 ### Persistence lifecycle
 
@@ -34,9 +34,9 @@ Broadcasting avoids repartitioning the large side for those joins. Window operat
 
 ### Storage layout (Delta Lake)
 
-Both Silver tables are partitioned by `contest_id` and written using Delta Lake format (`.format("delta").partitionBy("contest_id")`) with Snappy compression. Regular Silver runs replace only changed contest partitions, while `--full-refresh` rewrites all selected snapshots.
+Both Silver tables use unpartitioned Delta Lake format with Snappy compression. `LAXPXP_DELTA_WRITE_PARTITIONS` defaults to 16 output tasks; rows are range-distributed and sorted by `contest_id` so nearby games share files. Regular Silver runs replace changed contests using `replaceWhere` on the data column, preserving other rows in shared files; `--full-refresh` rewrites all selected snapshots and replaces legacy partition metadata. Incremental writes reject legacy partitioned tables with a migration instruction. Delta may rewrite shared files on an update, and retains old files for time travel.
 
-Every pipeline run rebuilds and writes complete Gold DataFrames into a fresh generation. The fact and aggregate Delta tables are partitioned by `contest_id` to organize their output files; the publisher does not reuse prior files or replace only changed Gold partitions. Each table maintains its own `_delta_log/` transaction log, and DuckDB readers query the published tables via native `delta_scan`. Publication and reader isolation are described in [ADR-001](ADR-001-medallion-storage-and-audit-trail.md).
+Every pipeline run rebuilds and writes complete Gold DataFrames into a fresh generation. Fact and aggregate tables use the same bounded, sorted output layout; dimensions use one sorted output task; the publisher does not reuse prior files or replace only changed Gold partitions. Each table maintains its own `_delta_log/` transaction log, and DuckDB readers query the published tables via native `delta_scan`. Publication and reader isolation are described in [ADR-001](ADR-001-medallion-storage-and-audit-trail.md).
 
 ### Plan artifact and performance evidence
 
@@ -46,7 +46,9 @@ When `LAXPXP_BENCH_METRICS` is set, the runner records stage and total wall-cloc
 
 ## Consequences
 
-- Incremental Silver writes avoid reparsing snapshots that are already current, while Gold publication pays the cost of writing all four tables on every successful run.
+- Incremental Silver writes avoid reparsing snapshots that are already current, but can rewrite shared files, while Gold publication pays the cost of writing all four tables on every successful run.
 - Persisting Silver allows both Gold branches to reuse it, at the cost of Spark memory and disk use.
 - The complete Gold rebuild recalculates dimensions and aggregate rates from current Silver, and a failed publication leaves the previous generation available.
 - Gold reader safety comes from immutable generations and request-level snapshot selection.
+
+Silver writes temporarily persist transformed rows on disk so range sampling and the final write reuse the same computation. The writer releases its cache on success or failure and preserves caches owned by callers.

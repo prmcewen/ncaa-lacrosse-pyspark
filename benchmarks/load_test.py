@@ -39,6 +39,7 @@ def _environment(args, root: Path) -> dict[str, str]:
     env["LAXPXP_SPARK_DRIVER_MEMORY"] = args.driver_memory
     env["LAXPXP_SPARK_DEFAULT_PARALLELISM"] = str(args.workers)
     env["LAXPXP_SPARK_SHUFFLE_PARTITIONS"] = str(args.shuffle_partitions)
+    env["LAXPXP_DELTA_WRITE_PARTITIONS"] = str(args.write_partitions)
     env["LAXPXP_SPARK_EVENT_LOG_DIR"] = str(root / "spark-events")
     env["LAXPXP_BENCH_METRICS"] = str(root / f"{args.command}-stages.json")
     env["LAXPXP_PLAN_OUTPUT"] = str(root / f"{args.command}-spark-plan.md")
@@ -72,6 +73,7 @@ def _run_etl(args) -> dict:
         "wall_seconds": duration, "max_child_rss_kib": after,
         "rss_before_kib": before, "workers": args.workers,
         "driver_memory": args.driver_memory, "shuffle_partitions": args.shuffle_partitions,
+        "write_partitions": args.write_partitions,
         "run_root": str(root), "log": str(log_path),
         "disk_bytes": {layer: _tree_bytes(root / "data" / layer) for layer in ("bronze", "silver", "gold")},
         "gold_rebuild_bytes": _tree_bytes(root / "gold-rebuild"),
@@ -211,6 +213,7 @@ def main() -> None:
             cmd.add_argument("--workers", type=int, default=8)
             cmd.add_argument("--driver-memory", default="8g")
             cmd.add_argument("--shuffle-partitions", type=int, default=128)
+            cmd.add_argument("--write-partitions", type=int, default=16)
         if name == "run-api":
             cmd.add_argument("--contest-id", type=int)
             cmd.add_argument("--seconds", type=int, default=30)

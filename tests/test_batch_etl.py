@@ -372,7 +372,7 @@ def test_write_silver_partitions_fails_without_parquet_fallback(spark: SparkSess
     silver_out = tmp_path / "silver_fail.parquet"
     mock_df = MagicMock()
     mock_writer = MagicMock()
-    mock_df.repartition.return_value.write.format.return_value.mode.return_value.partitionBy.return_value = mock_writer
+    mock_df.repartitionByRange.return_value.sortWithinPartitions.return_value.write.format.return_value.mode.return_value = mock_writer
     mock_writer.option.return_value.save.side_effect = RuntimeError("Delta Lake write simulation failure")
 
     with pytest.raises(RuntimeError, match="Delta Lake write simulation failure"):
@@ -391,4 +391,3 @@ def test_read_silver_fails_if_not_delta(spark: SparkSession, tmp_path: Path):
     with pytest.raises(Exception) as exc_info:
         _read_silver(spark, parquet_dir)
     assert "DELTA" in type(exc_info.value).__name__ or "delta" in str(exc_info.value).lower()
-

@@ -7,6 +7,8 @@ from typing import Optional
 
 from pyspark.sql import DataFrame
 from pyspark.sql import functions as F
+from pyspark import StorageLevel
+from delta.tables import DeltaTable
 
 from src.db.gold_storage import publish_gold_tables
 from src.etl.optimizations import (
@@ -14,6 +16,7 @@ from src.etl.optimizations import (
     unpersist_dataframe,
 )
 from src.etl.job_labels import pipeline_action
+from src.etl.storage_layout import prepare_delta_output
 from src.etl.spark_session import get_spark_session
 from src.etl.transform import (
     GOLD_DIR,
@@ -31,14 +34,30 @@ logger = logging.getLogger("PipelineRunner")
 
 
 def _write_silver_partitions(df: DataFrame, output: Path, pending_snapshots, full_refresh: bool) -> None:
-    """Replace only changed contest partitions using Delta Lake."""
+    """Replace changed contests in unpartitioned Delta, preserving other rows."""
     output.mkdir(parents=True, exist_ok=True)
-    writer = df.repartition("contest_id").write.format("delta").mode("overwrite").partitionBy("contest_id")
-    if full_refresh or not (output / "_delta_log").exists():
-        writer.option("overwriteSchema", "true").save(str(output))
-    else:
-        pending_cids = ",".join(str(s[0]) for s in pending_snapshots)
-        writer.option("replaceWhere", f"contest_id in ({pending_cids})").save(str(output))
+    existing = (output / "_delta_log").exists()
+    if existing and not full_refresh:
+        partition_columns = DeltaTable.forPath(df.sparkSession, str(output)).detail().select(
+            "partitionColumns"
+        ).first().partitionColumns
+        if partition_columns:
+            raise ValueError(f"Silver at {output} uses the old partitioned layout; run --full-refresh to migrate")
+    # Range sampling and the subsequent write otherwise evaluate the expensive
+    # Bronze transformation twice. Reuse computed rows without growing the heap.
+    owns_cache = not df.is_cached
+    if owns_cache:
+        df = df.persist(StorageLevel.DISK_ONLY)
+    try:
+        writer = prepare_delta_output(df, "contest_id").write.format("delta").mode("overwrite")
+        if full_refresh or not existing:
+            writer.option("overwriteSchema", "true").save(str(output))
+        else:
+            pending_cids = ",".join(str(s[0]) for s in pending_snapshots)
+            writer.option("replaceWhere", f"contest_id in ({pending_cids})").save(str(output))
+    finally:
+        if owns_cache:
+            unpersist_dataframe(df, blocking=False)
 
 
 def _read_silver(spark, output: Path) -> DataFrame:
@@ -221,7 +240,7 @@ if __name__ == "__main__":
     parser.add_argument(
         "--full-refresh",
         action="store_true",
-        help="Force a complete rebuild of all Silver partitions from Bronze JSON snapshots",
+        help="Rebuild all Silver rows from Bronze and migrate to unpartitioned Delta files",
     )
     args = parser.parse_args()
     run_pipeline(full_refresh=args.full_refresh)

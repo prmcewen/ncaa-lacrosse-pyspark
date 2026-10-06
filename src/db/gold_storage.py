@@ -8,10 +8,11 @@ import os
 from pathlib import Path
 import re
 import shutil
-from typing import Any, Mapping, Optional
+from typing import Any, Mapping
 from uuid import uuid4
 
 from src.etl.job_labels import pipeline_action
+from src.etl.storage_layout import prepare_delta_output
 
 GOLD_TABLES = ("dim_teams", "dim_contests", "fact_plays", "agg_team_game_stats")
 
@@ -52,11 +53,9 @@ def _sync_tree(root: Path) -> None:
         _fsync_directory(Path(directory))
 
 
-def _write_full_table(df: Any, output: Path, partition_by: Optional[str]) -> None:
-    writer = df.write.format("delta")
-    if partition_by:
-        writer = writer.partitionBy(partition_by)
-    writer.save(str(output))
+def _write_full_table(df: Any, output: Path, sort_key: str, small_table: bool = False) -> None:
+    prepared = prepare_delta_output(df, sort_key, small_table=small_table)
+    prepared.write.format("delta").save(str(output))
 
 
 def publish_gold_tables(tables: Mapping[str, Any], root: Path) -> Path:
@@ -79,12 +78,10 @@ def publish_gold_tables(tables: Mapping[str, Any], root: Path) -> Path:
         for name in GOLD_TABLES:
             df = tables[name]
             output = staging / f"{name}.parquet"
-            partition_by = (
-                "contest_id" if name in {"fact_plays", "agg_team_game_stats"} else None
-            )
+            sort_key = "team_id" if name == "dim_teams" else "contest_id"
             with pipeline_action(spark_context, f"gold-write-{name}",
                                  f"Gold {name}: compute dependencies and write Delta table"):
-                _write_full_table(df, output, partition_by)
+                _write_full_table(df, output, sort_key, small_table=name.startswith("dim_"))
             with pipeline_action(spark_context, f"gold-validate-{name}",
                                  f"Gold {name}: validate persisted schema and read sample"):
                 persisted = df.sparkSession.read.format("delta").load(str(output))

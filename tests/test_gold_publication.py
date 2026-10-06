@@ -64,8 +64,7 @@ def test_failed_publication_preserves_previous_generation(spark, tmp_path, monke
     with monkeypatch.context() as faults:
         if failure_stage == "write":
             class FailingFrame:
-                @property
-                def write(self):
+                def repartitionByRange(self, *args):
                     raise RuntimeError("injected write failure")
             tables["fact_plays"] = FailingFrame()
         else:
@@ -129,9 +128,9 @@ def test_write_full_table_fails_without_parquet_fallback(spark, tmp_path):
 
     gold_out = tmp_path / "gold_fail.parquet"
     mock_df = MagicMock()
-    mock_df.write.format.return_value.save.side_effect = RuntimeError("Delta Gold write simulation failure")
+    mock_df.coalesce.return_value.sortWithinPartitions.return_value.write.format.return_value.save.side_effect = RuntimeError("Delta Gold write simulation failure")
 
     with pytest.raises(RuntimeError, match="Delta Gold write simulation failure"):
-        _write_full_table(mock_df, gold_out, partition_by=None)
+        _write_full_table(mock_df, gold_out, sort_key="team_id", small_table=True)
 
     assert not list(gold_out.glob("*.parquet"))
