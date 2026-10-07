@@ -1,0 +1,24 @@
+{
+  "seed": 1729,
+  "target_valid_plays": 10000000,
+  "valid_plays": 10000000,
+  "contests": 41152,
+  "bronze_bytes": 2276836249,
+  "bronze_files": 41152,
+  "event_counts": {
+    "GOALIE_CHANGE": 104757,
+    "FACEOFF": 1078307,
+    "TURNOVER": 1124468,
+    "GROUND_BALL": 1790380,
+    "CLEAR": 1837683,
+    "GOAL": 949698,
+    "SHOT": 2404857,
+    "UNKNOWN": 206960,
+    "PERIOD_END": 132539,
+    "PENALTY": 229178,
+    "TIMEOUT": 141173
+  },
+  "timestamp": "20260928T000000Z",
+  "git_revision": "0770f2ba51497feb0a08d96b397926681af76c65",
+  "fixture_count": 20
+}

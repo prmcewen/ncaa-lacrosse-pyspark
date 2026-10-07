@@ -1,0 +1,71 @@
+import json
+import math
+from pathlib import Path
+import duckdb
+
+ROOT = Path(__file__).resolve().parent
+BASELINE = ROOT.parent / "profile-10m"
+connection = duckdb.connect()
+connection.execute("SET threads=4")
+connection.execute("SET memory_limit='4GB'")
+connection.execute("LOAD delta")
+results = {"tables": {}, "checks": {}}
+for name in ("silver_plays", "silver_contests", "dim_teams", "dim_contests", "fact_plays", "agg_team_game_stats"):
+    details = {}
+    for label, root in (("baseline", BASELINE), ("new", ROOT)):
+        if name.startswith("silver_"):
+            path = root / "data/silver" / f"{name}.parquet"
+        else:
+            version = json.loads((root / "data/gold/current.json").read_text())["version"]
+            path = root / "data/gold/versions" / version / f"{name}.parquet"
+        escaped = str(path).replace("'", "''")
+        view = f"{label}_{name}"
+        connection.execute(f"CREATE VIEW {view} AS SELECT * FROM delta_scan('{escaped}')")
+        active = {}
+        partition_columns = None
+        for log in sorted((path / "_delta_log").glob("*.json")):
+            for line in log.open():
+                action = json.loads(line)
+                if "metaData" in action:
+                    partition_columns = action["metaData"]["partitionColumns"]
+                if "remove" in action:
+                    active.pop(action["remove"]["path"], None)
+                if "add" in action:
+                    active[action["add"]["path"]] = action["add"]["size"]
+        count = connection.execute(f"SELECT count(*) FROM {view}").fetchone()[0]
+        details[label] = {"rows": count, "active_files": len(active), "active_bytes": sum(active.values()), "partition_columns": partition_columns}
+    results["tables"][name] = details
+    assert details["baseline"]["rows"] == details["new"]["rows"], name
+    assert details["new"]["partition_columns"] == [], name
+    if name != "agg_team_game_stats":
+        columns = sorted(row[0] for row in connection.execute(f"DESCRIBE baseline_{name}").fetchall())
+        new_columns = sorted(row[0] for row in connection.execute(f"DESCRIBE new_{name}").fetchall())
+        assert columns == new_columns, name
+        expression = ", ".join('"' + col.replace('"', '""') + '"' for col in columns)
+        fingerprints = [connection.execute(f"SELECT bit_xor(hash({expression})) FROM {label}_{name}").fetchone()[0] for label in ("baseline", "new")]
+        assert fingerprints[0] == fingerprints[1], (name, fingerprints)
+        results["checks"][f"{name}_full_row_fingerprint_matches"] = True
+    print(name, details, flush=True)
+
+for label in ("baseline", "new"):
+    counts = connection.execute(f"SELECT count(*), count(DISTINCT play_id), count(DISTINCT contest_id) FROM {label}_fact_plays").fetchone()
+    assert counts == (10000000, 10000000, 41152), counts
+results["checks"]["exact_fact_counts_and_unique_ids"] = True
+for label in ("baseline", "new"):
+    connection.execute(f"CREATE VIEW {label}_game_counts AS SELECT contest_id, count(*) n FROM {label}_fact_plays GROUP BY contest_id")
+assert connection.execute("SELECT count(*) FROM ((SELECT * FROM baseline_game_counts EXCEPT ALL SELECT * FROM new_game_counts) UNION ALL (SELECT * FROM new_game_counts EXCEPT ALL SELECT * FROM baseline_game_counts))").fetchone()[0] == 0
+results["checks"]["all_per_game_counts_match"] = True
+
+columns = sorted(row[0] for row in connection.execute("DESCRIBE baseline_agg_team_game_stats").fetchall())
+expression = ", ".join('"' + col + '"' for col in columns)
+queries = [connection.execute(f"SELECT {expression} FROM {label}_agg_team_game_stats ORDER BY contest_id, team_id, team_short").fetchall() for label in ("baseline", "new")]
+assert len(queries[0]) == len(queries[1])
+for left, right in zip(*queries):
+    for a, b in zip(left, right):
+        if isinstance(a, float) and isinstance(b, float):
+            assert math.isclose(a, b, rel_tol=1e-12, abs_tol=1e-12), (a, b)
+        else:
+            assert a == b, (a, b)
+results["checks"]["all_aggregate_values_match_with_float_tolerance"] = True
+(ROOT / "layout-validation.json").write_text(json.dumps(results, indent=2) + "\n")
+print("All layout comparison checks passed.", flush=True)

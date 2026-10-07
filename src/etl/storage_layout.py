@@ -1,5 +1,20 @@
 """Bounded, unpartitioned Delta output with useful contest/team file statistics."""
 import os
+from pathlib import Path
+
+
+def resolve_table_path(path: Path) -> Path:
+    """Prefer the table name, while keeping older .parquet directories readable."""
+    legacy = path.with_name(f"{path.name}.parquet")
+    return legacy if not path.exists() and legacy.exists() else path
+
+
+def migrate_table_path(path: Path) -> Path:
+    """Rename a legacy Silver directory without overwriting an existing table."""
+    existing = resolve_table_path(path)
+    if existing != path:
+        existing.rename(path)
+    return path
 
 
 def prepare_delta_output(df, sort_key: str, *, small_table: bool = False):

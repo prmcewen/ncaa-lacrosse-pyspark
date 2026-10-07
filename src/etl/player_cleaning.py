@@ -1,7 +1,6 @@
 from pyspark.sql import functions as F
 from pyspark.sql.types import StringType
 
-
 _SUFFIX_SET = {"JR", "JR.", "SR", "SR.", "II", "III", "IV", "V"}
 
 

@@ -1,7 +1,8 @@
 import json
 
-from benchmarks.load_data import FIRST_CONTEST_ID, contest_counts, generate, validate
 from pyspark.sql import functions as F
+
+from benchmarks.load_data import FIRST_CONTEST_ID, contest_counts, generate, validate
 from src.etl.transform import process_bronze_to_silver
 
 

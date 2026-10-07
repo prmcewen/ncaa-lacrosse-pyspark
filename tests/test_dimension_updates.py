@@ -29,10 +29,11 @@ def test_latest_dimension_rows_are_unique_and_deterministic(spark):
     schema = ("contest_id long, ingest_timestamp string, title string, status string, "
               "teams array<struct<team_id:long,name_short:string,name_full:string,name_6char:string,"
               "seoname:string,color:string,is_home:boolean>>")
-    teams = lambda full_name, color: [
-        (10, "HOME", full_name, "HOME", "home", color, True),
-        (20, "AWAY", "Away", "AWAY", "away", "blue", False),
-    ]
+    def teams(full_name, color):
+        return [
+            (10, "HOME", full_name, "HOME", "home", color, True),
+            (20, "AWAY", "Away", "AWAY", "away", "blue", False),
+        ]
     silver_contests = spark.createDataFrame([
         (1, "20260901", "old", "live", teams("old", "red")),
         (2, "20260902", "middle", "final", teams("middle", "blue")),
@@ -80,6 +81,7 @@ def test_invalid_dimension_keys_are_rejected(spark, rows, message):
 
 def test_missing_silver_contests_backfills_without_rebuilding_plays(spark, tmp_path, monkeypatch):
     from shutil import rmtree
+
     from src.etl import run_pipeline as runner
 
     silver = tmp_path / "silver"
@@ -95,23 +97,26 @@ def test_missing_silver_contests_backfills_without_rebuilding_plays(spark, tmp_p
     monkeypatch.setattr(runner, "save_explain_plan", lambda *args, **kwargs: None)
     runner.run_pipeline()
     first_publication = (gold / "current.json").read_bytes()
-    runner.run_pipeline()
-    second_publication = (gold / "current.json").read_bytes()
-    assert second_publication != first_publication
-
-    rmtree(silver / "silver_contests.parquet")
+    for name in ("silver_plays", "silver_contests"):
+        (silver / name).rename(silver / f"{name}.parquet")
     def unexpected_play_rebuild(*args, **kwargs):
         raise AssertionError("Current Silver plays should not be rebuilt")
     monkeypatch.setattr(runner, "process_bronze_to_silver", unexpected_play_rebuild)
     runner.run_pipeline()
-    assert (silver / "silver_contests.parquet").exists()
+    assert all((silver / name / "_delta_log").is_dir() for name in ("silver_plays", "silver_contests"))
+    second_publication = (gold / "current.json").read_bytes()
+    assert second_publication != first_publication
+
+    rmtree(silver / "silver_contests")
+    runner.run_pipeline()
+    assert (silver / "silver_contests").exists()
     assert (gold / "current.json").read_bytes() != second_publication
 
 
 def test_retry_after_silver_write_publishes_corrected_dimensions(spark, tmp_path, monkeypatch):
-    from src.etl import run_pipeline as runner
-    from src.db.gold_storage import resolve_gold_dir
     from src.db import duckdb_client as database
+    from src.db.gold_storage import resolve_gold_dir
+    from src.etl import run_pipeline as runner
 
     gold = tmp_path / "gold"
     silver = tmp_path / "silver"
@@ -121,7 +126,7 @@ def test_retry_after_silver_write_publishes_corrected_dimensions(spark, tmp_path
     monkeypatch.setattr(spark, "stop", lambda: None)
     monkeypatch.setattr(runner, "save_explain_plan", lambda *args, **kwargs: None)
     monkeypatch.setattr(database, "GOLD_DIR", gold)
-    monkeypatch.setattr(database, "SILVER_PARQUET", silver / "silver_plays.parquet")
+    monkeypatch.setattr(database, "SILVER_PLAYS_DIR", silver / "silver_plays")
     source = tmp_path / "old.json"
     source.write_text(json.dumps(_payload(1, "old", "red", "live")))
     snapshots = [(1, "20260901T000000Z", source)]
@@ -141,7 +146,7 @@ def test_retry_after_silver_write_publishes_corrected_dimensions(spark, tmp_path
     with pytest.raises(RuntimeError, match="injected publication failure"):
         runner.run_pipeline()
     assert resolve_gold_dir(gold) == previous
-    assert runner.get_pending_snapshots(spark, snapshots, silver / "silver_plays.parquet") == []
+    assert runner.get_pending_snapshots(spark, snapshots, silver / "silver_plays") == []
     monkeypatch.setattr(runner, "publish_gold_tables", original_publish)
 
     def unexpected_bronze_read(*args, **kwargs):

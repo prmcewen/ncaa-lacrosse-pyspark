@@ -6,8 +6,8 @@ import hashlib
 import json
 import math
 import random
-import subprocess
 import re
+import subprocess
 from collections import Counter
 from pathlib import Path
 from typing import Any

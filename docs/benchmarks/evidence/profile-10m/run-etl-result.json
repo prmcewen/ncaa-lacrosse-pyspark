@@ -1,0 +1,26 @@
+{
+  "command": "run-etl",
+  "argv": [
+    "uv",
+    "run",
+    "python",
+    "-m",
+    "src.etl.run_pipeline",
+    "--full-refresh"
+  ],
+  "returncode": 0,
+  "wall_seconds": 1946.9083283289997,
+  "max_child_rss_kib": 171356,
+  "rss_before_kib": 0,
+  "workers": 8,
+  "driver_memory": "8g",
+  "shuffle_partitions": 128,
+  "run_root": "/home/patrick/Documents/laxpxp_pyspark/benchmarks/output/profile-10m",
+  "log": "/home/patrick/Documents/laxpxp_pyspark/benchmarks/output/profile-10m/run-etl.log",
+  "disk_bytes": {
+    "bronze": 2289058393,
+    "silver": 1206834736,
+    "gold": 1643704485
+  },
+  "gold_rebuild_bytes": 0
+}

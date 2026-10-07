@@ -6,7 +6,6 @@ import asyncio
 import json
 import os
 import resource
-import shutil
 import socket
 import subprocess
 import sys
@@ -14,6 +13,7 @@ import time
 from pathlib import Path
 
 from benchmarks.load_data import FIRST_CONTEST_ID, generate, validate
+from src.etl.storage_layout import resolve_table_path
 
 REPO = Path(__file__).resolve().parents[1]
 
@@ -55,7 +55,7 @@ def _run_etl(args) -> dict:
     root = _root(args.run_root)
     if not (root / "generation_summary.json").exists():
         raise ValueError("generate the isolated dataset first")
-    if args.command == "run-silver-gold" and not (root / "data/silver/silver_plays.parquet").exists():
+    if args.command == "run-silver-gold" and not resolve_table_path(root / "data/silver/silver_plays").exists():
         raise ValueError("Silver plays do not exist; run full ETL first")
     env = _environment(args, root)
     command = ["uv", "run", "python", "-m", "src.etl.run_pipeline"]

@@ -2,9 +2,34 @@
 import pytest
 from delta.tables import DeltaTable
 
-from src.etl.run_pipeline import _write_silver_partitions
-from src.etl.transform import get_pending_snapshots
 from src.db.gold_storage import publish_gold_tables
+from src.etl.run_pipeline import _write_silver_partitions
+from src.etl.storage_layout import migrate_table_path, resolve_table_path
+from src.etl.transform import get_pending_snapshots
+
+
+def test_legacy_silver_name_migrates_without_changing_contents(tmp_path):
+    table = tmp_path / "silver_plays"
+    legacy = tmp_path / "silver_plays.parquet"
+    log = legacy / "_delta_log" / "00000000000000000000.json"
+    log.parent.mkdir(parents=True)
+    log.write_text('{"commitInfo": {}}')
+    assert resolve_table_path(table) == legacy
+    assert migrate_table_path(table) == table
+    assert (table / "_delta_log" / log.name).read_text() == '{"commitInfo": {}}'
+    assert not legacy.exists()
+    assert migrate_table_path(table) == table
+
+
+def test_canonical_table_takes_precedence_without_overwriting_legacy(tmp_path):
+    table = tmp_path / "silver_plays"
+    legacy = tmp_path / "silver_plays.parquet"
+    table.mkdir()
+    legacy.mkdir()
+    (legacy / "original").write_text("preserve")
+    assert resolve_table_path(table) == table
+    assert migrate_table_path(table) == table
+    assert (legacy / "original").read_text() == "preserve"
 
 
 def test_incremental_replacement_preserves_other_games_in_shared_file(spark, tmp_path, monkeypatch):
@@ -66,7 +91,7 @@ def test_gold_writes_bound_files_without_contest_directories(spark, tmp_path, mo
         "fact_plays": games, "agg_team_game_stats": games,
     }, tmp_path)
     for name, expected in [("dim_teams", 4), ("dim_contests", 40), ("fact_plays", 40), ("agg_team_game_stats", 40)]:
-        output = published / f"{name}.parquet"
+        output = published / name
         detail = DeltaTable.forPath(spark, str(output)).detail().first()
         assert detail.partitionColumns == []
         assert detail.numFiles <= (1 if name.startswith("dim_") else 2)

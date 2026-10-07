@@ -1,4 +1,5 @@
 import pytest
+
 from src.db.duckdb_client import DuckDBClient
 
 
@@ -199,7 +200,7 @@ def test_shot_possession_retained(db_client):
 
 def test_gold_shooting_efficiency_metrics(db_client):
     rows = db_client.execute_query("""
-        SELECT contest_id, team_short, goals, total_shots, shots_retained, 
+        SELECT contest_id, team_id, team_short, goals, total_shots, shots_retained,
                shooting_pct,
                realized_shots_lost, realized_shot_possessions_used, realized_shooting_efficiency,
                normalized_shots_lost, normalized_shot_possessions_used, normalized_shooting_efficiency
@@ -207,10 +208,10 @@ def test_gold_shooting_efficiency_metrics(db_client):
         ORDER BY contest_id, team_short
     """)
     assert len(rows) >= 4
-    by_key = {(r["contest_id"], r["team_short"]): r for r in rows}
+    by_key = {(r["contest_id"], r["team_id"]): r for r in rows}
 
     # Verify contest 6599996 (ND vs PU)
-    pu_stats = by_key[(6599996, "PU")]
+    pu_stats = by_key[(6599996, 43731)]
     assert pu_stats["goals"] == 16
     assert pu_stats["shots_retained"] == 27
     assert pu_stats["realized_shots_lost"] == 10
@@ -223,7 +224,7 @@ def test_gold_shooting_efficiency_metrics(db_client):
     assert pu_stats["normalized_shot_possessions_used"] == round(pu_stats["goals"] + pu_stats["normalized_shots_lost"], 4)
     assert pu_stats["normalized_shooting_efficiency"] > 0
 
-    nd_stats = by_key[(6599996, "ND")]
+    nd_stats = by_key[(6599996, 43861)]
     assert nd_stats["goals"] == 9
     assert nd_stats["shots_retained"] == 16
     assert nd_stats["realized_shots_lost"] == 16

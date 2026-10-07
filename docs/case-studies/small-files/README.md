@@ -92,4 +92,4 @@ These counts describe **active Delta data files**, excluding Bronze JSON, transa
 
 This was one before/after measurement, not a repeated cold-cache experiment. Filesystem cache and other machine activity can affect timings. The 16-file setting bounds fresh writes, not a table's lifetime file count: incremental updates may rewrite shared files and add files over time. Delta can retain obsolete files after migration, and Bronze still contains one JSON file per game.
 
-The measurements and validation artifacts for this fix are under `benchmarks/output/profile-10m-unpartitioned/`.
+The [recorded evidence](../../benchmarks/evidence/README.md) includes measurements and validation artifacts for both completed runs. Generated datasets and full logs remain local under ignored `benchmarks/output/`.

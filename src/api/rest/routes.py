@@ -1,13 +1,15 @@
 from typing import Annotated, List, Optional
+
 from fastapi import APIRouter, HTTPException, Query
+
 from src.api.dependencies import RequestDB
 from src.api.rest.schema import (
-    HealthResponse,
     ContestResponse,
     ContestSummaryResponse,
-    PlayResponse,
-    PlayQueryParams,
+    HealthResponse,
     PlayFilterQueryParams,
+    PlayQueryParams,
+    PlayResponse,
     ShootingEfficiencySummaryResponse,
 )
 

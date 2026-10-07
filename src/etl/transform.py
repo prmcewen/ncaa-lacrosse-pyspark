@@ -2,7 +2,7 @@ import json
 import logging
 import os
 from pathlib import Path
-from typing import Dict, List, Set, Tuple, Union
+from typing import Dict, List, Tuple, Union
 
 from pyspark.sql import DataFrame, SparkSession
 from pyspark.sql import functions as F
@@ -25,28 +25,92 @@ BRONZE_DIR = DATA_DIR / "bronze"
 SILVER_DIR = DATA_DIR / "silver"
 GOLD_DIR = Path(os.environ.get("LAXPXP_GOLD_DIR", DATA_DIR / "gold")).resolve()
 
-TEAM_ALIASES: Dict[int, Set[str]] = {
-    43759: {"NORTH CA", "NORTH CA.", "NORTH", "UNC", "NORTH CAROLINA", "NORTHCA"},
-    43828: {"STONY BR", "STONY", "STONY BROOK"},
-    43732: {"ROBERT M", "ROBERT", "ROBMOR", "ROBERT MORRIS"},
-    43978: {"PENN ST.", "PENN ST", "PENN", "PSU", "PENNST", "PENN STATE"},
-    43833: {"ARMY WES", "ARMY WES.", "ARMY", "ARMY WEST POINT"},
-    43861: {"NOTRE DA", "NOTRE", "ND", "NOTRE DAME", "N DAME"},
-    43731: {"PU", "PRIN", "PRINCE", "PRINCETON"},
-    43804: {"SU", "SYR", "SYRACUSE"},
-    51665: {"UR", "RICH", "RICHMOND"},
-    43915: {"GTOWN", "GEORGETO", "GEORGETOWN"},
-    43919: {"JVILLE", "JACKSONV", "JACKSONVILLE"},
-    43920: {"HOPKNS", "JHU", "JOHNS HOPKINS"},
-    43713: {"CORN", "COR", "CORNELL"},
-    43768: {"UVA", "VIRGINIA"},
-    43784: {"ALBANY", "UALBANY"},
-    43748: {"DUKE"},
-    43789: {"YALE"},
-    43719: {"MARIST"},
-}
 
-TEAM_PREFIX_PAT = r"(?:NORTH CAROLINA|ROBERT MORRIS|STONY BROOK|ARMY WEST POINT|PENN STATE|NOTRE DAME|STONY BR\.?|ROBERT M\.?|NORTH CA\.?|PENN ST\.?|ARMY WES\.?|NOTRE DA\.?|\w+)"
+def _normalize_team_alias(code: F.Column) -> F.Column:
+    return F.upper(F.regexp_replace(F.trim(F.regexp_replace(F.trim(code), r"\.+$", "")), r"\s+", " "))
+
+
+def _metadata_team_aliases(team_id: F.Column, short: F.Column, six: F.Column, full: F.Column) -> F.Column:
+    """Derive names, initials and truncated labels from the supplied team metadata."""
+    short = _normalize_team_alias(F.coalesce(short, F.lit("")))
+    names = F.array(short, _normalize_team_alias(six), _normalize_team_alias(full))
+    initials = F.transform(names, lambda name: F.concat_ws("", F.transform(
+        F.split(name, r"\s+"), lambda word: F.substring(word, 1, 1),
+    )))
+    # NCAA text often truncates a display name (e.g. an eight-character label).
+    prefixes = F.when(F.length(short) >= 3, F.transform(
+        F.sequence(F.lit(3), F.length(short)),
+        lambda length: F.trim(F.call_function("substring", short, F.lit(1), length)),
+    )).otherwise(F.array().cast("array<string>"))
+    aliases = F.array_distinct(F.filter(F.concat(names, initials, prefixes),
+                                      lambda alias: alias.isNotNull() & (alias != "")))
+    return F.transform(aliases, lambda alias: F.struct(
+        alias.alias("code"), team_id.cast("long").alias("team_id"),
+        F.lit(False).alias("observed"),
+    ))
+
+
+def _observed_team_alias(code: F.Column, team_id: F.Column) -> F.Column:
+    code = _normalize_team_alias(code)
+    return F.when((code != "") & team_id.isNotNull(), F.struct(
+        code.alias("code"), team_id.cast("long").alias("team_id"),
+        F.lit(True).alias("observed"),
+    ))
+
+
+def _with_team_pattern(df: DataFrame) -> DataFrame:
+    codes = F.array_distinct(F.transform("_team_aliases", lambda alias: alias["code"]))
+    # Match the longest label first so multiword team names stay out of player names.
+    codes = F.array_sort(codes, lambda left, right: (
+        F.when(F.length(left) > F.length(right), -1)
+        .when(F.length(left) < F.length(right), 1).otherwise(0)
+    ))
+    escaped = F.transform(codes, lambda code: F.concat(F.lit(r"\Q"), code, F.lit(r"\E\.?")))
+    return df.withColumn("_team_pattern", F.concat(
+        F.lit("(?i:(?:"), F.concat_ws("|", escaped), F.lit(r"|\w+\.?)(?=\s|[,.(]|$))"),
+    ))
+
+
+def _extract_team_text(text: F.Column, prefix: str, suffix: str = "", group: int = 1) -> F.Column:
+    # call_function accepts a per-row regex, keeping inference inside the Spark DAG.
+    return F.call_function("regexp_extract", text,
+                           F.concat(F.lit(prefix), F.col("_team_pattern"), F.lit(suffix)), F.lit(group))
+
+
+def _lookup_team(code: F.Column) -> F.Column:
+    matches = F.filter(
+        F.col("_team_aliases"), lambda alias: alias["code"] == _normalize_team_alias(code),
+    )
+    observed = F.filter(matches, lambda alias: alias["observed"])
+    # Recorded label/ID pairs take precedence over initials or name truncations.
+    candidates = F.when(F.size(observed) > 0, observed).otherwise(matches)
+    teams = F.array_distinct(F.transform(candidates, lambda alias: alias["team_id"]))
+    # A shared abbreviation is not evidence for either participant.
+    return F.when(F.size(teams) == 1, F.element_at(teams, 1))
+
+
+def _infer_contest_team_aliases(df: DataFrame) -> DataFrame:
+    """Learn additional labels from plays whose syntax separates team and player."""
+    text = F.trim(F.col("play_text"))
+    code = (
+        F.when(text.contains("at goalie for"), F.regexp_extract(text, r"at goalie for\s+(.+?)\.?$", 1))
+        .when(text.startswith("Faceoff"), F.regexp_extract(text, r"\s+won by\s+([^,(]+)", 1))
+        .when(text.startswith("Clear attempt by"), F.regexp_extract(text, r"^Clear attempt by\s+(.+?)\s+(?:good|failed)\b", 1))
+        .when(text.startswith("Timeout by"), F.regexp_extract(text, r"^Timeout by\s+(.+?)\.?$", 1))
+        .otherwise(F.regexp_extract(text, r"^(?:(?:GOAL|Shot|Turnover|Ground ball pickup) by|Penalty on)\s+(\S+)", 1))
+    )
+    valid_team = F.when(
+        (F.col("stat_team_id") == F.col("home_tid")) | (F.col("stat_team_id") == F.col("away_tid")),
+        F.col("stat_team_id"),
+    )
+    df = df.withColumn("_observed_alias", _observed_team_alias(code, valid_team))
+    observed = F.collect_set("_observed_alias").over(Window.partitionBy("contest_id"))
+    df = df.withColumn("_team_aliases", F.array_distinct(F.concat(
+        _metadata_team_aliases(F.col("home_tid"), F.col("home_short"), F.col("home_6char"), F.col("home_full")),
+        _metadata_team_aliases(F.col("away_tid"), F.col("away_short"), F.col("away_6char"), F.col("away_full")),
+        observed,
+    ))).drop("_observed_alias")
+    return _with_team_pattern(df)
 
 
 def _faceoff_participants(text_col: F.Column) -> Tuple[F.Column, F.Column]:
@@ -97,30 +161,13 @@ def _resolve_faceoff_players(
 def _faceoff_ground_ball(text: F.Column) -> Tuple[F.Column, F.Column]:
     """Extract explicit ground-ball evidence embedded in a faceoff description."""
     text = F.trim(text)
-    code = F.upper(F.regexp_replace(F.regexp_extract(
-        text, rf"^Faceoff.*Ground ball pickup by ({TEAM_PREFIX_PAT})\s+", 1
-    ), r"\.+$", ""))
-    player = clean_player_name_native(F.regexp_replace(F.regexp_extract(
-        text, rf"^Faceoff.*Ground ball pickup by {TEAM_PREFIX_PAT}\s+(.+?)\.?$", 1
+    code = _normalize_team_alias(_extract_team_text(
+        text, r"^Faceoff.*Ground ball pickup by (", r")\s+",
+    ))
+    player = clean_player_name_native(F.regexp_replace(_extract_team_text(
+        text, r"^Faceoff.*Ground ball pickup by ", r"\s+(.+?)\.?$",
     ), r"\.+$", ""))
     return player, code
-
-
-def _lookup_faceoff_team(
-    code: F.Column, home_tid: F.Column, away_tid: F.Column,
-    home_short: F.Column, away_short: F.Column, home_6: F.Column, away_6: F.Column,
-) -> F.Column:
-    alias_args = []
-    for tid, aliases in TEAM_ALIASES.items():
-        for alias in sorted(aliases):
-            alias_args.extend([F.lit(alias.upper()), F.lit(tid).cast("long")])
-    alias_id = F.create_map(*alias_args)[code]
-    return (
-        F.when((code == F.upper(home_short)) | (code == F.upper(home_6)), home_tid)
-        .when((code == F.upper(away_short)) | (code == F.upper(away_6)), away_tid)
-        .when((alias_id == home_tid) | (alias_id == away_tid), alias_id)
-        .otherwise(F.lit(None).cast("long"))
-    )
 
 
 def _attribute_faceoff_players(df: DataFrame) -> DataFrame:
@@ -133,10 +180,7 @@ def _attribute_faceoff_players(df: DataFrame) -> DataFrame:
     gb_player, gb_code = _faceoff_ground_ball(F.col("play_text"))
     df = df.withColumn("_fo_first", first).withColumn("_fo_second", second)
     df = df.withColumn("_fo_gb_player", gb_player).withColumn("_fo_gb_code", gb_code)
-    df = df.withColumn("_fo_gb_team", _lookup_faceoff_team(
-        F.col("_fo_gb_code"), F.col("home_tid"), F.col("away_tid"),
-        F.col("home_short"), F.col("away_short"), F.col("home_6char"), F.col("away_6char"),
-    ))
+    df = df.withColumn("_fo_gb_team", _lookup_team(F.col("_fo_gb_code")))
 
     def evidence(name, team):
         valid = (name.isNotNull() & ~F.upper(name).isin("TEAM", "TM", "BENCH")
@@ -227,7 +271,7 @@ def parse_clock_native(clock_col: F.Column) -> F.Column:
 def get_pending_snapshots(
     spark: SparkSession,
     snapshots: List[Tuple[int, str, Path]],
-    silver_output_path: Path = SILVER_DIR / "silver_plays.parquet",
+    silver_output_path: Path = SILVER_DIR / "silver_plays",
     full_refresh: bool = False,
 ) -> List[Tuple[int, str, Path]]:
     """
@@ -338,7 +382,7 @@ def process_bronze_to_silver(
     snapshots: Union[Tuple[int, str, Path], List[Tuple[int, str, Path]]],
 ) -> DataFrame:
     """
-    Transform raw Bronze JSON snapshot(s) into approved 34-column Silver DataFrame.
+    Transform raw Bronze JSON snapshot(s) into a structured 34-column Silver DataFrame.
     Supports either a single snapshot tuple (cid, ingest_ts, path) or a list of snapshot tuples
     for multi-game batch execution in a single PySpark DAG.
     """
@@ -369,6 +413,8 @@ def process_bronze_to_silver(
         away_team["nameShort"].alias("away_short"),
         home_team["name6Char"].alias("home_6char"),
         away_team["name6Char"].alias("away_6char"),
+        home_team["nameFull"].alias("home_full"),
+        away_team["nameFull"].alias("away_full"),
         F.posexplode("periods").alias("period_pos", "period"),
     )
 
@@ -380,6 +426,8 @@ def process_bronze_to_silver(
         F.col("away_short"),
         F.col("home_6char"),
         F.col("away_6char"),
+        F.col("home_full"),
+        F.col("away_full"),
         F.col("period_pos"),
         F.col("period.periodNumber").alias("period_number"),
         F.col("period.periodDisplay").alias("period_display"),
@@ -394,6 +442,8 @@ def process_bronze_to_silver(
         F.col("away_short"),
         F.col("home_6char"),
         F.col("away_6char"),
+        F.col("home_full"),
+        F.col("away_full"),
         F.col("period_pos"),
         F.col("period_number"),
         F.col("period_display"),
@@ -409,6 +459,8 @@ def process_bronze_to_silver(
         F.col("away_short"),
         F.col("home_6char"),
         F.col("away_6char"),
+        F.col("home_full"),
+        F.col("away_full"),
         F.col("period_pos"),
         F.col("period_number"),
         F.col("period_display"),
@@ -475,10 +527,8 @@ def process_bronze_to_silver(
         F.col("running_home_score") - F.col("running_visitor_score"),
     )
 
-    # Modular text mining and team attribution
-    alias_cases = F.when(F.lit(False), F.lit(None).cast(LongType()))
-    for tid, aliases in TEAM_ALIASES.items():
-        alias_cases = alias_cases.when(F.col("alias_lookup_col").isin(list(aliases)), F.lit(tid).cast(LongType()))
+    # Infer aliases within each contest before parsing event and player labels.
+    scored_df = _infer_contest_team_aliases(scored_df)
 
     # Step A: Event type and team code extraction
     df_a = scored_df.withColumn(
@@ -487,17 +537,16 @@ def process_bronze_to_silver(
         "event_type", classify_event_type_native(F.col("norm_text"))
     ).withColumn(
         "by_team",
-        F.regexp_extract(
+        _extract_team_text(
             F.col("norm_text"),
-            rf"^(?:GOAL|Shot|Turnover|Clear attempt|Timeout|Ground ball pickup) by ({TEAM_PREFIX_PAT})",
-            1,
+            r"^(?:GOAL|Shot|Turnover|Clear attempt|Timeout|Ground ball pickup) by (", r")",
         )
     ).withColumn(
         "ev_team_short_raw",
         F.when(F.col("by_team") != "", F.col("by_team"))
-        .when(F.col("norm_text").startswith("Faceoff"), F.regexp_extract(F.col("norm_text"), rf"^Faceoff\s+.+?\s+vs\s+.+?\s+won by\s+({TEAM_PREFIX_PAT})", 1))
-        .when(F.col("norm_text").startswith("Penalty on"), F.regexp_extract(F.col("norm_text"), rf"^Penalty on ({TEAM_PREFIX_PAT})", 1))
-        .when(F.col("norm_text").contains("at goalie for"), F.regexp_extract(F.col("norm_text"), rf"at goalie for ({TEAM_PREFIX_PAT})", 1))
+        .when(F.col("norm_text").startswith("Faceoff"), _extract_team_text(F.col("norm_text"), r"^Faceoff\s+.+?\s+vs\s+.+?\s+won by\s+(", r")"))
+        .when(F.col("norm_text").startswith("Penalty on"), _extract_team_text(F.col("norm_text"), r"^Penalty on (", r")"))
+        .when(F.col("norm_text").contains("at goalie for"), _extract_team_text(F.col("norm_text"), r"at goalie for (", r")"))
         .otherwise(F.lit(None).cast(StringType()))
     ).withColumn(
         "event_team_short",
@@ -507,27 +556,10 @@ def process_bronze_to_silver(
         ).otherwise(F.lit(None).cast(StringType()))
     ).drop("by_team", "ev_team_short_raw")
 
-    # Step B: Team ID mapping using column references (prevents Catalyst AST explosion)
+    # Step B: Resolve only contest-local aliases, retaining the source team ID fallback.
     df_b = df_a.withColumn(
-        "alias_lookup_col", F.upper(F.col("event_team_short"))
-    ).withColumn(
-        "alias_tid", alias_cases
-    ).withColumn(
-        "team_id",
-        F.when(F.col("event_team_short").isNull(), F.col("stat_team_id").cast(LongType()))
-        .when(F.col("alias_tid").isNotNull(), F.col("alias_tid"))
-        .when(
-            (F.col("home_short").isNotNull() & (F.upper(F.col("event_team_short")) == F.upper(F.col("home_short"))))
-            | (F.col("home_6char").isNotNull() & (F.upper(F.col("event_team_short")) == F.upper(F.col("home_6char")))),
-            F.col("home_tid").cast(LongType())
-        )
-        .when(
-            (F.col("away_short").isNotNull() & (F.upper(F.col("event_team_short")) == F.upper(F.col("away_short"))))
-            | (F.col("away_6char").isNotNull() & (F.upper(F.col("event_team_short")) == F.upper(F.col("away_6char")))),
-            F.col("away_tid").cast(LongType())
-        )
-        .otherwise(F.col("stat_team_id").cast(LongType()))
-    ).drop("alias_lookup_col", "alias_tid")
+        "team_id", F.coalesce(_lookup_team(F.col("event_team_short")), F.col("stat_team_id").cast(LongType())),
+    )
 
     df_b = df_b.withColumn(
         "event_team_is_home",
@@ -599,16 +631,16 @@ def process_bronze_to_silver(
     )
 
     primary_raw = (
-        F.when(norm_text_col.startswith("GOAL by"), F.regexp_extract(norm_text_col, rf"^GOAL by {TEAM_PREFIX_PAT}\s+(.+?)(?:,\s*Assist by|\s*\([^)]+\)|,\s*goal number|\.?$)", 1))
-        .when(norm_text_col.startswith("Shot by"), F.regexp_extract(norm_text_col, rf"^Shot by {TEAM_PREFIX_PAT}\s+(.+?)(?:,\s*SAVE|,\s*TEAM SAVE|\s+HIGH|\s+WIDE|\s+HIT POST|\s+HIT CROSSBAR|\s+BLOCKED|\.?$)", 1))
+        F.when(norm_text_col.startswith("GOAL by"), _extract_team_text(norm_text_col, r"^GOAL by ", r"\s+(.+?)(?:,\s*Assist by|\s*\([^)]+\)|,\s*goal number|\.?$)"))
+        .when(norm_text_col.startswith("Shot by"), _extract_team_text(norm_text_col, r"^Shot by ", r"\s+(.+?)(?:,\s*SAVE|,\s*TEAM SAVE|\s+HIGH|\s+WIDE|\s+HIT POST|\s+HIT CROSSBAR|\s+BLOCKED|\.?$)"))
         .when(
             norm_text_col.startswith("Turnover by"),
-            F.when(F.trim(F.regexp_extract(norm_text_col, rf"^Turnover by {TEAM_PREFIX_PAT}(?:\s+(.+?)(?:\s*\([^)]+\)|\.?$))?", 1)) != "",
-                   F.regexp_extract(norm_text_col, rf"^Turnover by {TEAM_PREFIX_PAT}(?:\s+(.+?)(?:\s*\([^)]+\)|\.?$))?", 1)).otherwise(F.lit("TEAM"))
+            F.when(F.trim(_extract_team_text(norm_text_col, r"^Turnover by ", r"(?:\s+(.+?)(?:\s*\([^)]+\)|\.?$))?")) != "",
+                   _extract_team_text(norm_text_col, r"^Turnover by ", r"(?:\s+(.+?)(?:\s*\([^)]+\)|\.?$))?")).otherwise(F.lit("TEAM"))
         )
-        .when(norm_text_col.startswith("Ground ball"), F.regexp_extract(norm_text_col, rf"^Ground ball pickup by {TEAM_PREFIX_PAT}\s+(.+?)\.?$", 1))
-        .when(norm_text_col.startswith("Penalty on"), F.regexp_extract(norm_text_col, rf"^Penalty on {TEAM_PREFIX_PAT}\s+([^(]+)", 1))
-        .when(norm_text_col.contains("at goalie for"), F.regexp_extract(norm_text_col, rf"^(.+?)\s+at goalie for (?:{TEAM_PREFIX_PAT})", 1))
+        .when(norm_text_col.startswith("Ground ball"), _extract_team_text(norm_text_col, r"^Ground ball pickup by ", r"\s+(.+?)\.?$"))
+        .when(norm_text_col.startswith("Penalty on"), _extract_team_text(norm_text_col, r"^Penalty on ", r"\s+([^(]+)"))
+        .when(norm_text_col.contains("at goalie for"), _extract_team_text(norm_text_col, r"^(.+?)\s+at goalie for "))
         .otherwise(F.lit(None).cast(StringType()))
     )
 
@@ -679,7 +711,7 @@ def process_bronze_to_silver(
         F.concat(F.col("contest_id").cast("string"), F.lit("_"), F.col("play_seq").cast("string")),
     )
 
-    # Project the 34 Approved Silver Columns
+    # Project the 34 structured Silver columns
     projected_silver_df = df_final.select(
         F.col("play_id"),
         F.col("contest_id"),
@@ -721,6 +753,48 @@ def process_bronze_to_silver(
 
 
 
+def _embedded_ground_balls(silver_df: DataFrame, dim_teams: DataFrame) -> DataFrame:
+    """Represent a faceoff's explicit ground ball as an aggregate-only event.
+
+    Resolve the collector's team against the two contest participants rather
+    than assuming it is the faceoff winner. Facts keep the original play rows.
+    """
+    # Silver's resolved event labels provide evidence even when metadata changes.
+    faceoffs = silver_df.withColumn("_observed_aliases", F.collect_set(
+        _observed_team_alias(F.col("event_team_short"), F.col("team_id")),
+    ).over(Window.partitionBy("contest_id"))).filter(F.col("event_type") == "FACEOFF").select(
+        "contest_id", "team_id", "opponent_team_id", "play_text", "_observed_aliases",
+    )
+    for source, prefix in (("team_id", "_event"), ("opponent_team_id", "_opponent")):
+        metadata = dim_teams.select(
+            F.col("team_id").alias(f"{prefix}_id"),
+            F.col("name_short").alias(f"{prefix}_short"),
+            F.col("name_6char").alias(f"{prefix}_6char"),
+            F.col("name_full").alias(f"{prefix}_full"),
+        )
+        faceoffs = faceoffs.join(
+            F.broadcast(metadata), F.col(source) == F.col(f"{prefix}_id"), "left",
+        )
+    faceoffs = faceoffs.withColumn("_team_aliases", F.array_distinct(F.concat(
+        _metadata_team_aliases(F.col("team_id"), F.col("_event_short"),
+                               F.col("_event_6char"), F.col("_event_full")),
+        _metadata_team_aliases(F.col("opponent_team_id"), F.col("_opponent_short"),
+                               F.col("_opponent_6char"), F.col("_opponent_full")),
+        F.filter("_observed_aliases", lambda alias: (
+            (alias["team_id"] == F.col("team_id")) | (alias["team_id"] == F.col("opponent_team_id"))
+        )),
+    )))
+    faceoffs = _with_team_pattern(faceoffs)
+    _, code = _faceoff_ground_ball(F.col("play_text"))
+    faceoffs = faceoffs.withColumn("_gb_code", code).filter(F.col("_gb_code") != "")
+    collector_team = _lookup_team(F.col("_gb_code"))
+    return faceoffs.select(
+        "contest_id", collector_team.alias("team_id"),
+        F.col("_gb_code").alias("event_team_short"),
+        F.lit("GROUND_BALL").alias("event_type"),
+    ).filter(F.col("team_id").isNotNull())
+
+
 def generate_gold_tables(
     spark: SparkSession,
     silver_df: DataFrame,
@@ -754,11 +828,13 @@ def generate_gold_tables(
         .drop("expected_loss_rate")
     )
 
-    agg_team_game_stats = silver_annotated.filter(
-        F.col("team_id").isNotNull() & F.col("event_team_short").isNotNull()
-    ).groupBy(
-        "contest_id", "team_id", "event_team_short"
+    stat_plays = silver_annotated.unionByName(
+        _embedded_ground_balls(silver_df, dim_teams), allowMissingColumns=True,
+    )
+    agg_team_game_stats = stat_plays.filter(F.col("team_id").isNotNull()).groupBy(
+        "contest_id", "team_id"
     ).agg(
+        F.min(F.when(F.trim("event_team_short") != "", F.trim("event_team_short"))).alias("_fallback_team_short"),
         F.count(F.when(F.col("event_type").isin("SHOT", "GOAL"), 1)).alias("total_shots"),
         F.count(F.when(F.col("event_type") == "GOAL", 1)).alias("goals"),
         F.count(F.when((F.col("event_type") == "SHOT") & (F.col("shot_possession_retained") == True), 1)).alias("shots_retained"),
@@ -795,7 +871,18 @@ def generate_gold_tables(
             F.when(F.col("normalized_shot_possessions_used") > 0, F.col("goals") / F.col("normalized_shot_possessions_used")).otherwise(F.lit(0.0)),
             4
         )
-    ).withColumnRenamed("event_team_short", "team_short")
+    )
+    team_labels = dim_teams.select(
+        "team_id",
+        F.when(F.trim("name_short") != "", F.trim("name_short")).alias("_canonical_team_short"),
+    )
+    agg_team_game_stats = (
+        agg_team_game_stats.join(F.broadcast(team_labels), "team_id", "left")
+        .withColumn("team_short", F.coalesce(
+            F.col("_canonical_team_short"), F.col("_fallback_team_short"), F.col("team_id").cast("string"),
+        ))
+        .drop("_canonical_team_short", "_fallback_team_short")
+    )
 
     # The validated team dimension is small enough for a broadcast lookup join.
     fact_plays = silver_df.join(
@@ -810,4 +897,3 @@ def generate_gold_tables(
         "fact_plays": fact_plays,
         "agg_team_game_stats": agg_team_game_stats,
     }
-

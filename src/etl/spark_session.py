@@ -1,17 +1,23 @@
 import os
-import sys
+import shutil
 import warnings
 from pathlib import Path
+from typing import Optional
+
 from delta import configure_spark_with_delta_pip
 from pyspark.sql import SparkSession
 
 # Suppress PySpark UDF eval type inference warnings
 warnings.filterwarnings("ignore", message="Cannot infer the eval type from type hints.*")
 
-import shutil
-from typing import Optional
 
-# Ensure Java 17+ runtime is discovered across environments
+def _java_major(name: str) -> int:
+    """Parse the major version from a JVM directory name such as `java-17-openjdk-amd64`."""
+    token = name.split("-")
+    return int(token[1]) if len(token) > 1 and token[1].isdigit() else 0
+
+
+# Ensure a Java 17+ runtime is discovered across environments
 def _find_java_home() -> Optional[Path]:
     if "JAVA_HOME" in os.environ and Path(os.environ["JAVA_HOME"]).exists():
         return Path(os.environ["JAVA_HOME"])
@@ -24,19 +30,15 @@ def _find_java_home() -> Optional[Path]:
         if (candidate / "bin" / "java").exists():
             return candidate
 
-    # 2. Check user-local and system-wide JVM installations
-    user_jvm_dir = Path.home() / ".local" / "share" / "jvm"
-    candidates = [
-        user_jvm_dir / "temurin-17-jre",
-        Path("/usr/lib/jvm/default-java"),
-        Path("/usr/lib/jvm/java-17-openjdk-amd64"),
-    ]
-    if user_jvm_dir.exists():
-        candidates.extend(sorted(user_jvm_dir.glob("*17*"), reverse=True))
-
-    for candidate in candidates:
-        if candidate.exists() and (candidate / "bin" / "java").exists():
-            return candidate
+    # 2. Fall back to standard system JVM installation roots. Spark 4.x requires
+    #    Java 17+, so a versioned install wins over the distribution's default.
+    jvm_root = Path("/usr/lib/jvm")
+    if jvm_root.is_dir():
+        installs = [p for p in jvm_root.iterdir() if (p / "bin" / "java").exists()]
+        supported = sorted(p for p in installs if _java_major(p.name) >= 17)
+        fallback = supported or [p for p in installs if p.name == "default-java"]
+        if fallback:
+            return fallback[0]
 
     return None
 
@@ -57,17 +59,16 @@ def get_spark_session(app_name: str = "NCAA-Lacrosse-ETL") -> SparkSession:
         SparkSession.builder
         .master(os.environ.get("LAXPXP_SPARK_MASTER", "local[*]"))
         .appName(app_name)
-        # --- Memory: Utilize half of your 32 GiB RAM ---
-        .config("spark.driver.memory", os.environ.get("LAXPXP_SPARK_DRIVER_MEMORY", "16g"))
+        # Modest defaults so the bundled demo runs on a typical laptop; the
+        # benchmark and README raise them through the LAXPXP_SPARK_* variables.
+        .config("spark.driver.memory", os.environ.get("LAXPXP_SPARK_DRIVER_MEMORY", "4g"))
         .config("spark.driver.maxResultSize", "4g")
-        
-        # --- CPU & Partitions: Match your 16 CPU threads ---
-        .config("spark.default.parallelism", os.environ.get("LAXPXP_SPARK_DEFAULT_PARALLELISM", "16"))
+
+        .config("spark.default.parallelism", os.environ.get("LAXPXP_SPARK_DEFAULT_PARALLELISM", "4"))
         .config("spark.sql.shuffle.partitions", os.environ.get("LAXPXP_SPARK_SHUFFLE_PARTITIONS", "32"))
-        
-        # --- Adaptive Query Execution (AQE) ---
-        # Automatically coalesces tiny partitions on small runs,
-        # but dynamically splits or handles skew on large datasets
+
+        # Adaptive Query Execution (AQE): coalesces small partitions, splits
+        # skewed ones, and targets a 128 MiB partition size.
         .config("spark.sql.adaptive.enabled", "true")
         .config("spark.sql.adaptive.coalescePartitions.enabled", "true")
         .config("spark.sql.adaptive.skewJoin.enabled", "true")

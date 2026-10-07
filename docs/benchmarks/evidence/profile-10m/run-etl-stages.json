@@ -1,0 +1,11 @@
+{
+  "snapshot_selection_seconds": 0.6463833799998611,
+  "silver_plays_seconds": 934.8132877819999,
+  "silver_contests_seconds": 122.76305794700056,
+  "dimensions_seconds": 30.921899906999897,
+  "silver_read_seconds": 2.605539014999522,
+  "gold_build_seconds": 67.18247236699972,
+  "gold_publication_seconds": 779.525238747,
+  "gold_published": true,
+  "total_seconds": 1938.5138948380004
+}

@@ -1,5 +1,7 @@
 # PySpark Physical & Logical Plan (Broadcast Join & Forward-Fill Windowing)
 
+This is a static example captured from an earlier pipeline run. Plan generation is opt-in through `LAXPXP_PLAN_OUTPUT`; normal runs leave this reference unchanged. Paths, expression IDs, and layout details reflect the captured run.
+
 ```
 == Parsed Logical Plan ==
 'Join UsingJoin(LeftOuter, [team_id])

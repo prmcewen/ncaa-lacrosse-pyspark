@@ -1,0 +1,14 @@
+{
+  "baseline_root": "/home/patrick/Documents/laxpxp_pyspark/benchmarks/output/profile-10m",
+  "bronze_source": "/home/patrick/Documents/laxpxp_pyspark/benchmarks/output/profile-10m/data/bronze",
+  "layout": "unpartitioned-range-sorted",
+  "write_partitions": 16,
+  "git_revision": "dc67212cc2fa743db59fdd07bb7ad9d7fe29eb7a",
+  "working_tree_changes": true,
+  "command": "uv run --no-sync python -m benchmarks.load_test run-etl --run-root benchmarks/output/profile-10m-unpartitioned --workers 8 --driver-memory 8g --shuffle-partitions 128 --write-partitions 16",
+  "regression_tests": "16 passed in 283.11s",
+  "baseline_wall_seconds": 1946.9083283289997,
+  "silver_write_cache": "scoped DISK_ONLY persistence; released after write",
+  "diagnostic_root": "/home/patrick/Documents/laxpxp_pyspark/benchmarks/output/profile-10m-unpartitioned-diagnostic",
+  "post_cache_checks": "4 passed in 58.36s"
+}

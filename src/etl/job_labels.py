@@ -1,6 +1,6 @@
 """Scoped Spark job labels for pipeline actions and their lazy dependencies."""
-from contextlib import contextmanager
 import logging
+from contextlib import contextmanager
 
 logger = logging.getLogger(__name__)
 

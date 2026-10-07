@@ -1,0 +1,106 @@
+{
+  "tables": {
+    "silver_plays": {
+      "baseline": {
+        "rows": 10000000,
+        "active_files": 41152,
+        "active_bytes": 895742931,
+        "partition_columns": [
+          "contest_id"
+        ]
+      },
+      "new": {
+        "rows": 10000000,
+        "active_files": 16,
+        "active_bytes": 265797938,
+        "partition_columns": []
+      }
+    },
+    "silver_contests": {
+      "baseline": {
+        "rows": 41152,
+        "active_files": 41152,
+        "active_bytes": 161029260,
+        "partition_columns": [
+          "contest_id"
+        ]
+      },
+      "new": {
+        "rows": 41152,
+        "active_files": 16,
+        "active_bytes": 1541287,
+        "partition_columns": []
+      }
+    },
+    "dim_teams": {
+      "baseline": {
+        "rows": 1024,
+        "active_files": 128,
+        "active_bytes": 275977,
+        "partition_columns": []
+      },
+      "new": {
+        "rows": 1024,
+        "active_files": 1,
+        "active_bytes": 32146,
+        "partition_columns": []
+      }
+    },
+    "dim_contests": {
+      "baseline": {
+        "rows": 41152,
+        "active_files": 128,
+        "active_bytes": 601219,
+        "partition_columns": []
+      },
+      "new": {
+        "rows": 41152,
+        "active_files": 1,
+        "active_bytes": 373148,
+        "partition_columns": []
+      }
+    },
+    "fact_plays": {
+      "baseline": {
+        "rows": 10000000,
+        "active_files": 41152,
+        "active_bytes": 925664637,
+        "partition_columns": [
+          "contest_id"
+        ]
+      },
+      "new": {
+        "rows": 10000000,
+        "active_files": 16,
+        "active_bytes": 277957693,
+        "partition_columns": []
+      }
+    },
+    "agg_team_game_stats": {
+      "baseline": {
+        "rows": 82304,
+        "active_files": 77020,
+        "active_bytes": 456952836,
+        "partition_columns": [
+          "contest_id"
+        ]
+      },
+      "new": {
+        "rows": 82304,
+        "active_files": 16,
+        "active_bytes": 2079186,
+        "partition_columns": []
+      }
+    }
+  },
+  "checks": {
+    "silver_plays_full_row_fingerprint_matches": true,
+    "silver_contests_full_row_fingerprint_matches": true,
+    "dim_teams_full_row_fingerprint_matches": true,
+    "dim_contests_full_row_fingerprint_matches": true,
+    "fact_plays_full_row_fingerprint_matches": true,
+    "exact_fact_counts_and_unique_ids": true,
+    "all_per_game_counts_match": true,
+    "all_aggregate_values_match_with_float_tolerance": true
+  }
+}

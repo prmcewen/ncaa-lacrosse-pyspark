@@ -11,8 +11,22 @@ wheels/
 
 # Testing and cache
 .pytest_cache/
+.ruff_cache/
 
-# Generated data directories (Delta Lake & Parquet layers)
+# Editor and OS files
+.DS_Store
+.idea/
+.vscode/
+
+# Local tooling directories
+.aws/
+.codex/
+.agents/
+
+# Local environment overrides (tracked example lives in .env.example)
+.env
+
+# Generated Delta tables
 data/silver/
 data/gold/
 

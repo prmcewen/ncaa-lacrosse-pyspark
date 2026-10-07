@@ -1,10 +1,10 @@
-import pytest
 from pathlib import Path
+
+import pytest
 from pyspark.sql import SparkSession
 from pyspark.sql.types import LongType, StringType, StructField, StructType
 
 from src.etl.transform import (
-    SILVER_DIR,
     extract_dimensions_from_silver_contests,
     generate_gold_tables,
     get_latest_valid_snapshots,
@@ -34,7 +34,7 @@ def test_get_pending_snapshots_missing_silver_dir(spark: SparkSession, tmp_path:
 
 
 def test_get_pending_snapshots_incremental_detection(spark: SparkSession, tmp_path: Path):
-    silver_path = tmp_path / "silver_test.parquet"
+    silver_path = tmp_path / "silver_test"
     silver_path.mkdir(parents=True, exist_ok=True)
 
     # Create a Delta-backed mock Silver with contests 101 and 102, matching
@@ -102,7 +102,7 @@ def test_get_pending_snapshots_rejects_parquet_only_silver(spark: SparkSession, 
 
 
 def test_get_pending_snapshots_treats_empty_dir_as_unmaterialized(spark: SparkSession, tmp_path: Path):
-    silver_path = tmp_path / "silver_empty.parquet"
+    silver_path = tmp_path / "silver_empty"
     silver_path.mkdir(parents=True, exist_ok=True)
 
     snapshots = [(101, "20260901T000000Z", tmp_path / "101.json")]
@@ -192,14 +192,15 @@ def test_generate_gold_tables_with_pre_extracted_dimensions(spark: SparkSession)
 
 def test_gold_aggregate_uses_current_silver_for_global_shot_rates(spark: SparkSession):
     silver = spark.createDataFrame([
-        ("1_1", 1, "new", 10, "A", "SHOT", "WIDE", True, None, None),
-        ("2_1", 2, "old", 20, "B", "SHOT", "WIDE", False, None, None),
+        ("1_1", 1, "new", 10, "A", "SHOT", "WIDE", True, None, None, 20, "Shot by A Alex WIDE."),
+        ("2_1", 2, "old", 20, "B", "SHOT", "WIDE", False, None, None, 10, "Shot by B Ben WIDE."),
     ], "play_id string, contest_id long, ingest_timestamp string, team_id long, "
        "event_team_short string, event_type string, shot_result string, "
-       "shot_possession_retained boolean, clear_result string, penalty_duration_seconds long")
+       "shot_possession_retained boolean, clear_result string, penalty_duration_seconds long, "
+       "opponent_team_id long, play_text string")
     teams = spark.createDataFrame(
-        [(10, "red", "A"), (20, "blue", "B")],
-        "team_id long, color string, name_full string",
+        [(10, "red", "A", "A", "A"), (20, "blue", "B", "B", "B")],
+        "team_id long, color string, name_full string, name_short string, name_6char string",
     )
     contests = spark.createDataFrame(
         [(1, "one", "final"), (2, "two", "final")],
@@ -214,6 +215,7 @@ def test_gold_aggregate_uses_current_silver_for_global_shot_rates(spark: SparkSe
 def test_run_pipeline_unpersists_cached_silver_in_finally(spark: SparkSession, tmp_path: Path, monkeypatch):
     """Verify the current Silver cache is released after a downstream Gold failure."""
     from unittest.mock import MagicMock
+
     from src.etl import run_pipeline as runner
 
     class SparkWrapper:
@@ -367,9 +369,10 @@ def test_turnover_missing_clock_backward_fill(spark: SparkSession, tmp_path: Pat
 
 def test_write_silver_partitions_fails_without_parquet_fallback(spark: SparkSession, tmp_path: Path):
     from unittest.mock import MagicMock
+
     from src.etl.run_pipeline import _write_silver_partitions
 
-    silver_out = tmp_path / "silver_fail.parquet"
+    silver_out = tmp_path / "silver_fail"
     mock_df = MagicMock()
     mock_writer = MagicMock()
     mock_df.repartitionByRange.return_value.sortWithinPartitions.return_value.write.format.return_value.mode.return_value = mock_writer

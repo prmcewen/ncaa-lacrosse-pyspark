@@ -5,24 +5,24 @@ import time
 from pathlib import Path
 from typing import Optional
 
+from delta.tables import DeltaTable
+from pyspark import StorageLevel
 from pyspark.sql import DataFrame
 from pyspark.sql import functions as F
-from pyspark import StorageLevel
-from delta.tables import DeltaTable
 
 from src.db.gold_storage import publish_gold_tables
+from src.etl.job_labels import pipeline_action
 from src.etl.optimizations import (
     save_explain_plan,
     unpersist_dataframe,
 )
-from src.etl.job_labels import pipeline_action
-from src.etl.storage_layout import prepare_delta_output
 from src.etl.spark_session import get_spark_session
+from src.etl.storage_layout import migrate_table_path, prepare_delta_output
 from src.etl.transform import (
     GOLD_DIR,
     SILVER_DIR,
-    generate_gold_tables,
     extract_dimensions_from_silver_contests,
+    generate_gold_tables,
     get_latest_valid_snapshots,
     get_pending_snapshots,
     process_bronze_to_silver,
@@ -105,8 +105,8 @@ def run_pipeline(full_refresh: bool = False) -> None:
 
         logger.info(f"Discovered {len(snapshots)} contest snapshot(s) in manifest.")
 
-        silver_output = SILVER_DIR / "silver_plays.parquet"
-        contests_output = SILVER_DIR / "silver_contests.parquet"
+        silver_output = migrate_table_path(SILVER_DIR / "silver_plays")
+        contests_output = migrate_table_path(SILVER_DIR / "silver_contests")
 
         with pipeline_action(
             spark.sparkContext, "silver-plays-freshness",
@@ -199,20 +199,18 @@ def run_pipeline(full_refresh: bool = False) -> None:
         metrics["gold_published"] = True
         logger.info("Published complete Gold generation: %s", published)
 
-        # Save Explain Plan for Portfolio & Audit Documentation
-        plan_output = Path(os.environ.get(
-            "LAXPXP_PLAN_OUTPUT",
-            Path(__file__).resolve().parents[2] / "docs" / "spark_execution_plan.md",
-        ))
-        with pipeline_action(
-            spark.sparkContext, "explain-plan",
-            "Diagnostics: save enriched facts execution plan",
-        ):
-            save_explain_plan(
-                enriched_facts,
-                plan_output,
-                title="PySpark Physical & Logical Plan (Broadcast Join & Forward-Fill Windowing)"
-            )
+        # Capture a plan only when requested; normal runs preserve tracked docs.
+        plan_output = os.environ.get("LAXPXP_PLAN_OUTPUT")
+        if plan_output:
+            with pipeline_action(
+                spark.sparkContext, "explain-plan",
+                "Diagnostics: save enriched facts execution plan",
+            ):
+                save_explain_plan(
+                    enriched_facts,
+                    Path(plan_output),
+                    title="PySpark Physical & Logical Plan (Broadcast Join & Forward-Fill Windowing)"
+                )
 
         logger.info("ETL Pipeline completed successfully! All Silver and Gold tables materialized.")
 

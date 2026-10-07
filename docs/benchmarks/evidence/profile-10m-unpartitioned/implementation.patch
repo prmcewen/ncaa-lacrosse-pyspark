@@ -1,0 +1,339 @@
+diff --git a/README.md b/README.md
+index 9aabdc8..964c58a 100644
+--- a/README.md
++++ b/README.md
+@@ -12,9 +12,9 @@ NCAA API / sdataprod
+   v
+ Bronze JSON snapshots + ingest_manifest.jsonl
+   |
+-  +--> changed snapshots --> PySpark --> Silver plays, partitioned by contest_id
++  +--> changed snapshots --> PySpark --> Silver plays, bounded unpartitioned files
+   |
+-  +--> changed metadata snapshots --> Silver contests, partitioned by contest_id
++  +--> changed metadata snapshots --> Silver contests, bounded unpartitioned files
+                                       |
+                   Silver contests --> Gold team and contest dimensions
+                   Silver plays ------> Gold facts and aggregates
+@@ -32,9 +32,9 @@ Bronze JSON snapshots + ingest_manifest.jsonl
+ | Layer | Location | Behavior |
+ | --- | --- | --- |
+ | Bronze | `data/bronze/contest_id=<id>/ingest_timestamp=<timestamp>.json` | Canonical SHA-256 comparison skips unchanged payloads; changed payloads append a manifest record. |
+-| Silver plays | `data/silver/silver_plays.parquet/` | Delta Lake format (partitioned by `contest_id`); incremental processing updates changed contest partitions. Features 34 approved play columns. |
+-| Silver contests | `data/silver/silver_contests.parquet/` | One row per selected contest snapshot, including contest metadata and a nested team array. Changed contest partitions are replaced independently of Silver plays. |
+-| Gold | `data/gold/versions/<version>/<table>.parquet/` | Complete immutable generations rebuilt from current Silver on every pipeline run; fact and aggregate Delta tables are partitioned by `contest_id`. |
++| Silver plays | `data/silver/silver_plays.parquet/` | Unpartitioned Delta Lake files sorted by `contest_id`; incremental processing replaces changed contests by a data-column predicate. Features 34 approved play columns. |
++| Silver contests | `data/silver/silver_contests.parquet/` | One row per selected contest snapshot, including contest metadata and a nested team array. Changed contest rows are replaced independently of Silver plays. |
++| Gold | `data/gold/versions/<version>/<table>.parquet/` | Complete immutable generations rebuilt from current Silver on every pipeline run; Delta tables use bounded unpartitioned files sorted by contest/team ID. |
+ | Publication pointer | `data/gold/current.json` | Names the complete Gold version used by new readers. |
+ 
+ Gold contains `dim_teams`, `dim_contests`, `fact_plays`, and `agg_team_game_stats`. Dimensions have one row per team or contest key. `fact_plays` enriches the 34 Silver play columns with team color and full name. The aggregate table groups by `(contest_id, team_id, event_team_short)`, renaming the short-code column to `team_short`; multiple aliases within one contest can therefore produce separate aggregate rows. Alongside advanced shooting efficiency, it aggregates game-level totals for saves faced, ground balls, turnovers, successful and failed clears, and penalty minutes.
+@@ -52,10 +52,10 @@ uv run python -m src.ingestion.ingest --contest-id 6599996
+ # Skips storage only if the newly fetched payload has the same hash
+ uv run python -m src.ingestion.ingest --contest-id 6599996
+ 
+-# Update changed Silver partitions, then rebuild all Gold tables
++# Replace changed Silver contests, then rebuild all Gold tables
+ uv run python -m src.etl.run_pipeline
+ 
+-# Rebuild all Silver partitions as well
++# Rebuild all Silver rows and migrate legacy partitioned tables
+ uv run python -m src.etl.run_pipeline --full-refresh
+ 
+ uv run uvicorn src.api.main:app --port 8000 --reload
+@@ -89,7 +89,7 @@ Both `httpx` and `httpx2` are intentionally declared in [pyproject.toml](pyproje
+ 
+ Ingestion performs basic structural checks for `data.playbyplay`, `periods`, and `teams`. Snapshot timestamps use UTC seconds (`YYYYMMDDTHHMMSSZ`). Two changed payloads for the same contest in the same second can overwrite the same file; Bronze is not an immutable or tamper-proof audit store. Snapshot selection takes the last stored manifest entry with an existing file for each contest, in manifest order, without rechecking its hash. See [ADR-001](docs/adr/ADR-001-medallion-storage-and-audit-trail.md) for the exact guarantees and limitations.
+ 
+-A successful pipeline run writes all four Gold tables from their complete DataFrames into a fresh generation. Fact and aggregate files are partitioned by `contest_id`; each table is checked for matching column names and read for validation before the publisher syncs files and directories and atomically replaces `current.json`. Writes or validation failures before publication leave the previous version available. This publication boundary covers Gold; Silver remains an independently updated working dataset.
++A successful pipeline run writes all four Gold tables from their complete DataFrames into a fresh generation. Files are unpartitioned and sorted within each output task; each table is checked for matching column names and read for validation before the publisher syncs files and directories and atomically replaces `current.json`. Writes or validation failures before publication leave the previous version available. This publication boundary covers Gold; Silver remains an independently updated working dataset.
+ 
+ Each REST or GraphQL request creates a DuckDB client that resolves the pointer once and reads that Gold version for the entire request. Queries use separate cursors, closed after fetching, and the client closes when the request finishes. API clients do not read mutable Silver. A standalone `DuckDBClient` also pins Gold at construction, but exposes Silver by default; use `include_silver=False` for a Gold-only reader and create a new client to see a later publication.
+ 
+@@ -230,3 +230,11 @@ The pipeline writes a generated plan for the enriched-facts DataFrame to [docs/s
+ Pipeline jobs have explicit Spark job groups and descriptions for Silver freshness checks, Bronze → Silver writes, metadata validation, and each Gold table's write and validation. In the Spark UI or History Server, use the Jobs descriptions and group IDs (for example, `silver-plays`, `gold-write-fact_plays`, and `gold-validate-agg_team_game_stats`) to locate the corresponding pipeline action. The same labels appear in the Python logs, including phases that launch no Spark jobs, such as filesystem publication.
+ 
+ Labels follow execution: lazy transformations and cache materialization belong to the downstream action that executes them. Labeling adds no extra counts or cache warm-ups. Nested labels restore the caller's job properties on both success and failure. Enable persistent event logs with `LAXPXP_SPARK_EVENT_LOG_DIR`; the benchmark runner sets this automatically. Existing event logs retain their original descriptions; rerun the pipeline to capture labels.
++
++### Delta file layout
++
++Silver and Gold no longer create a storage directory for every contest. Silver, Gold facts, and Gold aggregates range-distribute by `contest_id`, then sort within each output task. `LAXPXP_DELTA_WRITE_PARTITIONS` (default 16; benchmark flag `--write-partitions`) controls the output task count; Gold dimensions use one sorted output task. This bounds data files for a fresh write, rather than imposing a file-size target. Incremental updates can add files over time, and Delta retains obsolete files for history.
++
++Run `--full-refresh` once to migrate existing partitioned Silver tables. Incremental writes reject the old layout and use Delta `replaceWhere` over the `contest_id` data column in the new layout, preserving unaffected contests even when they share a file with an updated contest. Such updates can rewrite shared files. Old files and directories can remain for Delta time travel after migration; active files are defined by the Delta log. Gold generations automatically use the new layout on publication. Game-specific Spark windows remain unchanged.
++
++Silver writes temporarily persist transformed rows on disk so range sampling and the final write reuse the same computation. The writer releases its cache on success or failure and preserves caches owned by callers.
+diff --git a/benchmarks/load_test.py b/benchmarks/load_test.py
+index c506a22..00de13a 100644
+--- a/benchmarks/load_test.py
++++ b/benchmarks/load_test.py
+@@ -39,6 +39,7 @@ def _environment(args, root: Path) -> dict[str, str]:
+     env["LAXPXP_SPARK_DRIVER_MEMORY"] = args.driver_memory
+     env["LAXPXP_SPARK_DEFAULT_PARALLELISM"] = str(args.workers)
+     env["LAXPXP_SPARK_SHUFFLE_PARTITIONS"] = str(args.shuffle_partitions)
++    env["LAXPXP_DELTA_WRITE_PARTITIONS"] = str(args.write_partitions)
+     env["LAXPXP_SPARK_EVENT_LOG_DIR"] = str(root / "spark-events")
+     env["LAXPXP_BENCH_METRICS"] = str(root / f"{args.command}-stages.json")
+     env["LAXPXP_PLAN_OUTPUT"] = str(root / f"{args.command}-spark-plan.md")
+@@ -72,6 +73,7 @@ def _run_etl(args) -> dict:
+         "wall_seconds": duration, "max_child_rss_kib": after,
+         "rss_before_kib": before, "workers": args.workers,
+         "driver_memory": args.driver_memory, "shuffle_partitions": args.shuffle_partitions,
++        "write_partitions": args.write_partitions,
+         "run_root": str(root), "log": str(log_path),
+         "disk_bytes": {layer: _tree_bytes(root / "data" / layer) for layer in ("bronze", "silver", "gold")},
+         "gold_rebuild_bytes": _tree_bytes(root / "gold-rebuild"),
+@@ -211,6 +213,7 @@ def main() -> None:
+             cmd.add_argument("--workers", type=int, default=8)
+             cmd.add_argument("--driver-memory", default="8g")
+             cmd.add_argument("--shuffle-partitions", type=int, default=128)
++            cmd.add_argument("--write-partitions", type=int, default=16)
+         if name == "run-api":
+             cmd.add_argument("--contest-id", type=int)
+             cmd.add_argument("--seconds", type=int, default=30)
+diff --git a/docs/adr/ADR-001-medallion-storage-and-audit-trail.md b/docs/adr/ADR-001-medallion-storage-and-audit-trail.md
+index c85d603..43360ab 100644
+--- a/docs/adr/ADR-001-medallion-storage-and-audit-trail.md
++++ b/docs/adr/ADR-001-medallion-storage-and-audit-trail.md
+@@ -6,7 +6,7 @@ Accepted; updated to describe the current local-filesystem implementation.
+ 
+ ## Context
+ 
+-Game feeds can change during play or after statistical corrections. The pipeline tracks fetched payloads, incrementally replaces affected Silver partitions, rebuilds Gold from current Silver, and publishes a coherent set of analytical tables. The implementation uses local files and embedded DuckDB; it does not provide object-store transactions or compliance certification.
++Game feeds can change during play or after statistical corrections. The pipeline tracks fetched payloads, incrementally replaces affected Silver contests, rebuilds Gold from current Silver, and publishes a coherent set of analytical tables. The implementation uses local files and embedded DuckDB; it does not provide object-store transactions or compliance certification.
+ 
+ ## Decision
+ 
+@@ -26,9 +26,9 @@ ETL snapshot selection scans manifest order and retains the last stored record w
+ 
+ ### Silver incremental materialization
+ 
+-[run_pipeline.py](../../src/etl/run_pipeline.py) compares selected `(contest_id, ingest_timestamp)` pairs independently with Silver plays and Silver contests. Spark's native JSON reader parses pending snapshots using explicit schemas. Pending contests are written as Delta Lake tables (Snappy-compressed Parquet data files + `_delta_log/` transaction logs) under `data/silver/`, partitioned by `contest_id`. `silver_plays.parquet` contains play rows; `silver_contests.parquet` contains one row per contest with nested team metadata.
++[run_pipeline.py](../../src/etl/run_pipeline.py) compares selected `(contest_id, ingest_timestamp)` pairs independently with Silver plays and Silver contests. Spark's native JSON reader parses pending snapshots using explicit schemas. Pending contests are written as Delta Lake tables (Snappy-compressed Parquet data files + `_delta_log/` transaction logs) under `data/silver/`, using bounded unpartitioned files sorted by `contest_id`. `silver_plays.parquet` contains play rows; `silver_contests.parquet` contains one row per contest with nested team metadata.
+ 
+-The initial write and `--full-refresh` use static overwrite. Other updates use Delta Lake partition replacement (`replaceWhere` or dynamic overwrite). Missing Silver, or a failed read of a Delta-backed Silver, causes snapshot processing to be retried. Silver holding Parquet data with no Delta transaction log is rejected rather than read as Parquet; `--full-refresh` rebuilds it as Delta. Code changes alone do not make a snapshot pending; a full refresh is required when Silver transformation logic changes.
++The initial write and `--full-refresh` use static overwrite. Other updates use Delta Lake `replaceWhere` on the `contest_id` data column; unaffected rows in shared files are retained. Incremental writes reject legacy partitioned tables until `--full-refresh` migrates their partition metadata. Historical files remain governed by Delta retention. Missing Silver, or a failed read of a Delta-backed Silver, causes snapshot processing to be retried. Silver holding Parquet data with no Delta transaction log is rejected rather than read as Parquet; `--full-refresh` rebuilds it as Delta. Code changes alone do not make a snapshot pending; a full refresh is required when Silver transformation logic changes.
+ 
+ Silver writes occur before Gold validation and publication. Silver is a working dataset, not part of the Gold publication transaction.
+ 
+@@ -47,7 +47,7 @@ Each dimension key selects a row by descending snapshot timestamp, then descendi
+ - `fact_plays`
+ - `agg_team_game_stats`
+ 
+-Every pipeline run rebuilds all four tables from the current selected Silver data and publishes a fresh UUID generation under `data/gold/versions/`. Facts and aggregates are partitioned by contest, but partitioning controls file layout only: Gold publication always writes complete DataFrames and never reuses files or replaces only changed Gold partitions. The publisher checks each written table's column names and reads at most one row, syncs files/directories, renames the staging directory to the final version, and atomically replaces `data/gold/current.json` with a synced JSON pointer of the form `{"version": "<32-character UUID hex>"}`. This relies on local POSIX filesystem rename and directory-sync behavior. DuckDB readers scan Gold tables directly using DuckDB's native Delta Lake extension (`delta_scan`).
++Every pipeline run rebuilds all four tables from the current selected Silver data and publishes a fresh UUID generation under `data/gold/versions/`. Facts and aggregates use bounded unpartitioned files sorted by contest ID: Gold publication always writes complete DataFrames and never reuses files or replaces only changed Gold partitions. The publisher checks each written table's column names and reads at most one row, syncs files/directories, renames the staging directory to the final version, and atomically replaces `data/gold/current.json` with a synced JSON pointer of the form `{"version": "<32-character UUID hex>"}`. This relies on local POSIX filesystem rename and directory-sync behavior. DuckDB readers scan Gold tables directly using DuckDB's native Delta Lake extension (`delta_scan`).
+ 
+ A write or validation failure before the pointer switch leaves the prior publication visible. The complete rebuild recalculates aggregate rows against the current global shot-retention baselines. Each successful run publishes a new generation, including when Silver has no changes. Handled failures clean up staging and temporary pointer files. Finalized versions are retained even if pointer replacement fails; an abrupt process crash may leave additional staging files. Publication does not automatically delete old versions.
+ 
+diff --git a/docs/adr/ADR-003-pyspark-compute-and-caching-strategy.md b/docs/adr/ADR-003-pyspark-compute-and-caching-strategy.md
+index 8bc4d8e..75351a5 100644
+--- a/docs/adr/ADR-003-pyspark-compute-and-caching-strategy.md
++++ b/docs/adr/ADR-003-pyspark-compute-and-caching-strategy.md
+@@ -18,7 +18,7 @@ Java is external to the Python environment. When `JAVA_HOME` is unset, the Spark
+ 
+ ### Native parsing and Silver updates
+ 
+-[transform.py](../../src/etl/transform.py) reads Bronze snapshots with Spark's native JSON reader and explicit schemas. It does not route parsing through Python UDFs or a separate parser. The runner compares manifest-selected `(contest_id, ingest_timestamp)` pairs with each Silver table and processes only pending snapshots. Both Silver Delta tables are partitioned by `contest_id`; a full refresh overwrites them, while regular updates replace the pending contest partitions.
++[transform.py](../../src/etl/transform.py) reads Bronze snapshots with Spark's native JSON reader and explicit schemas. It does not route parsing through Python UDFs or a separate parser. The runner compares manifest-selected `(contest_id, ingest_timestamp)` pairs with each Silver table and processes only pending snapshots. Both Silver Delta tables use unpartitioned files range-distributed and sorted by `contest_id`; a full refresh overwrites them and migrates legacy partitioning, while regular updates replace the pending contests through a Delta data-column predicate.
+ 
+ ### Persistence lifecycle
+ 
+@@ -34,9 +34,9 @@ Broadcasting avoids repartitioning the large side for those joins. Window operat
+ 
+ ### Storage layout (Delta Lake)
+ 
+-Both Silver tables are partitioned by `contest_id` and written using Delta Lake format (`.format("delta").partitionBy("contest_id")`) with Snappy compression. Regular Silver runs replace only changed contest partitions, while `--full-refresh` rewrites all selected snapshots.
++Both Silver tables use unpartitioned Delta Lake format with Snappy compression. `LAXPXP_DELTA_WRITE_PARTITIONS` defaults to 16 output tasks; rows are range-distributed and sorted by `contest_id` so nearby games share files. Regular Silver runs replace changed contests using `replaceWhere` on the data column, preserving other rows in shared files; `--full-refresh` rewrites all selected snapshots and replaces legacy partition metadata. Incremental writes reject legacy partitioned tables with a migration instruction. Delta may rewrite shared files on an update, and retains old files for time travel.
+ 
+-Every pipeline run rebuilds and writes complete Gold DataFrames into a fresh generation. The fact and aggregate Delta tables are partitioned by `contest_id` to organize their output files; the publisher does not reuse prior files or replace only changed Gold partitions. Each table maintains its own `_delta_log/` transaction log, and DuckDB readers query the published tables via native `delta_scan`. Publication and reader isolation are described in [ADR-001](ADR-001-medallion-storage-and-audit-trail.md).
++Every pipeline run rebuilds and writes complete Gold DataFrames into a fresh generation. Fact and aggregate tables use the same bounded, sorted output layout; dimensions use one sorted output task; the publisher does not reuse prior files or replace only changed Gold partitions. Each table maintains its own `_delta_log/` transaction log, and DuckDB readers query the published tables via native `delta_scan`. Publication and reader isolation are described in [ADR-001](ADR-001-medallion-storage-and-audit-trail.md).
+ 
+ ### Plan artifact and performance evidence
+ 
+@@ -46,7 +46,9 @@ When `LAXPXP_BENCH_METRICS` is set, the runner records stage and total wall-cloc
+ 
+ ## Consequences
+ 
+-- Incremental Silver writes avoid reparsing snapshots that are already current, while Gold publication pays the cost of writing all four tables on every successful run.
++- Incremental Silver writes avoid reparsing snapshots that are already current, but can rewrite shared files, while Gold publication pays the cost of writing all four tables on every successful run.
+ - Persisting Silver allows both Gold branches to reuse it, at the cost of Spark memory and disk use.
+ - The complete Gold rebuild recalculates dimensions and aggregate rates from current Silver, and a failed publication leaves the previous generation available.
+ - Gold reader safety comes from immutable generations and request-level snapshot selection.
++
++Silver writes temporarily persist transformed rows on disk so range sampling and the final write reuse the same computation. The writer releases its cache on success or failure and preserves caches owned by callers.
+diff --git a/src/db/gold_storage.py b/src/db/gold_storage.py
+index e41eadb..00b0ae9 100644
+--- a/src/db/gold_storage.py
++++ b/src/db/gold_storage.py
+@@ -8,10 +8,11 @@ import os
+ from pathlib import Path
+ import re
+ import shutil
+-from typing import Any, Mapping, Optional
++from typing import Any, Mapping
+ from uuid import uuid4
+ 
+ from src.etl.job_labels import pipeline_action
++from src.etl.storage_layout import prepare_delta_output
+ 
+ GOLD_TABLES = ("dim_teams", "dim_contests", "fact_plays", "agg_team_game_stats")
+ 
+@@ -52,11 +53,9 @@ def _sync_tree(root: Path) -> None:
+         _fsync_directory(Path(directory))
+ 
+ 
+-def _write_full_table(df: Any, output: Path, partition_by: Optional[str]) -> None:
+-    writer = df.write.format("delta")
+-    if partition_by:
+-        writer = writer.partitionBy(partition_by)
+-    writer.save(str(output))
++def _write_full_table(df: Any, output: Path, sort_key: str, small_table: bool = False) -> None:
++    prepared = prepare_delta_output(df, sort_key, small_table=small_table)
++    prepared.write.format("delta").save(str(output))
+ 
+ 
+ def publish_gold_tables(tables: Mapping[str, Any], root: Path) -> Path:
+@@ -79,12 +78,10 @@ def publish_gold_tables(tables: Mapping[str, Any], root: Path) -> Path:
+         for name in GOLD_TABLES:
+             df = tables[name]
+             output = staging / f"{name}.parquet"
+-            partition_by = (
+-                "contest_id" if name in {"fact_plays", "agg_team_game_stats"} else None
+-            )
++            sort_key = "team_id" if name == "dim_teams" else "contest_id"
+             with pipeline_action(spark_context, f"gold-write-{name}",
+                                  f"Gold {name}: compute dependencies and write Delta table"):
+-                _write_full_table(df, output, partition_by)
++                _write_full_table(df, output, sort_key, small_table=name.startswith("dim_"))
+             with pipeline_action(spark_context, f"gold-validate-{name}",
+                                  f"Gold {name}: validate persisted schema and read sample"):
+                 persisted = df.sparkSession.read.format("delta").load(str(output))
+diff --git a/src/etl/run_pipeline.py b/src/etl/run_pipeline.py
+index 6d4c9db..ef9bcb9 100644
+--- a/src/etl/run_pipeline.py
++++ b/src/etl/run_pipeline.py
+@@ -7,6 +7,8 @@ from typing import Optional
+ 
+ from pyspark.sql import DataFrame
+ from pyspark.sql import functions as F
++from pyspark import StorageLevel
++from delta.tables import DeltaTable
+ 
+ from src.db.gold_storage import publish_gold_tables
+ from src.etl.optimizations import (
+@@ -14,6 +16,7 @@ from src.etl.optimizations import (
+     unpersist_dataframe,
+ )
+ from src.etl.job_labels import pipeline_action
++from src.etl.storage_layout import prepare_delta_output
+ from src.etl.spark_session import get_spark_session
+ from src.etl.transform import (
+     GOLD_DIR,
+@@ -31,14 +34,30 @@ logger = logging.getLogger("PipelineRunner")
+ 
+ 
+ def _write_silver_partitions(df: DataFrame, output: Path, pending_snapshots, full_refresh: bool) -> None:
+-    """Replace only changed contest partitions using Delta Lake."""
++    """Replace changed contests in unpartitioned Delta, preserving other rows."""
+     output.mkdir(parents=True, exist_ok=True)
+-    writer = df.repartition("contest_id").write.format("delta").mode("overwrite").partitionBy("contest_id")
+-    if full_refresh or not (output / "_delta_log").exists():
+-        writer.option("overwriteSchema", "true").save(str(output))
+-    else:
+-        pending_cids = ",".join(str(s[0]) for s in pending_snapshots)
+-        writer.option("replaceWhere", f"contest_id in ({pending_cids})").save(str(output))
++    existing = (output / "_delta_log").exists()
++    if existing and not full_refresh:
++        partition_columns = DeltaTable.forPath(df.sparkSession, str(output)).detail().select(
++            "partitionColumns"
++        ).first().partitionColumns
++        if partition_columns:
++            raise ValueError(f"Silver at {output} uses the old partitioned layout; run --full-refresh to migrate")
++    # Range sampling and the subsequent write otherwise evaluate the expensive
++    # Bronze transformation twice. Reuse computed rows without growing the heap.
++    owns_cache = not df.is_cached
++    if owns_cache:
++        df = df.persist(StorageLevel.DISK_ONLY)
++    try:
++        writer = prepare_delta_output(df, "contest_id").write.format("delta").mode("overwrite")
++        if full_refresh or not existing:
++            writer.option("overwriteSchema", "true").save(str(output))
++        else:
++            pending_cids = ",".join(str(s[0]) for s in pending_snapshots)
++            writer.option("replaceWhere", f"contest_id in ({pending_cids})").save(str(output))
++    finally:
++        if owns_cache:
++            unpersist_dataframe(df, blocking=False)
+ 
+ 
+ def _read_silver(spark, output: Path) -> DataFrame:
+@@ -221,7 +240,7 @@ if __name__ == "__main__":
+     parser.add_argument(
+         "--full-refresh",
+         action="store_true",
+-        help="Force a complete rebuild of all Silver partitions from Bronze JSON snapshots",
++        help="Rebuild all Silver rows from Bronze and migrate to unpartitioned Delta files",
+     )
+     args = parser.parse_args()
+     run_pipeline(full_refresh=args.full_refresh)
+diff --git a/src/etl/spark_session.py b/src/etl/spark_session.py
+index 792e2f8..f4e7d53 100644
+--- a/src/etl/spark_session.py
++++ b/src/etl/spark_session.py
+@@ -83,6 +83,9 @@ def get_spark_session(app_name: str = "NCAA-Lacrosse-ETL") -> SparkSession:
+         # --- Delta Lake ---
+         .config("spark.sql.extensions", "io.delta.sql.DeltaSparkSessionExtension")
+         .config("spark.sql.catalog.spark_catalog", "org.apache.spark.sql.delta.catalog.DeltaCatalog")
++        # Incremental Silver replacements target contest_id data, not disk partitions.
++        .config("spark.databricks.delta.replaceWhere.dataColumns.enabled", "true")
++        .config("spark.databricks.delta.replaceWhere.constraintCheck.enabled", "true")
+     )
+     event_log_dir = os.environ.get("LAXPXP_SPARK_EVENT_LOG_DIR")
+     if event_log_dir:
+@@ -93,4 +96,3 @@ def get_spark_session(app_name: str = "NCAA-Lacrosse-ETL") -> SparkSession:
+     spark = configure_spark_with_delta_pip(builder).getOrCreate()
+     spark.sparkContext.setLogLevel("ERROR")
+     return spark
+-
+diff --git a/tests/test_batch_etl.py b/tests/test_batch_etl.py
+index e5e5fc3..887f9a9 100644
+--- a/tests/test_batch_etl.py
++++ b/tests/test_batch_etl.py
+@@ -372,7 +372,7 @@ def test_write_silver_partitions_fails_without_parquet_fallback(spark: SparkSess
+     silver_out = tmp_path / "silver_fail.parquet"
+     mock_df = MagicMock()
+     mock_writer = MagicMock()
+-    mock_df.repartition.return_value.write.format.return_value.mode.return_value.partitionBy.return_value = mock_writer
++    mock_df.repartitionByRange.return_value.sortWithinPartitions.return_value.write.format.return_value.mode.return_value = mock_writer
+     mock_writer.option.return_value.save.side_effect = RuntimeError("Delta Lake write simulation failure")
+ 
+     with pytest.raises(RuntimeError, match="Delta Lake write simulation failure"):
+@@ -391,4 +391,3 @@ def test_read_silver_fails_if_not_delta(spark: SparkSession, tmp_path: Path):
+     with pytest.raises(Exception) as exc_info:
+         _read_silver(spark, parquet_dir)
+     assert "DELTA" in type(exc_info.value).__name__ or "delta" in str(exc_info.value).lower()
+-
+diff --git a/tests/test_gold_publication.py b/tests/test_gold_publication.py
+index 0d9fcd3..6c5ee93 100644
+--- a/tests/test_gold_publication.py
++++ b/tests/test_gold_publication.py
+@@ -64,8 +64,7 @@ def test_failed_publication_preserves_previous_generation(spark, tmp_path, monke
+     with monkeypatch.context() as faults:
+         if failure_stage == "write":
+             class FailingFrame:
+-                @property
+-                def write(self):
++                def repartitionByRange(self, *args):
+                     raise RuntimeError("injected write failure")
+             tables["fact_plays"] = FailingFrame()
+         else:
+@@ -129,9 +128,9 @@ def test_write_full_table_fails_without_parquet_fallback(spark, tmp_path):
+ 
+     gold_out = tmp_path / "gold_fail.parquet"
+     mock_df = MagicMock()
+-    mock_df.write.format.return_value.save.side_effect = RuntimeError("Delta Gold write simulation failure")
++    mock_df.coalesce.return_value.sortWithinPartitions.return_value.write.format.return_value.save.side_effect = RuntimeError("Delta Gold write simulation failure")
+ 
+     with pytest.raises(RuntimeError, match="Delta Gold write simulation failure"):
+-        _write_full_table(mock_df, gold_out, partition_by=None)
++        _write_full_table(mock_df, gold_out, sort_key="team_id", small_table=True)
+ 
+     assert not list(gold_out.glob("*.parquet"))

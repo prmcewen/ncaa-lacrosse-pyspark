@@ -1,12 +1,14 @@
 from typing import List, Optional
+
 import strawberry
 from pydantic import ValidationError
 from strawberry.types import Info
+
 from src.api.schemas import (
-    TeamStatsResponse,
     ContestResponse,
-    PlayResponse,
     PlayFilterSchema,
+    PlayResponse,
+    TeamStatsResponse,
 )
 
 

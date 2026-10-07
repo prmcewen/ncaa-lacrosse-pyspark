@@ -1,6 +1,8 @@
 """One immutable Gold snapshot per REST or GraphQL request."""
 from typing import Annotated, Iterator
+
 from fastapi import Depends
+
 from src.db.duckdb_client import DuckDBClient
 
 

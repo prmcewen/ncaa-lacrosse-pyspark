@@ -1,6 +1,6 @@
 import json
-import pytest
 from pathlib import Path
+
 from src.ingestion.ingest import compute_payload_hash, get_latest_stored_hash
 
 

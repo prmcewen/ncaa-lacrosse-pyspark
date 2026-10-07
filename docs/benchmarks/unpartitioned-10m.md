@@ -29,18 +29,24 @@ Both layouts contain exactly 10,000,000 unique fact play IDs and 41,152 games. E
 
 ## Remaining bottleneck
 
-In the new run, Silver Stage 4 takes 651.30 seconds across 128 tasks, with 4,940.92 seconds of aggregate task CPU time out of 5,164.27 seconds of aggregate executor run time. It reports zero disk spill, compared with 428,916,513 bytes in the baseline stage. This compute-heavy Silver stage now accounts for approximately 79% of end-to-end wall time. The next profiling target is its native text parsing and game-window calculations. Aggregate task CPU/run times are summed across parallel tasks; they are not wall-clock durations. Full stage metrics are saved in `spark-stage-summary.json`.
+In the new run, Silver Stage 4 takes 651.30 seconds across 128 tasks, with 4,940.92 seconds of aggregate task CPU time out of 5,164.27 seconds of aggregate executor run time. It reports zero disk spill, compared with 428,916,513 bytes in the baseline stage. This compute-heavy Silver stage now accounts for approximately 79% of end-to-end wall time. The next profiling target is its native text parsing and game-window calculations. Aggregate task CPU/run times are summed across parallel tasks; they are not wall-clock durations. Full stage metrics are saved in the [recorded stage summary](evidence/profile-10m-unpartitioned/spark-stage-summary.json).
 
 ## Reproduce
 
 ```bash
+uv run python -m benchmarks.load_test generate \
+  --run-root benchmarks/output/reproduce-10m \
+  --target-plays 10000000 --seed 1729
+
 uv run python -m benchmarks.load_test run-etl \
-  --run-root benchmarks/output/profile-10m-unpartitioned \
+  --run-root benchmarks/output/reproduce-10m \
   --workers 8 --driver-memory 8g --shuffle-partitions 128 \
   --write-partitions 16
 ```
 
-The run root contains `benchmark-provenance.json`, `implementation.patch`, `run-etl-result.json`, `run-etl-stages.json`, `layout-validation.json`, the validation scripts, the execution plan, and Spark event logs. The existing Bronze input must be present before reproducing.
+The [evidence archive](evidence/README.md) contains the original results, phase timings, validation output, stage summary, execution plans, provenance, and implementation snapshot. Generated datasets and full event/process logs remain local and ignored by Git.
+
+The commands above generate input and measure the current implementation in a fresh run directory. To reproduce the historical comparison, use the recorded revision, patch, and source snapshots, and materialize both layouts against the same input. Later statistics, table-naming, and reader changes are not part of the captured measurements.
 
 ## Limits
 

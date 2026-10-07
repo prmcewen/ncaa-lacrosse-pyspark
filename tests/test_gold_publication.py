@@ -4,8 +4,8 @@ import os
 import pytest
 from fastapi.testclient import TestClient
 
-from src.db import gold_storage as storage
 from src.db import duckdb_client as database
+from src.db import gold_storage as storage
 
 
 def _tables(spark, version):
@@ -24,12 +24,17 @@ def _tables(spark, version):
 
 def _use_root(monkeypatch, root):
     monkeypatch.setattr(database, "GOLD_DIR", root)
-    monkeypatch.setattr(database, "SILVER_PARQUET", root / "missing-silver")
+    monkeypatch.setattr(database, "SILVER_PLAYS_DIR", root / "missing-silver")
 
 
-def test_publication_switches_all_tables_and_retains_active_readers(spark, tmp_path, monkeypatch):
+@pytest.mark.parametrize("legacy_names", [False, True])
+def test_publication_switches_all_tables_and_retains_active_readers(spark, tmp_path, monkeypatch, legacy_names):
     _use_root(monkeypatch, tmp_path)
     old = storage.publish_gold_tables(_tables(spark, 1), tmp_path)
+    if legacy_names:
+        # Simulate an existing generation before any reader pins its paths.
+        for name in storage.GOLD_TABLES:
+            (old / name).rename(old / f"{name}.parquet")
     reader = database.DuckDBClient()
     sync = storage._sync_tree
 
@@ -43,6 +48,7 @@ def test_publication_switches_all_tables_and_retains_active_readers(spark, tmp_p
     new_reader = database.DuckDBClient()
     try:
         assert current != old
+        assert all((current / name / "_delta_log").is_dir() for name in storage.GOLD_TABLES)
         assert reader.get_contests()[0]["title"] == "v1"
         assert new_reader.get_contests()[0]["title"] == "v2"
         for client, version in [(reader, 1), (new_reader, 2)]:
@@ -75,7 +81,7 @@ def test_failed_publication_preserves_previous_generation(spark, tmp_path, monke
             storage.publish_gold_tables(tables, tmp_path)
     assert storage.resolve_gold_dir(tmp_path) == old
     assert (tmp_path / "current.json").read_bytes() == previous_pointer
-    assert all(any((old / f"{name}.parquet").rglob("*.parquet")) for name in storage.GOLD_TABLES)
+    assert all(any((old / name).rglob("*.parquet")) for name in storage.GOLD_TABLES)
     assert not list((tmp_path / "versions").glob(".staging-*"))
     current = storage.publish_gold_tables(_tables(spark, 3), tmp_path)
     assert storage.resolve_gold_dir(tmp_path) == current
@@ -94,8 +100,8 @@ def test_api_pins_nested_graphql_reads_and_next_request_sees_new_version(spark, 
         os.replace(candidate, tmp_path / "current.json")
 
     # API request startup must not inspect Silver while ETL is replacing it.
-    database.SILVER_PARQUET.mkdir()
-    (database.SILVER_PARQUET / "broken.parquet").write_bytes(b"partial ETL write")
+    database.SILVER_PLAYS_DIR.mkdir()
+    (database.SILVER_PLAYS_DIR / "broken.parquet").write_bytes(b"partial ETL write")
     point_to(old)
     original = database.DuckDBClient.get_contests
 
@@ -124,9 +130,10 @@ def test_legacy_layout_and_invalid_pointer(tmp_path):
 
 def test_write_full_table_fails_without_parquet_fallback(spark, tmp_path):
     from unittest.mock import MagicMock
+
     from src.db.gold_storage import _write_full_table
 
-    gold_out = tmp_path / "gold_fail.parquet"
+    gold_out = tmp_path / "gold_fail"
     mock_df = MagicMock()
     mock_df.coalesce.return_value.sortWithinPartitions.return_value.write.format.return_value.save.side_effect = RuntimeError("Delta Gold write simulation failure")
 

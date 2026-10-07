@@ -5,14 +5,14 @@ The legacy flat layout remains readable until the first versioned publication.
 """
 import json
 import os
-from pathlib import Path
 import re
 import shutil
+from pathlib import Path
 from typing import Any, Mapping
 from uuid import uuid4
 
 from src.etl.job_labels import pipeline_action
-from src.etl.storage_layout import prepare_delta_output
+from src.etl.storage_layout import prepare_delta_output, resolve_table_path
 
 GOLD_TABLES = ("dim_teams", "dim_contests", "fact_plays", "agg_team_game_stats")
 
@@ -29,11 +29,10 @@ def resolve_gold_dir(root: Path) -> Path:
         raise ValueError(f"Invalid Gold publication pointer: {pointer}")
     resolved = root / "versions" / version
     if not all(
-        (resolved / f"{table}.parquet" / "_delta_log").exists()
-        or any((resolved / f"{table}.parquet").rglob("*.parquet"))
-        for table in GOLD_TABLES
+        (path / "_delta_log").is_dir()
+        for path in (resolve_table_path(resolved / table) for table in GOLD_TABLES)
     ):
-        raise ValueError(f"Incomplete published Gold generation: {resolved}")
+        raise ValueError(f"Incomplete published Gold generation (Delta logs required): {resolved}")
     return resolved
 
 
@@ -77,7 +76,7 @@ def publish_gold_tables(tables: Mapping[str, Any], root: Path) -> Path:
         spark_context = tables["dim_teams"].sparkSession.sparkContext
         for name in GOLD_TABLES:
             df = tables[name]
-            output = staging / f"{name}.parquet"
+            output = staging / name
             sort_key = "team_id" if name == "dim_teams" else "contest_id"
             with pipeline_action(spark_context, f"gold-write-{name}",
                                  f"Gold {name}: compute dependencies and write Delta table"):

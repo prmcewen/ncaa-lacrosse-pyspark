@@ -1,0 +1,56 @@
+name: CI
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ci-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  test:
+    name: Pipeline, tests, and lint
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    env:
+      LAXPXP_SPARK_MASTER: local[2]
+      LAXPXP_SPARK_DRIVER_MEMORY: 2g
+      LAXPXP_SPARK_DEFAULT_PARALLELISM: "2"
+      LAXPXP_SPARK_SHUFFLE_PARTITIONS: "4"
+      LAXPXP_DELTA_WRITE_PARTITIONS: "4"
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v7
+
+      - name: Set up uv and Python
+        uses: astral-sh/setup-uv@v9
+        with:
+          python-version: "3.12"
+          enable-cache: true
+
+      - name: Set up Java
+        uses: actions/setup-java@v6
+        with:
+          distribution: temurin
+          java-version: "17"
+
+      - name: Install locked dependencies
+        run: uv sync --locked
+
+      - name: Check Python lint
+        run: uv run ruff check src tests benchmarks
+
+      - name: Build Silver and Gold from bundled Bronze fixtures
+        run: uv run python -m src.etl.run_pipeline
+
+      - name: Run tests
+        run: uv run pytest tests -q
+
+      - name: Check tracked files remain unchanged
+        run: git diff --exit-code

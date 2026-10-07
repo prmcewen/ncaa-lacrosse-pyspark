@@ -1,8 +1,80 @@
 # NCAA Lacrosse Play-by-Play Data Platform
 
-A local data pipeline and analytics API for NCAA men's lacrosse play-by-play data. Python ingestion writes JSON snapshots, PySpark produces Silver and Gold Delta Lake datasets, and DuckDB serves queries through FastAPI REST endpoints and Strawberry GraphQL using DuckDB's native Delta Lake extension.
+[![CI](https://github.com/prmcewen/ncaa-lacrosse-pyspark/actions/workflows/ci.yml/badge.svg)](https://github.com/prmcewen/ncaa-lacrosse-pyspark/actions/workflows/ci.yml)
 
-The implementation runs Spark locally with Delta Lake extensions and stores data on the local filesystem. It does not implement a cloud deployment, authentication, or a compliance certification. Dependency constraints are in [pyproject.toml](pyproject.toml); [uv.lock](uv.lock) records the resolved versions.
+Turn NCAA men's lacrosse play-by-play descriptions into structured data for situational analysis. The platform helps a coach or analyst find defensive plays in close games, examine what happens after missed shots, and compare team and player shooting efficiency without manually reading game logs.
+
+PySpark transforms nested JSON into Delta Lake tables; DuckDB serves the results through REST, GraphQL, and SQL. The repository includes **20 real-game Bronze fixtures** for a local demo and a generator for larger synthetic workloads.
+
+For example, in the bundled Notre Dame–Princeton game (`6599996`), filtering caused turnovers for a defending team trailing by one returns:
+
+| Period | Clock | Defender | Turnover committer | Defending team margin |
+| --- | --- | --- | --- | --- |
+| 1 | 04:27 | Cooper Mueller | Luke Miller | -1 |
+
+Princeton was behind 2–3 when Mueller caused Miller's turnover. The query uses parsed player roles, a running score, and the defending team's perspective; the original play text remains available for inspection.
+
+## PySpark work demonstrated
+
+- **Native transformations:** explicit JSON schemas, positional array explosions, text classification, and player-name normalization using Spark SQL expressions.
+- **Window calculations:** contest-local sequencing, missing-clock handling, running scores, shot-retention lookahead, and contest-wide player/team evidence for faceoff attribution.
+- **Incremental Delta writes:** replace changed contests in Silver while preserving unaffected rows, including games sharing a data file.
+- **Execution and storage choices:** broadcast lookups, scoped persistence, adaptive execution, range distribution, and sorted output with bounded file counts for fresh writes.
+- **Failure handling:** publish complete Gold generations and pin each API request to one version, with regression tests for failed writes, retries, and concurrent readers.
+
+In a [recorded benchmark with 10 million synthetic plays](docs/benchmarks/unpartitioned-10m.md), changing the file layout and adding scoped disk persistence reduced local pipeline runtime from **32m 27s to 13m 47s (2.35×)**. The [recorded evidence](docs/benchmarks/evidence/README.md) includes timings, configuration, correctness results, and implementation provenance. This was one before/after comparison on the same machine; the report explains the configuration, correctness checks, and measurement limits. The [small-files case study](docs/case-studies/small-files/README.md) documents the diagnosis and contributions.
+
+## Quickstart
+
+Prerequisites: **Python 3.11–3.12, Java 17+, and `uv`**. `.python-version` selects Python 3.12. Java must be on `PATH` or configured through `JAVA_HOME`; the Spark helper also checks standard JVM installation locations. Gold publication requires POSIX filesystem operations, including directory `fsync`.
+
+Run from the repository root. The bundled Bronze fixtures let you build the demo without fetching new NCAA data. Dependency versions are recorded in [uv.lock](uv.lock).
+
+```bash
+uv sync --locked
+
+# Modest local configuration for the bundled games (same as CI)
+set -a; source .env.example; set +a
+
+# Build Silver and publish Gold
+uv run python -m src.etl.run_pipeline
+
+# Start the API
+uv run uvicorn src.api.main:app --port 8000 --reload
+```
+
+Copy `.env.example` to `.env` and edit it for your machine if you want
+different Spark settings; `.env` is git-ignored.
+
+Spark resolves Delta Java dependencies on its first run. DuckDB installs its Delta extension if it is not already available, so initial setup can require network access even when using the bundled game data.
+
+Open [REST documentation](http://localhost:8000/docs) or the [GraphQL interface](http://localhost:8000/graphql). In another terminal:
+
+```bash
+curl "http://localhost:8000/api/contests/6599996/summary"
+```
+
+The response includes these verified totals for the bundled game:
+
+| Team | Goals | Total shots | Ground balls | Shooting percentage |
+| --- | ---: | ---: | ---: | ---: |
+| Notre Dame | 9 | 41 | 30 | 0.2195 |
+| Princeton | 16 | 53 | 46 | 0.3019 |
+
+### Fetch updates and rebuild
+
+```bash
+# Fetch a contest; an unchanged payload hash skips the snapshot write
+uv run python -m src.ingestion.ingest --contest-id 6599996
+
+# Replace changed Silver contests and rebuild Gold
+uv run python -m src.etl.run_pipeline
+
+# Use after changing Silver transformations or migrating legacy partitioned tables
+uv run python -m src.etl.run_pipeline --full-refresh
+```
+
+Silver freshness compares `(contest_id, ingest_timestamp)` with the selected Bronze snapshots, so code changes require `--full-refresh`. A Gold-only change takes effect on the next normal run. Each successful run rebuilds all four Gold tables, even when Silver has no changed snapshots.
 
 ## Architecture
 
@@ -12,149 +84,104 @@ NCAA API / sdataprod
   v
 Bronze JSON snapshots + ingest_manifest.jsonl
   |
-  +--> changed snapshots --> PySpark --> Silver plays, bounded unpartitioned files
+  v
+PySpark: parse, attribute players and teams, calculate windows
   |
-  +--> changed metadata snapshots --> Silver contests, bounded unpartitioned files
-                                      |
-                  Silver contests --> Gold team and contest dimensions
-                  Silver plays ------> Gold facts and aggregates
-                                      |
-                                      v
-                     Gold Delta tables in a new version directory
-                                      |
-                         atomic current.json replacement
-                                      |
-                     DuckDB snapshot per API request (via delta_scan)
-                                      |
-                          REST /api/... and /graphql
+  v
+Silver Delta: plays + contest metadata
+  |
+  v
+Gold Delta: dimensions + facts + team-game aggregates
+  |
+  v
+Atomic current.json publication pointer
+  |
+  v
+DuckDB request snapshot (delta_scan)
+  |
+  +--> FastAPI REST /api/...
+  +--> Strawberry GraphQL /graphql
 ```
 
-| Layer | Location | Behavior |
+| Layer | Location | Purpose |
 | --- | --- | --- |
-| Bronze | `data/bronze/contest_id=<id>/ingest_timestamp=<timestamp>.json` | Canonical SHA-256 comparison skips unchanged payloads; changed payloads append a manifest record. |
-| Silver plays | `data/silver/silver_plays.parquet/` | Unpartitioned Delta Lake files sorted by `contest_id`; incremental processing replaces changed contests by a data-column predicate. Features 34 approved play columns. |
-| Silver contests | `data/silver/silver_contests.parquet/` | One row per selected contest snapshot, including contest metadata and a nested team array. Changed contest rows are replaced independently of Silver plays. |
-| Gold | `data/gold/versions/<version>/<table>.parquet/` | Complete immutable generations rebuilt from current Silver on every pipeline run; Delta tables use bounded unpartitioned files sorted by contest/team ID. |
-| Publication pointer | `data/gold/current.json` | Names the complete Gold version used by new readers. |
+| Bronze | `data/bronze/contest_id=<id>/ingest_timestamp=<timestamp>.json` | Raw snapshots and a manifest; canonical SHA-256 comparison skips unchanged payloads. |
+| Silver plays | `data/silver/silver_plays/` | 34 structured play columns, with selective replacement of changed contests. |
+| Silver contests | `data/silver/silver_contests/` | One row per selected contest snapshot, including nested team metadata. |
+| Gold | `data/gold/versions/<version>/<table>/` | A complete generation of analytical tables. |
+| Publication pointer | `data/gold/current.json` | Selects the Gold generation for new readers. |
 
-Gold contains `dim_teams`, `dim_contests`, `fact_plays`, and `agg_team_game_stats`. Dimensions have one row per team or contest key. `fact_plays` enriches the 34 Silver play columns with team color and full name. The aggregate table groups by `(contest_id, team_id, event_team_short)`, renaming the short-code column to `team_short`; multiple aliases within one contest can therefore produce separate aggregate rows. Alongside advanced shooting efficiency, it aggregates game-level totals for saves faced, ground balls, turnovers, successful and failed clears, and penalty minutes.
+Silver and Gold are stored as **Delta tables**. Each table directory contains Parquet data files and a `_delta_log/` transaction log.
 
-## Quickstart
+Readers require a valid Delta transaction log and DuckDB's Delta extension. Missing or corrupt logs fail explicitly; there is no raw Parquet fallback that could include obsolete data files.
 
-Run commands from the repository root. The project accepts Python 3.11–3.12, and `.python-version` selects 3.12. Install `uv` and a Java runtime for Spark, and configure `JAVA_HOME`. `uv sync` installs Python dependencies, not Java. The Spark helper dynamically resolves Java via `JAVA_HOME`, `PATH`, or standard user/system JVM directories when `JAVA_HOME` is unset. Gold publication uses POSIX filesystem operations, including directory `fsync`.
+For data created by earlier versions, the next pipeline run automatically renames the Silver directories and publishes Gold with these names. Older Gold generations remain readable.
 
-```bash
-uv sync --locked
+Gold contains `dim_teams`, `dim_contests`, `fact_plays`, and `agg_team_game_stats`. Facts enrich Silver plays with team color and full name. Aggregates have one row per `(contest_id, team_id)`, combining text aliases and including attributed plays without a text abbreviation. The `team_short` display label comes from `dim_teams.name_short`, with a deterministic fallback to an observed abbreviation and then the team ID.
 
-# Fetch one example contest
-uv run python -m src.ingestion.ingest --contest-id 6599996
+Game totals include shots, goals, saves faced, ground balls, turnovers, clears, and penalties. Ground balls include explicit pickups embedded in faceoff descriptions, credited to the pickup team; facts keep the original play rows.
 
-# Skips storage only if the newly fetched payload has the same hash
-uv run python -m src.ingestion.ingest --contest-id 6599996
+### Why Spark and DuckDB
 
-# Replace changed Silver contests, then rebuild all Gold tables
-uv run python -m src.etl.run_pipeline
-
-# Rebuild all Silver rows and migrate legacy partitioned tables
-uv run python -m src.etl.run_pipeline --full-refresh
-
-uv run uvicorn src.api.main:app --port 8000 --reload
-```
-
-Use `--full-refresh` after changing Silver transformation logic. Each Silver table independently compares `(contest_id, ingest_timestamp)` with selected Bronze snapshots; this does not detect code changes. A missing Silver contests table is backfilled on the next run. Every pipeline run builds all four Gold tables from current Silver and publishes them as a new generation, even when Silver has no changed snapshots. This full rebuild also keeps team metadata and global shot-retention baselines consistent across facts and aggregates.
-
-- [REST documentation](http://localhost:8000/docs)
-- [GraphQL interface](http://localhost:8000/graphql)
-- `GET /api/health` reports application liveness; it does not verify that data has been published.
-
-### Tests
-
-The full suite requires Java/Spark, the multi-contest Bronze fixtures, and generated Silver/Gold data. Several integration tests expect specific contests and players; fetching only the example contest above does not populate all required fixtures.
-
-Pipeline write tests use temporary datasets. Tests of stored game data read the existing repository fixtures.
-
-```bash
-uv run pytest -v
-```
-
-Regression coverage includes faceoff attribution, concurrent queries, deterministic pagination, dimension corrections, failed Gold writes, retry recovery, and request-level publication consistency.
-
-#### Testing Dependencies (`httpx` vs. `httpx2`)
-
-Both `httpx` and `httpx2` are intentionally declared in [pyproject.toml](pyproject.toml):
-- `httpx` is used for runtime HTTP data ingestion in [`src/ingestion/ingest.py`](src/ingestion/ingest.py).
-- `httpx2` is required by `starlette.testclient.TestClient` (re-exported and used through `fastapi.testclient`) in Starlette 1.6.0+. In these releases, Starlette's test client explicitly checks for and prefers `httpx2`, emitting `StarletteDeprecationWarning: Using 'httpx' with 'starlette.testclient' is deprecated; install 'httpx2' instead.` when only legacy `httpx` is present. Listing `httpx2>=2.13.1` directly satisfies the test client dependency.
-
-## Storage and publication behavior
-
-Ingestion performs basic structural checks for `data.playbyplay`, `periods`, and `teams`. Snapshot timestamps use UTC seconds (`YYYYMMDDTHHMMSSZ`). Two changed payloads for the same contest in the same second can overwrite the same file; Bronze is not an immutable or tamper-proof audit store. Snapshot selection takes the last stored manifest entry with an existing file for each contest, in manifest order, without rechecking its hash. See [ADR-001](docs/adr/ADR-001-medallion-storage-and-audit-trail.md) for the exact guarantees and limitations.
-
-A successful pipeline run writes all four Gold tables from their complete DataFrames into a fresh generation. Files are unpartitioned and sorted within each output task; each table is checked for matching column names and read for validation before the publisher syncs files and directories and atomically replaces `current.json`. Writes or validation failures before publication leave the previous version available. This publication boundary covers Gold; Silver remains an independently updated working dataset.
-
-Each REST or GraphQL request creates a DuckDB client that resolves the pointer once and reads that Gold version for the entire request. Queries use separate cursors, closed after fetching, and the client closes when the request finishes. API clients do not read mutable Silver. A standalone `DuckDBClient` also pins Gold at construction, but exposes Silver by default; use `include_silver=False` for a Gold-only reader and create a new client to see a later publication.
-
-Old Gold versions, legacy flat directories, and finalized but unpublished versions are retained. A process crash can also leave a staging directory. Retention and cleanup are manual and must preserve files used by active readers. `resolve_gold_dir()` in [gold_storage.py](src/db/gold_storage.py) supports the legacy flat layout only when no pointer exists; a malformed or incomplete publication is rejected. Do not recursively scan all of `data/gold`, which can include multiple versions of the same records.
-
-## Event modeling
-
-- Nested array positions define play order. `play_id` combines `contest_id` and the derived `play_seq`; inserting earlier source plays can change later IDs.
-- Clocks backward-fill within a period, defaulting to `0:00` after the last available clock or when no clock is present. Elapsed time models 900-second regulation periods and 240-second overtime periods.
-- Reported scores forward-fill across a contest, defaulting to zero. Goal rows include their reported updated score, so their margins are not pre-goal margins.
-- Native Spark expressions normalize player names, classify recognized text patterns, and separate turnover committers from caused-by defenders. Unsupported patterns remain `UNKNOWN`.
-- Faceoff winner/loser names use contest-local player/team evidence, including later plays and embedded ground-ball text. Ambiguous or unsupported assignments remain null; participant order is not treated as home/away order.
-- `possession_team_id` identifies the event's team for shots, goals, ground balls, faceoffs, turnovers, and clears. It is not a continuous possession state. Non-goal shot retention compares that team with the next possession-indicating event in the same period; no subsequent indicator yields `false`.
-
-[ADR-002](docs/adr/ADR-002-stateful-windowing-and-event-modeling.md) describes these modeling choices and the shooting metrics.
+The bundled games are small enough for a single-machine tool. Spark is used here to demonstrate batch transformations over nested data, ordered windows, Delta updates, and execution profiling as the workload grows. DuckDB lets the API query the resulting tables directly through its native Delta extension. The implementation runs locally; the benchmark measures local execution.
 
 ## Query examples
 
 ### Python and SQL
 
-Construct a client to query one published Gold version:
+This reproduces the defensive-play example above against one published Gold version:
 
 ```python
 from src.db.duckdb_client import DuckDBClient
 
+query = """
+SELECT
+    period_number,
+    clock_display,
+    caused_by_player_name AS defender,
+    primary_player_name AS turnover_committer,
+    -event_team_margin AS defending_team_margin
+FROM fact_plays
+WHERE contest_id = 6599996
+  AND event_type = 'TURNOVER'
+  AND caused_by_player_name IS NOT NULL
+  AND event_team_margin = 1
+ORDER BY play_seq;
+"""
+
 client = DuckDBClient(include_silver=False)
 try:
-    print(client.get_contests())
+    print(client.execute_query(query))
 finally:
     client.close()
 ```
 
-The following SQL can be passed to that client's `execute_query()` method while it is open. It selects caused turnovers with the defending team down by one in the last minute of regulation. The event team is the turnover committer's team, so a positive event-team margin means the defender is behind.
+The turnover event belongs to the committing team. Negating `event_team_margin` gives the defending team's margin. Add `period_number = 4 AND period_seconds_remaining <= 60` to search the last minute of regulation.
 
-```sql
-SELECT
-    play_id, period_number, clock_display,
-    primary_player_name AS turnover_committer,
-    caused_by_player_name AS caused_by_player,
-    caused_by_team_id,
-    -event_team_margin AS defending_team_margin,
-    play_text
-FROM fact_plays
-WHERE event_type = 'TURNOVER'
-  AND caused_by_player_name IS NOT NULL
-  AND period_number = 4
-  AND period_seconds_remaining <= 60
-  AND event_team_margin = 1
-ORDER BY contest_id, play_seq, play_id;
+### REST
+
+```bash
+# List games and inspect a game summary
+curl "http://localhost:8000/api/contests"
+curl "http://localhost:8000/api/contests/6599996/summary"
+
+# Find a defender's caused turnovers or a team's scoring plays
+curl "http://localhost:8000/api/plays?player_name=Mueller&event_type=TURNOVER"
+curl "http://localhost:8000/api/plays?team=ND&max_game_seconds_remaining=1800&event_type=GOAL"
+
+# Page through a game's plays
+curl "http://localhost:8000/api/contests/6599996/plays?limit=50&offset=0"
 ```
+
+General play queries default to `limit=100`, `offset=0`, and ascending `play_seq`. REST, direct GraphQL arguments, and structured GraphQL filters enforce limits of 1–500 and nonnegative offsets.
+
+Supported sort columns are `play_seq`, `game_seconds_elapsed`, `game_seconds_remaining_reg`, `period_seconds_remaining`, `period_number`, and `play_id`. Ties use ascending `contest_id`, `play_seq`, and `play_id`, omitting the primary sort key. Pagination is deterministic for a fixed publication; successive requests can see a newer generation.
 
 ### GraphQL
 
 ```graphql
-query ListContests {
-  contests {
-    contestId
-    title
-    status
-  }
-}
-
-query GetContest {
+query InspectGame {
   contest(id: 6599996) {
-    contestId
     title
     status
     teamStats {
@@ -165,78 +192,73 @@ query GetContest {
       groundBalls
     }
   }
-}
-```
-
-Both direct arguments and a structured filter are supported:
-
-```graphql
-query SelectPlays {
-  turnovers: plays(playerName: "Mueller", eventType: "TURNOVER") {
+  turnovers: plays(playerName: "Mueller", eventType: "TURNOVER", limit: 10) {
     playId
     causedByPlayerName
     playText
   }
   goals: plays(filter: {team: "ND", eventType: "GOAL", maxGameSecondsRemaining: 1800}) {
     playId
-    eventTeamShort
-    gameSecondsRemainingReg
     primaryPlayerName
+    gameSecondsRemainingReg
   }
 }
 ```
 
-### REST
-
-```bash
-curl "http://localhost:8000/api/contests"
-curl "http://localhost:8000/api/contests/6599996/summary"
-curl "http://localhost:8000/api/contests/6599996/plays?limit=50&offset=0"
-curl "http://localhost:8000/api/plays?player_name=Mueller&event_type=TURNOVER"
-curl "http://localhost:8000/api/plays?team=ND&max_game_seconds_remaining=1800&event_type=GOAL"
-curl "http://localhost:8000/api/plays?max_period_seconds_remaining=60&limit=50&offset=0"
-```
-
-General play queries default to `limit=100`, `offset=0`, and ascending `play_seq`. Supported sort columns are `play_seq`, `game_seconds_elapsed`, `game_seconds_remaining_reg`, `period_seconds_remaining`, `period_number`, and `play_id`. Ties use ascending `contest_id`, `play_seq`, and `play_id`, omitting any key already used as the primary sort. Offset pagination is deterministic for an unchanged dataset; successive requests can see a new publication.
-
-REST and structured GraphQL filters validate limits of 1–500 and nonnegative offsets. Direct GraphQL arguments currently bypass revalidation when merged into the filter model; they do not enforce the same bounds.
-
 ### Shooting efficiency
 
 ```bash
-curl "http://localhost:8000/api/shooting-efficiency"
 curl "http://localhost:8000/api/shooting-efficiency?min_shots=5&top_players_limit=10&top_teams_limit=10"
 curl "http://localhost:8000/api/shooting-efficiency?contest_id=6599996&order_by=normalized"
 ```
 
-The endpoint (also accessible via `/api/shooting-efficiency/summary` and `/api/analytics/shooting-efficiency`) returns pooled shooting metrics, separate averages of Gold aggregate-row efficiencies, retention by shot result, and up to ten qualifying players and ten teams by default. Players require at least ten shots unless `min_shots` is changed. Ranking defaults to realized efficiency; `order_by=normalized` uses expected shot-loss rates instead.
+The endpoint returns pooled shooting metrics, averages of team-game efficiencies, retention by shot result, and player/team rankings. Players require at least ten shots by default; `min_shots` changes that threshold. Rankings default to realized efficiency; `order_by=normalized` uses expected shot losses.
 
-- `total_shots` includes both `SHOT` and `GOAL` events.
-- Shooting percentage is `goals / total_shots`.
-- Realized shooting efficiency is `goals / (goals + realized_shots_lost)`.
-- Normalized shooting efficiency substitutes expected losses based on shot-result retention rates across the entire published dataset. These baselines remain global even when the response is filtered to one contest; its retention breakdown does respect that contest filter.
-- Raw play filters use `POST` and `CROSSBAR`; the retention summary displays them as `HIT POST` and `HIT CROSSBAR`, alongside `SAVE`, `WIDE`, `HIGH`, and `BLOCKED`. Unrecognized shot results are not included in those six breakdown buckets.
+| Metric | Definition |
+| --- | --- |
+| Total shots | `SHOT` plus `GOAL` events |
+| Shooting percentage | Goals / total shots |
+| Realized shooting efficiency | Goals / (goals + non-goal shots inferred lost) |
+| Normalized shooting efficiency | Goals / (goals + expected non-goal shot losses) |
 
-## Architecture decisions
+Expected losses use shot-result retention rates across the full published dataset, including when a response is filtered to one contest. The retention breakdown itself respects the contest filter. These metrics depend on inferred retention, described below.
 
-- [ADR-001: Medallion Storage, Snapshot Tracking, and Gold Publication](docs/adr/ADR-001-medallion-storage-and-audit-trail.md)
-- [ADR-002: Stateful Windowing and Event Modeling](docs/adr/ADR-002-stateful-windowing-and-event-modeling.md)
-- [ADR-003: Local Spark Execution and Persistence Strategy](docs/adr/ADR-003-pyspark-compute-and-caching-strategy.md)
+Raw play filters use `POST` and `CROSSBAR`; the retention summary displays `HIT POST` and `HIT CROSSBAR`, alongside `SAVE`, `WIDE`, `HIGH`, and `BLOCKED`. Unrecognized shot results are omitted from those six breakdown buckets.
 
-The pipeline writes a generated plan for the enriched-facts DataFrame to [docs/spark_execution_plan.md](docs/spark_execution_plan.md). It is a plan artifact, not a benchmark or a record of every pipeline stage.
+## Tests
 
-### Profiling pipeline actions
+Build the bundled data with the quickstart pipeline before running the suite. The Bronze fixtures are tracked; generated Silver and Gold tables are ignored by Git. Some API and SQL integration tests read those generated tables, while pipeline write tests use temporary datasets.
 
-Pipeline jobs have explicit Spark job groups and descriptions for Silver freshness checks, Bronze → Silver writes, metadata validation, and each Gold table's write and validation. In the Spark UI or History Server, use the Jobs descriptions and group IDs (for example, `silver-plays`, `gold-write-fact_plays`, and `gold-validate-agg_team_game_stats`) to locate the corresponding pipeline action. The same labels appear in the Python logs, including phases that launch no Spark jobs, such as filesystem publication.
+```bash
+uv run pytest tests -v
+uv run ruff check src tests benchmarks
+```
 
-Labels follow execution: lazy transformations and cache materialization belong to the downstream action that executes them. Labeling adds no extra counts or cache warm-ups. Nested labels restore the caller's job properties on both success and failure. Enable persistent event logs with `LAXPXP_SPARK_EVENT_LOG_DIR`; the benchmark runner sets this automatically. Existing event logs retain their original descriptions; rerun the pipeline to capture labels.
+[CI](.github/workflows/ci.yml) runs on pushes and pull requests using Ubuntu, Python 3.12, and Temurin 17. It installs locked dependencies, checks lint, builds Silver and Gold from the bundled Bronze fixtures, runs the tests, and checks that tracked files remain unchanged. Live NCAA fetches are not needed. The workflow can also be started manually from GitHub Actions.
 
-### Delta file layout
+Limiting discovery to `tests/` avoids scanning large generated benchmark directories. Coverage includes player parsing, faceoff attribution, embedded ground balls, mixed team aliases, deterministic pagination, concurrent queries, dimension corrections, publication failures, retries, and request-level consistency.
 
-Silver and Gold no longer create a storage directory for every contest. Silver, Gold facts, and Gold aggregates range-distribute by `contest_id`, then sort within each output task. `LAXPXP_DELTA_WRITE_PARTITIONS` (default 16; benchmark flag `--write-partitions`) controls the output task count; Gold dimensions use one sorted output task. This bounds data files for a fresh write, rather than imposing a file-size target. Incremental updates can add files over time, and Delta retains obsolete files for history.
+Dependencies are declared in [pyproject.toml](pyproject.toml). `httpx` handles ingestion; the dev group adds `pytest`, `ruff`, and `httpx2` for the locked Starlette test client.
 
-Run `--full-refresh` once to migrate existing partitioned Silver tables. Incremental writes reject the old layout and use Delta `replaceWhere` over the `contest_id` data column in the new layout, preserving unaffected contests even when they share a file with an updated contest. Such updates can rewrite shared files. Old files and directories can remain for Delta time travel after migration; active files are defined by the Delta log. Gold generations automatically use the new layout on publication. Game-specific Spark windows remain unchanged.
+## Modeling and operational limits
 
-Silver writes temporarily persist transformed rows on disk so range sampling and the final write reuse the same computation. The writer releases its cache on success or failure and preserves caches owned by callers.
+- **Ordering and clocks:** source array positions define play order and sequence-derived IDs. Earlier inserted plays can change later IDs. Missing clocks backward-fill within a period, defaulting to `0:00` when no later clock exists. Time calculations use 15-minute regulation periods and four-minute overtime periods.
+- **Scores and attribution:** reported scores forward-fill; goal margins include the updated score. Native expressions parse recognized text patterns. Unsupported events remain `UNKNOWN`, and ambiguous faceoff participants remain null. Faceoff attribution can use later contest evidence and change as a live game is refreshed.
+- **Retention inference:** `possession_team_id` identifies the event team, including the committing team on turnovers. Shot retention compares that ID with the next possession-indicating event in the same period; no later indicator yields `false`. It is an estimate from the recorded feed.
+- **Bronze snapshots:** one-second timestamps are an accepted tradeoff for this human-entered feed. There is no built-in polling or scheduled ingestion; fetches are manually initiated. A collision would require two manual fetches of the same contest to capture different payloads and write snapshots within the same second, with the human-entered feed changing between those captures. This combination is considered effectively negligible under the intended workflow, so extra collision handling is omitted. Live-game refreshes are supported, but analysis of recorded games is the primary intended use. Selection follows manifest order and checks file existence without rechecking hashes. Snapshot and manifest writes are separate operations.
+- **Publication and retention:** API requests pin a complete Gold generation. Failures before publication preserve the previous version, while Silver updates independently. Old Gold generations and crash leftovers require manual cleanup that preserves files used by active readers.
+- **Local operation:** there is no cloud deployment or authentication. `/api/health` reports application liveness; it does not verify published data. Gold publication relies on local POSIX rename and sync behavior.
 
-The measured 10-million-play comparison is in [the Delta layout benchmark](docs/benchmarks/unpartitioned-10m.md), including timings, active file counts, correctness checks, and the remaining Silver compute bottleneck.
+## Implementation details
+
+- [Storage, snapshot tracking, and Gold publication](docs/adr/ADR-001-medallion-storage-and-audit-trail.md)
+- [Event modeling and shooting metrics](docs/adr/ADR-002-stateful-windowing-and-event-modeling.md)
+- [Spark execution and persistence strategy](docs/adr/ADR-003-pyspark-compute-and-caching-strategy.md)
+- [10-million-play Delta layout benchmark](docs/benchmarks/unpartitioned-10m.md)
+- [Small-files diagnosis and case study](docs/case-studies/small-files/README.md)
+
+Silver and Gold use unpartitioned Delta files, range-distributed and sorted by contest ID; dimensions use one sorted output task. `LAXPXP_DELTA_WRITE_PARTITIONS` defaults to 16 and controls fresh-write task count, not a file-size target or lifetime file count. Incremental Silver updates use a data-column `replaceWhere` predicate and can rewrite shared files. Delta retains obsolete files for history; legacy partitioned Silver requires `--full-refresh` to migrate.
+
+Spark jobs have groups and descriptions for pipeline actions, making them easier to locate in the Spark UI or History Server. Set `LAXPXP_SPARK_EVENT_LOG_DIR` to retain event logs. Lazy transformations execute within downstream actions; labels add no extra counts or cache warm-ups.
+
+The committed [execution plan](docs/spark_execution_plan.md) is a static reference for the enriched-facts DataFrame, rather than every pipeline stage. Normal runs do not generate a plan. Set `LAXPXP_PLAN_OUTPUT` to an output path to capture one; the benchmark runner sets this automatically inside its ignored run directory.

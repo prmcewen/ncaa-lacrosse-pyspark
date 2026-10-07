@@ -1,22 +1,25 @@
-from pathlib import Path
 import os
+from pathlib import Path
 from typing import Any, Dict, List, Optional
+
 import duckdb
+
 from src.db.gold_storage import resolve_gold_dir
+from src.etl.storage_layout import resolve_table_path
 
 DATA_DIR = Path(os.environ.get("LAXPXP_DATA_DIR", Path(__file__).resolve().parents[2] / "data")).resolve()
-SILVER_PARQUET = DATA_DIR / "silver" / "silver_plays.parquet"
+SILVER_PLAYS_DIR = DATA_DIR / "silver" / "silver_plays"
 GOLD_DIR = Path(os.environ.get("LAXPXP_GOLD_DIR", DATA_DIR / "gold")).resolve()
 
 
-def _scan_expression(path: Path, glob_pattern: Optional[str] = None) -> str:
+def _scan_expression(path: Path) -> str:
+    if not (path / "_delta_log").is_dir():
+        raise ValueError(
+            f"Expected a Delta table at {path}: missing _delta_log directory. "
+            "Run the ETL pipeline to rebuild the table as Delta."
+        )
     escaped = str(path).replace("'", "''")
-    if (path / "_delta_log").exists():
-        return f"delta_scan('{escaped}')"
-    if glob_pattern:
-        escaped_glob = str(glob_pattern).replace("'", "''")
-        return f"read_parquet('{escaped_glob}')"
-    return f"read_parquet('{escaped}')"
+    return f"delta_scan('{escaped}')"
 
 
 class DuckDBClient:
@@ -33,45 +36,48 @@ class DuckDBClient:
         self.conn.close()
 
     def _init_views(self) -> None:
-        """Register views over Delta Lake or Parquet directories for clean, performant SQL querying."""
+        """Register views through Delta's transaction log; invalid tables fail closed."""
         try:
             self.conn.execute("LOAD delta;")
         except Exception:
             try:
                 self.conn.execute("INSTALL delta; LOAD delta;")
-            except Exception:
-                pass
+            except Exception as error:
+                raise RuntimeError(
+                    "Could not load DuckDB's Delta extension. Install the extension "
+                    "before querying Silver or Gold Delta tables."
+                ) from error
 
         # Pin once for all queries made by this client/request. Old generations
         # stay available while a new request can resolve a newer publication.
         self.gold_dir = resolve_gold_dir(GOLD_DIR)
-        silver_glob = str(SILVER_PARQUET / "**" / "*.parquet")
-        fact_plays_path = str(self.gold_dir / "fact_plays.parquet")
-        dim_teams_path = str(self.gold_dir / "dim_teams.parquet")
-        dim_contests_path = str(self.gold_dir / "dim_contests.parquet")
-        agg_stats_path = str(self.gold_dir / "agg_team_game_stats.parquet")
+        silver_path = resolve_table_path(SILVER_PLAYS_DIR) if self.include_silver else SILVER_PLAYS_DIR
+        fact_plays_path = resolve_table_path(self.gold_dir / "fact_plays")
+        dim_teams_path = resolve_table_path(self.gold_dir / "dim_teams")
+        dim_contests_path = resolve_table_path(self.gold_dir / "dim_contests")
+        agg_stats_path = resolve_table_path(self.gold_dir / "agg_team_game_stats")
 
-        if self.include_silver and SILVER_PARQUET.exists():
-            scan_expr = _scan_expression(SILVER_PARQUET, silver_glob)
+        if self.include_silver and silver_path.exists():
+            scan_expr = _scan_expression(silver_path)
             self.conn.execute(f"CREATE OR REPLACE VIEW silver_plays AS SELECT * FROM {scan_expr}")
 
-        if Path(fact_plays_path).exists():
-            scan_expr = _scan_expression(Path(fact_plays_path))
+        if fact_plays_path.exists():
+            scan_expr = _scan_expression(fact_plays_path)
             self.conn.execute(f"CREATE OR REPLACE VIEW fact_plays AS SELECT * FROM {scan_expr}")
-        elif self.include_silver and SILVER_PARQUET.exists():
-            scan_expr = _scan_expression(SILVER_PARQUET, silver_glob)
+        elif self.include_silver and silver_path.exists():
+            scan_expr = _scan_expression(silver_path)
             self.conn.execute(f"CREATE OR REPLACE VIEW fact_plays AS SELECT * FROM {scan_expr}")
 
-        if Path(dim_teams_path).exists():
-            scan_expr = _scan_expression(Path(dim_teams_path))
+        if dim_teams_path.exists():
+            scan_expr = _scan_expression(dim_teams_path)
             self.conn.execute(f"CREATE OR REPLACE VIEW dim_teams AS SELECT * FROM {scan_expr}")
 
-        if Path(dim_contests_path).exists():
-            scan_expr = _scan_expression(Path(dim_contests_path))
+        if dim_contests_path.exists():
+            scan_expr = _scan_expression(dim_contests_path)
             self.conn.execute(f"CREATE OR REPLACE VIEW dim_contests AS SELECT * FROM {scan_expr}")
 
-        if Path(agg_stats_path).exists():
-            scan_expr = _scan_expression(Path(agg_stats_path))
+        if agg_stats_path.exists():
+            scan_expr = _scan_expression(agg_stats_path)
             self.conn.execute(f"CREATE OR REPLACE VIEW agg_team_game_stats AS SELECT * FROM {scan_expr} WHERE team_short IS NOT NULL")
 
     def execute_query(self, query: str, params: Optional[List[Any]] = None) -> List[Dict[str, Any]]:
@@ -634,4 +640,3 @@ class DuckDBClient:
             "top_players": top_players,
             "top_teams": top_teams,
         }
-

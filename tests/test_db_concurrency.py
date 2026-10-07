@@ -1,5 +1,5 @@
-from concurrent.futures import ThreadPoolExecutor
 import threading
+from concurrent.futures import ThreadPoolExecutor
 
 import duckdb
 import pytest

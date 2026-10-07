@@ -8,7 +8,7 @@ from src.api.rest.routes import router as rest_router
 
 app = FastAPI(
     title="NCAA Lacrosse Data Platform API",
-    description="Enterprise Play-by-Play Analytics API combining REST and GraphQL interfaces",
+    description="NCAA men's lacrosse play-by-play analytics through REST and GraphQL",
     version="0.1.0"
 )
 

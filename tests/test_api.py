@@ -1,5 +1,6 @@
 import pytest
 from fastapi.testclient import TestClient
+
 from src.api.main import app
 
 
@@ -348,21 +349,21 @@ def test_gold_shooting_efficiency_api_and_graphql(client):
 
 
 def test_rest_pydantic_schemas():
-    from src.api.rest.schema import (
-        HealthResponse,
-        ContestResponse,
-        ContestSummaryResponse,
-        TeamStatsResponse,
-        PlayResponse,
-        PlayQueryParams,
-        PlayFilterQueryParams,
-    )
     from src.api.rest import (
-        HealthCheckResponse,
         Contest,
         ContestSummary,
-        TeamStats,
+        HealthCheckResponse,
         Play,
+        TeamStats,
+    )
+    from src.api.rest.schema import (
+        ContestResponse,
+        ContestSummaryResponse,
+        HealthResponse,
+        PlayFilterQueryParams,
+        PlayQueryParams,
+        PlayResponse,
+        TeamStatsResponse,
     )
 
     # Verify Aliases
@@ -418,11 +419,11 @@ def test_rest_pydantic_schemas():
 
     from src.api.rest.schema import (
         OverallShootingEfficiency,
-        ShotResultRetention,
         PlayerShootingEfficiency,
-        TeamShootingEfficiency,
-        ShootingEfficiencySummaryResponse,
         ShootingEfficiencySummary,
+        ShootingEfficiencySummaryResponse,
+        ShotResultRetention,
+        TeamShootingEfficiency,
     )
     assert ShootingEfficiencySummary is ShootingEfficiencySummaryResponse
 

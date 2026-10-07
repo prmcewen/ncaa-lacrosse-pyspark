@@ -1,0 +1,101 @@
+{
+  "description": "Original captured evidence for the completed 10-million-play layout comparison; artifact contents are unchanged.",
+  "artifacts": [
+    {
+      "source": "benchmarks/output/profile-10m/generation_summary.json",
+      "path": "profile-10m/generation_summary.json",
+      "bytes": 564,
+      "sha256": "2d04c522c6f4bfe735afd792c3b05004c41b6d3e01fc9bd4028e38472986c1fc"
+    },
+    {
+      "source": "benchmarks/output/profile-10m/run-etl-result.json",
+      "path": "profile-10m/run-etl-result.json",
+      "bytes": 623,
+      "sha256": "e0fdb0c5c5dfd2fad3e4a2033cef8a9dc89f61718fbe1d8c2609d0c757814bd1"
+    },
+    {
+      "source": "benchmarks/output/profile-10m/run-etl-stages.json",
+      "path": "profile-10m/run-etl-stages.json",
+      "bytes": 390,
+      "sha256": "739c870707e54048108b06d51729fb01705cc84198f5b89a8a995f704fff9ce1"
+    },
+    {
+      "source": "benchmarks/output/profile-10m/run-etl-spark-plan.md",
+      "path": "profile-10m/run-etl-spark-plan.md",
+      "bytes": 46232,
+      "sha256": "bc753bd7087e74998b38670604289cf7310db89d36a999c0b0e6251c9586e0af"
+    },
+    {
+      "source": "benchmarks/output/profile-10m-unpartitioned/generation_summary.json",
+      "path": "profile-10m-unpartitioned/generation_summary.json",
+      "bytes": 564,
+      "sha256": "2d04c522c6f4bfe735afd792c3b05004c41b6d3e01fc9bd4028e38472986c1fc"
+    },
+    {
+      "source": "benchmarks/output/profile-10m-unpartitioned/benchmark-provenance.json",
+      "path": "profile-10m-unpartitioned/benchmark-provenance.json",
+      "bytes": 898,
+      "sha256": "fbbd8bfb18530a8aa69819cdcaa81f7a953068efb3244ec19296681fcdc6b941"
+    },
+    {
+      "source": "benchmarks/output/profile-10m-unpartitioned/run-etl-result.json",
+      "path": "profile-10m-unpartitioned/run-etl-result.json",
+      "bytes": 674,
+      "sha256": "fea65a27754d015521fbaf87975c347cefa8c335f4476f084b259710ebfc0621"
+    },
+    {
+      "source": "benchmarks/output/profile-10m-unpartitioned/run-etl-stages.json",
+      "path": "profile-10m-unpartitioned/run-etl-stages.json",
+      "bytes": 393,
+      "sha256": "e04743038a536a3b729dbae2955a1d5395708b0831fcabad68830a68e8fa6169"
+    },
+    {
+      "source": "benchmarks/output/profile-10m-unpartitioned/layout-validation.json",
+      "path": "profile-10m-unpartitioned/layout-validation.json",
+      "bytes": 2498,
+      "sha256": "197a508c584d80e2d7cf3b49e6dbe31bd4ee6189b2723e8c41bb0107547cf47f"
+    },
+    {
+      "source": "benchmarks/output/profile-10m-unpartitioned/spark-stage-summary.json",
+      "path": "profile-10m-unpartitioned/spark-stage-summary.json",
+      "bytes": 50627,
+      "sha256": "f7616e5705ec9eab83b1e0e2e22aa9578d9b0543ffca35f511468d2f4ebb0eba"
+    },
+    {
+      "source": "benchmarks/output/profile-10m-unpartitioned/implementation.patch",
+      "path": "profile-10m-unpartitioned/implementation.patch",
+      "bytes": 29405,
+      "sha256": "d0e1ab35e34bc7dff253990cc9a641caefcf0b54a76cf3e41a20db83d04a28dc"
+    },
+    {
+      "source": "benchmarks/output/profile-10m-unpartitioned/run-etl-spark-plan.md",
+      "path": "profile-10m-unpartitioned/run-etl-spark-plan.md",
+      "bytes": 46636,
+      "sha256": "561d741c5da4446d0d905fe6782d2b95b11f301c9891647690336404a06265ae"
+    },
+    {
+      "source": "benchmarks/output/profile-10m-unpartitioned/storage_layout.py",
+      "path": "profile-10m-unpartitioned/source-snapshot/storage_layout.py.txt",
+      "bytes": 771,
+      "sha256": "4de2e944568e70c51569278a1e78423bc0072cd5f53695b7298464130dc36e1a"
+    },
+    {
+      "source": "benchmarks/output/profile-10m-unpartitioned/test_storage_layout.py",
+      "path": "profile-10m-unpartitioned/source-snapshot/test_storage_layout.py.txt",
+      "bytes": 3927,
+      "sha256": "f3ecdfe8286c124a64653320c9d9de7f9023289ff2143adc36e4b511c31a081b"
+    },
+    {
+      "source": "benchmarks/output/profile-10m-unpartitioned/validate_comparison.py",
+      "path": "profile-10m-unpartitioned/source-snapshot/validate_comparison.py.txt",
+      "bytes": 4206,
+      "sha256": "4ff24ffb8c724a0df8aeec5e2610d45ec12c46a49a5bffa59e734d2ef4666033"
+    },
+    {
+      "source": "benchmarks/output/profile-10m-unpartitioned/report_comparison.py",
+      "path": "profile-10m-unpartitioned/source-snapshot/report_comparison.py.txt",
+      "bytes": 5243,
+      "sha256": "67ea8cf5d08128c43ea0a58eba8793cd9e1487d917281e7d29266500cb0df965"
+    }
+  ]
+}
