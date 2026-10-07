@@ -6,13 +6,17 @@ Turn NCAA men's lacrosse play-by-play descriptions into structured data for situ
 
 PySpark transforms nested JSON into Delta Lake tables; DuckDB serves the results through REST, GraphQL, and SQL. The repository includes **20 real-game Bronze fixtures** for a local demo and a generator for larger synthetic workloads.
 
-For example, in the bundled Notre Dame–Princeton game (`6599996`), filtering caused turnovers for a defending team trailing by one returns:
+Shooting efficiency accounts for what happens after a missed shot: keeping the ball gives the offense another chance to score. The platform calculates three measures for teams and players:
 
-| Period | Clock | Defender | Turnover committer | Defending team margin |
-| --- | --- | --- | --- | --- |
-| 1 | 04:27 | Cooper Mueller | Luke Miller | -1 |
+| Measure | Calculation |
+| --- | --- |
+| Shooting percentage | Goals / total shots, including goals |
+| Realized shooting efficiency | Goals / (goals + non-goal shots inferred to lose possession) |
+| Normalized shooting efficiency | Goals / (goals + expected non-goal shot losses) |
 
-Princeton was behind 2–3 when Mueller caused Miller's turnover. The query uses parsed player roles, a running score, and the defending team's perspective; the original play text remains available for inspection.
+For example, Princeton scored **16 goals on 53 shots** in the bundled Notre Dame–Princeton game (`6599996`). Of its 37 non-goal shots, 27 were inferred to retain possession and 10 to lose it. Shooting percentage was **30.19%** (`16 / 53`); realized shooting efficiency was **61.54%** (`16 / (16 + 10)`).
+
+Retention is inferred from the next possession-indicating event in the same period. Normalized efficiency replaces each non-goal shot's inferred loss with the average loss rate for its result (such as a save, wide shot, or blocked shot) across the full published dataset, then sums those probabilities into expected losses. This gives teams and players a common baseline for comparing their shot outcomes. [Query examples](#shooting-efficiency) expose the metrics and rankings.
 
 ## PySpark work demonstrated
 
@@ -129,24 +133,25 @@ The bundled games are small enough for a single-machine tool. Spark is used here
 
 ### Python and SQL
 
-This reproduces the defensive-play example above against one published Gold version:
+This shows the shooting efficiency calculations above for both teams against one published Gold version:
 
 ```python
 from src.db.duckdb_client import DuckDBClient
 
 query = """
 SELECT
-    period_number,
-    clock_display,
-    caused_by_player_name AS defender,
-    primary_player_name AS turnover_committer,
-    -event_team_margin AS defending_team_margin
-FROM fact_plays
+    team_short,
+    goals,
+    total_shots,
+    shots_retained,
+    realized_shots_lost,
+    normalized_shots_lost,
+    shooting_pct,
+    realized_shooting_efficiency,
+    normalized_shooting_efficiency
+FROM agg_team_game_stats
 WHERE contest_id = 6599996
-  AND event_type = 'TURNOVER'
-  AND caused_by_player_name IS NOT NULL
-  AND event_team_margin = 1
-ORDER BY play_seq;
+ORDER BY team_short;
 """
 
 client = DuckDBClient(include_silver=False)
@@ -156,7 +161,7 @@ finally:
     client.close()
 ```
 
-The turnover event belongs to the committing team. Negating `event_team_margin` gives the defending team's margin. Add `period_number = 4 AND period_seconds_remaining <= 60` to search the last minute of regulation.
+The three rates are returned as fractions rounded to four decimal places; for example, `0.6154` represents 61.54%. `shots_retained` counts non-goal shots, while `normalized_shots_lost` is the sum of their expected loss probabilities.
 
 ### REST
 
